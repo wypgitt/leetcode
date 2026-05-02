@@ -3,6 +3,19 @@
 #
 # [3886] Sum of Sortable Integers
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3886 lang=python3
+#
+# [3886] Sum of Sortable Integers
+#
 # --- Notes (problem restatement, characterization, algorithm, complexity, interview) ---
 #
 # Problem restatement

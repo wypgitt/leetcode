@@ -1,6 +1,19 @@
 #
 # @lc app=leetcode id=3883 lang=python3
 #
+# [3883] Count Non-decreasing Arrays With Given Digit Sums
+#
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3883 lang=python3
+#
 # [3883] Count Non Decreasing Arrays With Given Digit Sums
 #
 # --- Notes (problem restatement, feasibility, DP + prefix sums, complexity, interview) ---

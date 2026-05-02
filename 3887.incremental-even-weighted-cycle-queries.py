@@ -1,6 +1,19 @@
 #
 # @lc app=leetcode id=3887 lang=python3
 #
+# [3887] Incremental Even Weighted Cycle Queries
+#
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3887 lang=python3
+#
 # [3887] Incremental Even-Weighted Cycle Queries
 #
 # --- Notes (problem restatement, parity / GF(2), DSU with XOR, complexity, interview) ---

@@ -3,6 +3,19 @@
 #
 # [306] Additive Number
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=306 lang=python3
+#
+# [306] Additive Number
+#
 # =============================================================================
 # INTERVIEW: HOW TO EXPLAIN (elevator → whiteboard)
 # =============================================================================

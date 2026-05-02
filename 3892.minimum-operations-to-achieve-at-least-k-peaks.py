@@ -1,6 +1,19 @@
 #
 # @lc app=leetcode id=3892 lang=python3
 #
+# [3892] Minimum Operations to Achieve at Least K Peaks
+#
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3892 lang=python3
+#
 # [3892] Minimum Operations to Achieve At Least K Peaks
 #
 # --- Notes (problem restatement, feasibility, greedy + heap, complexity, interview) ---

@@ -3,6 +3,19 @@
 #
 # [37] Sudoku Solver
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=37 lang=python3
+#
+# [37] Sudoku Solver
+#
 # =============================================================================
 # INTERVIEW: HOW TO EXPLAIN (elevator → whiteboard)
 # =============================================================================

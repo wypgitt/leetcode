@@ -3,6 +3,19 @@
 #
 # [3897] Maximum Value of Concatenated Binary Segments
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3897 lang=python3
+#
+# [3897] Maximum Value of Concatenated Binary Segments
+#
 # --- Notes (problem restatement, greedy sort, value accumulation, complexity) ---
 #
 # Problem restatement

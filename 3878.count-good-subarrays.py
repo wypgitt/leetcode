@@ -3,6 +3,19 @@
 #
 # [3878] Count Good Subarrays
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3878 lang=python3
+#
+# [3878] Count Good Subarrays
+#
 # --- Notes (problem restatement, bit reasoning, monotonic stacks, complexity, interview) ---
 #
 # Problem restatement

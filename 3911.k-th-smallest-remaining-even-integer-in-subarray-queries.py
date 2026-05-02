@@ -3,6 +3,19 @@
 #
 # [3911] K-th Smallest Remaining Even Integer in Subarray Queries
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3911 lang=python3
+#
+# [3911] K-th Smallest Remaining Even Integer in Subarray Queries
+#
 # --- Notes (problem restatement, math, algorithm, complexity, interview flow) ---
 #
 # Problem restatement

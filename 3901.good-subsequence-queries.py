@@ -3,6 +3,19 @@
 #
 # [3901] Good Subsequence Queries
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3901 lang=python3
+#
+# [3901] Good Subsequence Queries
+#
 # --- Notes (problem, math, segment tree, n>6 lemma, complexity, interview) ---
 #
 # Problem restatement

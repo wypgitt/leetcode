@@ -3,6 +3,19 @@
 #
 # [327] Count of Range Sum
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=327 lang=python3
+#
+# [327] Count of Range Sum
+#
 # =============================================================================
 # PROBLEM (precise)
 # =============================================================================

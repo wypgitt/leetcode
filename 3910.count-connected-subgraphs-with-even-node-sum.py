@@ -1,6 +1,19 @@
 #
 # @lc app=leetcode id=3910 lang=python3
 #
+# [3910] Count Connected Subgraphs With Even Node Sum
+#
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3910 lang=python3
+#
 # [3910] Count Connected Subgraphs with Even Node Sum
 #
 # --- Notes (problem restatement, algorithm, proof sketch, complexity, interview) ---

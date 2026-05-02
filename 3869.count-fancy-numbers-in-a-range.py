@@ -3,6 +3,19 @@
 #
 # [3869] Count Fancy Numbers in a Range
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3869 lang=python3
+#
+# [3869] Count Fancy Numbers in a Range
+#
 # --- Notes (definitions, digit-sum check shortcut, digit DP, complexity, interview) ---
 #
 # Definitions

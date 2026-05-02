@@ -3,6 +3,19 @@
 #
 # [3888] Minimum Operations to Make All Grid Elements Equal
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3888 lang=python3
+#
+# [3888] Minimum Operations to Make All Grid Elements Equal
+#
 # --- Notes (problem restatement, greedy scan, 2D difference, targets mx/mx+1, complexity) ---
 #
 # Problem restatement

@@ -3,6 +3,19 @@
 #
 # [3906] Count Good Integers on a Grid Path
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3906 lang=python3
+#
+# [3906] Count Good Integers on a Grid Path
+#
 # --- Notes (problem restatement, digit DP, correctness, complexity, interview) ---
 #
 # Problem restatement

@@ -3,6 +3,19 @@
 #
 # [3859] Count Subarrays With K Distinct Integers
 #
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3859 lang=python3
+#
+# [3859] Count Subarrays With K Distinct Integers
+#
 # --- Notes (statement, reduction, algorithm, DS, complexity, tests, pitfalls, interview) ---
 #
 # Problem (as verified against examples / discussions)

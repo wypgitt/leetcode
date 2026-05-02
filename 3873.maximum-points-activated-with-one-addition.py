@@ -1,6 +1,19 @@
 #
 # @lc app=leetcode id=3873 lang=python3
 #
+# [3873] Maximum Points Activated With One Addition
+#
+
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3873 lang=python3
+#
 # [3873] Maximum Points Activated with One Addition
 #
 # --- Notes (problem restatement, bipartite graph + DSU, formula, complexity, interview) ---

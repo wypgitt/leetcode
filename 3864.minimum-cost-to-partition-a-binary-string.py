@@ -4,6 +4,19 @@
 # [3864] Minimum Cost to Partition a Binary String
 #
 
+# @lc code=start
+class Solution:
+    pass
+
+
+# @lc code=end
+
+#
+# @lc app=leetcode id=3864 lang=python3
+#
+# [3864] Minimum Cost to Partition a Binary String
+#
+
 # --- Notes (problem restatement, cost model, divide & conquer, complexity, interview) ---
 #
 # Problem restatement
