@@ -3,108 +3,196 @@
 #
 # [3914] Minimum Operations to Make Array Non Decreasing
 #
-# =============================================================================
-# PROBLEM
-# =============================================================================
 #
-# You may repeatedly choose a **subarray** nums[l..r] and add the **same**
-# positive integer **x** to **every** element in that subarray. Each operation
-# contributes **x** to the **total cost** (the objective is the **sum of all x**
-# used, not the sum of per-index increases).
+# --- Interview Notes ---------------------------------------------------------
 #
-# Goal: make **nums** non-decreasing (**nums[i] <= nums[i+1]** for all i) with
-# **minimum total cost**.
+# Problem restatement
+# We are given an array nums.
 #
-# =============================================================================
-# MODELING ONE OPERATION TYPE (why “positive differences” appear)
-# =============================================================================
+# In one operation:
+#   choose any non-empty subarray nums[l..r]
+#   choose any positive integer x
+#   add x to every element in that subarray
 #
-# Only **increases** are allowed, so the final array **v** satisfies **v[i] >=
-# nums[i]** coordinate-wise. Write the **deficit** (required increase)
-#   **d[i] = v[i] - nums[i]  (>= 0)**.
+# The cost of that operation is x, not x times the subarray length.
 #
-# One operation adds **x** to indices **[l, r]** → it adds **x** to **d** on that
-# entire segment. A sequence of operations produces **d** as a sum of such
-# “rectangle” (interval) contributions; each operation’s **price** is **x**
-# once, regardless of length.
+# Return the minimum total cost needed to make nums non-decreasing.
 #
-# **Lemma (cost of realizing a fixed d).**  
-# For nonnegative **d**, the **minimum sum of x** over all decompositions of
-# **d** into interval additions equals
+# Example:
+#   nums = [3, 3, 2, 1]
 #
-#   **C(d) = Σ_i max(0, d[i] − d[i−1])**,   with **d[−1] = 0**.
+# One optimal plan:
+#   add 1 to subarray [2..3] -> [3, 3, 3, 2]
+#   add 1 to subarray [3..3] -> [3, 3, 3, 3]
 #
-# **Sketch.**  
-# Think of **d** as heights. Adding **x** to **[l, r]** raises a contiguous
-# plateau by **x**; it is “paid” once at the **left edge** where height jumps up
-# relative to the previous index (unless continuing an existing plateau). Formally,
-# the **discrete derivative** **u[i] = d[i] − d[i−1]** must be covered: each
-# positive **u[i]** needs at least **u[i]** units of new mass starting at **i**,
-# and each operation creates matching mass at one left endpoint. Negative steps
-# “reuse” earlier operations (no extra cost). Summing positive jumps yields **C(d)**.
-# (This is the same idea as representing a piecewise-constant **d** with the
-# minimum sum of uniform interval heights.)
+# Total cost = 2.
 #
-# =============================================================================
-# CHOOSING THE TARGET ARRAY v
-# =============================================================================
 #
-# We must pick **v** non-decreasing and **v >= nums** to minimize **C(v − nums)**.
+# Key observation: every adjacent drop must be paid for
+# Look at one adjacent pair:
 #
-# Let **v*** be the **pointwise smallest** non-decreasing array with **v[i] >=
-# nums[i]** — the **non-decreasing majorant** of **nums**:
+#   nums[i] > nums[i + 1]
 #
-#   **v[0] = nums[0]**,  
-#   **v[i] = max(nums[i], v[i−1])**  for **i >= 1**.
+# There is a drop of:
 #
-# Any feasible **v** satisfies **v[i] >= v*[i]** (induction: **v[i] >= nums[i]**
-# and **v[i] >= v[i−1] >= v*[i−1]** ⇒ **v[i] >= max(nums[i], v*[i−1]) = v*[i]**).
-# Larger **v** only increases **d** in a way that does not decrease **C(d)** in
-# this setup (standard “majorize” argument for this convex-like cost), so **v***
-# is optimal. **Intuition:** extra increase beyond necessity wastes cost without
-# fixing new violations.
+#   nums[i] - nums[i + 1]
 #
-# =============================================================================
-# FINAL FORMULA
-# =============================================================================
+# To make the final array non-decreasing, the right side must catch up by at
+# least that amount relative to the left side.
 #
-# 1. Sweep **i = 0..n−1**: **cur_v = max(nums[i], cur_v)** (with **cur_v** holding
-#    **v[i]**).
-# 2. **cur_d = cur_v − nums[i]** (deficit at **i**).
-# 3. Accumulate **max(0, cur_d − prev_d)** where **prev_d** is **d[i−1]** (and
-#    **prev_d = 0** before **i = 0** captures **max(0, d[0])** when folded into
-#    the first iteration — see code).
+# An operation can help this specific boundary only if it starts somewhere at or
+# before i + 1 and includes i + 1 but does not include i. In the cleanest
+# construction, we add exactly this drop to the suffix starting at i + 1.
 #
-# **Time O(n)**, **space O(1)** extra (only a few scalars).
+# Therefore every drop contributes unavoidable cost, and all drops can be fixed
+# independently by suffix operations.
 #
-# =============================================================================
-# EDGE CASES
-# =============================================================================
+# Final formula:
 #
-# - **n = 1**: already non-decreasing → **0**.
-# - **Already non-decreasing**: **v[i] = nums[i]**, all **d[i] = 0** → **0**.
-# - **Strict decreases**: **v** lifts the suffix; cost comes from **drops** in
-#   **nums** (each “cliff” contributes through positive steps of **d**).
+#   answer = sum(max(0, nums[i] - nums[i + 1]) for i in 0..n-2)
 #
-# =============================================================================
-# TESTING
-# =============================================================================
 #
-# - Brute for **n <= 8**: enumerate small integer **x** operations is messy; easier
-#   to verify **C(d)** formula against known decompositions, and **v*** against
-#   brute **v** search for random **nums** (small **n**, small values).
-# - Cross-check full algorithm vs **O(n)** reference using explicit **d** array.
+# Why suffix operations are enough
+# For every i where nums[i] > nums[i+1], perform:
 #
-# =============================================================================
-# IMPROVEMENTS / VARIANTS
-# =============================================================================
+#   add nums[i] - nums[i+1] to subarray [i+1, n-1]
 #
-# - **O(1) space** streaming version (below).
-# - If the problem allowed **decreases**, the model would change entirely.
-# - Related: “minimum operations” with **unit** range adds counts operations, not
-#   sum of **x** — different objective.
+# Think about what this does to adjacent differences.
 #
-# =============================================================================
+# Let diff[i] = nums[i+1] - nums[i].
+# A suffix operation starting at i+1 increases nums[i+1], nums[i+2], ..., but not
+# nums[i]. So it increases diff[i] by exactly x.
+#
+# For boundaries to the right, both elements are inside the suffix, so their
+# difference does not change.
+#
+# Thus each suffix operation fixes exactly the drop at its starting boundary and
+# does not break any later boundary.
+#
+#
+# Lower bound intuition
+# Consider the boundary between i and i+1.
+#
+# Operations that cover both sides of the boundary do not change their relative
+# order.
+#
+# Operations entirely left of the boundary make the boundary worse.
+#
+# Only operations that include i+1 but exclude i can increase nums[i+1] relative
+# to nums[i]. The total amount of such operations must be at least the original
+# drop nums[i] - nums[i+1] when that drop is positive.
+#
+# Summing over all dropped boundaries gives a lower bound. The suffix
+# construction reaches exactly that bound, so it is optimal.
+#
+#
+# Data structure choice
+# No advanced data structure is needed.
+#
+# We only scan adjacent pairs and accumulate positive drops. A few integer
+# variables are enough.
+#
+# This is one of those problems where the main work is recognizing the invariant;
+# once recognized, the implementation is a simple linear scan.
+#
+#
+# Walkthrough of the code
+# 1. Initialize answer = 0.
+# 2. For every adjacent pair nums[i], nums[i+1]:
+#      if nums[i] > nums[i+1]:
+#          answer += nums[i] - nums[i+1]
+# 3. Return answer.
+#
+#
+# Correctness proof
+#
+# Lemma 1: For every i with nums[i] > nums[i+1], any valid sequence of
+# operations must pay at least nums[i] - nums[i+1] cost that increases the right
+# side of this boundary relative to the left side.
+# Proof:
+# To make the final array non-decreasing, the final value at i+1 must be at
+# least the final value at i. Initially it is lower by nums[i] - nums[i+1].
+# Operations covering both i and i+1 do not change their difference. Operations
+# covering i but not i+1 make the difference worse. Only operations covering
+# i+1 but not i reduce this deficit, and their total x must be at least the
+# initial positive drop.
+#
+# Lemma 2: The sum of positive adjacent drops is a lower bound on the answer.
+# Proof:
+# Lemma 1 applies independently to every boundary with a drop. Each operation
+# has one left boundary where it begins contributing relative increase across
+# that boundary, and its cost is counted there. Thus the total cost must cover
+# the sum of all required positive drops.
+#
+# Lemma 3: The sum of positive adjacent drops is achievable.
+# Proof:
+# For each boundary i where nums[i] > nums[i+1], add exactly
+# nums[i] - nums[i+1] to the suffix [i+1, n-1]. This increases the adjacent
+# difference at boundary i to zero, and it does not change any boundary to the
+# right because both elements on those boundaries are increased equally. After
+# doing this for every drop, all adjacent differences are nonnegative.
+#
+# Theorem: The algorithm returns the minimum total cost.
+# Proof:
+# By Lemma 2, no solution can cost less than the sum of positive drops. By
+# Lemma 3, there is a solution with exactly that cost. The algorithm computes
+# that sum, so it returns the optimum.
+#
+#
+# Complexity analysis
+#
+# Let n = len(nums).
+#
+# Time:
+#   We inspect each adjacent pair once.
+#   Overall time complexity: O(n).
+#
+# Space:
+#   We use only the answer variable and loop variables.
+#   Overall space complexity: O(1).
+#
+#
+# Tests to discuss in an interview
+#
+# 1. Official example:
+#      nums = [3,3,2,1]
+#      drops are 0, 1, 1 -> answer 2
+#
+# 2. Official example:
+#      nums = [5,1,2,3]
+#      drops are 4, 0, 0 -> answer 4
+#
+# 3. Already non-decreasing:
+#      nums = [1,2,2,5] -> 0
+#
+# 4. Strictly decreasing:
+#      nums = [5,4,3,2]
+#      drops are 1 + 1 + 1 -> answer 3
+#
+# 5. Single element:
+#      nums = [7] -> 0
+#
+# 6. Large values:
+#      use Python int; in Java/C++ return type should be 64-bit.
+#
+#
+# Edge cases
+#
+# - n == 1: no adjacent boundary, answer 0.
+# - Equal adjacent values do not require cost.
+# - The operation uses positive x, but we simply skip boundaries with zero drop.
+# - Multiple drops can be fixed by multiple suffix operations; they do not
+#   interfere with each other.
+#
+#
+# Possible improvements
+#
+# - This is already optimal: O(n) time and O(1) space.
+# - A simulation of operations is unnecessary; only the total cost is required.
+# - A prefix/suffix difference-array view gives the same formula, but the
+#   adjacent-drop explanation is the cleanest interview presentation.
+#
+# -------------------------------------------------------------------------------
 
 # @lc code=start
 from typing import List
@@ -112,25 +200,13 @@ from typing import List
 
 class Solution:
     def minOperations(self, nums: List[int]) -> int:
-        """
-        Minimum sum of x over operations 'add x to a subarray [l..r]' to make nums
-        non-decreasing. Equivalent to: build smallest non-decreasing majorant v,
-        d[i]=v[i]-nums[i], answer = sum_i max(0, d[i]-d[i-1]).
-        """
-        if len(nums) == 1:
-            return 0
+        answer = 0
 
-        cur_v = nums[0]
-        prev_d = cur_v - nums[0]
-        ans = max(0, prev_d)
+        for left, right in zip(nums, nums[1:]):
+            if left > right:
+                answer += left - right
 
-        for i in range(1, len(nums)):
-            cur_v = max(nums[i], cur_v)
-            cur_d = cur_v - nums[i]
-            ans += max(0, cur_d - prev_d)
-            prev_d = cur_d
-
-        return ans
+        return answer
 
 
 # @lc code=end
