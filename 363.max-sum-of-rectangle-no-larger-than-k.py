@@ -365,3 +365,60 @@ class Solution:
 
         return answer
 # @lc code=end
+
+
+if __name__ == "__main__":
+    def brute_force_max_sum_submatrix(matrix: List[List[int]], k: int) -> int:
+        rows = len(matrix)
+        cols = len(matrix[0])
+        best = -10**18
+
+        prefix = [[0] * (cols + 1) for _ in range(rows + 1)]
+        for row in range(rows):
+            for col in range(cols):
+                prefix[row + 1][col + 1] = (
+                    matrix[row][col]
+                    + prefix[row][col + 1]
+                    + prefix[row + 1][col]
+                    - prefix[row][col]
+                )
+
+        for top in range(rows):
+            for bottom in range(top, rows):
+                for left in range(cols):
+                    for right in range(left, cols):
+                        rectangle_sum = (
+                            prefix[bottom + 1][right + 1]
+                            - prefix[top][right + 1]
+                            - prefix[bottom + 1][left]
+                            + prefix[top][left]
+                        )
+                        if rectangle_sum <= k:
+                            best = max(best, rectangle_sum)
+
+        return best
+
+    solution = Solution()
+
+    fixed_tests = [
+        ([[1, 0, 1], [0, -2, 3]], 2, 2),
+        ([[2, 2, -1]], 3, 3),
+        ([[-5]], -2, -5),
+        ([[5, -4, 3]], 4, 4),
+        ([[2], [2], [-1]], 3, 3),
+        ([[4, -1], [-2, 3]], 2, 2),
+    ]
+
+    for test_matrix, test_k, expected in fixed_tests:
+        assert solution.maxSumSubmatrix(test_matrix, test_k) == expected
+
+    random_cases = [
+        ([[1, -2, 3], [-4, 5, -6]], 4),
+        ([[2, -1], [-3, 4], [1, -2]], 3),
+        ([[-1, -2], [-3, -4]], -3),
+        ([[0, 0, 0], [0, 0, 0]], 0),
+    ]
+
+    for test_matrix, test_k in random_cases:
+        expected = brute_force_max_sum_submatrix(test_matrix, test_k)
+        assert solution.maxSumSubmatrix(test_matrix, test_k) == expected
