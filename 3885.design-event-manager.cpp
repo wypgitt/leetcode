@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3885 lang=cpp
+ *
+ * [3885] Design Event Manager
+ */
 // Translated from 3885.design-event-manager.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3885 lang=python3
+// # lc-original app=leetcode id=3885 lang=python3
 // #
 // # [3885] Design Event Manager
 // #
@@ -89,7 +94,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // import heapq
 // 
 // 
@@ -346,8 +351,9 @@
 // # obj = EventManager(events)
 // # obj.updatePriority(eventId,newPriority)
 // # param_2 = obj.pollHighest()
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -426,3 +432,4 @@ public:
         return -1;
     }
 };
+// @lc code=end

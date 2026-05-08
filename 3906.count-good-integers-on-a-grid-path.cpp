@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3906 lang=cpp
+ *
+ * [3906] Count Good Integers on a Grid Path
+ */
 // Translated from 3906.count-good-integers-on-a-grid-path.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3906 lang=python3
+// # lc-original app=leetcode id=3906 lang=python3
 // #
 // # [3906] Count Good Integers on a Grid Path
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3906 lang=python3
+// # lc-original app=leetcode id=3906 lang=python3
 // #
 // # [3906] Count Good Integers on a Grid Path
 // #
@@ -107,7 +112,7 @@
 // # 4) Answer F(r)-F(l-1).
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from functools import cache
 // 
 // 
@@ -154,8 +159,9 @@
 //         return calc(r) - calc(l - 1)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -241,3 +247,4 @@ public:
         return calc(r) - calc(l - 1);
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3841 lang=cpp
+ *
+ * [3841] Palindromic Path Queries in a Tree
+ */
 // Translated from 3841.palindromic-path-queries-in-a-tree.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3841 lang=python3
+// # lc-original app=leetcode id=3841 lang=python3
 // #
 // # [3841] Palindromic Path Queries in a Tree
 // #
@@ -249,7 +254,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -390,8 +395,9 @@
 //         return 1 << (ord(ch) - ord("a"))
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -539,3 +545,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

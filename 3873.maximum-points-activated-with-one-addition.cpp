@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3873 lang=cpp
+ *
+ * [3873] Maximum Points Activated With One Addition
+ */
 // Translated from 3873.maximum-points-activated-with-one-addition.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3873 lang=python3
+// # lc-original app=leetcode id=3873 lang=python3
 // #
 // # [3873] Maximum Points Activated With One Addition
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3873 lang=python3
+// # lc-original app=leetcode id=3873 lang=python3
 // #
 // # [3873] Maximum Points Activated with One Addition
 // #
@@ -71,7 +76,7 @@
 // #   matches editorial).
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter
 // 
 // 
@@ -128,8 +133,9 @@
 //         return mx1 + mx2 + 1
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -217,3 +223,4 @@ public:
         return mx1 + mx2 + 1;
     }
 };
+// @lc code=end

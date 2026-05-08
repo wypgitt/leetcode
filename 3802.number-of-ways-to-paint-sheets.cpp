@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3802 lang=cpp
+ *
+ * [3802] Number of Ways to Paint Sheets
+ */
 // Translated from 3802.number-of-ways-to-paint-sheets.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3802 lang=python3
+// # lc-original app=leetcode id=3802 lang=python3
 // #
 // # [3802] Number of Ways to Paint Sheets
 // #
@@ -229,7 +234,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from bisect import bisect_left
 // from typing import List
 // 
@@ -271,8 +276,9 @@
 //         return size - bisect_left(limits, need)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -348,3 +354,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

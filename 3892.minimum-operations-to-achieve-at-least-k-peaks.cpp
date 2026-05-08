@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3892 lang=cpp
+ *
+ * [3892] Minimum Operations to Achieve at Least K Peaks
+ */
 // Translated from 3892.minimum-operations-to-achieve-at-least-k-peaks.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3892 lang=python3
+// # lc-original app=leetcode id=3892 lang=python3
 // #
 // # [3892] Minimum Operations to Achieve at Least K Peaks
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3892 lang=python3
+// # lc-original app=leetcode id=3892 lang=python3
 // #
 // # [3892] Minimum Operations to Achieve At Least K Peaks
 // #
@@ -83,7 +88,7 @@
 // #   lazy heap is standard.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import heapq
 // 
 // 
@@ -131,8 +136,9 @@
 //         return -1
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -217,3 +223,4 @@ public:
         return -1;
     }
 };
+// @lc code=end

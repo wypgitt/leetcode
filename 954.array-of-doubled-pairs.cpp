@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=954 lang=cpp
+ *
+ * [954] Array Of Doubled Pairs
+ */
 // Translated from 954.array-of-doubled-pairs.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=954 lang=python3
+// # lc-original app=leetcode id=954 lang=python3
 // #
 // # [954] Array Of Doubled Pairs
 // #
@@ -58,7 +63,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter
 // from typing import List
 // 
@@ -80,8 +85,9 @@
 //         return True
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -148,3 +154,4 @@ public:
         return true;
     }
 };
+// @lc code=end

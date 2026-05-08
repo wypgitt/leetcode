@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2681 lang=cpp
+ *
+ * [2681] Power of Heroes
+ */
 // Translated from 2681.power-of-heroes.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2681 lang=python3
+// # lc-original app=leetcode id=2681 lang=python3
 // #
 // # [2681] Power of Heroes
 // #
@@ -81,7 +86,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -98,8 +103,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -162,3 +168,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

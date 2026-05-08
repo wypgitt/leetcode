@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2709 lang=cpp
+ *
+ * [2709] Greatest Common Divisor Traversal
+ */
 // Translated from 2709.greatest-common-divisor-traversal.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2709 lang=python3
+// # lc-original app=leetcode id=2709 lang=python3
 // #
 // # [2709] Greatest Common Divisor Traversal
 // #
@@ -63,7 +68,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // _MX = 100_001  # nums[i] <= 10^5
@@ -130,8 +135,9 @@
 //         self.sz[pa] += self.sz[pb]
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -219,3 +225,4 @@ public:
         return true;
     }
 };
+// @lc code=end

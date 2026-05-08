@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3881 lang=cpp
+ *
+ * [3881] Direction Assignments with Exactly K Visible People
+ */
 // Translated from 3881.direction-assignments-with-exactly-k-visible-people.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3881 lang=python3
+// # lc-original app=leetcode id=3881 lang=python3
 // #
 // # [3881] Direction Assignments with Exactly K Visible People
 // #
@@ -102,7 +107,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def countVisiblePeople(self, n: int, pos: int, k: int) -> int:
 //         """
@@ -328,8 +333,9 @@
 //         combinations = combinations * inverse_factorial[total - k] % mod
 // 
 //         return 2 * combinations % mod
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -402,3 +408,4 @@ public:
         return 2 * c % MOD;
     }
 };
+// @lc code=end

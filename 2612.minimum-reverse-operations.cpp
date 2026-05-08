@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2612 lang=cpp
+ *
+ * [2612] Minimum Reverse Operations
+ */
 // Translated from 2612.minimum-reverse-operations.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2612 lang=python3
+// # lc-original app=leetcode id=2612 lang=python3
 // #
 // # [2612] Minimum Reverse Operations
 // #
@@ -71,7 +76,7 @@
 // # - p banned is impossible per constraints (usually p not in banned).
 // #
 // # LeetCode submission
-// # Imports must be inside # @lc code=start ... end (otherwise NameError on List at submit).
+// # Imports must be inside # lc-original code=start ... end (otherwise NameError on List at submit).
 // #
 // # Interview walkthrough
 // # 1) Model positions as graph; unweighted shortest path -> BFS.
@@ -80,7 +85,7 @@
 // # 4) Complexity and parity bookkeeping.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -151,8 +156,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -254,3 +260,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

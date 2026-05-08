@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=870 lang=cpp
+ *
+ * [870] Advantage Shuffle
+ */
 // Translated from 870.advantage-shuffle.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=870 lang=python3
+// # lc-original app=leetcode id=870 lang=python3
 // #
 // # [870] Advantage Shuffle
 // #
@@ -107,7 +112,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -136,8 +141,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -202,3 +208,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

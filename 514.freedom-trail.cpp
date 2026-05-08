@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=514 lang=cpp
+ *
+ * [514] Freedom Trail
+ */
 // Translated from 514.freedom-trail.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=514 lang=python3
+// # lc-original app=leetcode id=514 lang=python3
 // #
 // # [514] Freedom Trail
 // #
@@ -75,7 +80,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import defaultdict
 // 
 // 
@@ -293,8 +298,9 @@
 //             dp = next_dp
 // 
 //         return min(dp.values())
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -368,3 +374,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

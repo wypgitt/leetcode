@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=991 lang=cpp
+ *
+ * [991] Broken Calculator
+ */
 // Translated from 991.broken-calculator.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=991 lang=python3
+// # lc-original app=leetcode id=991 lang=python3
 // #
 // # [991] Broken Calculator
 // #
@@ -55,7 +60,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def brokenCalc(self, startValue: int, target: int) -> int:
 //         ans = 0
@@ -69,8 +74,9 @@
 //         return ans + startValue - y
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -131,3 +137,4 @@ public:
         return ans + startValue - y;
     }
 };
+// @lc code=end

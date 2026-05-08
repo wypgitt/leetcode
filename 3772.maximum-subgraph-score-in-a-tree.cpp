@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3772 lang=cpp
+ *
+ * [3772] Maximum Subgraph Score in a Tree
+ */
 // Translated from 3772.maximum-subgraph-score-in-a-tree.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3772 lang=python3
+// # lc-original app=leetcode id=3772 lang=python3
 // #
 // # [3772] Maximum Subgraph Score in a Tree
 // #
@@ -109,7 +114,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -360,7 +365,7 @@
 //                 answer[neighbor] = down[neighbor] + max(0, contribution_without_child)
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -426,6 +431,7 @@
 //         expected = brute_force_max_subgraph_score(test_n, test_edges, test_good)
 //         assert solution.maxSubgraphScore(test_n, test_edges, test_good) == expected
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -502,3 +508,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

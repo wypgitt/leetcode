@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3899 lang=cpp
+ *
+ * [3899] Angles of a Triangle
+ */
 // Translated from 3899.angles-of-a-triangle.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3899 lang=python3
+// # lc-original app=leetcode id=3899 lang=python3
 // #
 // # [3899] Angles of a Triangle
 // #
@@ -186,7 +191,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // import math
 // 
 // 
@@ -211,8 +216,9 @@
 //         return math.degrees(math.acos(cos_value))
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -278,3 +284,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

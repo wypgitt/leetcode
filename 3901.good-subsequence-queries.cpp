@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3901 lang=cpp
+ *
+ * [3901] Good Subsequence Queries
+ */
 // Translated from 3901.good-subsequence-queries.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3901 lang=python3
+// # lc-original app=leetcode id=3901 lang=python3
 // #
 // # [3901] Good Subsequence Queries
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3901 lang=python3
+// # lc-original app=leetcode id=3901 lang=python3
 // #
 // # [3901] Good Subsequence Queries
 // #
@@ -101,7 +106,7 @@
 // #    range gcd queries.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from math import gcd
 // 
 // 
@@ -194,8 +199,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -317,3 +323,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

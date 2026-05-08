@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3872 lang=cpp
+ *
+ * [3872] Longest Arithmetic Sequence After Changing At Most One Element
+ */
 // Translated from 3872.longest-arithmetic-sequence-after-changing-at-most-one-element.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3872 lang=python3
+// # lc-original app=leetcode id=3872 lang=python3
 // #
 // # [3872] Longest Arithmetic Sequence After Changing At Most One Element
 // #
@@ -69,7 +74,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -346,8 +351,9 @@
 //             answer = max(answer, left_count + 3 + right_count)
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -418,3 +424,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=988 lang=cpp
+ *
+ * [988] Smallest String Starting From Leaf
+ */
 // Translated from 988.smallest-string-starting-from-leaf.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=988 lang=python3
+// # lc-original app=leetcode id=988 lang=python3
 // #
 // # [988] Smallest String Starting From Leaf
 // #
@@ -53,7 +58,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import Optional
 // 
 // 
@@ -85,8 +90,9 @@
 //         return best
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -156,3 +162,4 @@ public:
         return best;
     }
 };
+// @lc code=end

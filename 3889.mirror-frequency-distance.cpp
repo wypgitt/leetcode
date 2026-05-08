@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3889 lang=cpp
+ *
+ * [3889] Mirror Frequency Distance
+ */
 // Translated from 3889.mirror-frequency-distance.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3889 lang=python3
+// # lc-original app=leetcode id=3889 lang=python3
 // #
 // # [3889] Mirror Frequency Distance
 // #
@@ -199,7 +204,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter
 // 
 // 
@@ -400,8 +405,9 @@
 //             answer += abs(frequency[left] - frequency[right])
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -461,3 +467,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

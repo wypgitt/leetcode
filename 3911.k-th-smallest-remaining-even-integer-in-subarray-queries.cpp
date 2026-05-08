@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3911 lang=cpp
+ *
+ * [3911] K-th Smallest Remaining Even Integer in Subarray Queries
+ */
 // Translated from 3911.k-th-smallest-remaining-even-integer-in-subarray-queries.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3911 lang=python3
+// # lc-original app=leetcode id=3911 lang=python3
 // #
 // # [3911] K-th Smallest Remaining Even Integer in Subarray Queries
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3911 lang=python3
+// # lc-original app=leetcode id=3911 lang=python3
 // #
 // # [3911] K-th Smallest Remaining Even Integer in Subarray Queries
 // #
@@ -97,7 +102,7 @@
 // # 4) State bounds and complexity.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import bisect
 // 
 // 
@@ -130,8 +135,9 @@
 //         return [kth_for_query(l, r, k) for l, r, k in queries]
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -207,3 +213,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

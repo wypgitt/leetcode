@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=533 lang=cpp
+ *
+ * [533] Lonely Pixel II
+ */
 // Translated from 533.lonely-pixel-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=533 lang=python3
+// # lc-original app=leetcode id=533 lang=python3
 // #
 // # [533] Lonely Pixel II
 // #
@@ -65,7 +70,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter
 // from typing import List
 // 
@@ -254,8 +259,9 @@
 //                     answer += target
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -324,3 +330,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1015 lang=cpp
+ *
+ * [1015] Smallest Integer Divisible By K
+ */
 // Translated from 1015.smallest-integer-divisible-by-k.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1015 lang=python3
+// # lc-original app=leetcode id=1015 lang=python3
 // #
 // # [1015] Smallest Integer Divisible By K
 // #
@@ -50,7 +55,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def smallestRepunitDivByK(self, k: int) -> int:
 //         if k % 2 == 0 or k % 5 == 0:
@@ -63,8 +68,9 @@
 //         return -1
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -125,3 +131,4 @@ public:
         return -1;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=668 lang=cpp
+ *
+ * [668] Kth Smallest Number in Multiplication Table
+ */
 // Translated from 668.kth-smallest-number-in-multiplication-table.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=668 lang=python3
+// # lc-original app=leetcode id=668 lang=python3
 // #
 // # [668] Kth Smallest Number in Multiplication Table
 // #
@@ -48,7 +53,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def findKthNumber(self, m: int, n: int, k: int) -> int:
 //         """
@@ -276,8 +281,9 @@
 //                 left = middle + 1
 // 
 //         return left
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -344,3 +350,4 @@ public:
         return lo;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=931 lang=cpp
+ *
+ * [931] Minimum Falling Path Sum
+ */
 // Translated from 931.minimum-falling-path-sum.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=931 lang=python3
+// # lc-original app=leetcode id=931 lang=python3
 // #
 // # [931] Minimum Falling Path Sum
 // #
@@ -47,7 +52,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -71,8 +76,9 @@
 //         return min(prev)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -141,3 +147,4 @@ public:
         return *min_element(prev.begin(), prev.end());
     }
 };
+// @lc code=end

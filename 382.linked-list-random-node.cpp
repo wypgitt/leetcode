@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=382 lang=cpp
+ *
+ * [382] Linked List Random Node
+ */
 // Translated from 382.linked-list-random-node.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=382 lang=python3
+// # lc-original app=leetcode id=382 lang=python3
 // #
 // # [382] Linked List Random Node
 // #
@@ -69,7 +74,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // import random
 // from typing import Optional
 // 
@@ -316,7 +321,7 @@
 // # Your Solution object will be instantiated and called as such:
 // # obj = Solution(head)
 // # param_1 = obj.getRandom()
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -367,6 +372,7 @@
 //     results = [solution.getRandom() for _ in range(200)]
 //     assert set(results) == {10, 20, 30}
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -434,3 +440,4 @@ public:
         return chosen;
     }
 };
+// @lc code=end

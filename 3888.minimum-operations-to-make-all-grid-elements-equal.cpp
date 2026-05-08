@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3888 lang=cpp
+ *
+ * [3888] Minimum Operations to Make All Grid Elements Equal
+ */
 // Translated from 3888.minimum-operations-to-make-all-grid-elements-equal.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3888 lang=python3
+// # lc-original app=leetcode id=3888 lang=python3
 // #
 // # [3888] Minimum Operations to Make All Grid Elements Equal
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3888 lang=python3
+// # lc-original app=leetcode id=3888 lang=python3
 // #
 // # [3888] Minimum Operations to Make All Grid Elements Equal
 // #
@@ -90,7 +95,7 @@
 // # 4) Try T = max and max+1; else impossible.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def minOperations(self, grid: list[list[int]], k: int) -> int:
 //         m, n = len(grid), len(grid[0])
@@ -132,8 +137,9 @@
 //         return -1
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -216,3 +222,4 @@ public:
         return -1;
     }
 };
+// @lc code=end

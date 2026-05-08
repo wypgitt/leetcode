@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1178 lang=cpp
+ *
+ * [1178] Number Of Valid Words For Each Puzzle
+ */
 // Translated from 1178.number-of-valid-words-for-each-puzzle.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1178 lang=python3
+// # lc-original app=leetcode id=1178 lang=python3
 // #
 // # [1178] Number Of Valid Words For Each Puzzle
 // #
@@ -65,7 +70,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter
 // from typing import List
 // 
@@ -101,8 +106,9 @@
 //         return out
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -180,3 +186,4 @@ public:
         return out;
     }
 };
+// @lc code=end

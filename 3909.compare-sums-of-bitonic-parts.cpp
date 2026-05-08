@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3909 lang=cpp
+ *
+ * [3909] Compare Sums of Bitonic Parts
+ */
 // Translated from 3909.compare-sums-of-bitonic-parts.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3909 lang=python3
+// # lc-original app=leetcode id=3909 lang=python3
 // #
 // # [3909] Compare Sums of Bitonic Parts
 // #
@@ -147,7 +152,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def compareBitonicSums(self, nums: list[int]) -> int:
 //         peak = max(range(len(nums)), key=nums.__getitem__)
@@ -167,8 +172,9 @@
 //         return -1
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -229,3 +235,4 @@ public:
         return -1;
     }
 };
+// @lc code=end

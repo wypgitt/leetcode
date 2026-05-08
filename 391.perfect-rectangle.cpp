@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=391 lang=cpp
+ *
+ * [391] Perfect Rectangle
+ */
 // Translated from 391.perfect-rectangle.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=391 lang=python3
+// # lc-original app=leetcode id=391 lang=python3
 // #
 // # [391] Perfect Rectangle
 // #
@@ -60,7 +65,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -288,8 +293,9 @@
 //         bounding_area = (max_x - min_x) * (max_y - min_y)
 // 
 //         return total_area == bounding_area and corners == bounding_corners
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -363,3 +369,4 @@ public:
         return area == (maxX - minX) * (maxY - minY) && corners == want;
     }
 };
+// @lc code=end

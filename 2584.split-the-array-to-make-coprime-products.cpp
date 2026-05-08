@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2584 lang=cpp
+ *
+ * [2584] Split the Array to Make Coprime Products
+ */
 // Translated from 2584.split-the-array-to-make-coprime-products.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2584 lang=python3
+// # lc-original app=leetcode id=2584 lang=python3
 // #
 // # [2584] Split the Array to Make Coprime Products
 // #
@@ -82,7 +87,7 @@
 // #   alternative implementation (good for interviews).
 // #
 // # LeetCode submission
-// # Place imports (`collections`, `typing.List`) inside # @lc code=start so the judge bundle runs.
+// # Place imports (`collections`, `typing.List`) inside # lc-original code=start so the judge bundle runs.
 // #
 // # Interview walkthrough
 // # 1) gcd(products)=1 <=> no shared prime between sides.
@@ -91,7 +96,7 @@
 // # 4) Complexity and edge case nums[i]==1.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import collections
 // from typing import List
 // 
@@ -134,8 +139,9 @@
 //         return -1
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -217,3 +223,4 @@ public:
         return -1;
     }
 };
+// @lc code=end

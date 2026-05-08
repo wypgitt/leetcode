@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3821 lang=cpp
+ *
+ * [3821] Find Nth Smallest Integer With K One Bits
+ */
 // Translated from 3821.find-nth-smallest-integer-with-k-one-bits.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3821 lang=python3
+// # lc-original app=leetcode id=3821 lang=python3
 // #
 // # [3821] Find Nth Smallest Integer With K One Bits
 // #
@@ -209,7 +214,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from math import comb
 // 
 // 
@@ -231,8 +236,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -305,3 +311,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=901 lang=cpp
+ *
+ * [901] Online Stock Span
+ */
 // Translated from 901.online-stock-span.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=901 lang=python3
+// # lc-original app=leetcode id=901 lang=python3
 // #
 // # [901] Online Stock Span
 // #
@@ -93,7 +98,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List, Tuple
 // 
 // 
@@ -120,8 +125,9 @@
 // # Your StockSpanner object will be instantiated and called as such:
 // # obj = StockSpanner()
 // # param_1 = obj.next(price)
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -183,3 +189,4 @@ public:
         return span;
     }
 };
+// @lc code=end

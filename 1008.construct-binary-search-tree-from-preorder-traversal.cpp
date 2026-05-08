@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1008 lang=cpp
+ *
+ * [1008] Construct Binary Search Tree From Preorder Traversal
+ */
 // Translated from 1008.construct-binary-search-tree-from-preorder-traversal.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1008 lang=python3
+// # lc-original app=leetcode id=1008 lang=python3
 // #
 // # [1008] Construct Binary Search Tree From Preorder Traversal
 // #
@@ -57,7 +62,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List, Optional
 // 
 // 
@@ -84,8 +89,9 @@
 //         return dfs(float("inf"))
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -149,3 +155,4 @@ public:
         return dfs(LLONG_MAX);
     }
 };
+// @lc code=end

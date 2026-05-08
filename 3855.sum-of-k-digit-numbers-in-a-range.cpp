@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3855 lang=cpp
+ *
+ * [3855] Sum of K-Digit Numbers in a Range
+ */
 // Translated from 3855.sum-of-k-digit-numbers-in-a-range.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3855 lang=python3
+// # lc-original app=leetcode id=3855 lang=python3
 // #
 // # [3855] Sum of K-Digit Numbers in a Range
 // #
@@ -183,7 +188,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     MOD = 1_000_000_007
 // 
@@ -198,8 +203,9 @@
 //         return digit_sum % mod * other_positions % mod * repunit % mod
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -269,3 +275,4 @@ public:
         return digitSum % MOD * other % MOD * repunit % MOD;
     }
 };
+// @lc code=end

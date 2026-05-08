@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=397 lang=cpp
+ *
+ * [397] Integer Replacement
+ */
 // Translated from 397.integer-replacement.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=397 lang=python3
+// # lc-original app=leetcode id=397 lang=python3
 // #
 // # [397] Integer Replacement
 // #
@@ -59,7 +64,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def integerReplacement(self, n: int) -> int:
 //         """
@@ -273,7 +278,7 @@
 //             steps += 1
 // 
 //         return steps
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -313,6 +318,7 @@
 //         expected = memoized_reference(value, {})
 //         assert solution.integerReplacement(value) == expected, value
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -375,3 +381,4 @@ public:
         return steps;
     }
 };
+// @lc code=end

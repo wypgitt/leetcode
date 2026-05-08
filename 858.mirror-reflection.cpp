@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=858 lang=cpp
+ *
+ * [858] Mirror Reflection
+ */
 // Translated from 858.mirror-reflection.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=858 lang=python3
+// # lc-original app=leetcode id=858 lang=python3
 // #
 // # [858] Mirror Reflection
 // #
@@ -153,7 +158,7 @@
 // 
 // import math
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def mirrorReflection(self, p: int, q: int) -> int:
 //         g = math.gcd(p, q)
@@ -166,7 +171,7 @@
 //         return 1
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // if __name__ == "__main__":
 //     f = Solution().mirrorReflection
@@ -176,6 +181,7 @@
 //     assert f(4, 2) == 2
 //     assert f(3, 2) == 0
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -235,3 +241,4 @@ public:
         return 1;
     }
 };
+// @lc code=end

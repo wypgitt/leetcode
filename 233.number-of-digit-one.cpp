@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=233 lang=cpp
+ *
+ * [233] Number of Digit One
+ */
 // Translated from 233.number-of-digit-one.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=233 lang=python3
+// # lc-original app=leetcode id=233 lang=python3
 // #
 // # [233] Number of Digit One
 // #
@@ -109,7 +114,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def countDigitOne(self, n: int) -> int:
 //         """
@@ -140,8 +145,9 @@
 //         return total
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -206,3 +212,4 @@ public:
         return (int)total;
     }
 };
+// @lc code=end

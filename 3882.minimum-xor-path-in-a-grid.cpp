@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3882 lang=cpp
+ *
+ * [3882] Minimum XOR Path in a Grid
+ */
 // Translated from 3882.minimum-xor-path-in-a-grid.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3882 lang=python3
+// # lc-original app=leetcode id=3882 lang=python3
 // #
 // # [3882] Minimum XOR Path in a Grid
 // #
@@ -97,7 +102,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def minCost(self, grid: list[list[int]]) -> int:
 //         """
@@ -341,8 +346,9 @@
 //                 dp[col] = reachable
 // 
 //         return min(dp[-1])
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -412,3 +418,4 @@ public:
         return *dp.back().begin();
     }
 };
+// @lc code=end

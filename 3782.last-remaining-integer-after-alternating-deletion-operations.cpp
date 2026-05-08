@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3782 lang=cpp
+ *
+ * [3782] Last Remaining Integer After Alternating Deletion Operations
+ */
 // Translated from 3782.last-remaining-integer-after-alternating-deletion-operations.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3782 lang=python3
+// # lc-original app=leetcode id=3782 lang=python3
 // #
 // # [3782] Last Remaining Integer After Alternating Deletion Operations
 // #
@@ -93,7 +98,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def lastInteger(self, n: int) -> int:
 //         """
@@ -353,7 +358,7 @@
 //             delete_from_left = not delete_from_left
 // 
 //         return first
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -404,6 +409,7 @@
 // 
 //     assert solution.lastInteger(10**15) > 0
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -466,3 +472,4 @@ public:
         return first;
     }
 };
+// @lc code=end

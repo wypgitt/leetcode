@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2647 lang=cpp
+ *
+ * [2647] Color the Triangle Red
+ */
 // Translated from 2647.color-the-triangle-red.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2647 lang=python3
+// # lc-original app=leetcode id=2647 lang=python3
 // #
 // # [2647] Color the Triangle Red
 // #
@@ -61,7 +66,7 @@
 // # - Walkccc’s alternate formulation chunks by (n % 4) prefix + 4-row blocks — same idea, different loop shape.
 // #
 // # LeetCode submission
-// # `from typing import List` inside # @lc code=start.
+// # `from typing import List` inside # lc-original code=start.
 // #
 // # Interview walkthrough
 // # 1) Encode neighbor geometry on triangular grid.
@@ -69,7 +74,7 @@
 // # 3) Present periodic bottom-up seed pattern and O(n^2) generation.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -92,8 +97,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -162,3 +168,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

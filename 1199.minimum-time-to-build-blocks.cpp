@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1199 lang=cpp
+ *
+ * [1199] Minimum Time To Build Blocks
+ */
 // Translated from 1199.minimum-time-to-build-blocks.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1199 lang=python3
+// # lc-original app=leetcode id=1199 lang=python3
 // #
 // # [1199] Minimum Time To Build Blocks
 // #
@@ -67,7 +72,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import heapq
 // from typing import List
 // 
@@ -82,8 +87,9 @@
 //         return heap[0]
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -145,3 +151,4 @@ public:
         return pq.top();
     }
 };
+// @lc code=end

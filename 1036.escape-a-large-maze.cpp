@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1036 lang=cpp
+ *
+ * [1036] Escape a Large Maze
+ */
 // Translated from 1036.escape-a-large-maze.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1036 lang=python3
+// # lc-original app=leetcode id=1036 lang=python3
 // #
 // # [1036] Escape a Large Maze
 // #
@@ -60,7 +65,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -99,8 +104,9 @@
 //         return walk(sx, sy, tx, ty) and walk(tx, ty, sx, sy)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -179,3 +185,4 @@ public:
         return walk(source[0], source[1], target[0], target[1]) && walk(target[0], target[1], source[0], source[1]);
     }
 };
+// @lc code=end

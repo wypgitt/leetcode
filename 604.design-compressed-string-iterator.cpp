@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=604 lang=cpp
+ *
+ * [604] Design Compressed String Iterator
+ */
 // Translated from 604.design-compressed-string-iterator.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=604 lang=python3
+// # lc-original app=leetcode id=604 lang=python3
 // #
 // # [604] Design Compressed String Iterator
 // #
@@ -68,7 +73,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class StringIterator:
 //     """
 //     Interview explanation
@@ -294,8 +299,9 @@
 // # obj = StringIterator(compressedString)
 // # param_1 = obj.next()
 // # param_2 = obj.hasNext()
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -375,3 +381,4 @@ public:
         return remaining > 0;
     }
 };
+// @lc code=end

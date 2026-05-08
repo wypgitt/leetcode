@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=963 lang=cpp
+ *
+ * [963] Minimum Area Rectangle II
+ */
 // Translated from 963.minimum-area-rectangle-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=963 lang=python3
+// # lc-original app=leetcode id=963 lang=python3
 // #
 // # [963] Minimum Area Rectangle II
 // #
@@ -71,7 +76,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import defaultdict
 // from typing import List
 // 
@@ -113,8 +118,9 @@
 //         return 0.0 if best == float("inf") else best
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -191,3 +197,4 @@ public:
         return isinf(best) ? 0.0 : best;
     }
 };
+// @lc code=end

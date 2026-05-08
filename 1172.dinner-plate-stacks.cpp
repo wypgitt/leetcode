@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1172 lang=cpp
+ *
+ * [1172] Dinner Plate Stacks
+ */
 // Translated from 1172.dinner-plate-stacks.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1172 lang=python3
+// # lc-original app=leetcode id=1172 lang=python3
 // #
 // # [1172] Dinner Plate Stacks
 // #
@@ -67,7 +72,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import heapq
 // from typing import List
 // 
@@ -126,8 +131,9 @@
 // # obj.push(val)
 // # param_2 = obj.pop()
 // # param_3 = obj.popAtStack(index)
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -228,3 +234,4 @@ public:
         return val;
     }
 };
+// @lc code=end

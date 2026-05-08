@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3895 lang=cpp
+ *
+ * [3895] Count Digit Appearances
+ */
 // Translated from 3895.count-digit-appearances.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3895 lang=python3
+// # lc-original app=leetcode id=3895 lang=python3
 // #
 // # [3895] Count Digit Appearances
 // #
@@ -58,7 +63,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def countDigitOccurrences(self, nums: list[int], digit: int) -> int:
 //         """
@@ -216,8 +221,9 @@
 // 
 //         target = str(digit)
 //         return sum(str(number).count(target) for number in nums)
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -275,3 +281,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

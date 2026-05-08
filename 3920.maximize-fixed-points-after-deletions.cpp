@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3920 lang=cpp
+ *
+ * [3920] Maximize Fixed Points After Deletions
+ */
 // Translated from 3920.maximize-fixed-points-after-deletions.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3920 lang=python3
+// # lc-original app=leetcode id=3920 lang=python3
 // #
 // # [3920] Maximize Fixed Points After Deletions
 // #
@@ -247,7 +252,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import defaultdict
 // from typing import List
 // 
@@ -299,8 +304,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -377,3 +383,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

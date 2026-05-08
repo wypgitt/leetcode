@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=984 lang=cpp
+ *
+ * [984] String Without Aaa Or Bbb
+ */
 // Translated from 984.string-without-aaa-or-bbb.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=984 lang=python3
+// # lc-original app=leetcode id=984 lang=python3
 // #
 // # [984] String Without Aaa Or Bbb
 // #
@@ -50,7 +55,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def strWithout3a3b(self, a: int, b: int) -> str:
 //         if a == 0 and b == 0:
@@ -79,8 +84,9 @@
 //         return "".join(out)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -149,3 +155,4 @@ public:
         return out;
     }
 };
+// @lc code=end

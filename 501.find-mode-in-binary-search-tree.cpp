@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=501 lang=cpp
+ *
+ * [501] Find Mode in Binary Search Tree
+ */
 // Translated from 501.find-mode-in-binary-search-tree.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=501 lang=python3
+// # lc-original app=leetcode id=501 lang=python3
 // #
 // # [501] Find Mode in Binary Search Tree
 // #
@@ -58,7 +63,7 @@
 // # implicit stack space incurred due to recursion does not count).
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List, Optional
 // 
 // 
@@ -319,8 +324,9 @@
 //                 current = current.right
 // 
 //         return modes
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -410,3 +416,4 @@ public:
         return modes;
     }
 };
+// @lc code=end

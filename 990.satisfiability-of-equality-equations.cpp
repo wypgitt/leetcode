@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=990 lang=cpp
+ *
+ * [990] Satisfiability Of Equality Equations
+ */
 // Translated from 990.satisfiability-of-equality-equations.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=990 lang=python3
+// # lc-original app=leetcode id=990 lang=python3
 // #
 // # [990] Satisfiability Of Equality Equations
 // #
@@ -53,7 +58,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -86,8 +91,9 @@
 //         return True
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -149,3 +155,4 @@ public:
         return true;
     }
 };
+// @lc code=end

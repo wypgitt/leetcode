@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3878 lang=cpp
+ *
+ * [3878] Count Good Subarrays
+ */
 // Translated from 3878.count-good-subarrays.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3878 lang=python3
+// # lc-original app=leetcode id=3878 lang=python3
 // #
 // # [3878] Count Good Subarrays
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3878 lang=python3
+// # lc-original app=leetcode id=3878 lang=python3
 // #
 // # [3878] Count Good Subarrays
 // #
@@ -82,7 +87,7 @@
 // # 4) Multiply interval lengths; total O(n).
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def countGoodSubarrays(self, nums: list[int]) -> int:
 //         n = len(nums)
@@ -105,8 +110,9 @@
 //         return sum((i - left[i]) * (right[i] - i) for i in range(n))
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -177,3 +183,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

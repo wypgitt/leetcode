@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2617 lang=cpp
+ *
+ * [2617] Minimum Number of Visited Cells in a Grid
+ */
 // Translated from 2617.minimum-number-of-visited-cells-in-a-grid.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2617 lang=python3
+// # lc-original app=leetcode id=2617 lang=python3
 // #
 // # [2617] Minimum Number of Visited Cells in a Grid
 // #
@@ -63,7 +68,7 @@
 // # - Forward multi-source BFS with pruning — same asymptotics often worse constant factors.
 // #
 // # LeetCode submission
-// # Imports inside # @lc code=start (typing.List).
+// # Imports inside # lc-original code=start (typing.List).
 // #
 // # Interview walkthrough
 // # 1) Observe DAG order by increasing (i+j) or decreasing sweep from target.
@@ -72,7 +77,7 @@
 // # 4) Handle INF arithmetic and the fixed goal cell carefully.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -148,8 +153,9 @@
 //         return -1 if res >= INF else res
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -254,3 +260,4 @@ public:
         return res >= INF ? -1 : res;
     }
 };
+// @lc code=end

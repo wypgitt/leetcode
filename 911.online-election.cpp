@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=911 lang=cpp
+ *
+ * [911] Online Election
+ */
 // Translated from 911.online-election.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=911 lang=python3
+// # lc-original app=leetcode id=911 lang=python3
 // #
 // # [911] Online Election
 // #
@@ -115,7 +120,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // import bisect
 // from typing import Dict, List
 // 
@@ -157,8 +162,9 @@
 // # Your TopVotedCandidate object will be instantiated and called as such:
 // # obj = TopVotedCandidate(persons, times)
 // # param_1 = obj.q(t)
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -227,3 +233,4 @@ public:
         return leaders[i];
     }
 };
+// @lc code=end

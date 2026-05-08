@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3777 lang=cpp
+ *
+ * [3777] Minimum Deletions to Make Alternating Substring
+ */
 // Translated from 3777.minimum-deletions-to-make-alternating-substring.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3777 lang=python3
+// # lc-original app=leetcode id=3777 lang=python3
 // #
 // # [3777] Minimum Deletions to Make Alternating Substring
 // #
@@ -244,7 +249,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -522,7 +527,7 @@
 //                 answer.append(length - runs)
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -574,6 +579,7 @@
 //         expected = brute_force_process(test_s, test_queries)
 //         assert solution.minDeletions(test_s, test_queries) == expected
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -665,3 +671,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

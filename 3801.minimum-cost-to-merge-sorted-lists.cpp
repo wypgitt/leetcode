@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3801 lang=cpp
+ *
+ * [3801] Minimum Cost to Merge Sorted Lists
+ */
 // Translated from 3801.minimum-cost-to-merge-sorted-lists.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3801 lang=python3
+// # lc-original app=leetcode id=3801 lang=python3
 // #
 // # [3801] Minimum Cost to Merge Sorted Lists
 // #
@@ -136,7 +141,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from bisect import bisect_right
 // from typing import List
 // 
@@ -469,7 +474,7 @@
 //             dp[mask] = best
 // 
 //         return dp[mask_count - 1]
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -539,6 +544,7 @@
 //         expected = brute_force_min_merge_cost(test_lists)
 //         assert solution.minMergeCost([values[:] for values in test_lists]) == expected
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -635,3 +641,4 @@ public:
         return dp[masks - 1];
     }
 };
+// @lc code=end

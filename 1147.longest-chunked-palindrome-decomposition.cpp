@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1147 lang=cpp
+ *
+ * [1147] Longest Chunked Palindrome Decomposition
+ */
 // Translated from 1147.longest-chunked-palindrome-decomposition.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1147 lang=python3
+// # lc-original app=leetcode id=1147 lang=python3
 // #
 // # [1147] Longest Chunked Palindrome Decomposition
 // #
@@ -71,7 +76,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def longestDecomposition(self, text: str) -> int:
 //         i, j = 0, len(text) - 1
@@ -92,8 +97,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -166,3 +172,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

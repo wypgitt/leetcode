@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1011 lang=cpp
+ *
+ * [1011] Capacity To Ship Packages Within D Days
+ */
 // Translated from 1011.capacity-to-ship-packages-within-d-days.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1011 lang=python3
+// # lc-original app=leetcode id=1011 lang=python3
 // #
 // # [1011] Capacity To Ship Packages Within D Days
 // #
@@ -55,7 +60,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -84,8 +89,9 @@
 //         return lo
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -160,3 +166,4 @@ public:
         return lo;
     }
 };
+// @lc code=end

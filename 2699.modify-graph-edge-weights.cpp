@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2699 lang=cpp
+ *
+ * [2699] Modify Graph Edge Weights
+ */
 // Translated from 2699.modify-graph-edge-weights.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2699 lang=python3
+// # lc-original app=leetcode id=2699 lang=python3
 // #
 // # [2699] Modify Graph Edge Weights
 // #
@@ -68,7 +73,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import heapq
 // from typing import List
 // 
@@ -125,8 +130,9 @@
 //         return edges if ok else []
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -220,3 +226,4 @@ public:
         return ok ? edges : vector<vector<int>>{};
     }
 };
+// @lc code=end

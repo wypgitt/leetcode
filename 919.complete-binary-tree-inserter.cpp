@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=919 lang=cpp
+ *
+ * [919] Complete Binary Tree Inserter
+ */
 // Translated from 919.complete-binary-tree-inserter.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=919 lang=python3
+// # lc-original app=leetcode id=919 lang=python3
 // #
 // # [919] Complete Binary Tree Inserter
 // #
@@ -151,7 +156,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import deque
 // from typing import Deque, Optional
 // 
@@ -209,8 +214,9 @@
 // # obj = CBTInserter(root)
 // # param_1 = obj.insert(val)
 // # param_2 = obj.get_root()
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -291,3 +297,4 @@ public:
 
     TreeNode* get_root() { return root; }
 };
+// @lc code=end

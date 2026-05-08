@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=356 lang=cpp
+ *
+ * [356] Line Reflection
+ */
 // Translated from 356.line-reflection.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=356 lang=python3
+// # lc-original app=leetcode id=356 lang=python3
 // #
 // # [356] Line Reflection
 // #
@@ -55,7 +60,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -221,7 +226,7 @@
 //                 return False
 // 
 //         return True
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -236,6 +241,7 @@
 //     assert solution.isReflected([[0, 0], [2, 0], [3, 0]]) is False
 //     assert solution.isReflected([[0, 0], [0, 0], [2, 0]]) is True
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -299,3 +305,4 @@ public:
         return true;
     }
 };
+// @lc code=end

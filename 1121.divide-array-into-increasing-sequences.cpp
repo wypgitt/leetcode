@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1121 lang=cpp
+ *
+ * [1121] Divide Array Into Increasing Sequences
+ */
 // Translated from 1121.divide-array-into-increasing-sequences.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1121 lang=python3
+// # lc-original app=leetcode id=1121 lang=python3
 // #
 // # [1121] Divide Array Into Increasing Sequences
 // #
@@ -55,7 +60,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -73,8 +78,9 @@
 //         return mx * k <= n
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -135,3 +141,4 @@ public:
         return mx * k <= n;
     }
 };
+// @lc code=end

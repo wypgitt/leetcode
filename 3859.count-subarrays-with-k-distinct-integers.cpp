@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3859 lang=cpp
+ *
+ * [3859] Count Subarrays With K Distinct Integers
+ */
 // Translated from 3859.count-subarrays-with-k-distinct-integers.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3859 lang=python3
+// # lc-original app=leetcode id=3859 lang=python3
 // #
 // # [3859] Count Subarrays With K Distinct Integers
 // #
@@ -228,7 +233,7 @@
 // #   in Python.
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import defaultdict, deque
 // from heapq import heappop, heappush
 // from typing import List
@@ -321,8 +326,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -422,3 +428,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

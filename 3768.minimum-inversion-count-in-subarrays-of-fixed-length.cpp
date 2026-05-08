@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3768 lang=cpp
+ *
+ * [3768] Minimum Inversion Count in Subarrays of Fixed Length
+ */
 // Translated from 3768.minimum-inversion-count-in-subarrays-of-fixed-length.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3768 lang=python3
+// # lc-original app=leetcode id=3768 lang=python3
 // #
 // # [3768] Minimum Inversion Count in Subarrays of Fixed Length
 // #
@@ -88,7 +93,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from bisect import bisect_left
 // from typing import List
 // 
@@ -384,7 +389,7 @@
 //             answer = min(answer, current_inversions)
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -429,6 +434,7 @@
 //         expected = brute_force_min_inversion_count(test_nums, test_k)
 //         assert solution.minInversionCount(test_nums, test_k) == expected
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -513,3 +519,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

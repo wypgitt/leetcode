@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3830 lang=cpp
+ *
+ * [3830] Longest Alternating Subarray After Removing At Most One Element
+ */
 // Translated from 3830.longest-alternating-subarray-after-removing-at-most-one-element.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3830 lang=python3
+// # lc-original app=leetcode id=3830 lang=python3
 // #
 // # [3830] Longest Alternating Subarray After Removing At Most One Element
 // #
@@ -250,7 +255,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -307,8 +312,9 @@
 //         return 0
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -388,3 +394,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

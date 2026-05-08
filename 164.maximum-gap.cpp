@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=164 lang=cpp
+ *
+ * [164] Maximum Gap
+ */
 // Translated from 164.maximum-gap.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=164 lang=python3
+// # lc-original app=leetcode id=164 lang=python3
 // #
 // # [164] Maximum Gap
 // #
@@ -109,7 +114,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -163,8 +168,9 @@
 //         return max_gap
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -241,3 +247,4 @@ public:
         return max(ans, mx - prev);
     }
 };
+// @lc code=end

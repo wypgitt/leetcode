@@ -1,19 +1,25 @@
+/*
+ * @lc app=leetcode id=2994 lang=cpp
+ *
+ * [2994] Friday Purchases II
+ */
 // Translated from 2994.friday-purchases-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2994 lang=python3
+// # lc-original app=leetcode id=2994 lang=python3
 // #
 // # [2994] Friday Purchases II
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
-// 
+// # lc-original code=end
+//
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -66,3 +72,4 @@ class Solution {
 public:
     // The Python source only contains `pass`, so there is no algorithmic method to translate.
 };
+// @lc code=end

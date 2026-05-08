@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1106 lang=cpp
+ *
+ * [1106] Parsing A Boolean Expression
+ */
 // Translated from 1106.parsing-a-boolean-expression.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1106 lang=python3
+// # lc-original app=leetcode id=1106 lang=python3
 // #
 // # [1106] Parsing A Boolean Expression
 // #
@@ -58,7 +63,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def parseBoolExpr(self, expression: str) -> bool:
 //         stk: list[str] = []
@@ -82,8 +87,9 @@
 //         return stk[0] == "t"
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -157,3 +163,4 @@ public:
         return st[0] == 't';
     }
 };
+// @lc code=end

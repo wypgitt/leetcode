@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=483 lang=cpp
+ *
+ * [483] Smallest Good Base
+ */
 // Translated from 483.smallest-good-base.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=483 lang=python3
+// # lc-original app=leetcode id=483 lang=python3
 // #
 // # [483] Smallest Good Base
 // #
@@ -55,7 +60,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def smallestGoodBase(self, n: str) -> str:
 //         """
@@ -307,8 +312,9 @@
 //                     right = middle - 1
 // 
 //         return str(number - 1)
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -386,3 +392,4 @@ public:
         return to_string(num - 1);
     }
 };
+// @lc code=end

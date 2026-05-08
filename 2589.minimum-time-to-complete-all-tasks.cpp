@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2589 lang=cpp
+ *
+ * [2589] Minimum Time to Complete All Tasks
+ */
 // Translated from 2589.minimum-time-to-complete-all-tasks.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2589 lang=python3
+// # lc-original app=leetcode id=2589 lang=python3
 // #
 // # [2589] Minimum Time to Complete All Tasks
 // #
@@ -63,7 +68,7 @@
 // # - Prefix sums on `on` for faster range counts if range queries dominated (same U bound here).
 // #
 // # LeetCode submission note
-// # Imports must live inside # @lc code=start ... end — otherwise NameError on List at submit time.
+// # Imports must live inside # lc-original code=start ... end — otherwise NameError on List at submit time.
 // #
 // # Interview walkthrough
 // # 1) Reframe as minimizing distinct chosen integers on a timeline with per-interval multiplicity.
@@ -72,7 +77,7 @@
 // # 4) Mention parallelism => reuse seconds across tasks; proof sketch via reordering chosen slots.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -95,8 +100,9 @@
 //         return sum(on)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -164,3 +170,4 @@ public:
         return accumulate(on.begin(), on.end(), 0);
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=926 lang=cpp
+ *
+ * [926] Flip String To Monotone Increasing
+ */
 // Translated from 926.flip-string-to-monotone-increasing.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=926 lang=python3
+// # lc-original app=leetcode id=926 lang=python3
 // #
 // # [926] Flip String To Monotone Increasing
 // #
@@ -57,7 +62,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def minFlipsMonoIncr(self, s: str) -> int:
 //         ones_prefix = 0
@@ -74,8 +79,9 @@
 //         return best
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -138,3 +144,4 @@ public:
         return best;
     }
 };
+// @lc code=end

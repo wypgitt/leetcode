@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=793 lang=cpp
+ *
+ * [793] Preimage Size of Factorial Zeroes Function
+ */
 // Translated from 793.preimage-size-of-factorial-zeroes-function.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=793 lang=python3
+// # lc-original app=leetcode id=793 lang=python3
 // #
 // # [793] Preimage Size of Factorial Zeroes Function
 // #
@@ -94,7 +99,7 @@
 // # 5. Discuss time (log k * cost of Z), space O(1), edge cases k=0 and gap k=5.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def preimageSizeFZF(self, k: int) -> int:
 //         def trailing_zeros_factorial(n: int) -> int:
@@ -116,9 +121,10 @@
 //         return 5 if trailing_zeros_factorial(lo) == k else 0
 // 
 // 
-// # @lc code=end
-// 
+// # lc-original code=end
+//
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -188,3 +194,4 @@ public:
         return zeros(lo) == k ? 5 : 0;
     }
 };
+// @lc code=end

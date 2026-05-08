@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3791 lang=cpp
+ *
+ * [3791] Number of Balanced Integers in a Range
+ */
 // Translated from 3791.number-of-balanced-integers-in-a-range.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3791 lang=python3
+// # lc-original app=leetcode id=3791 lang=python3
 // #
 // # [3791] Number of Balanced Integers in a Range
 // #
@@ -78,7 +83,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from functools import lru_cache
 // 
 // 
@@ -353,7 +358,7 @@
 //             return total
 // 
 //         return count_up_to(high) - count_up_to(low - 1)
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -398,6 +403,7 @@
 // 
 //     assert solution.countBalanced(1, 10**15) >= 0
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -479,3 +485,4 @@ public:
         return upTo(high) - upTo(low - 1);
     }
 };
+// @lc code=end

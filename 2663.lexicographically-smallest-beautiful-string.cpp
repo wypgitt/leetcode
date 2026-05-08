@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2663 lang=cpp
+ *
+ * [2663] Lexicographically Smallest Beautiful String
+ */
 // Translated from 2663.lexicographically-smallest-beautiful-string.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2663 lang=python3
+// # lc-original app=leetcode id=2663 lang=python3
 // #
 // # [2663] Lexicographically Smallest Beautiful String
 // #
@@ -75,7 +80,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def smallestBeautifulString(self, s: str, k: int) -> str:
 //         s = list(s)
@@ -104,8 +109,9 @@
 //         return ""
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -182,3 +188,4 @@ public:
         return "";
     }
 };
+// @lc code=end

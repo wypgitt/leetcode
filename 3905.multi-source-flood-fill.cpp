@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3905 lang=cpp
+ *
+ * [3905] Multi Source Flood Fill
+ */
 // Translated from 3905.multi-source-flood-fill.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3905 lang=python3
+// # lc-original app=leetcode id=3905 lang=python3
 // #
 // # [3905] Multi Source Flood Fill
 // #
@@ -174,7 +179,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import deque
 // from typing import List
 // 
@@ -219,8 +224,9 @@
 //         return grid
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -309,3 +315,4 @@ public:
         return grid;
     }
 };
+// @lc code=end

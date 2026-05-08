@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1006 lang=cpp
+ *
+ * [1006] Clumsy Factorial
+ */
 // Translated from 1006.clumsy-factorial.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1006 lang=python3
+// # lc-original app=leetcode id=1006 lang=python3
 // #
 // # [1006] Clumsy Factorial
 // #
@@ -58,7 +63,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def clumsy(self, n: int) -> int:
 //         stk = [n]
@@ -76,8 +81,9 @@
 //         return sum(stk)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -148,3 +154,4 @@ public:
         return accumulate(stk.begin(), stk.end(), 0);
     }
 };
+// @lc code=end

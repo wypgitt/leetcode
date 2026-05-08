@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3785 lang=cpp
+ *
+ * [3785] Minimum Swaps to Avoid Forbidden Values
+ */
 // Translated from 3785.minimum-swaps-to-avoid-forbidden-values.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3785 lang=python3
+// # lc-original app=leetcode id=3785 lang=python3
 // #
 // # [3785] Minimum Swaps to Avoid Forbidden Values
 // #
@@ -101,7 +106,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter, deque
 // from typing import List
 // 
@@ -412,7 +417,7 @@
 //             return 0
 // 
 //         return max((bad_total + 1) // 2, max(bad_count.values()))
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -480,6 +485,7 @@
 //         expected = brute_force_min_swaps(test_nums, test_forbidden)
 //         assert solution.minSwaps(test_nums, test_forbidden) == expected
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -549,3 +555,4 @@ public:
         return max((total + 1) / 2, maxBad);
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3826 lang=cpp
+ *
+ * [3826] Minimum Partition Score
+ */
 // Translated from 3826.minimum-partition-score.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3826 lang=python3
+// # lc-original app=leetcode id=3826 lang=python3
 // #
 // # [3826] Minimum Partition Score
 // #
@@ -258,7 +263,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List, Tuple
 // 
 // 
@@ -318,8 +323,9 @@
 //         return slope * x + intercept
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -404,3 +410,4 @@ public:
         return (prev[n] + pref[n]) / 2;
     }
 };
+// @lc code=end

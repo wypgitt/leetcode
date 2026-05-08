@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3869 lang=cpp
+ *
+ * [3869] Count Fancy Numbers in a Range
+ */
 // Translated from 3869.count-fancy-numbers-in-a-range.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3869 lang=python3
+// # lc-original app=leetcode id=3869 lang=python3
 // #
 // # [3869] Count Fancy Numbers in a Range
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3869 lang=python3
+// # lc-original app=leetcode id=3869 lang=python3
 // #
 // # [3869] Count Fancy Numbers in a Range
 // #
@@ -76,7 +81,7 @@
 // # - Explicit memo dimensions instead of cache_clear if you pass num as tuple key (larger memory).
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from functools import cache
 // 
 // 
@@ -132,8 +137,9 @@
 //         return calc(r) - calc(l - 1)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -219,3 +225,4 @@ public:
         return calc(r) - calc(l - 1);
     }
 };
+// @lc code=end

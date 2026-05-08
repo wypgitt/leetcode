@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2608 lang=cpp
+ *
+ * [2608] Shortest Cycle in a Graph
+ */
 // Translated from 2608.shortest-cycle-in-a-graph.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2608 lang=python3
+// # lc-original app=leetcode id=2608 lang=python3
 // #
 // # [2608] Shortest Cycle in a Graph
 // #
@@ -76,7 +81,7 @@
 // # - Two parallel edges between 0 and 1: cycle length 2.
 // #
 // # LeetCode submission
-// # Put `from typing import List` and `import collections` inside # @lc code=start so submit bundle works.
+// # Put `from typing import List` and `import collections` inside # lc-original code=start so submit bundle works.
 // #
 // # Interview walkthrough
 // # 1) Unweighted shortest cycle -> think BFS distances.
@@ -85,7 +90,7 @@
 // # 4) Complexity O(n(n+m)); mention edge-removal BFS as alternative trade-off.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import collections
 // from typing import List
 // 
@@ -118,8 +123,9 @@
 //         return -1 if ans >= INF else ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -202,3 +208,4 @@ public:
         return ans >= INF ? -1 : ans;
     }
 };
+// @lc code=end

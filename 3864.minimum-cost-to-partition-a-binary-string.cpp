@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3864 lang=cpp
+ *
+ * [3864] Minimum Cost to Partition a Binary String
+ */
 // Translated from 3864.minimum-cost-to-partition-a-binary-string.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3864 lang=python3
+// # lc-original app=leetcode id=3864 lang=python3
 // #
 // # [3864] Minimum Cost to Partition a Binary String
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3864 lang=python3
+// # lc-original app=leetcode id=3864 lang=python3
 // #
 // # [3864] Minimum Cost to Partition a Binary String
 // #
@@ -69,7 +74,7 @@
 // #   variants; not required for this statement’s midpoint-only splits.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def minCost(self, s: str, encCost: int, flatCost: int) -> int:
 //         n = len(s)
@@ -88,8 +93,9 @@
 //         return dfs(0, n)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -159,3 +165,4 @@ public:
         return dfs(0, n);
     }
 };
+// @lc code=end

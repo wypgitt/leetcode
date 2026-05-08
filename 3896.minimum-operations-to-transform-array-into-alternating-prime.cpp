@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3896 lang=cpp
+ *
+ * [3896] Minimum Operations to Transform Array into Alternating Prime
+ */
 // Translated from 3896.minimum-operations-to-transform-array-into-alternating-prime.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3896 lang=python3
+// # lc-original app=leetcode id=3896 lang=python3
 // #
 // # [3896] Minimum Operations to Transform Array into Alternating Prime
 // #
@@ -99,7 +104,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def minOperations(self, nums: list[int]) -> int:
 //         """
@@ -291,8 +296,9 @@
 //                 operations += 2 if value == 2 else 1
 // 
 //         return operations
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -364,3 +370,4 @@ public:
         return ops;
     }
 };
+// @lc code=end

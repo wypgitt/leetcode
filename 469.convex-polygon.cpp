@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=469 lang=cpp
+ *
+ * [469] Convex Polygon
+ */
 // Translated from 469.convex-polygon.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=469 lang=python3
+// # lc-original app=leetcode id=469 lang=python3
 // #
 // # [469] Convex Polygon
 // #
@@ -51,7 +56,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -242,8 +247,9 @@
 //                 return False
 // 
 //         return True
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -310,3 +316,4 @@ public:
         return true;
     }
 };
+// @lc code=end

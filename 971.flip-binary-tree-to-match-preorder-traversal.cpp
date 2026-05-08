@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=971 lang=cpp
+ *
+ * [971] Flip Binary Tree To Match Preorder Traversal
+ */
 // Translated from 971.flip-binary-tree-to-match-preorder-traversal.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=971 lang=python3
+// # lc-original app=leetcode id=971 lang=python3
 // #
 // # [971] Flip Binary Tree To Match Preorder Traversal
 // #
@@ -68,7 +73,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List, Optional
 // 
 // 
@@ -112,8 +117,9 @@
 //         return [-1]
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -186,3 +192,4 @@ public:
         return {-1};
     }
 };
+// @lc code=end

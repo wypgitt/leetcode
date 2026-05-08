@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=156 lang=cpp
+ *
+ * [156] Binary Tree Upside Down
+ */
 // Translated from 156.binary-tree-upside-down.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=156 lang=python3
+// # lc-original app=leetcode id=156 lang=python3
 // #
 // # [156] Binary Tree Upside Down
 // #
@@ -25,7 +30,7 @@
 // #                   original tree); becomes curr’s new left child. For the first
 // #                   node we process, there is no such sibling yet, so None.
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import Optional
 // 
 // # Definition for a binary tree node.
@@ -59,9 +64,10 @@
 //         # Last processed node was the old leftmost node — it is the new root.
 //         return parent
 // 
-// # @lc code=end
-// 
+// # lc-original code=end
+//
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -128,3 +134,4 @@ public:
         return parent;
     }
 };
+// @lc code=end

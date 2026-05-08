@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1157 lang=cpp
+ *
+ * [1157] Online Majority Element In Subarray
+ */
 // Translated from 1157.online-majority-element-in-subarray.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1157 lang=python3
+// # lc-original app=leetcode id=1157 lang=python3
 // #
 // # [1157] Online Majority Element In Subarray
 // #
@@ -75,7 +80,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from bisect import bisect_left, bisect_right
 // from collections import defaultdict
 // from typing import List
@@ -130,8 +135,9 @@
 // # Your MajorityChecker object will be instantiated and called as such:
 // # obj = MajorityChecker(arr)
 // # param_1 = obj.query(left,right,threshold)
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -225,3 +231,4 @@ public:
         return cnt >= threshold ? cand : -1;
     }
 };
+// @lc code=end

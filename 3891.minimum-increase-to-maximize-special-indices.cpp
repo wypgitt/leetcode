@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3891 lang=cpp
+ *
+ * [3891] Minimum Increase to Maximize Special Indices
+ */
 // Translated from 3891.minimum-increase-to-maximize-special-indices.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3891 lang=python3
+// # lc-original app=leetcode id=3891 lang=python3
 // #
 // # [3891] Minimum Increase to Maximize Special Indices
 // #
@@ -97,7 +102,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -339,8 +344,9 @@
 //             take, skip = new_take, new_skip
 // 
 //         return better(take, skip)[1]
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -408,3 +414,4 @@ public:
         return better(take, skip).second;
     }
 };
+// @lc code=end

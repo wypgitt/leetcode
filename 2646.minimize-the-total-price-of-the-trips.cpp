@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2646 lang=cpp
+ *
+ * [2646] Minimize the Total Price of the Trips
+ */
 // Translated from 2646.minimize-the-total-price-of-the-trips.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2646 lang=python3
+// # lc-original app=leetcode id=2646 lang=python3
 // #
 // # [2646] Minimize the Total Price of the Trips
 // #
@@ -60,7 +65,7 @@
 // #   tree to rooted order via stack).
 // #
 // # LeetCode submission
-// # Put `from typing import List` and `functools.lru_cache` inside # @lc code=start.
+// # Put `from typing import List` and `functools.lru_cache` inside # lc-original code=start.
 // #
 // # Interview walkthrough
 // # 1) Separate “how often each node is paid” from “which nodes we halve”.
@@ -68,7 +73,7 @@
 // # 3) Implement freq then DP; discuss faster freq counting if asked.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import functools
 // from typing import List
 // 
@@ -119,8 +124,9 @@
 //         return dfs(0, -1, False)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -206,3 +212,4 @@ public:
         return dfs(0, -1).first;
     }
 };
+// @lc code=end

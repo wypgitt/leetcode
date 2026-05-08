@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=327 lang=cpp
+ *
+ * [327] Count of Range Sum
+ */
 // Translated from 327.count-of-range-sum.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=327 lang=python3
+// # lc-original app=leetcode id=327 lang=python3
 // #
 // # [327] Count of Range Sum
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=327 lang=python3
+// # lc-original app=leetcode id=327 lang=python3
 // #
 // # [327] Count of Range Sum
 // #
@@ -120,7 +125,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -171,8 +176,9 @@
 //         return merge(0, n + 1)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -247,3 +253,4 @@ public:
         return (int)merge(0, pref.size());
     }
 };
+// @lc code=end

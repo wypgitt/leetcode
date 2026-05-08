@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=201 lang=cpp
+ *
+ * [201] Bitwise AND of Numbers Range
+ */
 // Translated from 201.bitwise-and-of-numbers-range.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=201 lang=python3
+// # lc-original app=leetcode id=201 lang=python3
 // #
 // # [201] Bitwise AND of Numbers Range
 // #
@@ -117,7 +122,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def rangeBitwiseAnd(self, left: int, right: int) -> int:
 //         """
@@ -141,8 +146,9 @@
 // #             right &= right - 1
 // #         return right
 // #
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -203,3 +209,4 @@ public:
         return left << shift;
     }
 };
+// @lc code=end

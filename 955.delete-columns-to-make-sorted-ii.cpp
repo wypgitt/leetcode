@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=955 lang=cpp
+ *
+ * [955] Delete Columns To Make Sorted Ii
+ */
 // Translated from 955.delete-columns-to-make-sorted-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=955 lang=python3
+// # lc-original app=leetcode id=955 lang=python3
 // #
 // # [955] Delete Columns To Make Sorted Ii
 // #
@@ -61,7 +66,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -91,8 +96,9 @@
 //         return removed
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -157,3 +163,4 @@ public:
         return removed;
     }
 };
+// @lc code=end

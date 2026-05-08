@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=949 lang=cpp
+ *
+ * [949] Largest Time For Given Digits
+ */
 // Translated from 949.largest-time-for-given-digits.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=949 lang=python3
+// # lc-original app=leetcode id=949 lang=python3
 // #
 // # [949] Largest Time For Given Digits
 // #
@@ -51,7 +56,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from itertools import permutations
 // from typing import List
 // 
@@ -71,8 +76,9 @@
 //         return f"{best // 60:02d}:{best % 60:02d}"
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -137,3 +143,4 @@ public:
         return string(buf);
     }
 };
+// @lc code=end

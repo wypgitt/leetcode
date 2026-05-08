@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=916 lang=cpp
+ *
+ * [916] Word Subsets
+ */
 // Translated from 916.word-subsets.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=916 lang=python3
+// # lc-original app=leetcode id=916 lang=python3
 // #
 // # [916] Word Subsets
 // #
@@ -129,7 +134,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -170,8 +175,9 @@
 //         return True
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -246,3 +252,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

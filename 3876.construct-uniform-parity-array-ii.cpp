@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3876 lang=cpp
+ *
+ * [3876] Construct Uniform Parity Array II
+ */
 // Translated from 3876.construct-uniform-parity-array-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3876 lang=python3
+// # lc-original app=leetcode id=3876 lang=python3
 // #
 // # [3876] Construct Uniform Parity Array II
 // #
@@ -90,7 +95,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def uniformArray(self, nums1: list[int]) -> bool:
 //         """
@@ -318,8 +323,9 @@
 //             return True
 // 
 //         return min_odd < min_even
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -380,3 +386,4 @@ public:
         return minOdd < minEven;
     }
 };
+// @lc code=end

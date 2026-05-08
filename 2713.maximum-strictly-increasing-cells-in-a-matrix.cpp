@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2713 lang=cpp
+ *
+ * [2713] Maximum Strictly Increasing Cells in a Matrix
+ */
 // Translated from 2713.maximum-strictly-increasing-cells-in-a-matrix.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2713 lang=python3
+// # lc-original app=leetcode id=2713 lang=python3
 // #
 // # [2713] Maximum Strictly Increasing Cells in a Matrix
 // #
@@ -69,7 +74,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import defaultdict
 // from typing import List
 // 
@@ -98,8 +103,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -171,3 +177,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

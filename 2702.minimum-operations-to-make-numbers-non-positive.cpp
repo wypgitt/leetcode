@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2702 lang=cpp
+ *
+ * [2702] Minimum Operations to Make Numbers Non-positive
+ */
 // Translated from 2702.minimum-operations-to-make-numbers-non-positive.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2702 lang=python3
+// # lc-original app=leetcode id=2702 lang=python3
 // #
 // # [2702] Minimum Operations to Make Numbers Non-positive
 // #
@@ -71,7 +76,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -99,8 +104,9 @@
 //         return l
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -173,3 +179,4 @@ public:
         return (int)lo;
     }
 };
+// @lc code=end

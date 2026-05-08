@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2613 lang=cpp
+ *
+ * [2613] Beautiful Pairs
+ */
 // Translated from 2613.beautiful-pairs.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2613 lang=python3
+// # lc-original app=leetcode id=2613 lang=python3
 // #
 // # [2613] Beautiful Pairs
 // #
@@ -61,7 +66,7 @@
 // # - Randomized incremental would be unusual here; DC remains the textbook answer.
 // #
 // # LeetCode submission
-// # Import inside # @lc code=start so List / defaultdict are defined on submit.
+// # Import inside # lc-original code=start so List / defaultdict are defined on submit.
 // #
 // # Interview walkthrough
 // # 1) Map indices to points; note Manhattan = L1 metric.
@@ -70,7 +75,7 @@
 // # 4) Tie-break on equal distance with lex order on (i, j).
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import defaultdict
 // from typing import List, Optional, Tuple
 // 
@@ -134,8 +139,9 @@
 //         return [pi, pj]
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -231,3 +237,4 @@ public:
         return {i, j};
     }
 };
+// @lc code=end

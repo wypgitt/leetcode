@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3850 lang=cpp
+ *
+ * [3850] Count Sequences to K
+ */
 // Translated from 3850.count-sequences-to-k.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3850 lang=python3
+// # lc-original app=leetcode id=3850 lang=python3
 // #
 // # [3850] Count Sequences to K
 // #
@@ -239,7 +244,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter
 // from typing import List, Tuple
 // 
@@ -286,8 +291,9 @@
 //         return exponents[0], exponents[1], exponents[2]
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -375,3 +381,4 @@ public:
         return dp[target];
     }
 };
+// @lc code=end

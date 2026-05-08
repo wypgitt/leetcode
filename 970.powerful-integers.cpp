@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=970 lang=cpp
+ *
+ * [970] Powerful Integers
+ */
 // Translated from 970.powerful-integers.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=970 lang=python3
+// # lc-original app=leetcode id=970 lang=python3
 // #
 // # [970] Powerful Integers
 // #
@@ -60,7 +65,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -86,8 +91,9 @@
 //         return list(seen)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -156,3 +162,4 @@ public:
         return vector<int>(seen.begin(), seen.end());
     }
 };
+// @lc code=end

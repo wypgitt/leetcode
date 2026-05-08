@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3816 lang=cpp
+ *
+ * [3816] Lexicographically Smallest String After Deleting Duplicate Characters
+ */
 // Translated from 3816.lexicographically-smallest-string-after-deleting-duplicate-characters.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3816 lang=python3
+// # lc-original app=leetcode id=3816 lang=python3
 // #
 // # [3816] Lexicographically Smallest String After Deleting Duplicate Characters
 // #
@@ -248,7 +253,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def lexSmallestAfterDeletion(self, s: str) -> str:
 //         positions = [[] for _ in range(26)]
@@ -292,8 +297,9 @@
 //         return True
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -378,3 +384,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1088 lang=cpp
+ *
+ * [1088] Confusing Number II
+ */
 // Translated from 1088.confusing-number-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1088 lang=python3
+// # lc-original app=leetcode id=1088 lang=python3
 // #
 // # [1088] Confusing Number II
 // #
@@ -58,7 +63,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def confusingNumberII(self, n: int) -> int:
 //         # rot[d] = image of digit d after 180° rotation; -1 means invalid in any confusing number
@@ -90,8 +95,9 @@
 //         return dfs(0, True, 0)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -167,3 +173,4 @@ public:
         return dfs(0, true, 0);
     }
 };
+// @lc code=end

@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3883 lang=cpp
+ *
+ * [3883] Count Non-decreasing Arrays With Given Digit Sums
+ */
 // Translated from 3883.count-non-decreasing-arrays-with-given-digit-sums.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3883 lang=python3
+// # lc-original app=leetcode id=3883 lang=python3
 // #
 // # [3883] Count Non-decreasing Arrays With Given Digit Sums
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3883 lang=python3
+// # lc-original app=leetcode id=3883 lang=python3
 // #
 // # [3883] Count Non Decreasing Arrays With Given Digit Sums
 // #
@@ -78,7 +83,7 @@
 // # 3) Modular arithmetic end-to-end.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // MOD = 10**9 + 7
 // MAXV = 5000
 // 
@@ -120,8 +125,9 @@
 //         return sum(prev) % MOD
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -203,3 +209,4 @@ public:
         return accumulate(prev.begin(), prev.end(), 0LL) % MOD;
     }
 };
+// @lc code=end

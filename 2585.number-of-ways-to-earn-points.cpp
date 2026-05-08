@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2585 lang=cpp
+ *
+ * [2585] Number of Ways to Earn Points
+ */
 // Translated from 2585.number-of-ways-to-earn-points.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2585 lang=python3
+// # lc-original app=leetcode id=2585 lang=python3
 // #
 // # [2585] Number of Ways to Earn Points
 // #
@@ -58,7 +63,7 @@
 // # Modulo arithmetic
 // # Every addition uses % MOD to prevent overflow and match required modulus.
 // # Implementation detail: define MOD inside waysToReachTarget — LeetCode only submits code between
-// # @lc code=start/end, so a module-level MOD would be stripped and cause NameError on submit.
+// # lc-original code=start/end, so a module-level MOD would be stripped and cause NameError on submit.
 // #
 // # Edge cases
 // # - target == 0: exactly one way — choose no questions from every type (dp[0] stays 1).
@@ -86,7 +91,7 @@
 // 
 // from typing import List
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def waysToReachTarget(self, target: int, types: List[List[int]]) -> int:
 //         MOD = 1_000_000_007
@@ -104,8 +109,9 @@
 //         return prev[target] % MOD
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -173,3 +179,4 @@ public:
         return prev[target];
     }
 };
+// @lc code=end

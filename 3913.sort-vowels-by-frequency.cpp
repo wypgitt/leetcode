@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3913 lang=cpp
+ *
+ * [3913] Sort Vowels by Frequency
+ */
 // Translated from 3913.sort-vowels-by-frequency.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3913 lang=python3
+// # lc-original app=leetcode id=3913 lang=python3
 // #
 // # [3913] Sort Vowels by Frequency
 // #
@@ -175,7 +180,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter
 // 
 // 
@@ -206,8 +211,9 @@
 //         return "".join(chars)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -278,3 +284,4 @@ public:
         return s;
     }
 };
+// @lc code=end

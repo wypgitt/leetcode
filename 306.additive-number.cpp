@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=306 lang=cpp
+ *
+ * [306] Additive Number
+ */
 // Translated from 306.additive-number.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=306 lang=python3
+// # lc-original app=leetcode id=306 lang=python3
 // #
 // # [306] Additive Number
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=306 lang=python3
+// # lc-original app=leetcode id=306 lang=python3
 // #
 // # [306] Additive Number
 // #
@@ -96,7 +101,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def isAdditiveNumber(self, num: str) -> bool:
 //         """
@@ -135,8 +140,9 @@
 //         return False
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -224,3 +230,4 @@ public:
         return res;
     }
 };
+// @lc code=end

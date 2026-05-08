@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=910 lang=cpp
+ *
+ * [910] Smallest Range II
+ */
 // Translated from 910.smallest-range-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=910 lang=python3
+// # lc-original app=leetcode id=910 lang=python3
 // #
 // # [910] Smallest Range II
 // #
@@ -121,7 +126,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -148,8 +153,9 @@
 //         return best
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -213,3 +219,4 @@ public:
         return best;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=950 lang=cpp
+ *
+ * [950] Reveal Cards In Increasing Order
+ */
 // Translated from 950.reveal-cards-in-increasing-order.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=950 lang=python3
+// # lc-original app=leetcode id=950 lang=python3
 // #
 // # [950] Reveal Cards In Increasing Order
 // #
@@ -55,7 +60,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import deque
 // from typing import List
 // 
@@ -73,8 +78,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -142,3 +148,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

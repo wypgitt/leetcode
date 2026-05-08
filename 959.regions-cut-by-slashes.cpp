@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=959 lang=cpp
+ *
+ * [959] Regions Cut By Slashes
+ */
 // Translated from 959.regions-cut-by-slashes.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=959 lang=python3
+// # lc-original app=leetcode id=959 lang=python3
 // #
 // # [959] Regions Cut By Slashes
 // #
@@ -69,7 +74,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -118,8 +123,9 @@
 //         return len(roots)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -198,3 +204,4 @@ public:
         return roots.size();
     }
 };
+// @lc code=end

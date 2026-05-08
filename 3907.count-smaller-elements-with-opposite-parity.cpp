@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3907 lang=cpp
+ *
+ * [3907] Count Smaller Elements With Opposite Parity
+ */
 // Translated from 3907.count-smaller-elements-with-opposite-parity.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3907 lang=python3
+// # lc-original app=leetcode id=3907 lang=python3
 // #
 // # [3907] Count Smaller Elements With Opposite Parity
 // #
@@ -176,7 +181,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -220,8 +225,9 @@
 //         return answer
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -299,3 +305,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

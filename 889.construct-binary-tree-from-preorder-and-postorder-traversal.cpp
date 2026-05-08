@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=889 lang=cpp
+ *
+ * [889] Construct Binary Tree from Preorder and Postorder Traversal
+ */
 // Translated from 889.construct-binary-tree-from-preorder-and-postorder-traversal.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=889 lang=python3
+// # lc-original app=leetcode id=889 lang=python3
 // #
 // # [889] Construct Binary Tree from Preorder and Postorder Traversal
 // #
@@ -115,7 +120,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import Dict, List, Optional
 // 
 // 
@@ -159,8 +164,9 @@
 //         return build(0, n - 1, 0, n - 1)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -228,3 +234,4 @@ public:
         return build(0, n - 1, 0, n - 1);
     }
 };
+// @lc code=end

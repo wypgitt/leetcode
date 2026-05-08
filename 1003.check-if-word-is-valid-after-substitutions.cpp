@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1003 lang=cpp
+ *
+ * [1003] Check If Word Is Valid After Substitutions
+ */
 // Translated from 1003.check-if-word-is-valid-after-substitutions.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1003 lang=python3
+// # lc-original app=leetcode id=1003 lang=python3
 // #
 // # [1003] Check If Word Is Valid After Substitutions
 // #
@@ -54,7 +59,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def isValid(self, s: str) -> bool:
 //         if len(s) % 3:
@@ -69,8 +74,9 @@
 //         return len(st) == 0
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -135,3 +141,4 @@ public:
         return st.empty();
     }
 };
+// @lc code=end

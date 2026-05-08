@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3836 lang=cpp
+ *
+ * [3836] Maximum Score Using Exactly K Pairs
+ */
 // Translated from 3836.maximum-score-using-exactly-k-pairs.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3836 lang=python3
+// # lc-original app=leetcode id=3836 lang=python3
 // #
 // # [3836] Maximum Score Using Exactly K Pairs
 // #
@@ -220,7 +225,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -250,8 +255,9 @@
 //         return prev[n][m]
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -319,3 +325,4 @@ public:
         return prev[n][m];
     }
 };
+// @lc code=end

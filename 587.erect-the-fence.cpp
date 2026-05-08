@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=587 lang=cpp
+ *
+ * [587] Erect the Fence
+ */
 // Translated from 587.erect-the-fence.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=587 lang=python3
+// # lc-original app=leetcode id=587 lang=python3
 // #
 // # [587] Erect the Fence
 // #
@@ -54,7 +59,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -247,8 +252,9 @@
 // 
 //         boundary = set(lower) | set(upper)
 //         return [list(point) for point in boundary]
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -329,3 +335,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

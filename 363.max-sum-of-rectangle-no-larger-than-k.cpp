@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=363 lang=cpp
+ *
+ * [363] Max Sum of Rectangle No Larger Than K
+ */
 // Translated from 363.max-sum-of-rectangle-no-larger-than-k.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=363 lang=python3
+// # lc-original app=leetcode id=363 lang=python3
 // #
 // # [363] Max Sum of Rectangle No Larger Than K
 // #
@@ -55,7 +60,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from bisect import bisect_left
 // from typing import List
 // 
@@ -366,7 +371,7 @@
 //                         return k
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -425,6 +430,7 @@
 //         expected = brute_force_max_sum_submatrix(test_matrix, test_k)
 //         assert solution.maxSumSubmatrix(test_matrix, test_k) == expected
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -563,3 +569,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

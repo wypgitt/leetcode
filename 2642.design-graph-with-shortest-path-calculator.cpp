@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2642 lang=cpp
+ *
+ * [2642] Design Graph With Shortest Path Calculator
+ */
 // Translated from 2642.design-graph-with-shortest-path-calculator.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2642 lang=python3
+// # lc-original app=leetcode id=2642 lang=python3
 // #
 // # [2642] Design Graph With Shortest Path Calculator
 // #
@@ -54,7 +59,7 @@
 // # - Early exit: break when popped node == node2 (optional micro-optimization).
 // #
 // # LeetCode submission
-// # Put imports (`heapq`, `math`, `typing.List`) inside # @lc code=start.
+// # Put imports (`heapq`, `math`, `typing.List`) inside # lc-original code=start.
 // #
 // # Interview walkthrough
 // # 1) Dynamic graph + shortest path queries -> incremental APSP vs on-demand SSSP.
@@ -63,7 +68,7 @@
 // # 4) Mention Floyd trade-off when interview asks for faster queries at small n.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import heapq
 // import math
 // from typing import List
@@ -104,8 +109,9 @@
 // # obj = Graph(n, edges)
 // # obj.addEdge(edge)
 // # param_2 = obj.shortestPath(node1,node2)
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -189,3 +195,4 @@ public:
         return -1;
     }
 };
+// @lc code=end

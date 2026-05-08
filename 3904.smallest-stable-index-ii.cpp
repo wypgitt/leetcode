@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3904 lang=cpp
+ *
+ * [3904] Smallest Stable Index II
+ */
 // Translated from 3904.smallest-stable-index-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3904 lang=python3
+// # lc-original app=leetcode id=3904 lang=python3
 // #
 // # [3904] Smallest Stable Index II
 // #
@@ -154,7 +159,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -176,8 +181,9 @@
 //         return -1
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -241,3 +247,4 @@ public:
         return -1;
     }
 };
+// @lc code=end

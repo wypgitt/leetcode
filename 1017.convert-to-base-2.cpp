@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1017 lang=cpp
+ *
+ * [1017] Convert To Base -2
+ */
 // Translated from 1017.convert-to-base-2.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1017 lang=python3
+// # lc-original app=leetcode id=1017 lang=python3
 // #
 // # [1017] Convert To Base -2
 // #
@@ -54,7 +59,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def baseNeg2(self, n: int) -> str:
 //         if n == 0:
@@ -69,8 +74,9 @@
 //         return "".join(reversed(digits))
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -133,3 +139,4 @@ public:
         return digits;
     }
 };
+// @lc code=end

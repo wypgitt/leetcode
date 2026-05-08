@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1163 lang=cpp
+ *
+ * [1163] Last Substring In Lexicographical Order
+ */
 // Translated from 1163.last-substring-in-lexicographical-order.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1163 lang=python3
+// # lc-original app=leetcode id=1163 lang=python3
 // #
 // # [1163] Last Substring In Lexicographical Order
 // #
@@ -68,7 +73,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def lastSubstring(self, s: str) -> str:
 //         i, j, k, n = 0, 1, 0, len(s)
@@ -85,8 +90,9 @@
 //         return s[i:]
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -153,3 +159,4 @@ public:
         return s.substr(i);
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=866 lang=cpp
+ *
+ * [866] Prime Palindrome
+ */
 // Translated from 866.prime-palindrome.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=866 lang=python3
+// # lc-original app=leetcode id=866 lang=python3
 // #
 // # [866] Prime Palindrome
 // #
@@ -113,7 +118,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def primePalindrome(self, n: int) -> int:
 //         """
@@ -161,8 +166,9 @@
 //             L += 2
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -243,3 +249,4 @@ public:
         }
     }
 };
+// @lc code=end

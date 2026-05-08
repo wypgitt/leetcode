@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3860 lang=cpp
+ *
+ * [3860] Unique Email Groups
+ */
 // Translated from 3860.unique-email-groups.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3860 lang=python3
+// # lc-original app=leetcode id=3860 lang=python3
 // #
 // # [3860] Unique Email Groups
 // #
@@ -224,7 +229,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def uniqueEmailGroups(self, emails: list[str]) -> int:
 //         """
@@ -394,8 +399,9 @@
 //             normalized_emails.add(local + "@" + domain)
 // 
 //         return len(normalized_emails)
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -461,3 +467,4 @@ public:
         return seen.size();
     }
 };
+// @lc code=end

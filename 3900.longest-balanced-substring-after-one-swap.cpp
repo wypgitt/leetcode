@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3900 lang=cpp
+ *
+ * [3900] Longest Balanced Substring After One Swap
+ */
 // Translated from 3900.longest-balanced-substring-after-one-swap.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3900 lang=python3
+// # lc-original app=leetcode id=3900 lang=python3
 // #
 // # [3900] Longest Balanced Substring After One Swap
 // #
@@ -236,7 +241,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from bisect import bisect_left
 // from collections import defaultdict
 // 
@@ -303,8 +308,9 @@
 //         return 0
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -390,3 +396,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3845 lang=cpp
+ *
+ * [3845] Maximum Subarray XOR with Bounded Range
+ */
 // Translated from 3845.maximum-subarray-xor-with-bounded-range.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3845 lang=python3
+// # lc-original app=leetcode id=3845 lang=python3
 // #
 // # [3845] Maximum Subarray XOR with Bounded Range
 // #
@@ -233,7 +238,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import deque
 // from typing import List
 // 
@@ -321,8 +326,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -442,3 +448,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

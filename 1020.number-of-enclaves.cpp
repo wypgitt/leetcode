@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1020 lang=cpp
+ *
+ * [1020] Number Of Enclaves
+ */
 // Translated from 1020.number-of-enclaves.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1020 lang=python3
+// # lc-original app=leetcode id=1020 lang=python3
 // #
 // # [1020] Number Of Enclaves
 // #
@@ -48,7 +53,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import deque
 // from typing import List
 // 
@@ -75,8 +80,9 @@
 //         return sum(sum(row) for row in grid)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -155,3 +161,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

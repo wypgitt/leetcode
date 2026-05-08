@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=527 lang=cpp
+ *
+ * [527] Word Abbreviation
+ */
 // Translated from 527.word-abbreviation.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=527 lang=python3
+// # lc-original app=leetcode id=527 lang=python3
 // #
 // # [527] Word Abbreviation
 // #
@@ -63,7 +68,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import defaultdict
 // from typing import List
 // 
@@ -288,8 +293,9 @@
 //                 break
 // 
 //         return [abbreviate(word, prefix_lengths[index]) for index, word in enumerate(words)]
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -364,3 +370,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

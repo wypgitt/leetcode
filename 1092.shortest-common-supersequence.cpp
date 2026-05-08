@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1092 lang=cpp
+ *
+ * [1092] Shortest Common Supersequence
+ */
 // Translated from 1092.shortest-common-supersequence.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1092 lang=python3
+// # lc-original app=leetcode id=1092 lang=python3
 // #
 // # [1092] Shortest Common Supersequence
 // #
@@ -61,7 +66,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def shortestCommonSupersequence(self, str1: str, str2: str) -> str:
 //         m, n = len(str1), len(str2)
@@ -96,8 +101,9 @@
 //         return "".join(ans[::-1])
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -174,3 +180,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

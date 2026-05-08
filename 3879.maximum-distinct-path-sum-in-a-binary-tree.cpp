@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3879 lang=cpp
+ *
+ * [3879] Maximum Distinct Path Sum in a Binary Tree
+ */
 // Translated from 3879.maximum-distinct-path-sum-in-a-binary-tree.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3879 lang=python3
+// # lc-original app=leetcode id=3879 lang=python3
 // #
 // # [3879] Maximum Distinct Path Sum in a Binary Tree
 // #
@@ -92,7 +97,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import Optional
 // 
 // 
@@ -343,8 +348,9 @@
 //             dfs(start, -1, values[start], {values[start]})
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -443,3 +449,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

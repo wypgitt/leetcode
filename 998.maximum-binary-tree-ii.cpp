@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=998 lang=cpp
+ *
+ * [998] Maximum Binary Tree Ii
+ */
 // Translated from 998.maximum-binary-tree-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=998 lang=python3
+// # lc-original app=leetcode id=998 lang=python3
 // #
 // # [998] Maximum Binary Tree Ii
 // #
@@ -55,7 +60,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import Optional
 // 
 // 
@@ -73,8 +78,9 @@
 //         return root
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -131,3 +137,4 @@ public:
         return root;
     }
 };
+// @lc code=end

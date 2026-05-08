@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=656 lang=cpp
+ *
+ * [656] Coin Path
+ */
 // Translated from 656.coin-path.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=656 lang=python3
+// # lc-original app=leetcode id=656 lang=python3
 // #
 // # [656] Coin Path
 // #
@@ -53,7 +58,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -294,8 +299,9 @@
 //             index = next_index[index]
 // 
 //         return path
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -372,3 +378,4 @@ public:
         return path;
     }
 };
+// @lc code=end

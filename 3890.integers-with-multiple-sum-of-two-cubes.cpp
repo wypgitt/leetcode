@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3890 lang=cpp
+ *
+ * [3890] Integers With Multiple Sum of Two Cubes
+ */
 // Translated from 3890.integers-with-multiple-sum-of-two-cubes.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3890 lang=python3
+// # lc-original app=leetcode id=3890 lang=python3
 // #
 // # [3890] Integers With Multiple Sum of Two Cubes
 // #
@@ -71,7 +76,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def findGoodIntegers(self, n: int) -> list[int]:
 //         """
@@ -286,8 +291,9 @@
 //                 sum_to_count[total] = sum_to_count.get(total, 0) + 1
 // 
 //         return sorted(total for total, count in sum_to_count.items() if count >= 2)
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -356,3 +362,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

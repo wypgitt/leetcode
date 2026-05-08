@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1014 lang=cpp
+ *
+ * [1014] Best Sightseeing Pair
+ */
 // Translated from 1014.best-sightseeing-pair.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1014 lang=python3
+// # lc-original app=leetcode id=1014 lang=python3
 // #
 // # [1014] Best Sightseeing Pair
 // #
@@ -50,7 +55,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -64,8 +69,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -125,3 +131,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

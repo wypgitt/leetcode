@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=294 lang=cpp
+ *
+ * [294] Flip Game II
+ */
 // Translated from 294.flip-game-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=294 lang=python3
+// # lc-original app=leetcode id=294 lang=python3
 // #
 // # [294] Flip Game II
 // #
@@ -83,7 +88,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from functools import lru_cache
 // 
 // 
@@ -112,8 +117,9 @@
 //         return can_win(currentState)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -183,3 +189,4 @@ public:
         return canWinState(currentState);
     }
 };
+// @lc code=end

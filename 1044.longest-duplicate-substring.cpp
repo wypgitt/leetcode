@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1044 lang=cpp
+ *
+ * [1044] Longest Duplicate Substring
+ */
 // Translated from 1044.longest-duplicate-substring.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1044 lang=python3
+// # lc-original app=leetcode id=1044 lang=python3
 // #
 // # [1044] Longest Duplicate Substring
 // #
@@ -59,7 +64,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def longestDupSubstring(self, s: str) -> str:
 //         n = len(s)
@@ -107,8 +112,9 @@
 //         return best
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -202,3 +208,4 @@ public:
         return best;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=994 lang=cpp
+ *
+ * [994] Rotting Oranges
+ */
 // Translated from 994.rotting-oranges.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=994 lang=python3
+// # lc-original app=leetcode id=994 lang=python3
 // #
 // # [994] Rotting Oranges
 // #
@@ -55,7 +60,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import deque
 // from typing import List
 // 
@@ -92,8 +97,9 @@
 //         return ans if fresh == 0 else -1
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -173,3 +179,4 @@ public:
         return fresh == 0 ? ans : -1;
     }
 };
+// @lc code=end

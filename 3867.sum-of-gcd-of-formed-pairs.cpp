@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3867 lang=cpp
+ *
+ * [3867] Sum of GCD of Formed Pairs
+ */
 // Translated from 3867.sum-of-gcd-of-formed-pairs.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3867 lang=python3
+// # lc-original app=leetcode id=3867 lang=python3
 // #
 // # [3867] Sum of GCD of Formed Pairs
 // #
@@ -150,7 +155,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from math import gcd
 // 
 // 
@@ -385,8 +390,9 @@
 //             right -= 1
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -450,3 +456,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

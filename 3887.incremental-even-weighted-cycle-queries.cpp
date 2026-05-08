@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3887 lang=cpp
+ *
+ * [3887] Incremental Even Weighted Cycle Queries
+ */
 // Translated from 3887.incremental-even-weighted-cycle-queries.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3887 lang=python3
+// # lc-original app=leetcode id=3887 lang=python3
 // #
 // # [3887] Incremental Even Weighted Cycle Queries
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3887 lang=python3
+// # lc-original app=leetcode id=3887 lang=python3
 // #
 // # [3887] Incremental Even-Weighted Cycle Queries
 // #
@@ -86,7 +91,7 @@
 // # 3) Complexity nearly linear.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class DSU:
 //     """Disjoint-set union with XOR parity to root (GF(2) potentials)."""
 // 
@@ -124,8 +129,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -206,3 +212,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

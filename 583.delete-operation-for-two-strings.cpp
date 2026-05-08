@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=583 lang=cpp
+ *
+ * [583] Delete Operation for Two Strings
+ */
 // Translated from 583.delete-operation-for-two-strings.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=583 lang=python3
+// # lc-original app=leetcode id=583 lang=python3
 // #
 // # [583] Delete Operation for Two Strings
 // #
@@ -47,7 +52,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def minDistance(self, word1: str, word2: str) -> int:
 //         """
@@ -257,8 +262,9 @@
 // 
 //         lcs_length = dp[-1]
 //         return len(word1) + len(word2) - 2 * lcs_length
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -325,3 +331,4 @@ public:
         return word1.size() + word2.size() - 2 * lcs;
     }
 };
+// @lc code=end

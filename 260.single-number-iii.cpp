@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=260 lang=cpp
+ *
+ * [260] Single Number III
+ */
 // Translated from 260.single-number-iii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=260 lang=python3
+// # lc-original app=leetcode id=260 lang=python3
 // #
 // # [260] Single Number III
 // #
@@ -88,7 +93,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -117,8 +122,9 @@
 //         return sorted([a, b])
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -183,3 +189,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

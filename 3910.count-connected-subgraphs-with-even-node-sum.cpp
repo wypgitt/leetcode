@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3910 lang=cpp
+ *
+ * [3910] Count Connected Subgraphs With Even Node Sum
+ */
 // Translated from 3910.count-connected-subgraphs-with-even-node-sum.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3910 lang=python3
+// # lc-original app=leetcode id=3910 lang=python3
 // #
 // # [3910] Count Connected Subgraphs With Even Node Sum
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3910 lang=python3
+// # lc-original app=leetcode id=3910 lang=python3
 // #
 // # [3910] Count Connected Subgraphs with Even Node Sum
 // #
@@ -103,7 +108,7 @@
 // # 4) Complexity O(2^n * (n+m)) time, O(n+m) space.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def evenSumSubgraphs(self, nums: list[int], edges: list[list[int]]) -> int:
 //         n = len(nums)
@@ -135,8 +140,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -210,3 +216,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

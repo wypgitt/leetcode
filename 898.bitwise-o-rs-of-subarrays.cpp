@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=898 lang=cpp
+ *
+ * [898] Bitwise ORs of Subarrays
+ */
 // Translated from 898.bitwise-o-rs-of-subarrays.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=898 lang=python3
+// # lc-original app=leetcode id=898 lang=python3
 // #
 // # [898] Bitwise ORs of Subarrays
 // #
@@ -118,7 +123,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List, Set
 // 
 // 
@@ -140,8 +145,9 @@
 //         return len(ans)
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -203,3 +209,4 @@ public:
         return ans.size();
     }
 };
+// @lc code=end

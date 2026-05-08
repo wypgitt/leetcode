@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3893 lang=cpp
+ *
+ * [3893] Maximum Team Size with Overlapping Intervals
+ */
 // Translated from 3893.maximum-team-size-with-overlapping-intervals.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3893 lang=python3
+// # lc-original app=leetcode id=3893 lang=python3
 // #
 // # [3893] Maximum Team Size with Overlapping Intervals
 // #
@@ -94,7 +99,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from bisect import bisect_left, bisect_right
 // 
 // 
@@ -305,8 +310,9 @@
 //             best = max(best, started_by_end - ended_before_start)
 // 
 //         return best
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -370,3 +376,4 @@ public:
         return best;
     }
 };
+// @lc code=end

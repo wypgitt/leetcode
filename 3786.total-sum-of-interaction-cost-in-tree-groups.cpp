@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3786 lang=cpp
+ *
+ * [3786] Total Sum of Interaction Cost in Tree Groups
+ */
 // Translated from 3786.total-sum-of-interaction-cost-in-tree-groups.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3786 lang=python3
+// # lc-original app=leetcode id=3786 lang=python3
 // #
 // # [3786] Total Sum of Interaction Cost in Tree Groups
 // #
@@ -122,7 +127,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import deque
 // from typing import List
 // 
@@ -381,7 +386,7 @@
 //                     parent_counts[label] += counts[label]
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -443,6 +448,7 @@
 //         expected = brute_force_interaction_costs(test_n, test_edges, test_group)
 //         assert solution.interactionCosts(test_n, test_edges, test_group) == expected
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -520,3 +526,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

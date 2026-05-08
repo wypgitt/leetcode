@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1187 lang=cpp
+ *
+ * [1187] Make Array Strictly Increasing
+ */
 // Translated from 1187.make-array-strictly-increasing.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1187 lang=python3
+// # lc-original app=leetcode id=1187 lang=python3
 // #
 // # [1187] Make Array Strictly Increasing
 // #
@@ -70,7 +75,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import bisect
 // from typing import List
 // 
@@ -102,8 +107,9 @@
 //         return min(dp.values())
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -179,3 +185,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1010 lang=cpp
+ *
+ * [1010] Pairs Of Songs With Total Durations Divisible By 60
+ */
 // Translated from 1010.pairs-of-songs-with-total-durations-divisible-by-60.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1010 lang=python3
+// # lc-original app=leetcode id=1010 lang=python3
 // #
 // # [1010] Pairs Of Songs With Total Durations Divisible By 60
 // #
@@ -51,7 +56,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -66,8 +71,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -129,3 +135,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

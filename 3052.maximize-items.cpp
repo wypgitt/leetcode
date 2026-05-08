@@ -1,19 +1,25 @@
+/*
+ * @lc app=leetcode id=3052 lang=cpp
+ *
+ * [3052] Maximize Items
+ */
 // Translated from 3052.maximize-items.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3052 lang=python3
+// # lc-original app=leetcode id=3052 lang=python3
 // #
 // # [3052] Maximize Items
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
-// 
+// # lc-original code=end
+//
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -66,3 +72,4 @@ class Solution {
 public:
     // The Python source only contains `pass`, so there is no algorithmic method to translate.
 };
+// @lc code=end

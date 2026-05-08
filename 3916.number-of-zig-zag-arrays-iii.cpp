@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3916 lang=cpp
+ *
+ * [3916] Number of ZigZag Arrays III
+ */
 // Translated from 3916.number-of-zig-zag-arrays-iii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3916 lang=python3
+// # lc-original app=leetcode id=3916 lang=python3
 // #
 // # [3916] Number of ZigZag Arrays III
 // #
@@ -262,7 +267,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -319,8 +324,9 @@
 //         return out
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -404,3 +410,4 @@ public:
         return 2 * moments[0] % MOD;
     }
 };
+// @lc code=end

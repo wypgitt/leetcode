@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3897 lang=cpp
+ *
+ * [3897] Maximum Value of Concatenated Binary Segments
+ */
 // Translated from 3897.maximum-value-of-concatenated-binary-segments.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3897 lang=python3
+// # lc-original app=leetcode id=3897 lang=python3
 // #
 // # [3897] Maximum Value of Concatenated Binary Segments
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3897 lang=python3
+// # lc-original app=leetcode id=3897 lang=python3
 // #
 // # [3897] Maximum Value of Concatenated Binary Segments
 // #
@@ -95,7 +100,7 @@
 // # 4) State O(n log n + m) time, O(n + m) space, modulo.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def maxValue(self, nums1: list[int], nums0: list[int]) -> int:
 //         MOD = 10**9 + 7
@@ -127,8 +132,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -207,3 +213,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

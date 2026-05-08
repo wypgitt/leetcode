@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2732 lang=cpp
+ *
+ * [2732] Find a Good Subset of the Matrix
+ */
 // Translated from 2732.find-a-good-subset-of-the-matrix.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2732 lang=python3
+// # lc-original app=leetcode id=2732 lang=python3
 // #
 // # [2732] Find a Good Subset of the Matrix
 // #
@@ -63,7 +68,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -86,8 +91,9 @@
 //         return []
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -153,3 +159,4 @@ public:
         return {};
     }
 };
+// @lc code=end

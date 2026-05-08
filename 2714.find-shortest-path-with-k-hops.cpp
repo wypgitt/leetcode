@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2714 lang=cpp
+ *
+ * [2714] Find Shortest Path with K Hops
+ */
 // Translated from 2714.find-shortest-path-with-k-hops.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2714 lang=python3
+// # lc-original app=leetcode id=2714 lang=python3
 // #
 // # [2714] Find Shortest Path with K Hops
 // #
@@ -64,7 +69,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // import heapq
 // from typing import List
 // 
@@ -99,8 +104,9 @@
 //         return min(dist[d])
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -181,3 +187,4 @@ public:
         return (int)*min_element(dist[d].begin(), dist[d].end());
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3865 lang=cpp
+ *
+ * [3865] Reverse K Subarrays
+ */
 // Translated from 3865.reverse-k-subarrays.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3865 lang=python3
+// # lc-original app=leetcode id=3865 lang=python3
 // #
 // # [3865] Reverse K Subarrays
 // #
@@ -69,7 +74,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def reverseSubarrays(self, nums: list[int], k: int) -> list[int]:
 //         """
@@ -219,8 +224,9 @@
 //             result.extend(nums[start:end][::-1])
 // 
 //         return result
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -282,3 +288,4 @@ public:
         return res;
     }
 };
+// @lc code=end

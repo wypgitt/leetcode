@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1074 lang=cpp
+ *
+ * [1074] Number of Submatrices That Sum to Target
+ */
 // Translated from 1074.number-of-submatrices-that-sum-to-target.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1074 lang=python3
+// # lc-original app=leetcode id=1074 lang=python3
 // #
 // # [1074] Number of Submatrices That Sum to Target
 // #
@@ -59,7 +64,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import defaultdict
 // from typing import List
 // 
@@ -87,8 +92,9 @@
 //         return ans
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -162,3 +168,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1016 lang=cpp
+ *
+ * [1016] Binary String With Substrings Representing 1 To N
+ */
 // Translated from 1016.binary-string-with-substrings-representing-1-to-n.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1016 lang=python3
+// # lc-original app=leetcode id=1016 lang=python3
 // #
 // # [1016] Binary String With Substrings Representing 1 To N
 // #
@@ -51,7 +56,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def queryString(self, s: str, n: int) -> bool:
 //         for x in range(n // 2 + 1, n + 1):
@@ -60,8 +65,9 @@
 //         return True
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -129,3 +135,4 @@ public:
         return true;
     }
 };
+// @lc code=end

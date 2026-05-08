@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3797 lang=cpp
+ *
+ * [3797] Count Routes to Climb a Rectangular Grid
+ */
 // Translated from 3797.count-routes-to-climb-a-rectangular-grid.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3797 lang=python3
+// # lc-original app=leetcode id=3797 lang=python3
 // #
 // # [3797] Count Routes to Climb a Rectangular Grid
 // #
@@ -152,7 +157,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from math import isqrt
 // from typing import List
 // 
@@ -416,7 +421,7 @@
 //             )
 // 
 //         return 0
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -484,6 +489,7 @@
 //         expected = brute_force_number_of_routes(test_grid, test_d)
 //         assert solution.numberOfRoutes(test_grid, test_d) == expected
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -559,3 +565,4 @@ public:
         return 0;
     }
 };
+// @lc code=end

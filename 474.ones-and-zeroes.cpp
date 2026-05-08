@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=474 lang=cpp
+ *
+ * [474] Ones and Zeroes
+ */
 // Translated from 474.ones-and-zeroes.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=474 lang=python3
+// # lc-original app=leetcode id=474 lang=python3
 // #
 // # [474] Ones and Zeroes
 // #
@@ -56,7 +61,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -258,8 +263,9 @@
 //                     )
 // 
 //         return dp[m][n]
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -320,3 +326,4 @@ public:
         return dp[m][n];
     }
 };
+// @lc code=end

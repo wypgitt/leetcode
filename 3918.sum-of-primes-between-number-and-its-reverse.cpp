@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3918 lang=cpp
+ *
+ * [3918] Sum of Primes Between Number and Its Reverse
+ */
 // Translated from 3918.sum-of-primes-between-number-and-its-reverse.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3918 lang=python3
+// # lc-original app=leetcode id=3918 lang=python3
 // #
 // # [3918] Sum of Primes Between Number and Its Reverse
 // #
@@ -173,7 +178,7 @@
 // #
 // # -------------------------------------------------------------------------------
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def sumOfPrimesInRange(self, n: int) -> int:
 //         reversed_n = int(str(n)[::-1])
@@ -206,8 +211,9 @@
 //         return is_prime
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -277,3 +283,4 @@ public:
         return pref[r] - (l > 0 ? pref[l - 1] : 0);
     }
 };
+// @lc code=end

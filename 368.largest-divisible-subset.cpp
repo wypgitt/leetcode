@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=368 lang=cpp
+ *
+ * [368] Largest Divisible Subset
+ */
 // Translated from 368.largest-divisible-subset.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=368 lang=python3
+// # lc-original app=leetcode id=368 lang=python3
 // #
 // # [368] Largest Divisible Subset
 // #
@@ -53,7 +58,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -312,7 +317,7 @@
 // 
 //         answer.reverse()
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 // 
 // 
 // if __name__ == "__main__":
@@ -339,6 +344,7 @@
 //     assert_solution([1, 2, 3, 4, 9], 3)
 //     assert_solution([3, 4, 16, 8], 3)
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -409,3 +415,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

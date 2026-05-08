@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=2719 lang=cpp
+ *
+ * [2719] Count of Integers
+ */
 // Translated from 2719.count-of-integers.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=2719 lang=python3
+// # lc-original app=leetcode id=2719 lang=python3
 // #
 // # [2719] Count of Integers
 // #
@@ -60,7 +65,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from functools import cache
 // 
 // 
@@ -100,8 +105,9 @@
 //         return (f(num2) - f(sub_one(num1))) % mod
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -191,3 +197,4 @@ public:
         return (countUpTo(num2) - countUpTo(subOne(num1)) + MOD) % MOD;
     }
 };
+// @lc code=end

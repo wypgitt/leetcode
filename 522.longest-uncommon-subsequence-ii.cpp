@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=522 lang=cpp
+ *
+ * [522] Longest Uncommon Subsequence II
+ */
 // Translated from 522.longest-uncommon-subsequence-ii.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=522 lang=python3
+// # lc-original app=leetcode id=522 lang=python3
 // #
 // # [522] Longest Uncommon Subsequence II
 // #
@@ -50,7 +55,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -236,8 +241,9 @@
 //                 return len(candidate)
 // 
 //         return -1
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -312,3 +318,4 @@ public:
         return -1;
     }
 };
+// @lc code=end

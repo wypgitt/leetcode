@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=918 lang=cpp
+ *
+ * [918] Maximum Sum Circular Subarray
+ */
 // Translated from 918.maximum-sum-circular-subarray.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=918 lang=python3
+// # lc-original app=leetcode id=918 lang=python3
 // #
 // # [918] Maximum Sum Circular Subarray
 // #
@@ -134,7 +139,7 @@
 // #
 // # =============================================================================
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -162,8 +167,9 @@
 //         return max_sum
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -227,3 +233,4 @@ public:
         return maxSum > 0 ? max(maxSum, total - minSum) : maxSum;
     }
 };
+// @lc code=end

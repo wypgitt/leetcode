@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3868 lang=cpp
+ *
+ * [3868] Minimum Cost to Equalize Arrays Using Swaps
+ */
 // Translated from 3868.minimum-cost-to-equalize-arrays-using-swaps.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3868 lang=python3
+// # lc-original app=leetcode id=3868 lang=python3
 // #
 // # [3868] Minimum Cost to Equalize Arrays Using Swaps
 // #
@@ -104,7 +109,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter
 // 
 // 
@@ -324,8 +329,9 @@
 //                 cost += count1[value] - target
 // 
 //         return cost
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -393,3 +399,4 @@ public:
         return cost;
     }
 };
+// @lc code=end

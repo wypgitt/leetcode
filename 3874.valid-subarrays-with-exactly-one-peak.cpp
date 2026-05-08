@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=3874 lang=cpp
+ *
+ * [3874] Valid Subarrays With Exactly One Peak
+ */
 // Translated from 3874.valid-subarrays-with-exactly-one-peak.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3874 lang=python3
+// # lc-original app=leetcode id=3874 lang=python3
 // #
 // # [3874] Valid Subarrays With Exactly One Peak
 // #
@@ -100,7 +105,7 @@
 // # 
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def validSubarrays(self, nums: list[int], k: int) -> int:
 //         """
@@ -335,8 +340,9 @@
 //             answer += (peak - left_min + 1) * (right_max - peak + 1)
 // 
 //         return answer
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -403,3 +409,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

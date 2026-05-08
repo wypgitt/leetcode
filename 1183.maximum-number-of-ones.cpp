@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1183 lang=cpp
+ *
+ * [1183] Maximum Number Of Ones
+ */
 // Translated from 1183.maximum-number-of-ones.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1183 lang=python3
+// # lc-original app=leetcode id=1183 lang=python3
 // #
 // # [1183] Maximum Number Of Ones
 // #
@@ -71,7 +76,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     def maximumNumberOfOnes(self, width: int, height: int, sideLength: int, maxOnes: int) -> int:
 //         L = sideLength
@@ -92,8 +97,9 @@
 //         return sum(freq[:maxOnes])
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -159,3 +165,4 @@ public:
         return accumulate(freq.begin(), freq.begin() + maxOnes, 0);
     }
 };
+// @lc code=end

@@ -1,20 +1,25 @@
+/*
+ * @lc app=leetcode id=3886 lang=cpp
+ *
+ * [3886] Sum of Sortable Integers
+ */
 // Translated from 3886.sum-of-sortable-integers.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=3886 lang=python3
+// # lc-original app=leetcode id=3886 lang=python3
 // #
 // # [3886] Sum of Sortable Integers
 // #
 // 
-// # @lc code=start
+// # lc-original code=start
 // class Solution:
 //     pass
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 // 
 // #
-// # @lc app=leetcode id=3886 lang=python3
+// # lc-original app=leetcode id=3886 lang=python3
 // #
 // # [3886] Sum of Sortable Integers
 // #
@@ -90,7 +95,7 @@
 // # 4) Argue O(n * tau(n)) time.
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from collections import Counter
 // 
 // 
@@ -156,8 +161,9 @@
 //         return sum(d for d in divisors(n) if ok(d))
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -260,3 +266,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

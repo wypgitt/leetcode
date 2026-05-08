@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=1168 lang=cpp
+ *
+ * [1168] Optimize Water Distribution In A Village
+ */
 // Translated from 1168.optimize-water-distribution-in-a-village.py.
 // Original Python source and explanation are preserved below as comments.
 // #
-// # @lc app=leetcode id=1168 lang=python3
+// # lc-original app=leetcode id=1168 lang=python3
 // #
 // # [1168] Optimize Water Distribution In A Village
 // #
@@ -64,7 +69,7 @@
 // #
 // # --- end notes ---
 // 
-// # @lc code=start
+// # lc-original code=start
 // from typing import List
 // 
 // 
@@ -103,8 +108,9 @@
 //         return total
 // 
 // 
-// # @lc code=end
+// # lc-original code=end
 
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <cctype>
@@ -185,3 +191,4 @@ public:
         return total;
     }
 };
+// @lc code=end
