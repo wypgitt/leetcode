@@ -1,0 +1,4043 @@
+[
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 1,
+    "slug": "url-shortener",
+    "title": "URL shortener with custom URLs, expiration, and analytics",
+    "filename": "url-shortener-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/url-shortener-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 2,
+    "slug": "pastebin",
+    "title": "Pastebin / expiring text-sharing service",
+    "filename": "pastebin-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/pastebin-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 3,
+    "slug": "globally-unique-id-generator",
+    "title": "Globally unique ID generator",
+    "filename": "globally-unique-id-generator-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/globally-unique-id-generator-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 4,
+    "slug": "single-machine-rate-limiter",
+    "title": "Single-machine rate limiter",
+    "filename": "single-machine-rate-limiter-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/single-machine-rate-limiter-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 5,
+    "slug": "distributed-rate-limiter",
+    "title": "Distributed rate limiter",
+    "filename": "distributed-rate-limiter-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-rate-limiter-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 6,
+    "slug": "hierarchical-quotas",
+    "title": "Hierarchical quotas (user, team, tenant, API, region)",
+    "filename": "hierarchical-quotas-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/hierarchical-quotas-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 7,
+    "slug": "token-spend-budget-service",
+    "title": "Token- or spend-budget service",
+    "filename": "token-spend-budget-service-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/token-spend-budget-service-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 8,
+    "slug": "load-balancer",
+    "title": "Load balancer",
+    "filename": "load-balancer-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/load-balancer-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 9,
+    "slug": "dynamic-round-robin-router",
+    "title": "Dynamic round-robin router with health checks",
+    "filename": "dynamic-round-robin-router-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/dynamic-round-robin-router-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 10,
+    "slug": "api-gateway",
+    "title": "API gateway",
+    "filename": "api-gateway-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/api-gateway-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 11,
+    "slug": "service-discovery",
+    "title": "Service discovery",
+    "filename": "service-discovery-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/service-discovery-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 12,
+    "slug": "consistent-hash-routing",
+    "title": "Consistent-hash routing with replication",
+    "filename": "consistent-hash-routing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/consistent-hash-routing-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 13,
+    "slug": "configuration-management",
+    "title": "Configuration-management service",
+    "filename": "configuration-management-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/configuration-management-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 14,
+    "slug": "feature-flag-platform",
+    "title": "Feature-flag platform",
+    "filename": "feature-flag-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/feature-flag-platform-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 15,
+    "slug": "distributed-locks-leases",
+    "title": "Distributed locks and leases",
+    "filename": "distributed-locks-leases-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-locks-leases-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 16,
+    "slug": "leader-election",
+    "title": "Leader election",
+    "filename": "leader-election-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/leader-election-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 17,
+    "slug": "zookeeper-chubby-coordination",
+    "title": "ZooKeeper/Chubby-style coordination service",
+    "filename": "zookeeper-chubby-coordination-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/zookeeper-chubby-coordination-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 18,
+    "slug": "distributed-cache",
+    "title": "Distributed cache",
+    "filename": "distributed-cache-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-cache-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 19,
+    "slug": "redis",
+    "title": "Redis",
+    "filename": "redis-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/redis-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 20,
+    "slug": "in-memory-database",
+    "title": "In-memory database",
+    "filename": "in-memory-database-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/in-memory-database-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 21,
+    "slug": "distributed-key-value-store",
+    "title": "Distributed key-value store",
+    "filename": "distributed-key-value-store-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-key-value-store-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 22,
+    "slug": "disk-backed-durable-kv-store",
+    "title": "Disk-backed durable key-value store",
+    "filename": "disk-backed-durable-kv-store-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/disk-backed-durable-kv-store-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 23,
+    "slug": "globally-replicated-read-heavy-store",
+    "title": "Globally replicated read-heavy store",
+    "filename": "globally-replicated-read-heavy-store-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/globally-replicated-read-heavy-store-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 24,
+    "slug": "distributed-sql-database",
+    "title": "Distributed SQL database",
+    "filename": "distributed-sql-database-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-sql-database-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 25,
+    "slug": "s3-blob-storage",
+    "title": "S3 / blob storage",
+    "filename": "s3-blob-storage-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/s3-blob-storage-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 26,
+    "slug": "distributed-filesystem",
+    "title": "Distributed filesystem",
+    "filename": "distributed-filesystem-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-filesystem-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 27,
+    "slug": "dropbox-google-drive-sync",
+    "title": "Dropbox/Google Drive file synchronization",
+    "filename": "dropbox-google-drive-sync-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/dropbox-google-drive-sync-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 28,
+    "slug": "kafka-distributed-log",
+    "title": "Kafka-style distributed log",
+    "filename": "kafka-distributed-log-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/kafka-distributed-log-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 29,
+    "slug": "message-queue",
+    "title": "Message queue",
+    "filename": "message-queue-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/message-queue-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 30,
+    "slug": "pubsub-infrastructure",
+    "title": "Publish/subscribe infrastructure",
+    "filename": "pubsub-infrastructure-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/pubsub-infrastructure-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 31,
+    "slug": "delayed-scheduled-message-queue",
+    "title": "Delayed-message or scheduled-message queue",
+    "filename": "delayed-scheduled-message-queue-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/delayed-scheduled-message-queue-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 32,
+    "slug": "distributed-job-scheduler",
+    "title": "Distributed job scheduler",
+    "filename": "distributed-job-scheduler-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-job-scheduler-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 33,
+    "slug": "distributed-cron",
+    "title": "Distributed cron",
+    "filename": "distributed-cron-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-cron-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 34,
+    "slug": "workflow-dag-execution-engine",
+    "title": "Workflow/DAG execution engine",
+    "filename": "workflow-dag-execution-engine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/workflow-dag-execution-engine-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 35,
+    "slug": "reminder-service",
+    "title": "Reminder service",
+    "filename": "reminder-service-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/reminder-service-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 36,
+    "slug": "serverless-execution-platform",
+    "title": "Serverless execution platform",
+    "filename": "serverless-execution-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/serverless-execution-platform-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 37,
+    "slug": "session-token-store",
+    "title": "Session or token store",
+    "filename": "session-token-store-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/session-token-store-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 38,
+    "slug": "global-distributed-counter",
+    "title": "Global distributed counter",
+    "filename": "global-distributed-counter-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/global-distributed-counter-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 39,
+    "slug": "dependency-graph-failure-detection",
+    "title": "Dependency graph and failure-detection service",
+    "filename": "dependency-graph-failure-detection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/dependency-graph-failure-detection-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 40,
+    "slug": "software-deployment-canary-rollback",
+    "title": "Software deployment with canaries and rollback",
+    "filename": "software-deployment-canary-rollback-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/software-deployment-canary-rollback-system-design.md"
+  },
+  {
+    "section_id": "01-core-primitives",
+    "section_title": "Core distributed-system primitives",
+    "num": 41,
+    "slug": "ota-updates-millions-devices",
+    "title": "Over-the-air updates for millions of devices",
+    "filename": "ota-updates-millions-devices-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ota-updates-millions-devices-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 1,
+    "slug": "distributed-web-crawler",
+    "title": "Distributed web crawler",
+    "filename": "distributed-web-crawler-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-web-crawler-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 2,
+    "slug": "web-search-engine",
+    "title": "Web search engine",
+    "filename": "web-search-engine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/web-search-engine-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 3,
+    "slug": "full-text-search",
+    "title": "Full-text search for posts or documents",
+    "filename": "full-text-search-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/full-text-search-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 4,
+    "slug": "typeahead-autocomplete",
+    "title": "Typeahead / autocomplete",
+    "filename": "typeahead-autocomplete-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/typeahead-autocomplete-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 5,
+    "slug": "geospatial-search",
+    "title": "Geospatial search",
+    "filename": "geospatial-search-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/geospatial-search-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 6,
+    "slug": "vector-semantic-search",
+    "title": "Vector or semantic search",
+    "filename": "vector-semantic-search-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/vector-semantic-search-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 7,
+    "slug": "metadata-catalog",
+    "title": "Metadata catalog",
+    "filename": "metadata-catalog-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/metadata-catalog-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 8,
+    "slug": "schema-registry",
+    "title": "Schema registry",
+    "filename": "schema-registry-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/schema-registry-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 9,
+    "slug": "batch-ingestion-platform",
+    "title": "Batch-ingestion platform",
+    "filename": "batch-ingestion-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/batch-ingestion-platform-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 10,
+    "slug": "realtime-event-ingestion",
+    "title": "Real-time event-ingestion platform",
+    "filename": "realtime-event-ingestion-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/realtime-event-ingestion-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 11,
+    "slug": "clickstream-collection",
+    "title": "Clickstream collection system",
+    "filename": "clickstream-collection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/clickstream-collection-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 12,
+    "slug": "log-ingestion-pipeline",
+    "title": "Log-ingestion pipeline",
+    "filename": "log-ingestion-pipeline-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/log-ingestion-pipeline-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 13,
+    "slug": "stream-processing-engine",
+    "title": "Stream-processing engine",
+    "filename": "stream-processing-engine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/stream-processing-engine-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 14,
+    "slug": "batch-etl-elt-platform",
+    "title": "Batch ETL/ELT platform",
+    "filename": "batch-etl-elt-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/batch-etl-elt-platform-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 15,
+    "slug": "change-data-capture",
+    "title": "Change-data capture",
+    "filename": "change-data-capture-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/change-data-capture-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 16,
+    "slug": "event-deduplication-exactly-once",
+    "title": "Event deduplication and exactly-once-like processing",
+    "filename": "event-deduplication-exactly-once-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/event-deduplication-exactly-once-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 17,
+    "slug": "data-reconciliation",
+    "title": "Data reconciliation between multiple providers",
+    "filename": "data-reconciliation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/data-reconciliation-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 18,
+    "slug": "topk-trending-items",
+    "title": "Top-K or trending-items service",
+    "filename": "topk-trending-items-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/topk-trending-items-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 19,
+    "slug": "sliding-window-event-counter",
+    "title": "Sliding-window event counter",
+    "filename": "sliding-window-event-counter-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/sliding-window-event-counter-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 20,
+    "slug": "analytics-warehouse",
+    "title": "Analytics warehouse",
+    "filename": "analytics-warehouse-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/analytics-warehouse-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 21,
+    "slug": "multi-tenant-interactive-analytics",
+    "title": "Multi-tenant interactive analytics platform",
+    "filename": "multi-tenant-interactive-analytics-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/multi-tenant-interactive-analytics-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 22,
+    "slug": "lakehouse",
+    "title": "Lakehouse",
+    "filename": "lakehouse-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/lakehouse-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 23,
+    "slug": "distributed-query-engine",
+    "title": "Distributed query engine",
+    "filename": "distributed-query-engine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-query-engine-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 24,
+    "slug": "time-series-database",
+    "title": "Time-series database",
+    "filename": "time-series-database-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/time-series-database-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 25,
+    "slug": "metrics-aggregation-rollups",
+    "title": "Metrics aggregation and rollups",
+    "filename": "metrics-aggregation-rollups-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/metrics-aggregation-rollups-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 26,
+    "slug": "materialized-view-system",
+    "title": "Materialized-view system",
+    "filename": "materialized-view-system-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/materialized-view-system-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 27,
+    "slug": "dag-materialized-view-caching",
+    "title": "Caching for a DAG of dependent materialized views",
+    "filename": "dag-materialized-view-caching-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/dag-materialized-view-caching-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 28,
+    "slug": "ab-experimentation-platform",
+    "title": "A/B experimentation platform",
+    "filename": "ab-experimentation-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ab-experimentation-platform-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 29,
+    "slug": "feature-store",
+    "title": "Feature store",
+    "filename": "feature-store-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/feature-store-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 30,
+    "slug": "recommendation-data-pipeline",
+    "title": "Recommendation-data pipeline",
+    "filename": "recommendation-data-pipeline-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/recommendation-data-pipeline-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 31,
+    "slug": "data-quality-monitoring",
+    "title": "Data-quality monitoring platform",
+    "filename": "data-quality-monitoring-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/data-quality-monitoring-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 32,
+    "slug": "data-lineage-governance",
+    "title": "Data lineage and governance",
+    "filename": "data-lineage-governance-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/data-lineage-governance-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 33,
+    "slug": "gdpr-deletion",
+    "title": "GDPR deletion across data stores and backups",
+    "filename": "gdpr-deletion-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/gdpr-deletion-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 34,
+    "slug": "snapshot-backup-pitr",
+    "title": "Snapshotting, backup, and point-in-time recovery",
+    "filename": "snapshot-backup-pitr-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/snapshot-backup-pitr-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 35,
+    "slug": "tiered-hot-warm-cold-storage",
+    "title": "Tiered hot/warm/cold data storage",
+    "filename": "tiered-hot-warm-cold-storage-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/tiered-hot-warm-cold-storage-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 36,
+    "slug": "stable-pagination-massive-datasets",
+    "title": "Querying massive datasets with stable pagination",
+    "filename": "stable-pagination-massive-datasets-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/stable-pagination-massive-datasets-system-design.md"
+  },
+  {
+    "section_id": "02-data-platforms",
+    "section_title": "Data platforms, streaming, search, and analytics",
+    "num": 37,
+    "slug": "multi-region-replication-conflict-resolution",
+    "title": "Multi-region data replication and conflict resolution",
+    "filename": "multi-region-replication-conflict-resolution-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/multi-region-replication-conflict-resolution-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 1,
+    "slug": "twitter-facebook-linkedin-news-feed",
+    "title": "Twitter/Facebook/LinkedIn-style news feed",
+    "filename": "twitter-facebook-linkedin-news-feed-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/twitter-facebook-linkedin-news-feed-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 2,
+    "slug": "instagram-photo-feed",
+    "title": "Instagram-style photo feed",
+    "filename": "instagram-photo-feed-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/instagram-photo-feed-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 3,
+    "slug": "reddit-hacker-news",
+    "title": "Reddit or Hacker News",
+    "filename": "reddit-hacker-news-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/reddit-hacker-news-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 4,
+    "slug": "tiktok-ranked-video-feed",
+    "title": "TikTok-style ranked video feed",
+    "filename": "tiktok-ranked-video-feed-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/tiktok-ranked-video-feed-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 5,
+    "slug": "people-you-may-know",
+    "title": "People you may know",
+    "filename": "people-you-may-know-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/people-you-may-know-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 6,
+    "slug": "social-graph-mutual-connections",
+    "title": "Social graph and mutual-connections service",
+    "filename": "social-graph-mutual-connections-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/social-graph-mutual-connections-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 7,
+    "slug": "tinder-matching",
+    "title": "Tinder or matching application",
+    "filename": "tinder-matching-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/tinder-matching-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 8,
+    "slug": "news-aggregation-personalization",
+    "title": "News-aggregation and personalization service",
+    "filename": "news-aggregation-personalization-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/news-aggregation-personalization-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 9,
+    "slug": "multi-channel-notification",
+    "title": "Multi-channel notification system",
+    "filename": "multi-channel-notification-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/multi-channel-notification-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 10,
+    "slug": "push-notifications",
+    "title": "Push notifications",
+    "filename": "push-notifications-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/push-notifications-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 11,
+    "slug": "email-delivery-platform",
+    "title": "Email-delivery platform",
+    "filename": "email-delivery-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/email-delivery-platform-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 12,
+    "slug": "gmail",
+    "title": "Gmail",
+    "filename": "gmail-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/gmail-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 13,
+    "slug": "disposable-email-expiring-inboxes",
+    "title": "Disposable-email service with expiring inboxes",
+    "filename": "disposable-email-expiring-inboxes-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/disposable-email-expiring-inboxes-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 14,
+    "slug": "one-to-one-chat",
+    "title": "One-to-one chat",
+    "filename": "one-to-one-chat-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/one-to-one-chat-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 15,
+    "slug": "whatsapp",
+    "title": "WhatsApp",
+    "filename": "whatsapp-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/whatsapp-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 16,
+    "slug": "group-chat",
+    "title": "Group chat",
+    "filename": "group-chat-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/group-chat-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 17,
+    "slug": "discord-slack",
+    "title": "Discord or Slack",
+    "filename": "discord-slack-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/discord-slack-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 18,
+    "slug": "twitch-youtube-live-comments",
+    "title": "Twitch/YouTube live comments",
+    "filename": "twitch-youtube-live-comments-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/twitch-youtube-live-comments-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 19,
+    "slug": "presence-typing-read-receipts",
+    "title": "Presence, typing indicators, and read receipts",
+    "filename": "presence-typing-read-receipts-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/presence-typing-read-receipts-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 20,
+    "slug": "comments-replies-reactions-mentions",
+    "title": "Comments, replies, reactions, and mentions",
+    "filename": "comments-replies-reactions-mentions-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/comments-replies-reactions-mentions-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 21,
+    "slug": "content-sharing-permission-model",
+    "title": "Content-sharing permission model",
+    "filename": "content-sharing-permission-model-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/content-sharing-permission-model-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 22,
+    "slug": "google-docs-collaborative-editing",
+    "title": "Google Docs collaborative editing",
+    "filename": "google-docs-collaborative-editing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/google-docs-collaborative-editing-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 23,
+    "slug": "figma-miro-multiplayer-canvas",
+    "title": "Figma/Miro multiplayer canvas",
+    "filename": "figma-miro-multiplayer-canvas-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/figma-miro-multiplayer-canvas-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 24,
+    "slug": "collaborative-comments-canvas",
+    "title": "Collaborative comments anchored to canvas objects",
+    "filename": "collaborative-comments-canvas-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/collaborative-comments-canvas-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 25,
+    "slug": "version-history-undo-collaborative-editor",
+    "title": "Version history and undo for a collaborative editor",
+    "filename": "version-history-undo-collaborative-editor-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/version-history-undo-collaborative-editor-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 26,
+    "slug": "calendar-meeting-scheduler",
+    "title": "Calendar and meeting scheduler",
+    "filename": "calendar-meeting-scheduler-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/calendar-meeting-scheduler-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 27,
+    "slug": "zoom-video-conferencing",
+    "title": "Zoom or video conferencing",
+    "filename": "zoom-video-conferencing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/zoom-video-conferencing-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 28,
+    "slug": "online-chess-checkers",
+    "title": "Online chess/checkers platform",
+    "filename": "online-chess-checkers-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/online-chess-checkers-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 29,
+    "slug": "realtime-multiplayer-game",
+    "title": "Real-time multiplayer game",
+    "filename": "realtime-multiplayer-game-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/realtime-multiplayer-game-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 30,
+    "slug": "matchmaking",
+    "title": "Matchmaking",
+    "filename": "matchmaking-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/matchmaking-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 31,
+    "slug": "gaming-leaderboard",
+    "title": "Gaming leaderboard",
+    "filename": "gaming-leaderboard-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/gaming-leaderboard-system-design.md"
+  },
+  {
+    "section_id": "03-social-collaboration",
+    "section_title": "Social, communication, and collaboration",
+    "num": 32,
+    "slug": "polling-live-audience-participation",
+    "title": "Polling or live audience-participation system",
+    "filename": "polling-live-audience-participation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/polling-live-audience-participation-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 1,
+    "slug": "youtube",
+    "title": "YouTube",
+    "filename": "youtube-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/youtube-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 2,
+    "slug": "netflix",
+    "title": "Netflix",
+    "filename": "netflix-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/netflix-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 3,
+    "slug": "spotify",
+    "title": "Spotify",
+    "filename": "spotify-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/spotify-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 4,
+    "slug": "podcast-platform",
+    "title": "Podcast platform",
+    "filename": "podcast-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/podcast-platform-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 5,
+    "slug": "live-video-streaming",
+    "title": "Live video streaming",
+    "filename": "live-video-streaming-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/live-video-streaming-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 6,
+    "slug": "video-upload-transcoding",
+    "title": "Video upload and transcoding",
+    "filename": "video-upload-transcoding-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/video-upload-transcoding-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 7,
+    "slug": "image-upload-processing",
+    "title": "Image-upload and processing pipeline",
+    "filename": "image-upload-processing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/image-upload-processing-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 8,
+    "slug": "photo-album-service",
+    "title": "Photo-album service",
+    "filename": "photo-album-service-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/photo-album-service-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 9,
+    "slug": "cdn",
+    "title": "CDN",
+    "filename": "cdn-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/cdn-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 10,
+    "slug": "adaptive-bitrate-streaming",
+    "title": "Adaptive-bitrate streaming",
+    "filename": "adaptive-bitrate-streaming-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/adaptive-bitrate-streaming-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 11,
+    "slug": "offline-media-downloads",
+    "title": "Offline media downloads",
+    "filename": "offline-media-downloads-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/offline-media-downloads-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 12,
+    "slug": "playlists-media-libraries",
+    "title": "Playlists and media libraries",
+    "filename": "playlists-media-libraries-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/playlists-media-libraries-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 13,
+    "slug": "recommendation-system",
+    "title": "Recommendation system",
+    "filename": "recommendation-system-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/recommendation-system-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 14,
+    "slug": "personalized-homepage-ranking",
+    "title": "Personalized home-page ranking",
+    "filename": "personalized-homepage-ranking-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/personalized-homepage-ranking-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 15,
+    "slug": "content-moderation",
+    "title": "Content moderation",
+    "filename": "content-moderation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/content-moderation-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 16,
+    "slug": "copyright-duplicate-content-detection",
+    "title": "Copyright or duplicate-content detection",
+    "filename": "copyright-duplicate-content-detection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/copyright-duplicate-content-detection-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 17,
+    "slug": "subtitle-transcript-processing",
+    "title": "Subtitle and transcript processing",
+    "filename": "subtitle-transcript-processing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/subtitle-transcript-processing-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 18,
+    "slug": "synchronized-transcript-highlighting",
+    "title": "Synchronized transcript highlighting during audio playback",
+    "filename": "synchronized-transcript-highlighting-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/synchronized-transcript-highlighting-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 19,
+    "slug": "voice-cloning-tts",
+    "title": "Voice-cloning or text-to-speech service",
+    "filename": "voice-cloning-tts-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/voice-cloning-tts-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 20,
+    "slug": "audio-video-dubbing-workflow",
+    "title": "Audio/video dubbing workflow",
+    "filename": "audio-video-dubbing-workflow-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/audio-video-dubbing-workflow-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 21,
+    "slug": "reviewer-translator-voice-actor-collaboration",
+    "title": "Collaboration between reviewers, translators, and voice actors",
+    "filename": "reviewer-translator-voice-actor-collaboration-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/reviewer-translator-voice-actor-collaboration-system-design.md"
+  },
+  {
+    "section_id": "04-media-content",
+    "section_title": "Media and content platforms",
+    "num": 22,
+    "slug": "media-frequency-capping-dedup",
+    "title": "Media-frequency capping and deduplication across devices",
+    "filename": "media-frequency-capping-dedup-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/media-frequency-capping-dedup-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 1,
+    "slug": "yelp-places-near-me",
+    "title": "Yelp or places near me",
+    "filename": "yelp-places-near-me-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/yelp-places-near-me-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 2,
+    "slug": "google-maps",
+    "title": "Google Maps",
+    "filename": "google-maps-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/google-maps-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 3,
+    "slug": "route-planning",
+    "title": "Route planning",
+    "filename": "route-planning-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/route-planning-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 4,
+    "slug": "nearby-friends-location-sharing",
+    "title": "Nearby-friends location sharing",
+    "filename": "nearby-friends-location-sharing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/nearby-friends-location-sharing-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 5,
+    "slug": "uber-lyft",
+    "title": "Uber or Lyft",
+    "filename": "uber-lyft-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/uber-lyft-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 6,
+    "slug": "realtime-driver-location-tracking",
+    "title": "Real-time driver-location tracking",
+    "filename": "realtime-driver-location-tracking-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/realtime-driver-location-tracking-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 7,
+    "slug": "rider-driver-matching",
+    "title": "Rider-driver matching",
+    "filename": "rider-driver-matching-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/rider-driver-matching-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 8,
+    "slug": "dispatch-geographic-regions",
+    "title": "Dispatch across geographic regions",
+    "filename": "dispatch-geographic-regions-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/dispatch-geographic-regions-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 9,
+    "slug": "eta-prediction-serving",
+    "title": "ETA prediction and serving",
+    "filename": "eta-prediction-serving-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/eta-prediction-serving-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 10,
+    "slug": "surge-pricing",
+    "title": "Surge pricing",
+    "filename": "surge-pricing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/surge-pricing-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 11,
+    "slug": "doordash-local-delivery",
+    "title": "DoorDash or local-delivery service",
+    "filename": "doordash-local-delivery-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/doordash-local-delivery-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 12,
+    "slug": "restaurant-discovery-ranking",
+    "title": "Restaurant discovery and ranking",
+    "filename": "restaurant-discovery-ranking-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/restaurant-discovery-ranking-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 13,
+    "slug": "food-order-tracking",
+    "title": "Food-order tracking",
+    "filename": "food-order-tracking-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/food-order-tracking-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 14,
+    "slug": "batched-delivery-assignment",
+    "title": "Batched delivery assignment",
+    "filename": "batched-delivery-assignment-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/batched-delivery-assignment-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 15,
+    "slug": "delivery-route-optimization",
+    "title": "Delivery route optimization",
+    "filename": "delivery-route-optimization-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/delivery-route-optimization-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 16,
+    "slug": "driver-earnings-payouts",
+    "title": "Driver earnings and payouts",
+    "filename": "driver-earnings-payouts-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/driver-earnings-payouts-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 17,
+    "slug": "reviews-ratings-voting-rewards",
+    "title": "Reviews, ratings, voting, and reviewer rewards",
+    "filename": "reviews-ratings-voting-rewards-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/reviews-ratings-voting-rewards-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 18,
+    "slug": "airbnb-rental-marketplace",
+    "title": "Airbnb or rental marketplace",
+    "filename": "airbnb-rental-marketplace-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/airbnb-rental-marketplace-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 19,
+    "slug": "marketplace-listing-search",
+    "title": "Marketplace listing and search",
+    "filename": "marketplace-listing-search-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/marketplace-listing-search-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 20,
+    "slug": "rental-booking",
+    "title": "Rental booking",
+    "filename": "rental-booking-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/rental-booking-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 21,
+    "slug": "split-stay-search",
+    "title": "Split-stay search",
+    "filename": "split-stay-search-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/split-stay-search-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 22,
+    "slug": "listing-watchlists-availability-alerts",
+    "title": "Listing watchlists and availability alerts",
+    "filename": "listing-watchlists-availability-alerts-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/listing-watchlists-availability-alerts-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 23,
+    "slug": "hotel-search-reservation",
+    "title": "Hotel search and reservation",
+    "filename": "hotel-search-reservation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/hotel-search-reservation-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 24,
+    "slug": "ticketmaster",
+    "title": "Ticketmaster",
+    "filename": "ticketmaster-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ticketmaster-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 25,
+    "slug": "assigned-seat-reservation",
+    "title": "Assigned-seat reservation",
+    "filename": "assigned-seat-reservation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/assigned-seat-reservation-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 26,
+    "slug": "online-auction",
+    "title": "Online auction",
+    "filename": "online-auction-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/online-auction-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 27,
+    "slug": "package-tracking",
+    "title": "Package tracking",
+    "filename": "package-tracking-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/package-tracking-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 28,
+    "slug": "shipping-label-carrier-integration",
+    "title": "Shipping-label and carrier-integration service",
+    "filename": "shipping-label-carrier-integration-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/shipping-label-carrier-integration-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 29,
+    "slug": "warehouse-inventory-fulfillment",
+    "title": "Warehouse inventory and fulfillment",
+    "filename": "warehouse-inventory-fulfillment-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/warehouse-inventory-fulfillment-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 30,
+    "slug": "fleet-management-platform",
+    "title": "Fleet-management platform",
+    "filename": "fleet-management-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/fleet-management-platform-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 31,
+    "slug": "ev-charging-discovery-reservations",
+    "title": "EV charging-station discovery and reservations",
+    "filename": "ev-charging-discovery-reservations-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ev-charging-discovery-reservations-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 32,
+    "slug": "dynamic-delivery-pricing",
+    "title": "Dynamic delivery pricing",
+    "filename": "dynamic-delivery-pricing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/dynamic-delivery-pricing-system-design.md"
+  },
+  {
+    "section_id": "05-maps-marketplaces-logistics",
+    "section_title": "Maps, marketplaces, mobility, and logistics",
+    "num": 33,
+    "slug": "offline-reservation-cache-mobile",
+    "title": "Offline reservation cache for mobile clients",
+    "filename": "offline-reservation-cache-mobile-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/offline-reservation-cache-mobile-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 1,
+    "slug": "ecommerce-product-page",
+    "title": "E-commerce product page",
+    "filename": "ecommerce-product-page-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ecommerce-product-page-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 2,
+    "slug": "product-catalog",
+    "title": "Product catalog",
+    "filename": "product-catalog-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/product-catalog-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 3,
+    "slug": "product-search",
+    "title": "Product search",
+    "filename": "product-search-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/product-search-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 4,
+    "slug": "shopping-cart",
+    "title": "Shopping cart",
+    "filename": "shopping-cart-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/shopping-cart-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 5,
+    "slug": "checkout",
+    "title": "Checkout",
+    "filename": "checkout-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/checkout-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 6,
+    "slug": "order-management",
+    "title": "Order management",
+    "filename": "order-management-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/order-management-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 7,
+    "slug": "inventory-reservation",
+    "title": "Inventory reservation",
+    "filename": "inventory-reservation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/inventory-reservation-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 8,
+    "slug": "flash-sale",
+    "title": "Flash sale",
+    "filename": "flash-sale-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/flash-sale-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 9,
+    "slug": "returns-refunds",
+    "title": "Returns and refunds",
+    "filename": "returns-refunds-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/returns-refunds-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 10,
+    "slug": "shipment-fulfillment-tracking",
+    "title": "Shipment and fulfillment tracking",
+    "filename": "shipment-fulfillment-tracking-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/shipment-fulfillment-tracking-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 11,
+    "slug": "price-tracking-alerts",
+    "title": "Price tracking and price-change alerts",
+    "filename": "price-tracking-alerts-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/price-tracking-alerts-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 12,
+    "slug": "coupons-promotional-rules",
+    "title": "Coupons and promotional rules",
+    "filename": "coupons-promotional-rules-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/coupons-promotional-rules-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 13,
+    "slug": "loyalty-points-system",
+    "title": "Loyalty-points system",
+    "filename": "loyalty-points-system-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/loyalty-points-system-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 14,
+    "slug": "personalized-product-recommendations",
+    "title": "Personalized product recommendations",
+    "filename": "personalized-product-recommendations-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/personalized-product-recommendations-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 15,
+    "slug": "seller-marketplace",
+    "title": "Seller marketplace",
+    "filename": "seller-marketplace-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/seller-marketplace-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 16,
+    "slug": "seller-ratings-reputation",
+    "title": "Seller ratings and reputation",
+    "filename": "seller-ratings-reputation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/seller-ratings-reputation-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 17,
+    "slug": "advertisement-serving-platform",
+    "title": "Advertisement-serving platform",
+    "filename": "advertisement-serving-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/advertisement-serving-platform-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 18,
+    "slug": "ad-auction",
+    "title": "Ad auction",
+    "filename": "ad-auction-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ad-auction-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 19,
+    "slug": "ad-targeting",
+    "title": "Ad targeting",
+    "filename": "ad-targeting-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ad-targeting-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 20,
+    "slug": "ad-click-aggregator",
+    "title": "Ad-click aggregator",
+    "filename": "ad-click-aggregator-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ad-click-aggregator-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 21,
+    "slug": "impression-conversion-attribution",
+    "title": "Impression and conversion attribution",
+    "filename": "impression-conversion-attribution-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/impression-conversion-attribution-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 22,
+    "slug": "advertiser-budget-pacing",
+    "title": "Advertiser budget pacing",
+    "filename": "advertiser-budget-pacing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/advertiser-budget-pacing-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 23,
+    "slug": "cross-device-frequency-capping",
+    "title": "Cross-device frequency capping",
+    "filename": "cross-device-frequency-capping-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/cross-device-frequency-capping-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 24,
+    "slug": "real-time-bidding",
+    "title": "Real-time bidding",
+    "filename": "real-time-bidding-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/real-time-bidding-system-design.md"
+  },
+  {
+    "section_id": "06-ecommerce-advertising",
+    "section_title": "E-commerce and advertising",
+    "num": 25,
+    "slug": "fraud-resistant-ad-measurement",
+    "title": "Fraud-resistant ad measurement",
+    "filename": "fraud-resistant-ad-measurement-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/fraud-resistant-ad-measurement-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 1,
+    "slug": "payment-gateway",
+    "title": "Payment gateway",
+    "filename": "payment-gateway-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/payment-gateway-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 2,
+    "slug": "payment-orchestration",
+    "title": "Payment orchestration across processors",
+    "filename": "payment-orchestration-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/payment-orchestration-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 3,
+    "slug": "double-entry-ledger",
+    "title": "Double-entry ledger",
+    "filename": "double-entry-ledger-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/double-entry-ledger-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 4,
+    "slug": "digital-wallet",
+    "title": "Digital wallet",
+    "filename": "digital-wallet-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/digital-wallet-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 5,
+    "slug": "online-banking-system",
+    "title": "Online banking system",
+    "filename": "online-banking-system-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/online-banking-system-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 6,
+    "slug": "account-to-account-transfers",
+    "title": "Account-to-account transfers",
+    "filename": "account-to-account-transfers-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/account-to-account-transfers-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 7,
+    "slug": "peer-to-peer-payments",
+    "title": "Peer-to-peer payments",
+    "filename": "peer-to-peer-payments-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/peer-to-peer-payments-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 8,
+    "slug": "scheduled-payments-cancellation",
+    "title": "Scheduled payments and cancellation",
+    "filename": "scheduled-payments-cancellation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/scheduled-payments-cancellation-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 9,
+    "slug": "subscription-billing",
+    "title": "Subscription billing",
+    "filename": "subscription-billing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/subscription-billing-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 10,
+    "slug": "recurring-invoicing",
+    "title": "Recurring invoicing",
+    "filename": "recurring-invoicing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/recurring-invoicing-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 11,
+    "slug": "merchant-payouts",
+    "title": "Merchant payouts",
+    "filename": "merchant-payouts-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/merchant-payouts-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 12,
+    "slug": "marketplace-escrow",
+    "title": "Marketplace escrow",
+    "filename": "marketplace-escrow-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/marketplace-escrow-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 13,
+    "slug": "refunds",
+    "title": "Refunds",
+    "filename": "refunds-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/refunds-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 14,
+    "slug": "disputes-chargebacks",
+    "title": "Disputes and chargebacks",
+    "filename": "disputes-chargebacks-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/disputes-chargebacks-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 15,
+    "slug": "reliable-webhook-delivery",
+    "title": "Reliable webhook-delivery platform",
+    "filename": "reliable-webhook-delivery-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/reliable-webhook-delivery-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 16,
+    "slug": "duplicate-payment-prevention",
+    "title": "Duplicate-payment prevention",
+    "filename": "duplicate-payment-prevention-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/duplicate-payment-prevention-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 17,
+    "slug": "payment-reconciliation",
+    "title": "Payment reconciliation",
+    "filename": "payment-reconciliation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/payment-reconciliation-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 18,
+    "slug": "payroll-engine",
+    "title": "Payroll engine",
+    "filename": "payroll-engine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/payroll-engine-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 19,
+    "slug": "contractor-driver-payments",
+    "title": "Contractor or driver payments",
+    "filename": "contractor-driver-payments-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/contractor-driver-payments-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 20,
+    "slug": "corporate-card-controls",
+    "title": "Corporate-card controls",
+    "filename": "corporate-card-controls-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/corporate-card-controls-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 21,
+    "slug": "expense-policy-rules-engine",
+    "title": "Expense-policy rules engine",
+    "filename": "expense-policy-rules-engine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/expense-policy-rules-engine-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 22,
+    "slug": "expense-reimbursement-approval",
+    "title": "Expense reimbursement and approval",
+    "filename": "expense-reimbursement-approval-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/expense-reimbursement-approval-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 23,
+    "slug": "loyalty-points-cashback",
+    "title": "Loyalty points and cashback",
+    "filename": "loyalty-points-cashback-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/loyalty-points-cashback-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 24,
+    "slug": "kyc-customer-onboarding",
+    "title": "KYC / customer onboarding",
+    "filename": "kyc-customer-onboarding-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/kyc-customer-onboarding-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 25,
+    "slug": "transaction-fraud-detection",
+    "title": "Transaction fraud detection",
+    "filename": "transaction-fraud-detection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/transaction-fraud-detection-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 26,
+    "slug": "credit-underwriting-decisions",
+    "title": "Credit or underwriting decisions",
+    "filename": "credit-underwriting-decisions-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/credit-underwriting-decisions-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 27,
+    "slug": "merchant-lending-platform",
+    "title": "Merchant-lending platform",
+    "filename": "merchant-lending-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/merchant-lending-platform-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 28,
+    "slug": "pay-by-bank",
+    "title": "Pay-by-bank",
+    "filename": "pay-by-bank-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/pay-by-bank-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 29,
+    "slug": "personal-finance-aggregator",
+    "title": "Personal-finance aggregator",
+    "filename": "personal-finance-aggregator-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/personal-finance-aggregator-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 30,
+    "slug": "crowdfunding-donation-processing",
+    "title": "Crowdfunding or donation processing",
+    "filename": "crowdfunding-donation-processing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/crowdfunding-donation-processing-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 31,
+    "slug": "multicurrency-wallet-fx-holds",
+    "title": "Multicurrency wallet with FX and holds",
+    "filename": "multicurrency-wallet-fx-holds-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/multicurrency-wallet-fx-holds-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 32,
+    "slug": "stock-exchange",
+    "title": "Stock exchange",
+    "filename": "stock-exchange-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/stock-exchange-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 33,
+    "slug": "order-book-matching-engine",
+    "title": "Order book and matching engine",
+    "filename": "order-book-matching-engine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/order-book-matching-engine-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 34,
+    "slug": "brokerage-application",
+    "title": "Brokerage application",
+    "filename": "brokerage-application-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/brokerage-application-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 35,
+    "slug": "realtime-stock-market-data",
+    "title": "Real-time stock-market data",
+    "filename": "realtime-stock-market-data-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/realtime-stock-market-data-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 36,
+    "slug": "cryptocurrency-exchange",
+    "title": "Cryptocurrency exchange",
+    "filename": "cryptocurrency-exchange-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/cryptocurrency-exchange-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 37,
+    "slug": "crypto-order-routing",
+    "title": "Crypto order routing across exchanges",
+    "filename": "crypto-order-routing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/crypto-order-routing-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 38,
+    "slug": "crypto-price-aggregation",
+    "title": "Crypto-price aggregation across inconsistent providers",
+    "filename": "crypto-price-aggregation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/crypto-price-aggregation-system-design.md"
+  },
+  {
+    "section_id": "07-payments-fintech",
+    "section_title": "Payments, banking, fintech, and crypto",
+    "num": 39,
+    "slug": "blockchain-transaction-monitoring",
+    "title": "Blockchain transaction monitoring",
+    "filename": "blockchain-transaction-monitoring-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/blockchain-transaction-monitoring-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 1,
+    "slug": "multi-tenant-saas-platform",
+    "title": "Multi-tenant SaaS platform",
+    "filename": "multi-tenant-saas-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/multi-tenant-saas-platform-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 2,
+    "slug": "tenant-isolation-quotas",
+    "title": "Tenant isolation and per-tenant quotas",
+    "filename": "tenant-isolation-quotas-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/tenant-isolation-quotas-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 3,
+    "slug": "user-org-team-workspace-hierarchy",
+    "title": "User, organization, team, and workspace hierarchy",
+    "filename": "user-org-team-workspace-hierarchy-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/user-org-team-workspace-hierarchy-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 4,
+    "slug": "authentication-session-management",
+    "title": "Authentication and session management",
+    "filename": "authentication-session-management-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/authentication-session-management-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 5,
+    "slug": "rbac",
+    "title": "Role-based access control",
+    "filename": "rbac-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/rbac-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 6,
+    "slug": "abac",
+    "title": "Attribute-based access control",
+    "filename": "abac-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/abac-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 7,
+    "slug": "acls-nested-resources",
+    "title": "ACLs for nested resources",
+    "filename": "acls-nested-resources-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/acls-nested-resources-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 8,
+    "slug": "sso",
+    "title": "SSO",
+    "filename": "sso-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/sso-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 9,
+    "slug": "scim-employee-provisioning",
+    "title": "SCIM employee provisioning",
+    "filename": "scim-employee-provisioning-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/scim-employee-provisioning-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 10,
+    "slug": "employee-identity-lifecycle",
+    "title": "Employee identity lifecycle management",
+    "filename": "employee-identity-lifecycle-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/employee-identity-lifecycle-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 11,
+    "slug": "immutable-tamper-evident-audit-log",
+    "title": "Immutable or tamper-evident audit log",
+    "filename": "immutable-tamper-evident-audit-log-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/immutable-tamper-evident-audit-log-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 12,
+    "slug": "approval-workflow-engine",
+    "title": "Approval-workflow engine",
+    "filename": "approval-workflow-engine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/approval-workflow-engine-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 13,
+    "slug": "configurable-business-rules-engine",
+    "title": "Configurable business-rules engine",
+    "filename": "configurable-business-rules-engine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/configurable-business-rules-engine-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 14,
+    "slug": "workflow-automation-zapier",
+    "title": "Workflow-automation product like Zapier",
+    "filename": "workflow-automation-zapier-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/workflow-automation-zapier-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 15,
+    "slug": "helpdesk-ticketing",
+    "title": "Helpdesk or customer-support ticketing system",
+    "filename": "helpdesk-ticketing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/helpdesk-ticketing-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 16,
+    "slug": "crm",
+    "title": "CRM",
+    "filename": "crm-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/crm-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 17,
+    "slug": "project-task-management",
+    "title": "Project/task management",
+    "filename": "project-task-management-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/project-task-management-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 18,
+    "slug": "document-management-permissions-retention",
+    "title": "Document management with permissions and retention",
+    "filename": "document-management-permissions-retention-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/document-management-permissions-retention-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 19,
+    "slug": "expense-management-platform",
+    "title": "Expense-management platform",
+    "filename": "expense-management-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/expense-management-platform-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 20,
+    "slug": "payroll-countries-employment-types",
+    "title": "Payroll across countries and employment types",
+    "filename": "payroll-countries-employment-types-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/payroll-countries-employment-types-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 21,
+    "slug": "employee-onboarding-offboarding",
+    "title": "Employee onboarding and offboarding",
+    "filename": "employee-onboarding-offboarding-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/employee-onboarding-offboarding-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 22,
+    "slug": "third-party-integration-platform",
+    "title": "Third-party integration platform",
+    "filename": "third-party-integration-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/third-party-integration-platform-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 23,
+    "slug": "webhook-ingestion-delivery",
+    "title": "Webhook ingestion and delivery",
+    "filename": "webhook-ingestion-delivery-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/webhook-ingestion-delivery-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 24,
+    "slug": "rest-api-abstraction-sdk",
+    "title": "REST API abstraction and generated client SDK",
+    "filename": "rest-api-abstraction-sdk-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/rest-api-abstraction-sdk-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 25,
+    "slug": "notification-as-a-service",
+    "title": "Notification-as-a-service product",
+    "filename": "notification-as-a-service-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/notification-as-a-service-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 26,
+    "slug": "subscription-plans-entitlements",
+    "title": "Subscription plans, entitlements, and feature access",
+    "filename": "subscription-plans-entitlements-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/subscription-plans-entitlements-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 27,
+    "slug": "administrative-reporting-dashboard",
+    "title": "Administrative reporting dashboard",
+    "filename": "administrative-reporting-dashboard-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/administrative-reporting-dashboard-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 28,
+    "slug": "ticket-to-code-change-workflow",
+    "title": "Automated ticket-to-code-change workflow",
+    "filename": "ticket-to-code-change-workflow-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ticket-to-code-change-workflow-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 29,
+    "slug": "resilient-bootstrap-api",
+    "title": "Resilient bootstrap API for loading an application first screen",
+    "filename": "resilient-bootstrap-api-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/resilient-bootstrap-api-system-design.md"
+  },
+  {
+    "section_id": "08-enterprise-saas",
+    "section_title": "Enterprise SaaS, identity, and workflow products",
+    "num": 30,
+    "slug": "policy-compliance-evidence-collection",
+    "title": "Policy-compliance and evidence-collection platform",
+    "filename": "policy-compliance-evidence-collection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/policy-compliance-evidence-collection-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 1,
+    "slug": "metrics-monitoring-platform",
+    "title": "Metrics-monitoring platform",
+    "filename": "metrics-monitoring-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/metrics-monitoring-platform-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 2,
+    "slug": "centralized-log-collection-search",
+    "title": "Centralized log collection and search",
+    "filename": "centralized-log-collection-search-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/centralized-log-collection-search-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 3,
+    "slug": "distributed-tracing",
+    "title": "Distributed tracing",
+    "filename": "distributed-tracing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-tracing-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 4,
+    "slug": "apm-platform",
+    "title": "APM platform",
+    "filename": "apm-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/apm-platform-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 5,
+    "slug": "error-tracking-sentry",
+    "title": "Error tracking like Sentry",
+    "filename": "error-tracking-sentry-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/error-tracking-sentry-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 6,
+    "slug": "alerting-platform",
+    "title": "Alerting platform",
+    "filename": "alerting-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/alerting-platform-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 7,
+    "slug": "alert-dedup-grouping-escalation",
+    "title": "Alert deduplication, grouping, and escalation",
+    "filename": "alert-dedup-grouping-escalation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/alert-dedup-grouping-escalation-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 8,
+    "slug": "public-status-page",
+    "title": "Public status page",
+    "filename": "public-status-page-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/public-status-page-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 9,
+    "slug": "incident-management-oncall",
+    "title": "Incident-management and on-call tooling",
+    "filename": "incident-management-oncall-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/incident-management-oncall-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 10,
+    "slug": "service-health-checks",
+    "title": "Service health checks",
+    "filename": "service-health-checks-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/service-health-checks-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 11,
+    "slug": "dependency-aware-failure-detection",
+    "title": "Dependency-aware failure detection",
+    "filename": "dependency-aware-failure-detection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/dependency-aware-failure-detection-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 12,
+    "slug": "load-shedding-graceful-degradation",
+    "title": "Load shedding and graceful degradation",
+    "filename": "load-shedding-graceful-degradation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/load-shedding-graceful-degradation-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 13,
+    "slug": "autoscaling",
+    "title": "Autoscaling",
+    "filename": "autoscaling-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/autoscaling-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 14,
+    "slug": "multi-region-active-active-failover",
+    "title": "Multi-region active-active failover",
+    "filename": "multi-region-active-active-failover-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/multi-region-active-active-failover-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 15,
+    "slug": "disaster-recovery",
+    "title": "Disaster recovery",
+    "filename": "disaster-recovery-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/disaster-recovery-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 16,
+    "slug": "backup-verification-restoration",
+    "title": "Backup verification and restoration",
+    "filename": "backup-verification-restoration-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/backup-verification-restoration-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 17,
+    "slug": "canary-deployment-automatic-rollback",
+    "title": "Canary deployment and automatic rollback",
+    "filename": "canary-deployment-automatic-rollback-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/canary-deployment-automatic-rollback-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 18,
+    "slug": "secrets-management",
+    "title": "Secrets-management system",
+    "filename": "secrets-management-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/secrets-management-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 19,
+    "slug": "key-management-service",
+    "title": "Key-management service",
+    "filename": "key-management-service-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/key-management-service-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 20,
+    "slug": "encrypted-log-collection",
+    "title": "Encrypted log collection",
+    "filename": "encrypted-log-collection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/encrypted-log-collection-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 21,
+    "slug": "security-event-siem-pipeline",
+    "title": "Security-event / SIEM pipeline",
+    "filename": "security-event-siem-pipeline-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/security-event-siem-pipeline-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 22,
+    "slug": "authentication-anomaly-detection",
+    "title": "Authentication anomaly detection",
+    "filename": "authentication-anomaly-detection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/authentication-anomaly-detection-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 23,
+    "slug": "bot-spam-abuse-prevention",
+    "title": "Bot, spam, or account-abuse prevention",
+    "filename": "bot-spam-abuse-prevention-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/bot-spam-abuse-prevention-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 24,
+    "slug": "waf-ddos-protection",
+    "title": "WAF or DDoS-protection service",
+    "filename": "waf-ddos-protection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/waf-ddos-protection-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 25,
+    "slug": "vulnerability-scanning-infrastructure",
+    "title": "Vulnerability-scanning infrastructure",
+    "filename": "vulnerability-scanning-infrastructure-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/vulnerability-scanning-infrastructure-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 26,
+    "slug": "compliance-data-retention",
+    "title": "Compliance data retention",
+    "filename": "compliance-data-retention-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/compliance-data-retention-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 27,
+    "slug": "privacy-aware-audit-logging",
+    "title": "Privacy-aware audit logging",
+    "filename": "privacy-aware-audit-logging-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/privacy-aware-audit-logging-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 28,
+    "slug": "per-tenant-cost-attribution-chargeback",
+    "title": "Per-tenant cost attribution and chargeback",
+    "filename": "per-tenant-cost-attribution-chargeback-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/per-tenant-cost-attribution-chargeback-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 29,
+    "slug": "slo-sla-management-platform",
+    "title": "SLO/SLA-management platform",
+    "filename": "slo-sla-management-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/slo-sla-management-platform-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 30,
+    "slug": "overloaded-kubernetes-cluster-diagnosis",
+    "title": "Diagnose and redesign an overloaded Kubernetes cluster",
+    "filename": "overloaded-kubernetes-cluster-diagnosis-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/overloaded-kubernetes-cluster-diagnosis-system-design.md"
+  },
+  {
+    "section_id": "09-observability-reliability",
+    "section_title": "Observability, reliability, security, and operations",
+    "num": 31,
+    "slug": "infrastructure-capacity-forecasting",
+    "title": "Infrastructure capacity forecasting",
+    "filename": "infrastructure-capacity-forecasting-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/infrastructure-capacity-forecasting-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 1,
+    "slug": "chatgpt",
+    "title": "ChatGPT",
+    "filename": "chatgpt-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/chatgpt-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 2,
+    "slug": "customer-support-chatbot-llm",
+    "title": "Customer-support chatbot using a third-party LLM",
+    "filename": "customer-support-chatbot-llm-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/customer-support-chatbot-llm-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 3,
+    "slug": "openai-playground-style-app",
+    "title": "OpenAI Playground-style application",
+    "filename": "openai-playground-style-app-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/openai-playground-style-app-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 4,
+    "slug": "ai-answer-engine-search-citations",
+    "title": "AI answer engine with search and citations",
+    "filename": "ai-answer-engine-search-citations-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ai-answer-engine-search-citations-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 5,
+    "slug": "retrieval-augmented-generation",
+    "title": "Retrieval-augmented generation",
+    "filename": "retrieval-augmented-generation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/retrieval-augmented-generation-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 6,
+    "slug": "document-ingestion-rag",
+    "title": "Document ingestion for RAG",
+    "filename": "document-ingestion-rag-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/document-ingestion-rag-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 7,
+    "slug": "embedding-generation-pipeline",
+    "title": "Embedding-generation pipeline",
+    "filename": "embedding-generation-pipeline-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/embedding-generation-pipeline-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 8,
+    "slug": "vector-database",
+    "title": "Vector database",
+    "filename": "vector-database-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/vector-database-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 9,
+    "slug": "hybrid-lexical-semantic-retrieval",
+    "title": "Hybrid lexical and semantic retrieval",
+    "filename": "hybrid-lexical-semantic-retrieval-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/hybrid-lexical-semantic-retrieval-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 10,
+    "slug": "model-gateway",
+    "title": "Model gateway",
+    "filename": "model-gateway-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/model-gateway-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 11,
+    "slug": "model-routing-providers",
+    "title": "Model routing across providers",
+    "filename": "model-routing-providers-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/model-routing-providers-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 12,
+    "slug": "prompt-model-version-management",
+    "title": "Prompt and model-version management",
+    "filename": "prompt-model-version-management-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/prompt-model-version-management-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 13,
+    "slug": "llm-request-caching",
+    "title": "Caching for LLM requests",
+    "filename": "llm-request-caching-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/llm-request-caching-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 14,
+    "slug": "streaming-llm-responses",
+    "title": "Streaming LLM responses",
+    "filename": "streaming-llm-responses-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/streaming-llm-responses-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 15,
+    "slug": "batch-inference-gpu-cluster",
+    "title": "Batch-inference API over a GPU cluster",
+    "filename": "batch-inference-gpu-cluster-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/batch-inference-gpu-cluster-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 16,
+    "slug": "low-latency-online-inference",
+    "title": "Low-latency online inference",
+    "filename": "low-latency-online-inference-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/low-latency-online-inference-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 17,
+    "slug": "autoscaling-bursty-inference",
+    "title": "Autoscaling for expensive, bursty inference",
+    "filename": "autoscaling-bursty-inference-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/autoscaling-bursty-inference-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 18,
+    "slug": "distributed-model-training",
+    "title": "Distributed model training",
+    "filename": "distributed-model-training-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-model-training-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 19,
+    "slug": "distribute-model-weights",
+    "title": "Distribute model weights to thousands of machines",
+    "filename": "distribute-model-weights-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distribute-model-weights-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 20,
+    "slug": "gpu-accelerator-scheduler",
+    "title": "GPU/accelerator scheduler",
+    "filename": "gpu-accelerator-scheduler-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/gpu-accelerator-scheduler-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 21,
+    "slug": "shared-compute-allocation",
+    "title": "Allocate shared compute across teams and projects",
+    "filename": "shared-compute-allocation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/shared-compute-allocation-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 22,
+    "slug": "checkpoint-storage-recovery",
+    "title": "Checkpoint storage and recovery",
+    "filename": "checkpoint-storage-recovery-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/checkpoint-storage-recovery-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 23,
+    "slug": "model-registry-deployment",
+    "title": "Model registry and deployment platform",
+    "filename": "model-registry-deployment-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/model-registry-deployment-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 24,
+    "slug": "feature-store-ml",
+    "title": "Feature store (ML)",
+    "filename": "feature-store-ml-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/feature-store-ml-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 25,
+    "slug": "ranking-recommendation-serving",
+    "title": "Ranking or recommendation-serving platform",
+    "filename": "ranking-recommendation-serving-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ranking-recommendation-serving-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 26,
+    "slug": "model-evaluation-platform",
+    "title": "Model-evaluation platform",
+    "filename": "model-evaluation-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/model-evaluation-platform-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 27,
+    "slug": "llm-regression-testing",
+    "title": "LLM regression testing",
+    "filename": "llm-regression-testing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/llm-regression-testing-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 28,
+    "slug": "experimentation-model-comparison",
+    "title": "Experimentation and model comparison",
+    "filename": "experimentation-model-comparison-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/experimentation-model-comparison-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 29,
+    "slug": "prompt-token-latency-cost-observability",
+    "title": "Prompt, token, latency, and cost observability",
+    "filename": "prompt-token-latency-cost-observability-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/prompt-token-latency-cost-observability-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 30,
+    "slug": "per-user-token-quotas-rate-limits",
+    "title": "Per-user token quotas and rate limits",
+    "filename": "per-user-token-quotas-rate-limits-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/per-user-token-quotas-rate-limits-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 31,
+    "slug": "autonomous-agent-platform",
+    "title": "Autonomous agent platform",
+    "filename": "autonomous-agent-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/autonomous-agent-platform-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 32,
+    "slug": "agent-tool-execution-credentials",
+    "title": "Tool execution and credentials for agents",
+    "filename": "agent-tool-execution-credentials-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/agent-tool-execution-credentials-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 33,
+    "slug": "agent-safeguards-approvals",
+    "title": "Safeguards and approvals for agents taking actions",
+    "filename": "agent-safeguards-approvals-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/agent-safeguards-approvals-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 34,
+    "slug": "durable-agent-memory",
+    "title": "Durable agent memory",
+    "filename": "durable-agent-memory-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/durable-agent-memory-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 35,
+    "slug": "multi-step-agent-workflow-orchestration",
+    "title": "Multi-step agent workflow orchestration",
+    "filename": "multi-step-agent-workflow-orchestration-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/multi-step-agent-workflow-orchestration-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 36,
+    "slug": "human-in-the-loop-review",
+    "title": "Human-in-the-loop review",
+    "filename": "human-in-the-loop-review-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/human-in-the-loop-review-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 37,
+    "slug": "data-labeling-platform",
+    "title": "Data-labeling platform",
+    "filename": "data-labeling-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/data-labeling-platform-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 38,
+    "slug": "memory-bounded-dataset-cleaning",
+    "title": "Memory-bounded dataset-cleaning pipeline",
+    "filename": "memory-bounded-dataset-cleaning-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/memory-bounded-dataset-cleaning-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 39,
+    "slug": "moderation-classification-external-llms",
+    "title": "Moderation or classification using external LLMs",
+    "filename": "moderation-classification-external-llms-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/moderation-classification-external-llms-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 40,
+    "slug": "ai-coding-assistant",
+    "title": "AI coding assistant",
+    "filename": "ai-coding-assistant-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ai-coding-assistant-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 41,
+    "slug": "secure-sandboxes-ai-generated-code",
+    "title": "Secure sandboxes for AI-generated code",
+    "filename": "secure-sandboxes-ai-generated-code-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/secure-sandboxes-ai-generated-code-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 42,
+    "slug": "voice-generation-cloning",
+    "title": "Voice generation and cloning",
+    "filename": "voice-generation-cloning-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/voice-generation-cloning-system-design.md"
+  },
+  {
+    "section_id": "10-ai-llm-ml",
+    "section_title": "AI, LLM, and machine-learning systems",
+    "num": 43,
+    "slug": "realtime-speech-to-speech",
+    "title": "Real-time speech-to-speech conversation",
+    "filename": "realtime-speech-to-speech-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/realtime-speech-to-speech-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 1,
+    "slug": "iot-device-registry",
+    "title": "IoT device registry",
+    "filename": "iot-device-registry-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/iot-device-registry-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 2,
+    "slug": "device-provisioning-authentication",
+    "title": "Device provisioning and authentication",
+    "filename": "device-provisioning-authentication-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/device-provisioning-authentication-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 3,
+    "slug": "device-telemetry-ingestion",
+    "title": "Device telemetry ingestion",
+    "filename": "device-telemetry-ingestion-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/device-telemetry-ingestion-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 4,
+    "slug": "smart-meter-event-pipeline",
+    "title": "Smart-meter event pipeline",
+    "filename": "smart-meter-event-pipeline-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/smart-meter-event-pipeline-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 5,
+    "slug": "fleet-telemetry-remote-control",
+    "title": "Fleet telemetry and remote control",
+    "filename": "fleet-telemetry-remote-control-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/fleet-telemetry-remote-control-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 6,
+    "slug": "ota-firmware-rollout-rollback",
+    "title": "Over-the-air firmware rollout and rollback",
+    "filename": "ota-firmware-rollout-rollback-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ota-firmware-rollout-rollback-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 7,
+    "slug": "offline-first-mobile-application",
+    "title": "Offline-first mobile application",
+    "filename": "offline-first-mobile-application-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/offline-first-mobile-application-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 8,
+    "slug": "client-server-sync-long-disconnection",
+    "title": "Client/server synchronization after long disconnection",
+    "filename": "client-server-sync-long-disconnection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/client-server-sync-long-disconnection-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 9,
+    "slug": "conflict-resolution-offline-writes",
+    "title": "Conflict resolution for offline writes",
+    "filename": "conflict-resolution-offline-writes-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/conflict-resolution-offline-writes-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 10,
+    "slug": "location-sharing-service",
+    "title": "Location-sharing service",
+    "filename": "location-sharing-service-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/location-sharing-service-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 11,
+    "slug": "battery-efficient-location-updates",
+    "title": "Battery-efficient location updates",
+    "filename": "battery-efficient-location-updates-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/battery-efficient-location-updates-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 12,
+    "slug": "mobile-push-notifications",
+    "title": "Mobile push notifications",
+    "filename": "mobile-push-notifications-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/mobile-push-notifications-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 13,
+    "slug": "sensor-alerts",
+    "title": "Sensor alerts",
+    "filename": "sensor-alerts-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/sensor-alerts-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 14,
+    "slug": "home-automation-infrastructure",
+    "title": "Home-automation infrastructure",
+    "filename": "home-automation-infrastructure-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/home-automation-infrastructure-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 15,
+    "slug": "security-camera-upload-streaming",
+    "title": "Security-camera upload and streaming",
+    "filename": "security-camera-upload-streaming-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/security-camera-upload-streaming-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 16,
+    "slug": "edge-cache",
+    "title": "Edge cache",
+    "filename": "edge-cache-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/edge-cache-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 17,
+    "slug": "resumable-upload-unreliable-networks",
+    "title": "Resumable upload over unreliable networks",
+    "filename": "resumable-upload-unreliable-networks-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/resumable-upload-unreliable-networks-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 18,
+    "slug": "satellite-disconnected-storage",
+    "title": "Satellite or highly disconnected storage",
+    "filename": "satellite-disconnected-storage-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/satellite-disconnected-storage-system-design.md"
+  },
+  {
+    "section_id": "11-devices-iot",
+    "section_title": "Devices, mobile, edge, and IoT",
+    "num": 19,
+    "slug": "global-device-command-control-plane",
+    "title": "Global device command-and-control plane",
+    "filename": "global-device-command-control-plane-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/global-device-command-control-plane-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 1,
+    "slug": "github-git-repository-hosting",
+    "title": "GitHub or Git repository hosting",
+    "filename": "github-git-repository-hosting-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/github-git-repository-hosting-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 2,
+    "slug": "pull-requests-reviews-branch-protection",
+    "title": "Pull requests, reviews, and branch protection",
+    "filename": "pull-requests-reviews-branch-protection-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/pull-requests-reviews-branch-protection-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 3,
+    "slug": "code-search",
+    "title": "Code search",
+    "filename": "code-search-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/code-search-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 4,
+    "slug": "cicd-platform",
+    "title": "CI/CD platform",
+    "filename": "cicd-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/cicd-platform-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 5,
+    "slug": "distributed-build-system",
+    "title": "Distributed build system",
+    "filename": "distributed-build-system-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/distributed-build-system-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 6,
+    "slug": "remote-build-caching",
+    "title": "Remote build caching",
+    "filename": "remote-build-caching-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/remote-build-caching-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 7,
+    "slug": "package-registry",
+    "title": "Package registry",
+    "filename": "package-registry-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/package-registry-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 8,
+    "slug": "artifact-container-registry",
+    "title": "Artifact or container registry",
+    "filename": "artifact-container-registry-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/artifact-container-registry-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 9,
+    "slug": "cloud-ide",
+    "title": "Cloud IDE",
+    "filename": "cloud-ide-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/cloud-ide-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 10,
+    "slug": "leetcode-online-code-judge",
+    "title": "LeetCode or online code judge",
+    "filename": "leetcode-online-code-judge-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/leetcode-online-code-judge-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 11,
+    "slug": "secure-untrusted-code-execution",
+    "title": "Secure untrusted-code execution",
+    "filename": "secure-untrusted-code-execution-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/secure-untrusted-code-execution-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 12,
+    "slug": "notebook-platform",
+    "title": "Notebook platform",
+    "filename": "notebook-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/notebook-platform-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 13,
+    "slug": "collaborative-notebooks",
+    "title": "Collaborative notebooks",
+    "filename": "collaborative-notebooks-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/collaborative-notebooks-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 14,
+    "slug": "database-control-plane",
+    "title": "Database-control plane",
+    "filename": "database-control-plane-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/database-control-plane-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 15,
+    "slug": "compute-cluster-control-plane",
+    "title": "Compute-cluster control plane",
+    "filename": "compute-cluster-control-plane-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/compute-cluster-control-plane-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 16,
+    "slug": "kubernetes-scheduler-operator",
+    "title": "Kubernetes scheduler or operator",
+    "filename": "kubernetes-scheduler-operator-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/kubernetes-scheduler-operator-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 17,
+    "slug": "multi-tenant-job-execution",
+    "title": "Multi-tenant job-execution platform",
+    "filename": "multi-tenant-job-execution-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/multi-tenant-job-execution-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 18,
+    "slug": "fair-resource-allocation-tenants",
+    "title": "Fair resource allocation across tenants",
+    "filename": "fair-resource-allocation-tenants-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/fair-resource-allocation-tenants-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 19,
+    "slug": "cloud-connection-database-proxy",
+    "title": "Cloud connection or database proxy",
+    "filename": "cloud-connection-database-proxy-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/cloud-connection-database-proxy-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 20,
+    "slug": "api-management-platform",
+    "title": "API-management platform",
+    "filename": "api-management-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/api-management-platform-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 21,
+    "slug": "developer-webhook-platform",
+    "title": "Developer webhook platform",
+    "filename": "developer-webhook-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/developer-webhook-platform-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 22,
+    "slug": "monolith-to-services-migration",
+    "title": "Migration from a monolith to services",
+    "filename": "monolith-to-services-migration-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/monolith-to-services-migration-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 23,
+    "slug": "zero-downtime-database-migration",
+    "title": "Zero-downtime database migration",
+    "filename": "zero-downtime-database-migration-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/zero-downtime-database-migration-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 24,
+    "slug": "control-plane-data-plane-separation",
+    "title": "Control-plane / data-plane separation",
+    "filename": "control-plane-data-plane-separation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/control-plane-data-plane-separation-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 25,
+    "slug": "iac-state-management",
+    "title": "Infrastructure-as-code state management",
+    "filename": "iac-state-management-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/iac-state-management-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 26,
+    "slug": "managed-message-queue-service",
+    "title": "Managed message-queue service",
+    "filename": "managed-message-queue-service-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/managed-message-queue-service-system-design.md"
+  },
+  {
+    "section_id": "12-developer-tools-cloud",
+    "section_title": "Developer tools and cloud platforms",
+    "num": 27,
+    "slug": "managed-feature-store-ml-pipeline",
+    "title": "Managed feature store or ML pipeline platform",
+    "filename": "managed-feature-store-ml-pipeline-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/managed-feature-store-ml-pipeline-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 1,
+    "slug": "patient-appointment-scheduling",
+    "title": "Patient appointment scheduling",
+    "filename": "patient-appointment-scheduling-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/patient-appointment-scheduling-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 2,
+    "slug": "electronic-health-record",
+    "title": "Electronic health-record system",
+    "filename": "electronic-health-record-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/electronic-health-record-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 3,
+    "slug": "provider-search-availability",
+    "title": "Provider search and availability",
+    "filename": "provider-search-availability-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/provider-search-availability-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 4,
+    "slug": "telemedicine",
+    "title": "Telemedicine",
+    "filename": "telemedicine-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/telemedicine-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 5,
+    "slug": "remote-patient-monitoring",
+    "title": "Remote-patient monitoring",
+    "filename": "remote-patient-monitoring-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/remote-patient-monitoring-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 6,
+    "slug": "prescription-pharmacy-fulfillment",
+    "title": "Prescription and pharmacy fulfillment",
+    "filename": "prescription-pharmacy-fulfillment-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/prescription-pharmacy-fulfillment-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 7,
+    "slug": "lab-result-ingestion-delivery",
+    "title": "Lab-result ingestion and delivery",
+    "filename": "lab-result-ingestion-delivery-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/lab-result-ingestion-delivery-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 8,
+    "slug": "medical-claims-processing",
+    "title": "Medical claims processing",
+    "filename": "medical-claims-processing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/medical-claims-processing-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 9,
+    "slug": "clinical-alerts",
+    "title": "Clinical alerts",
+    "filename": "clinical-alerts-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/clinical-alerts-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 10,
+    "slug": "hipaa-compliant-audit-access",
+    "title": "HIPAA-compliant audit and access controls",
+    "filename": "hipaa-compliant-audit-access-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/hipaa-compliant-audit-access-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 11,
+    "slug": "lms",
+    "title": "LMS",
+    "filename": "lms-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/lms-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 12,
+    "slug": "live-online-classes",
+    "title": "Live online classes",
+    "filename": "live-online-classes-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/live-online-classes-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 13,
+    "slug": "course-recommendations",
+    "title": "Course recommendations",
+    "filename": "course-recommendations-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/course-recommendations-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 14,
+    "slug": "online-examination-platform",
+    "title": "Online examination platform",
+    "filename": "online-examination-platform-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/online-examination-platform-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 15,
+    "slug": "remote-proctoring",
+    "title": "Remote proctoring",
+    "filename": "remote-proctoring-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/remote-proctoring-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 16,
+    "slug": "assignment-submission-grading",
+    "title": "Assignment submission and grading",
+    "filename": "assignment-submission-grading-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/assignment-submission-grading-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 17,
+    "slug": "collaborative-classroom-documents",
+    "title": "Collaborative classroom documents",
+    "filename": "collaborative-classroom-documents-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/collaborative-classroom-documents-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 18,
+    "slug": "warehouse-management",
+    "title": "Warehouse management",
+    "filename": "warehouse-management-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/warehouse-management-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 19,
+    "slug": "inventory-forecasting",
+    "title": "Inventory forecasting",
+    "filename": "inventory-forecasting-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/inventory-forecasting-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 20,
+    "slug": "shipment-tracking-across-carriers",
+    "title": "Shipment tracking across carriers",
+    "filename": "shipment-tracking-across-carriers-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/shipment-tracking-across-carriers-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 21,
+    "slug": "purchase-order-workflow",
+    "title": "Purchase-order workflow",
+    "filename": "purchase-order-workflow-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/purchase-order-workflow-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 22,
+    "slug": "factory-telemetry",
+    "title": "Factory telemetry",
+    "filename": "factory-telemetry-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/factory-telemetry-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 23,
+    "slug": "digital-twin",
+    "title": "Digital twin",
+    "filename": "digital-twin-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/digital-twin-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 24,
+    "slug": "cold-chain-monitoring",
+    "title": "Cold-chain monitoring",
+    "filename": "cold-chain-monitoring-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/cold-chain-monitoring-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 25,
+    "slug": "supply-chain-event-reconciliation",
+    "title": "Supply-chain event reconciliation",
+    "filename": "supply-chain-event-reconciliation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/supply-chain-event-reconciliation-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 26,
+    "slug": "property-listings-search",
+    "title": "Property listings and search",
+    "filename": "property-listings-search-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/property-listings-search-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 27,
+    "slug": "home-valuation",
+    "title": "Home valuation",
+    "filename": "home-valuation-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/home-valuation-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 28,
+    "slug": "mortgage-application-processing",
+    "title": "Mortgage application processing",
+    "filename": "mortgage-application-processing-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/mortgage-application-processing-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 29,
+    "slug": "insurance-quoting",
+    "title": "Insurance quoting",
+    "filename": "insurance-quoting-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/insurance-quoting-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 30,
+    "slug": "policy-administration",
+    "title": "Policy administration",
+    "filename": "policy-administration-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/policy-administration-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 31,
+    "slug": "claims-submission-adjudication",
+    "title": "Claims submission and adjudication",
+    "filename": "claims-submission-adjudication-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/claims-submission-adjudication-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 32,
+    "slug": "fraud-resistant-damage-evidence-upload",
+    "title": "Fraud-resistant damage evidence upload",
+    "filename": "fraud-resistant-damage-evidence-upload-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/fraud-resistant-damage-evidence-upload-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 33,
+    "slug": "electronic-signatures",
+    "title": "Electronic signatures",
+    "filename": "electronic-signatures-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/electronic-signatures-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 34,
+    "slug": "contract-lifecycle-management",
+    "title": "Contract lifecycle management",
+    "filename": "contract-lifecycle-management-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/contract-lifecycle-management-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 35,
+    "slug": "document-review-e-discovery",
+    "title": "Document review and e-discovery",
+    "filename": "document-review-e-discovery-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/document-review-e-discovery-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 36,
+    "slug": "legal-hold-retention",
+    "title": "Legal hold and retention",
+    "filename": "legal-hold-retention-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/legal-hold-retention-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 37,
+    "slug": "regulatory-monitoring",
+    "title": "Regulatory monitoring",
+    "filename": "regulatory-monitoring-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/regulatory-monitoring-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 38,
+    "slug": "approval-evidence-workflows",
+    "title": "Approval and evidence workflows",
+    "filename": "approval-evidence-workflows-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/approval-evidence-workflows-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 39,
+    "slug": "ev-charging-network",
+    "title": "EV charging network",
+    "filename": "ev-charging-network-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ev-charging-network-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 40,
+    "slug": "electricity-grid-telemetry",
+    "title": "Electricity-grid telemetry",
+    "filename": "electricity-grid-telemetry-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/electricity-grid-telemetry-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 41,
+    "slug": "demand-response-controls",
+    "title": "Demand-response controls",
+    "filename": "demand-response-controls-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/demand-response-controls-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 42,
+    "slug": "renewable-energy-forecasting",
+    "title": "Renewable-energy forecasting",
+    "filename": "renewable-energy-forecasting-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/renewable-energy-forecasting-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 43,
+    "slug": "carbon-accounting-ledger",
+    "title": "Carbon-accounting ledger",
+    "filename": "carbon-accounting-ledger-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/carbon-accounting-ledger-system-design.md"
+  },
+  {
+    "section_id": "13-domain-specific",
+    "section_title": "Domain-specific startup prompts",
+    "num": 44,
+    "slug": "energy-market-bidding",
+    "title": "Energy-market bidding",
+    "filename": "energy-market-bidding-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/energy-market-bidding-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 1,
+    "slug": "lru-lfu-cache",
+    "title": "LRU or LFU cache",
+    "filename": "lru-lfu-cache-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/lru-lfu-cache-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 2,
+    "slug": "connection-pool",
+    "title": "Connection pool",
+    "filename": "connection-pool-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/connection-pool-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 3,
+    "slug": "thread-pool-task-executor",
+    "title": "Thread pool or task executor",
+    "filename": "thread-pool-task-executor-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/thread-pool-task-executor-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 4,
+    "slug": "bounded-blocking-queue",
+    "title": "Bounded blocking queue",
+    "filename": "bounded-blocking-queue-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/bounded-blocking-queue-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 5,
+    "slug": "multi-producer-multi-consumer-queue",
+    "title": "Multi-producer/multi-consumer queue",
+    "filename": "multi-producer-multi-consumer-queue-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/multi-producer-multi-consumer-queue-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 6,
+    "slug": "ring-buffer",
+    "title": "Ring buffer",
+    "filename": "ring-buffer-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ring-buffer-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 7,
+    "slug": "buffered-writer",
+    "title": "Buffered writer",
+    "filename": "buffered-writer-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/buffered-writer-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 8,
+    "slug": "write-ahead-log",
+    "title": "Write-ahead log",
+    "filename": "write-ahead-log-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/write-ahead-log-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 9,
+    "slug": "durable-local-key-value-store",
+    "title": "Durable local key-value store",
+    "filename": "durable-local-key-value-store-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/durable-local-key-value-store-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 10,
+    "slug": "in-memory-filesystem",
+    "title": "In-memory filesystem",
+    "filename": "in-memory-filesystem-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/in-memory-filesystem-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 11,
+    "slug": "in-memory-cloud-storage-service",
+    "title": "In-memory cloud-storage service",
+    "filename": "in-memory-cloud-storage-service-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/in-memory-cloud-storage-service-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 12,
+    "slug": "range-based-file-cache",
+    "title": "Range-based file cache",
+    "filename": "range-based-file-cache-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/range-based-file-cache-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 13,
+    "slug": "expiring-cache",
+    "title": "Expiring cache",
+    "filename": "expiring-cache-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/expiring-cache-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 14,
+    "slug": "transactional-lock-manager",
+    "title": "Transactional lock manager",
+    "filename": "transactional-lock-manager-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/transactional-lock-manager-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 15,
+    "slug": "idempotency-key-library",
+    "title": "Idempotency-key library",
+    "filename": "idempotency-key-library-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/idempotency-key-library-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 16,
+    "slug": "retry-backoff-circuit-breaker",
+    "title": "Retry system with backoff and circuit breaking",
+    "filename": "retry-backoff-circuit-breaker-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/retry-backoff-circuit-breaker-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 17,
+    "slug": "token-bucket-sliding-window-rate-limiters",
+    "title": "Token-bucket and sliding-window rate limiters",
+    "filename": "token-bucket-sliding-window-rate-limiters-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/token-bucket-sliding-window-rate-limiters-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 18,
+    "slug": "stable-cursor-pagination",
+    "title": "Stable cursor pagination",
+    "filename": "stable-cursor-pagination-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/stable-cursor-pagination-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 19,
+    "slug": "trie-based-autocomplete",
+    "title": "Trie-based autocomplete component",
+    "filename": "trie-based-autocomplete-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/trie-based-autocomplete-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 20,
+    "slug": "ip-cidr-lookup",
+    "title": "IP/CIDR lookup",
+    "filename": "ip-cidr-lookup-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/ip-cidr-lookup-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 21,
+    "slug": "hierarchical-filesystem-permissions",
+    "title": "Hierarchical filesystem permissions",
+    "filename": "hierarchical-filesystem-permissions-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/hierarchical-filesystem-permissions-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 22,
+    "slug": "recurring-scheduler-pause-resume",
+    "title": "Recurring scheduler supporting pause, resume, cancel, and retry",
+    "filename": "recurring-scheduler-pause-resume-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/recurring-scheduler-pause-resume-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 23,
+    "slug": "append-only-event-store",
+    "title": "Append-only event store",
+    "filename": "append-only-event-store-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/append-only-event-store-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 24,
+    "slug": "lightweight-transaction-manager",
+    "title": "Lightweight transaction manager",
+    "filename": "lightweight-transaction-manager-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/lightweight-transaction-manager-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 25,
+    "slug": "concurrent-counter-statistics-aggregator",
+    "title": "Concurrent counter or statistics aggregator",
+    "filename": "concurrent-counter-statistics-aggregator-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/concurrent-counter-statistics-aggregator-system-design.md"
+  },
+  {
+    "section_id": "14-lld-machine-coding",
+    "section_title": "Lower-level and machine-coding system design",
+    "num": 26,
+    "slug": "reusable-notification-library",
+    "title": "Reusable notification library",
+    "filename": "reusable-notification-library-system-design.md",
+    "path": "/Users/yingpengwang/leetcode/system design/Fundamentals/reusable-notification-library-system-design.md"
+  }
+]
