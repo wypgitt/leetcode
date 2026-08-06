@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Citrix",
+  "slug": "citrix",
+  "api_questionCount": 4,
+  "api_unique_question_ids": 14,
+  "matched_problems_in_repo": 13,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 34,
+  "missing_ids": [
+    "10004"
+  ]
+}

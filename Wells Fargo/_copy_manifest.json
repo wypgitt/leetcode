@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Wells Fargo",
+  "slug": "wells-fargo",
+  "api_questionCount": 22,
+  "api_unique_question_ids": 90,
+  "matched_problems_in_repo": 90,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 180,
+  "missing_ids": []
+}

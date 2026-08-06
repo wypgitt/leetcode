@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Publicis Sapient",
+  "slug": "publicis-sapient",
+  "api_questionCount": 8,
+  "api_unique_question_ids": 48,
+  "matched_problems_in_repo": 48,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 96,
+  "missing_ids": []
+}

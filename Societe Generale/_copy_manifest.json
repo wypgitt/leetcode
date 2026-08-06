@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Societe Generale",
+  "slug": "societe-generale",
+  "api_questionCount": 4,
+  "api_unique_question_ids": 23,
+  "matched_problems_in_repo": 22,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 40,
+  "missing_ids": [
+    "1539"
+  ]
+}

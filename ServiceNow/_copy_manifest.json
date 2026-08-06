@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "ServiceNow",
+  "slug": "servicenow",
+  "api_questionCount": 68,
+  "api_unique_question_ids": 199,
+  "matched_problems_in_repo": 198,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 390,
+  "missing_ids": [
+    "23"
+  ]
+}

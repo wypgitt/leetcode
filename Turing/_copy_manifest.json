@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Turing",
+  "slug": "turing",
+  "api_questionCount": 35,
+  "api_unique_question_ids": 105,
+  "matched_problems_in_repo": 105,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 192,
+  "missing_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "SIG",
+  "slug": "sig",
+  "api_questionCount": 11,
+  "api_unique_question_ids": 37,
+  "matched_problems_in_repo": 37,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 61,
+  "missing_ids": []
+}

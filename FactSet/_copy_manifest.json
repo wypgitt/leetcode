@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "FactSet",
+  "slug": "factset",
+  "api_questionCount": 4,
+  "api_unique_question_ids": 58,
+  "matched_problems_in_repo": 58,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 103,
+  "missing_ids": []
+}

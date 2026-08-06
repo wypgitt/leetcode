@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "persistent systems",
+  "slug": "persistent-systems",
+  "api_questionCount": 8,
+  "api_unique_question_ids": 26,
+  "matched_problems_in_repo": 26,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 53,
+  "missing_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Informatica",
+  "slug": "informatica",
+  "api_questionCount": 2,
+  "api_unique_question_ids": 24,
+  "matched_problems_in_repo": 24,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 69,
+  "missing_ids": []
+}

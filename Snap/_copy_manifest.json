@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Snap",
+  "slug": "snapchat",
+  "api_questionCount": 80,
+  "api_unique_question_ids": 182,
+  "matched_problems_in_repo": 181,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 322,
+  "missing_ids": [
+    "23"
+  ]
+}

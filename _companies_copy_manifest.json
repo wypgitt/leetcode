@@ -1,0 +1,7310 @@
+{
+  "total_companies_on_leetcode": 984,
+  "companies_with_questions": 673,
+  "companies_with_zero_questions_skipped": 311,
+  "zero_question_companies": [
+    {
+      "name": "10X Genomics",
+      "slug": "10x-genomics"
+    },
+    {
+      "name": "A10 Networks",
+      "slug": "a10-networks"
+    },
+    {
+      "name": "ABBYY",
+      "slug": "abbyy"
+    },
+    {
+      "name": "Accolade",
+      "slug": "accolade"
+    },
+    {
+      "name": "Accolite Digital",
+      "slug": "accolite-digital"
+    },
+    {
+      "name": "Addepar",
+      "slug": "addepar"
+    },
+    {
+      "name": "AiDash",
+      "slug": "aidash"
+    },
+    {
+      "name": "Airtable",
+      "slug": "airtable"
+    },
+    {
+      "name": "ajio",
+      "slug": "ajio"
+    },
+    {
+      "name": "Akvelon",
+      "slug": "akvelon"
+    },
+    {
+      "name": "Alarm.com",
+      "slug": "alarmcom"
+    },
+    {
+      "name": "Alation",
+      "slug": "alation"
+    },
+    {
+      "name": "Alfa-Bank",
+      "slug": "alfa-bank"
+    },
+    {
+      "name": "AllState",
+      "slug": "allstate"
+    },
+    {
+      "name": "AlphaGrep",
+      "slug": "alphagrep"
+    },
+    {
+      "name": "Amagi",
+      "slug": "amagi"
+    },
+    {
+      "name": "Amobee",
+      "slug": "amobee"
+    },
+    {
+      "name": "Ancestry",
+      "slug": "ancestry"
+    },
+    {
+      "name": "Anchorage",
+      "slug": "anchorage"
+    },
+    {
+      "name": "Ansys",
+      "slug": "ansys"
+    },
+    {
+      "name": "ANZ",
+      "slug": "anz"
+    },
+    {
+      "name": "Apna",
+      "slug": "apna"
+    },
+    {
+      "name": "Applied Materials",
+      "slug": "applied-materials"
+    },
+    {
+      "name": "AppLovin",
+      "slug": "applovin"
+    },
+    {
+      "name": "Appsflyer",
+      "slug": "appsflyer"
+    },
+    {
+      "name": "Apptio",
+      "slug": "apptio"
+    },
+    {
+      "name": "AppViewX",
+      "slug": "appviewx"
+    },
+    {
+      "name": "Aptiv",
+      "slug": "aptiv"
+    },
+    {
+      "name": "Arm Holdings",
+      "slug": "arm"
+    },
+    {
+      "name": "ASML",
+      "slug": "asml"
+    },
+    {
+      "name": "Attentive AI",
+      "slug": "attentive-ai"
+    },
+    {
+      "name": "Badoo",
+      "slug": "badoo"
+    },
+    {
+      "name": "BeaconFire",
+      "slug": "beaconfire"
+    },
+    {
+      "name": "Benchling",
+      "slug": "benchling"
+    },
+    {
+      "name": "Bentley Systems",
+      "slug": "bentley-systems"
+    },
+    {
+      "name": "BharatPe",
+      "slug": "bharatpe"
+    },
+    {
+      "name": "Bidgely",
+      "slug": "bidgely"
+    },
+    {
+      "name": "bigbasket",
+      "slug": "bigbasket"
+    },
+    {
+      "name": "Binance",
+      "slug": "binance"
+    },
+    {
+      "name": "BitDefender",
+      "slug": "bitdefender"
+    },
+    {
+      "name": "Bitwise",
+      "slug": "bitwise"
+    },
+    {
+      "name": "BJIT",
+      "slug": "bjit"
+    },
+    {
+      "name": "BlackBerry",
+      "slug": "blackberry"
+    },
+    {
+      "name": "Blizzard",
+      "slug": "blizzard"
+    },
+    {
+      "name": "Blue Yonder",
+      "slug": "blue-yonder"
+    },
+    {
+      "name": "BMW Group",
+      "slug": "bmw"
+    },
+    {
+      "name": "BookMyShow",
+      "slug": "bookmyshow"
+    },
+    {
+      "name": "Bosch",
+      "slug": "bosch"
+    },
+    {
+      "name": "BOX8",
+      "slug": "box8"
+    },
+    {
+      "name": "Brex",
+      "slug": "brex"
+    },
+    {
+      "name": "Broadridge",
+      "slug": "broadridge"
+    },
+    {
+      "name": "Bungie",
+      "slug": "bungie"
+    },
+    {
+      "name": "BYJU'S",
+      "slug": "byjus"
+    },
+    {
+      "name": "Caastle",
+      "slug": "caastle"
+    },
+    {
+      "name": "Capitol One",
+      "slug": "capitol-one"
+    },
+    {
+      "name": "CarGurus",
+      "slug": "cargurus"
+    },
+    {
+      "name": "CDK Global",
+      "slug": "cdk-global"
+    },
+    {
+      "name": "CEDCOSS",
+      "slug": "cedcoss"
+    },
+    {
+      "name": "Celigo",
+      "slug": "celigo"
+    },
+    {
+      "name": "CGI",
+      "slug": "cgi"
+    },
+    {
+      "name": "chalo",
+      "slug": "chalo"
+    },
+    {
+      "name": "Check Point",
+      "slug": "checkpoint"
+    },
+    {
+      "name": "Chegg",
+      "slug": "chegg"
+    },
+    {
+      "name": "Chronus",
+      "slug": "chronus"
+    },
+    {
+      "name": "Cimpress",
+      "slug": "cimpress"
+    },
+    {
+      "name": "Cisco Meraki",
+      "slug": "cisco-meraki"
+    },
+    {
+      "name": "ClearTax",
+      "slug": "cleartax"
+    },
+    {
+      "name": "Clearwater Analytics",
+      "slug": "clearwater-analytics"
+    },
+    {
+      "name": "Clever",
+      "slug": "clever"
+    },
+    {
+      "name": "Clover",
+      "slug": "clover"
+    },
+    {
+      "name": "Clumio",
+      "slug": "clumio"
+    },
+    {
+      "name": "Coding Blocks",
+      "slug": "coding-blocks"
+    },
+    {
+      "name": "Codingmart",
+      "slug": "codingmart"
+    },
+    {
+      "name": "Coforge",
+      "slug": "coforge"
+    },
+    {
+      "name": "Cogoport",
+      "slug": "cogoport"
+    },
+    {
+      "name": "Comviva",
+      "slug": "comviva"
+    },
+    {
+      "name": "ConnectWise",
+      "slug": "connectwise"
+    },
+    {
+      "name": "ConsultAdd",
+      "slug": "consultadd"
+    },
+    {
+      "name": "Continental",
+      "slug": "continental"
+    },
+    {
+      "name": "Conviva",
+      "slug": "conviva"
+    },
+    {
+      "name": "Copart",
+      "slug": "copart"
+    },
+    {
+      "name": "Coveo",
+      "slug": "coveo"
+    },
+    {
+      "name": "Credit Karma",
+      "slug": "credit-karma"
+    },
+    {
+      "name": "CreditEase",
+      "slug": "creditease"
+    },
+    {
+      "name": "CTS",
+      "slug": "cts"
+    },
+    {
+      "name": "CVS Health",
+      "slug": "cvs-health"
+    },
+    {
+      "name": "Cyware",
+      "slug": "cyware"
+    },
+    {
+      "name": "D2L",
+      "slug": "d2l"
+    },
+    {
+      "name": "Daffodil Software",
+      "slug": "daffodil"
+    },
+    {
+      "name": "DataVisor",
+      "slug": "datavisor"
+    },
+    {
+      "name": "Dayforce",
+      "slug": "ceridian"
+    },
+    {
+      "name": "DBS",
+      "slug": "dbs"
+    },
+    {
+      "name": "DeepSeek",
+      "slug": "deepseek"
+    },
+    {
+      "name": "Delivery Hero",
+      "slug": "delivery-hero"
+    },
+    {
+      "name": "Deqode",
+      "slug": "deqode"
+    },
+    {
+      "name": "DiDi",
+      "slug": "didi"
+    },
+    {
+      "name": "Discover",
+      "slug": "discover"
+    },
+    {
+      "name": "Discovery",
+      "slug": "discovery"
+    },
+    {
+      "name": "Docker",
+      "slug": "docker"
+    },
+    {
+      "name": "DotPe",
+      "slug": "dotpe"
+    },
+    {
+      "name": "Dremio",
+      "slug": "dremio"
+    },
+    {
+      "name": "Egnyte",
+      "slug": "egnyte"
+    },
+    {
+      "name": "Eightfold",
+      "slug": "eightfoldai"
+    },
+    {
+      "name": "Electronic Arts",
+      "slug": "electronic-arts"
+    },
+    {
+      "name": "Enfusion",
+      "slug": "enfusion"
+    },
+    {
+      "name": "Epsilon",
+      "slug": "epsilon"
+    },
+    {
+      "name": "Esri",
+      "slug": "esri"
+    },
+    {
+      "name": "Ethos Life",
+      "slug": "ethos-life"
+    },
+    {
+      "name": "Evernote",
+      "slug": "evernote"
+    },
+    {
+      "name": "Experian",
+      "slug": "experian"
+    },
+    {
+      "name": "Face++",
+      "slug": "face"
+    },
+    {
+      "name": "FactWise",
+      "slug": "factwise"
+    },
+    {
+      "name": "Fareye",
+      "slug": "fareye"
+    },
+    {
+      "name": "FedEx",
+      "slug": "fedex"
+    },
+    {
+      "name": "Finra",
+      "slug": "finra"
+    },
+    {
+      "name": "Foodpanda",
+      "slug": "foodpanda"
+    },
+    {
+      "name": "Ford",
+      "slug": "ford"
+    },
+    {
+      "name": "FourSquare",
+      "slug": "foursquare"
+    },
+    {
+      "name": "FreeWheel",
+      "slug": "freewheel"
+    },
+    {
+      "name": "GammaStack",
+      "slug": "gammastack"
+    },
+    {
+      "name": "Gap",
+      "slug": "gap"
+    },
+    {
+      "name": "Genesys",
+      "slug": "genesys"
+    },
+    {
+      "name": "Genpact",
+      "slug": "genpact"
+    },
+    {
+      "name": "Glance",
+      "slug": "glance"
+    },
+    {
+      "name": "Globant",
+      "slug": "globant"
+    },
+    {
+      "name": "Gojek",
+      "slug": "gojek"
+    },
+    {
+      "name": "Goo",
+      "slug": "goo"
+    },
+    {
+      "name": "Graviton",
+      "slug": "graviton"
+    },
+    {
+      "name": "GreyOrange",
+      "slug": "greyorange"
+    },
+    {
+      "name": "Grid Dynamics",
+      "slug": "grid-dynamics"
+    },
+    {
+      "name": "Halodoc",
+      "slug": "halodoc"
+    },
+    {
+      "name": "Harman",
+      "slug": "harman"
+    },
+    {
+      "name": "HEB",
+      "slug": "heb"
+    },
+    {
+      "name": "Here Technologies",
+      "slug": "here"
+    },
+    {
+      "name": "Hertz",
+      "slug": "hertz"
+    },
+    {
+      "name": "Hexaview",
+      "slug": "hexaview"
+    },
+    {
+      "name": "HighRadius",
+      "slug": "highradius"
+    },
+    {
+      "name": "Hike",
+      "slug": "hike"
+    },
+    {
+      "name": "Hitachi",
+      "slug": "hitachi"
+    },
+    {
+      "name": "Hiver",
+      "slug": "hiver"
+    },
+    {
+      "name": "Home Depot",
+      "slug": "home-depot"
+    },
+    {
+      "name": "Hyperbots",
+      "slug": "hyperbots"
+    },
+    {
+      "name": "HyperVerge",
+      "slug": "hyperverge"
+    },
+    {
+      "name": "INDmoney",
+      "slug": "indmoney"
+    },
+    {
+      "name": "Infinera",
+      "slug": "infinera"
+    },
+    {
+      "name": "Infor",
+      "slug": "infor"
+    },
+    {
+      "name": "Innowise",
+      "slug": "innowise"
+    },
+    {
+      "name": "Interactive Brokers",
+      "slug": "interactive-brokers"
+    },
+    {
+      "name": "ION",
+      "slug": "ion"
+    },
+    {
+      "name": "IQVIA",
+      "slug": "iqvia"
+    },
+    {
+      "name": "Iterable",
+      "slug": "iterable"
+    },
+    {
+      "name": "Ivanti",
+      "slug": "ivanti"
+    },
+    {
+      "name": "Ixigo",
+      "slug": "ixigo"
+    },
+    {
+      "name": "JetBrains",
+      "slug": "jetbrains"
+    },
+    {
+      "name": "John Deere",
+      "slug": "john-deere"
+    },
+    {
+      "name": "Joom",
+      "slug": "joom"
+    },
+    {
+      "name": "Junglee Games",
+      "slug": "junglee-games"
+    },
+    {
+      "name": "Juniper Networks",
+      "slug": "juniper"
+    },
+    {
+      "name": "Justworks",
+      "slug": "justworks"
+    },
+    {
+      "name": "Kaspersky",
+      "slug": "kaspersky"
+    },
+    {
+      "name": "Kensho Technologies",
+      "slug": "kensho-technologies"
+    },
+    {
+      "name": "Kohl's",
+      "slug": "kohls"
+    },
+    {
+      "name": "Komprise",
+      "slug": "komprise"
+    },
+    {
+      "name": "KPIT",
+      "slug": "kpit"
+    },
+    {
+      "name": "Kronos Research",
+      "slug": "kronos-research"
+    },
+    {
+      "name": "Kuaishou",
+      "slug": "kuaishou"
+    },
+    {
+      "name": "Laserfiche",
+      "slug": "laserfiche"
+    },
+    {
+      "name": "Lauda",
+      "slug": "lauda"
+    },
+    {
+      "name": "LendingClub",
+      "slug": "lendingclub"
+    },
+    {
+      "name": "Licious",
+      "slug": "licious"
+    },
+    {
+      "name": "Loda",
+      "slug": "loda"
+    },
+    {
+      "name": "Lucid Software",
+      "slug": "lucid-software"
+    },
+    {
+      "name": "Lund",
+      "slug": "lund"
+    },
+    {
+      "name": "Lutron",
+      "slug": "lutron"
+    },
+    {
+      "name": "Macquarie Group",
+      "slug": "macquarie-group"
+    },
+    {
+      "name": "Magic Leap",
+      "slug": "magic-leap"
+    },
+    {
+      "name": "Marvel",
+      "slug": "marvel"
+    },
+    {
+      "name": "McKesson",
+      "slug": "mckesson"
+    },
+    {
+      "name": "MediaTek",
+      "slug": "mediatek"
+    },
+    {
+      "name": "medibuddy",
+      "slug": "medibuddy"
+    },
+    {
+      "name": "Mercedes Benz",
+      "slug": "mercedes-benz"
+    },
+    {
+      "name": "Micron Technology",
+      "slug": "micron"
+    },
+    {
+      "name": "Miro",
+      "slug": "miro"
+    },
+    {
+      "name": "MobiKwik",
+      "slug": "mobikwik"
+    },
+    {
+      "name": "Moneyview",
+      "slug": "moneyview"
+    },
+    {
+      "name": "Moody's",
+      "slug": "moodys"
+    },
+    {
+      "name": "Moonshot AI",
+      "slug": "moonshot-ai"
+    },
+    {
+      "name": "Motional",
+      "slug": "motional"
+    },
+    {
+      "name": "Motorola Mobility",
+      "slug": "motorola"
+    },
+    {
+      "name": "Motorola Solutions",
+      "slug": "motorola-solutions"
+    },
+    {
+      "name": "Motorq",
+      "slug": "motorq"
+    },
+    {
+      "name": "Mountblue",
+      "slug": "mountblue"
+    },
+    {
+      "name": "Mozilla",
+      "slug": "mozilla"
+    },
+    {
+      "name": "MTS",
+      "slug": "mts"
+    },
+    {
+      "name": "MTX",
+      "slug": "mtx"
+    },
+    {
+      "name": "N26",
+      "slug": "n26"
+    },
+    {
+      "name": "Nasdaq",
+      "slug": "nasdaq"
+    },
+    {
+      "name": "Neusoft",
+      "slug": "neusoft"
+    },
+    {
+      "name": "Newgen",
+      "slug": "newgen"
+    },
+    {
+      "name": "Newzera",
+      "slug": "newzera"
+    },
+    {
+      "name": "nference",
+      "slug": "nference"
+    },
+    {
+      "name": "NICE",
+      "slug": "nice"
+    },
+    {
+      "name": "NielsenIQ",
+      "slug": "nielseniq"
+    },
+    {
+      "name": "Niger",
+      "slug": "niger"
+    },
+    {
+      "name": "NinjaCart",
+      "slug": "ninjacart"
+    },
+    {
+      "name": "Nintendo",
+      "slug": "nintendo"
+    },
+    {
+      "name": "NIO",
+      "slug": "nio"
+    },
+    {
+      "name": "NoBroker",
+      "slug": "nobroker"
+    },
+    {
+      "name": "Nomura Holdings",
+      "slug": "nomura"
+    },
+    {
+      "name": "Notion",
+      "slug": "notion"
+    },
+    {
+      "name": "NPCI",
+      "slug": "npci"
+    },
+    {
+      "name": "Nuclei",
+      "slug": "nuclei"
+    },
+    {
+      "name": "Ocado",
+      "slug": "ocado"
+    },
+    {
+      "name": "Odessa",
+      "slug": "odessa"
+    },
+    {
+      "name": "OfferUp",
+      "slug": "offerup"
+    },
+    {
+      "name": "Ola Cabs",
+      "slug": "ola"
+    },
+    {
+      "name": "Omnissa",
+      "slug": "omnissa"
+    },
+    {
+      "name": "OneTrust",
+      "slug": "onetrust"
+    },
+    {
+      "name": "Opendoor",
+      "slug": "opendoor"
+    },
+    {
+      "name": "optimizely",
+      "slug": "optimizely"
+    },
+    {
+      "name": "optym",
+      "slug": "optym"
+    },
+    {
+      "name": "Pandora",
+      "slug": "pandora"
+    },
+    {
+      "name": "People.ai",
+      "slug": "peopleai"
+    },
+    {
+      "name": "Petuum",
+      "slug": "petuum"
+    },
+    {
+      "name": "PharmEasy",
+      "slug": "pharmeasy"
+    },
+    {
+      "name": "Phenom",
+      "slug": "phenom"
+    },
+    {
+      "name": "PIMCO",
+      "slug": "pimco"
+    },
+    {
+      "name": "Pine Labs",
+      "slug": "pine-labs"
+    },
+    {
+      "name": "Piramal Group",
+      "slug": "piramal-group"
+    },
+    {
+      "name": "Pluang",
+      "slug": "pluang"
+    },
+    {
+      "name": "Practo",
+      "slug": "practo"
+    },
+    {
+      "name": "Procore",
+      "slug": "procore"
+    },
+    {
+      "name": "Proofpoint",
+      "slug": "proofpoint"
+    },
+    {
+      "name": "PTC",
+      "slug": "ptc"
+    },
+    {
+      "name": "QBurst",
+      "slug": "qburst"
+    },
+    {
+      "name": "QRT",
+      "slug": "qrt"
+    },
+    {
+      "name": "Quadeye",
+      "slug": "quadeye"
+    },
+    {
+      "name": "Qubole",
+      "slug": "qubole"
+    },
+    {
+      "name": "Qumulo",
+      "slug": "qumulo"
+    },
+    {
+      "name": "Red Hat",
+      "slug": "red-hat"
+    },
+    {
+      "name": "RingCentral",
+      "slug": "ringcentral"
+    },
+    {
+      "name": "Roche",
+      "slug": "roche"
+    },
+    {
+      "name": "Rocket Money",
+      "slug": "rocket-money"
+    },
+    {
+      "name": "sabre",
+      "slug": "sabre"
+    },
+    {
+      "name": "Safaricom",
+      "slug": "safaricom"
+    },
+    {
+      "name": "SailPoint Technologies",
+      "slug": "sailpoint-technologies"
+    },
+    {
+      "name": "SAP Labs",
+      "slug": "sap-labs"
+    },
+    {
+      "name": "Sberbank",
+      "slug": "sberbank"
+    },
+    {
+      "name": "Scalar AI",
+      "slug": "scalar-ai"
+    },
+    {
+      "name": "Sea",
+      "slug": "sea"
+    },
+    {
+      "name": "SenseTime",
+      "slug": "sensetime"
+    },
+    {
+      "name": "ShipRocket",
+      "slug": "shiprocket"
+    },
+    {
+      "name": "Shutterfly",
+      "slug": "shutterfly"
+    },
+    {
+      "name": "Smarkets",
+      "slug": "smarkets"
+    },
+    {
+      "name": "SoftServe",
+      "slug": "softserve"
+    },
+    {
+      "name": "SoftwareOne",
+      "slug": "softwareone"
+    },
+    {
+      "name": "Soroco",
+      "slug": "soroco"
+    },
+    {
+      "name": "Standard Chartered",
+      "slug": "standard-chartered"
+    },
+    {
+      "name": "Subex",
+      "slug": "subex"
+    },
+    {
+      "name": "SuperMoney",
+      "slug": "supermoney"
+    },
+    {
+      "name": "SurveyMonkey",
+      "slug": "surveymonkey"
+    },
+    {
+      "name": "Susquehanna International Group",
+      "slug": "susquehanna-international-group"
+    },
+    {
+      "name": "Symphony AI",
+      "slug": "symphony-ai"
+    },
+    {
+      "name": "Synology",
+      "slug": "synology"
+    },
+    {
+      "name": "Tally Solutions",
+      "slug": "tally-solutions"
+    },
+    {
+      "name": "Tata 1mg",
+      "slug": "1mg"
+    },
+    {
+      "name": "Tejas Networks",
+      "slug": "tejas-networks"
+    },
+    {
+      "name": "TEKSystems",
+      "slug": "teksystems"
+    },
+    {
+      "name": "Telstra",
+      "slug": "telstra"
+    },
+    {
+      "name": "Thales",
+      "slug": "thales"
+    },
+    {
+      "name": "Times Internet",
+      "slug": "times-internet"
+    },
+    {
+      "name": "Toppr",
+      "slug": "toppr"
+    },
+    {
+      "name": "Toutiao",
+      "slug": "toutiao"
+    },
+    {
+      "name": "Tradeshift",
+      "slug": "tradeshift"
+    },
+    {
+      "name": "TransUnion",
+      "slug": "transunion"
+    },
+    {
+      "name": "Trimble",
+      "slug": "trimble"
+    },
+    {
+      "name": "TSMC",
+      "slug": "tsmc"
+    },
+    {
+      "name": "Turo",
+      "slug": "turo"
+    },
+    {
+      "name": "upstox",
+      "slug": "upstox"
+    },
+    {
+      "name": "Upwork",
+      "slug": "upwork"
+    },
+    {
+      "name": "Valeo",
+      "slug": "valeo"
+    },
+    {
+      "name": "Vanguard",
+      "slug": "vanguard"
+    },
+    {
+      "name": "Vassar Labs",
+      "slug": "vassar-labs"
+    },
+    {
+      "name": "Veeam",
+      "slug": "veeam"
+    },
+    {
+      "name": "Vishal mega mart",
+      "slug": "vishal-mega-mart"
+    },
+    {
+      "name": "VNG",
+      "slug": "vng"
+    },
+    {
+      "name": "Vodafone",
+      "slug": "vodafone"
+    },
+    {
+      "name": "Voleon",
+      "slug": "voleon"
+    },
+    {
+      "name": "Voletic Technologies",
+      "slug": "voletic-technologies"
+    },
+    {
+      "name": "Vonage",
+      "slug": "vonage"
+    },
+    {
+      "name": "Vymo",
+      "slug": "vymo"
+    },
+    {
+      "name": "Wallmart",
+      "slug": "wallmart"
+    },
+    {
+      "name": "WatchGuard",
+      "slug": "watchguard"
+    },
+    {
+      "name": "WePay",
+      "slug": "wepay"
+    },
+    {
+      "name": "WeWork",
+      "slug": "wework"
+    },
+    {
+      "name": "Whatsapp",
+      "slug": "whatsapp"
+    },
+    {
+      "name": "WheelsEye",
+      "slug": "wheelseye"
+    },
+    {
+      "name": "Wingify",
+      "slug": "wingify"
+    },
+    {
+      "name": "WiseTech",
+      "slug": "wisetech"
+    },
+    {
+      "name": "Wizeline",
+      "slug": "wizeline"
+    },
+    {
+      "name": "Wolverine Trading",
+      "slug": "wolverine-trading"
+    },
+    {
+      "name": "Workiva",
+      "slug": "workiva"
+    },
+    {
+      "name": "Xiaomi",
+      "slug": "xiaomi"
+    },
+    {
+      "name": "XYZ",
+      "slug": "xyz"
+    },
+    {
+      "name": "Yext",
+      "slug": "yext"
+    },
+    {
+      "name": "Yubi",
+      "slug": "yubi"
+    },
+    {
+      "name": "Zapro",
+      "slug": "zapro"
+    },
+    {
+      "name": "Zenoti",
+      "slug": "zenoti"
+    },
+    {
+      "name": "Zeotap",
+      "slug": "zeotap"
+    },
+    {
+      "name": "Zuora",
+      "slug": "zuora"
+    },
+    {
+      "name": "Zversal",
+      "slug": "zversal"
+    }
+  ],
+  "results": [
+    {
+      "name": "Google",
+      "slug": "google",
+      "api_questionCount": 2335,
+      "api_unique_question_ids": 2823,
+      "matched_problems_in_repo": 2804,
+      "missing_problems_not_in_repo": 19,
+      "copied_files": 3736
+    },
+    {
+      "name": "Amazon",
+      "slug": "amazon",
+      "api_questionCount": 1998,
+      "api_unique_question_ids": 2627,
+      "matched_problems_in_repo": 2613,
+      "missing_problems_not_in_repo": 14,
+      "copied_files": 3488
+    },
+    {
+      "name": "Meta",
+      "slug": "facebook",
+      "api_questionCount": 1402,
+      "api_unique_question_ids": 2090,
+      "matched_problems_in_repo": 2076,
+      "missing_problems_not_in_repo": 14,
+      "copied_files": 2828
+    },
+    {
+      "name": "Microsoft",
+      "slug": "microsoft",
+      "api_questionCount": 1383,
+      "api_unique_question_ids": 2057,
+      "matched_problems_in_repo": 2047,
+      "missing_problems_not_in_repo": 10,
+      "copied_files": 2771
+    },
+    {
+      "name": "Bloomberg",
+      "slug": "bloomberg",
+      "api_questionCount": 1209,
+      "api_unique_question_ids": 1856,
+      "matched_problems_in_repo": 1847,
+      "missing_problems_not_in_repo": 9,
+      "copied_files": 2551
+    },
+    {
+      "name": "Uber",
+      "slug": "uber",
+      "api_questionCount": 358,
+      "api_unique_question_ids": 632,
+      "matched_problems_in_repo": 630,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 951
+    },
+    {
+      "name": "TikTok",
+      "slug": "tiktok",
+      "api_questionCount": 347,
+      "api_unique_question_ids": 627,
+      "matched_problems_in_repo": 625,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 1054
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle",
+      "api_questionCount": 304,
+      "api_unique_question_ids": 597,
+      "matched_problems_in_repo": 595,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 982
+    },
+    {
+      "name": "Apple",
+      "slug": "apple",
+      "api_questionCount": 301,
+      "api_unique_question_ids": 567,
+      "matched_problems_in_repo": 564,
+      "missing_problems_not_in_repo": 3,
+      "copied_files": 946
+    },
+    {
+      "name": "Goldman Sachs",
+      "slug": "goldman-sachs",
+      "api_questionCount": 265,
+      "api_unique_question_ids": 528,
+      "matched_problems_in_repo": 526,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 868
+    },
+    {
+      "name": "tcs",
+      "slug": "tcs",
+      "api_questionCount": 254,
+      "api_unique_question_ids": 558,
+      "matched_problems_in_repo": 555,
+      "missing_problems_not_in_repo": 3,
+      "copied_files": 888
+    },
+    {
+      "name": "Infosys",
+      "slug": "infosys",
+      "api_questionCount": 207,
+      "api_unique_question_ids": 482,
+      "matched_problems_in_repo": 480,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 789
+    },
+    {
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "api_questionCount": 192,
+      "api_unique_question_ids": 446,
+      "matched_problems_in_repo": 445,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 703
+    },
+    {
+      "name": "IBM",
+      "slug": "ibm",
+      "api_questionCount": 175,
+      "api_unique_question_ids": 395,
+      "matched_problems_in_repo": 391,
+      "missing_problems_not_in_repo": 4,
+      "copied_files": 601
+    },
+    {
+      "name": "LinkedIn",
+      "slug": "linkedin",
+      "api_questionCount": 175,
+      "api_unique_question_ids": 310,
+      "matched_problems_in_repo": 308,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 551
+    },
+    {
+      "name": "Zoho",
+      "slug": "zoho",
+      "api_questionCount": 158,
+      "api_unique_question_ids": 325,
+      "matched_problems_in_repo": 324,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 576
+    },
+    {
+      "name": "Walmart Labs",
+      "slug": "walmart-labs",
+      "api_questionCount": 151,
+      "api_unique_question_ids": 354,
+      "matched_problems_in_repo": 353,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 623
+    },
+    {
+      "name": "Adobe",
+      "slug": "adobe",
+      "api_questionCount": 148,
+      "api_unique_question_ids": 403,
+      "matched_problems_in_repo": 403,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 698
+    },
+    {
+      "name": "Visa",
+      "slug": "visa",
+      "api_questionCount": 144,
+      "api_unique_question_ids": 332,
+      "matched_problems_in_repo": 330,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 537
+    },
+    {
+      "name": "Nvidia",
+      "slug": "nvidia",
+      "api_questionCount": 138,
+      "api_unique_question_ids": 332,
+      "matched_problems_in_repo": 331,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 577
+    },
+    {
+      "name": "Accenture",
+      "slug": "accenture",
+      "api_questionCount": 133,
+      "api_unique_question_ids": 355,
+      "matched_problems_in_repo": 353,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 623
+    },
+    {
+      "name": "Yandex",
+      "slug": "yandex",
+      "api_questionCount": 131,
+      "api_unique_question_ids": 253,
+      "matched_problems_in_repo": 252,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 450
+    },
+    {
+      "name": "DE Shaw",
+      "slug": "de-shaw",
+      "api_questionCount": 112,
+      "api_unique_question_ids": 299,
+      "matched_problems_in_repo": 299,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 485
+    },
+    {
+      "name": "Flipkart",
+      "slug": "flipkart",
+      "api_questionCount": 106,
+      "api_unique_question_ids": 292,
+      "matched_problems_in_repo": 290,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 506
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "api_questionCount": 104,
+      "api_unique_question_ids": 257,
+      "matched_problems_in_repo": 256,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 457
+    },
+    {
+      "name": "Snowflake",
+      "slug": "snowflake",
+      "api_questionCount": 103,
+      "api_unique_question_ids": 214,
+      "matched_problems_in_repo": 213,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 345
+    },
+    {
+      "name": "PhonePe",
+      "slug": "phonepe",
+      "api_questionCount": 97,
+      "api_unique_question_ids": 257,
+      "matched_problems_in_repo": 256,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 421
+    },
+    {
+      "name": "JPMorgan Chase",
+      "slug": "jpmorgan",
+      "api_questionCount": 96,
+      "api_unique_question_ids": 243,
+      "matched_problems_in_repo": 243,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 429
+    },
+    {
+      "name": "Citadel",
+      "slug": "citadel",
+      "api_questionCount": 87,
+      "api_unique_question_ids": 212,
+      "matched_problems_in_repo": 211,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 391
+    },
+    {
+      "name": "Cisco",
+      "slug": "cisco",
+      "api_questionCount": 85,
+      "api_unique_question_ids": 228,
+      "matched_problems_in_repo": 226,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 430
+    },
+    {
+      "name": "Snap",
+      "slug": "snapchat",
+      "api_questionCount": 80,
+      "api_unique_question_ids": 182,
+      "matched_problems_in_repo": 181,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 322
+    },
+    {
+      "name": "DoorDash",
+      "slug": "doordash",
+      "api_questionCount": 76,
+      "api_unique_question_ids": 131,
+      "matched_problems_in_repo": 129,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 228
+    },
+    {
+      "name": "ServiceNow",
+      "slug": "servicenow",
+      "api_questionCount": 68,
+      "api_unique_question_ids": 199,
+      "matched_problems_in_repo": 198,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 390
+    },
+    {
+      "name": "Airbnb",
+      "slug": "airbnb",
+      "api_questionCount": 65,
+      "api_unique_question_ids": 112,
+      "matched_problems_in_repo": 111,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 201
+    },
+    {
+      "name": "eBay",
+      "slug": "ebay",
+      "api_questionCount": 65,
+      "api_unique_question_ids": 181,
+      "matched_problems_in_repo": 180,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 345
+    },
+    {
+      "name": "Expedia",
+      "slug": "expedia",
+      "api_questionCount": 65,
+      "api_unique_question_ids": 166,
+      "matched_problems_in_repo": 166,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 292
+    },
+    {
+      "name": "Nutanix",
+      "slug": "nutanix",
+      "api_questionCount": 64,
+      "api_unique_question_ids": 164,
+      "matched_problems_in_repo": 163,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 319
+    },
+    {
+      "name": "ByteDance",
+      "slug": "bytedance",
+      "api_questionCount": 63,
+      "api_unique_question_ids": 188,
+      "matched_problems_in_repo": 187,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 376
+    },
+    {
+      "name": "Capital One",
+      "slug": "capital-one",
+      "api_questionCount": 63,
+      "api_unique_question_ids": 143,
+      "matched_problems_in_repo": 143,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 233
+    },
+    {
+      "name": "Intuit",
+      "slug": "intuit",
+      "api_questionCount": 63,
+      "api_unique_question_ids": 174,
+      "matched_problems_in_repo": 173,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 305
+    },
+    {
+      "name": "Samsung",
+      "slug": "samsung",
+      "api_questionCount": 62,
+      "api_unique_question_ids": 183,
+      "matched_problems_in_repo": 182,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 320
+    },
+    {
+      "name": "Morgan Stanley",
+      "slug": "morgan-stanley",
+      "api_questionCount": 61,
+      "api_unique_question_ids": 166,
+      "matched_problems_in_repo": 165,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 318
+    },
+    {
+      "name": "Atlassian",
+      "slug": "atlassian",
+      "api_questionCount": 60,
+      "api_unique_question_ids": 173,
+      "matched_problems_in_repo": 172,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 295
+    },
+    {
+      "name": "Roblox",
+      "slug": "roblox",
+      "api_questionCount": 56,
+      "api_unique_question_ids": 128,
+      "matched_problems_in_repo": 127,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 196
+    },
+    {
+      "name": "Anduril",
+      "slug": "anduril",
+      "api_questionCount": 55,
+      "api_unique_question_ids": 117,
+      "matched_problems_in_repo": 116,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 221
+    },
+    {
+      "name": "Wix",
+      "slug": "wix",
+      "api_questionCount": 55,
+      "api_unique_question_ids": 80,
+      "matched_problems_in_repo": 80,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 158
+    },
+    {
+      "name": "Qualcomm",
+      "slug": "qualcomm",
+      "api_questionCount": 54,
+      "api_unique_question_ids": 149,
+      "matched_problems_in_repo": 148,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 304
+    },
+    {
+      "name": "X",
+      "slug": "twitter",
+      "api_questionCount": 51,
+      "api_unique_question_ids": 69,
+      "matched_problems_in_repo": 68,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 131
+    },
+    {
+      "name": "EPAM Systems",
+      "slug": "epam-systems",
+      "api_questionCount": 50,
+      "api_unique_question_ids": 139,
+      "matched_problems_in_repo": 138,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 285
+    },
+    {
+      "name": "Palo Alto Networks",
+      "slug": "palo-alto-networks",
+      "api_questionCount": 49,
+      "api_unique_question_ids": 117,
+      "matched_problems_in_repo": 116,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 254
+    },
+    {
+      "name": "Cognizant",
+      "slug": "cognizant",
+      "api_questionCount": 48,
+      "api_unique_question_ids": 175,
+      "matched_problems_in_repo": 174,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 291
+    },
+    {
+      "name": "Coupang",
+      "slug": "coupang",
+      "api_questionCount": 48,
+      "api_unique_question_ids": 116,
+      "matched_problems_in_repo": 115,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 217
+    },
+    {
+      "name": "Pinterest",
+      "slug": "pinterest",
+      "api_questionCount": 46,
+      "api_unique_question_ids": 98,
+      "matched_problems_in_repo": 97,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 154
+    },
+    {
+      "name": "Deloitte",
+      "slug": "deloitte",
+      "api_questionCount": 44,
+      "api_unique_question_ids": 158,
+      "matched_problems_in_repo": 157,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 274
+    },
+    {
+      "name": "Agoda",
+      "slug": "agoda",
+      "api_questionCount": 43,
+      "api_unique_question_ids": 122,
+      "matched_problems_in_repo": 122,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 200
+    },
+    {
+      "name": "SAP",
+      "slug": "sap",
+      "api_questionCount": 42,
+      "api_unique_question_ids": 140,
+      "matched_problems_in_repo": 138,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 246
+    },
+    {
+      "name": "Sprinklr",
+      "slug": "sprinklr",
+      "api_questionCount": 42,
+      "api_unique_question_ids": 135,
+      "matched_problems_in_repo": 135,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 231
+    },
+    {
+      "name": "Tesla",
+      "slug": "tesla",
+      "api_questionCount": 42,
+      "api_unique_question_ids": 144,
+      "matched_problems_in_repo": 143,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 275
+    },
+    {
+      "name": "Meesho",
+      "slug": "meesho",
+      "api_questionCount": 41,
+      "api_unique_question_ids": 129,
+      "matched_problems_in_repo": 129,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 222
+    },
+    {
+      "name": "Josh Technology",
+      "slug": "josh-technology",
+      "api_questionCount": 38,
+      "api_unique_question_ids": 108,
+      "matched_problems_in_repo": 107,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 200
+    },
+    {
+      "name": "Arista Networks",
+      "slug": "arista-networks",
+      "api_questionCount": 37,
+      "api_unique_question_ids": 138,
+      "matched_problems_in_repo": 137,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 269
+    },
+    {
+      "name": "Capgemini",
+      "slug": "capgemini",
+      "api_questionCount": 36,
+      "api_unique_question_ids": 132,
+      "matched_problems_in_repo": 132,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 237
+    },
+    {
+      "name": "Swiggy",
+      "slug": "swiggy",
+      "api_questionCount": 36,
+      "api_unique_question_ids": 119,
+      "matched_problems_in_repo": 119,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 224
+    },
+    {
+      "name": "Rubrik",
+      "slug": "rubrik",
+      "api_questionCount": 35,
+      "api_unique_question_ids": 96,
+      "matched_problems_in_repo": 96,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 147
+    },
+    {
+      "name": "Turing",
+      "slug": "turing",
+      "api_questionCount": 35,
+      "api_unique_question_ids": 105,
+      "matched_problems_in_repo": 105,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 192
+    },
+    {
+      "name": "Docusign",
+      "slug": "docusign",
+      "api_questionCount": 33,
+      "api_unique_question_ids": 98,
+      "matched_problems_in_repo": 97,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 190
+    },
+    {
+      "name": "Media.net",
+      "slug": "medianet",
+      "api_questionCount": 33,
+      "api_unique_question_ids": 90,
+      "matched_problems_in_repo": 90,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 156
+    },
+    {
+      "name": "Yahoo",
+      "slug": "yahoo",
+      "api_questionCount": 32,
+      "api_unique_question_ids": 79,
+      "matched_problems_in_repo": 79,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 160
+    },
+    {
+      "name": "Autodesk",
+      "slug": "autodesk",
+      "api_questionCount": 31,
+      "api_unique_question_ids": 106,
+      "matched_problems_in_repo": 105,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 228
+    },
+    {
+      "name": "Databricks",
+      "slug": "databricks",
+      "api_questionCount": 31,
+      "api_unique_question_ids": 85,
+      "matched_problems_in_repo": 85,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 148
+    },
+    {
+      "name": "Zomato",
+      "slug": "zomato",
+      "api_questionCount": 31,
+      "api_unique_question_ids": 131,
+      "matched_problems_in_repo": 130,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 238
+    },
+    {
+      "name": "Grammarly",
+      "slug": "grammarly",
+      "api_questionCount": 30,
+      "api_unique_question_ids": 60,
+      "matched_problems_in_repo": 59,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 113
+    },
+    {
+      "name": "HashedIn",
+      "slug": "hashedin",
+      "api_questionCount": 30,
+      "api_unique_question_ids": 118,
+      "matched_problems_in_repo": 117,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 231
+    },
+    {
+      "name": "Palantir",
+      "slug": "palantir",
+      "api_questionCount": 30,
+      "api_unique_question_ids": 82,
+      "matched_problems_in_repo": 81,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 126
+    },
+    {
+      "name": "MathWorks",
+      "slug": "mathworks",
+      "api_questionCount": 29,
+      "api_unique_question_ids": 87,
+      "matched_problems_in_repo": 87,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 135
+    },
+    {
+      "name": "Netflix",
+      "slug": "netflix",
+      "api_questionCount": 29,
+      "api_unique_question_ids": 102,
+      "matched_problems_in_repo": 101,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 182
+    },
+    {
+      "name": "Paytm",
+      "slug": "paytm",
+      "api_questionCount": 29,
+      "api_unique_question_ids": 102,
+      "matched_problems_in_repo": 102,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 207
+    },
+    {
+      "name": "Rippling",
+      "slug": "rippling",
+      "api_questionCount": 29,
+      "api_unique_question_ids": 81,
+      "matched_problems_in_repo": 80,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 113
+    },
+    {
+      "name": "Zeta Global",
+      "slug": "zeta",
+      "api_questionCount": 29,
+      "api_unique_question_ids": 115,
+      "matched_problems_in_repo": 115,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 220
+    },
+    {
+      "name": "Waymo",
+      "slug": "waymo",
+      "api_questionCount": 28,
+      "api_unique_question_ids": 88,
+      "matched_problems_in_repo": 88,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 148
+    },
+    {
+      "name": "Yelp",
+      "slug": "yelp",
+      "api_questionCount": 28,
+      "api_unique_question_ids": 32,
+      "matched_problems_in_repo": 32,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 50
+    },
+    {
+      "name": "American Express",
+      "slug": "american-express",
+      "api_questionCount": 27,
+      "api_unique_question_ids": 103,
+      "matched_problems_in_repo": 102,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 201
+    },
+    {
+      "name": "Squarepoint Capital",
+      "slug": "squarepoint-capital",
+      "api_questionCount": 27,
+      "api_unique_question_ids": 90,
+      "matched_problems_in_repo": 90,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 153
+    },
+    {
+      "name": "Tekion",
+      "slug": "tekion",
+      "api_questionCount": 26,
+      "api_unique_question_ids": 114,
+      "matched_problems_in_repo": 112,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 199
+    },
+    {
+      "name": "MongoDB",
+      "slug": "mongodb",
+      "api_questionCount": 25,
+      "api_unique_question_ids": 69,
+      "matched_problems_in_repo": 68,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 143
+    },
+    {
+      "name": "Lyft",
+      "slug": "lyft",
+      "api_questionCount": 24,
+      "api_unique_question_ids": 47,
+      "matched_problems_in_repo": 47,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 95
+    },
+    {
+      "name": "Zepto",
+      "slug": "zepto",
+      "api_questionCount": 23,
+      "api_unique_question_ids": 66,
+      "matched_problems_in_repo": 66,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 138
+    },
+    {
+      "name": "Deutsche Bank",
+      "slug": "deutsche-bank",
+      "api_questionCount": 22,
+      "api_unique_question_ids": 78,
+      "matched_problems_in_repo": 78,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 144
+    },
+    {
+      "name": "Dropbox",
+      "slug": "dropbox",
+      "api_questionCount": 22,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 33,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 51
+    },
+    {
+      "name": "Siemens",
+      "slug": "siemens",
+      "api_questionCount": 22,
+      "api_unique_question_ids": 73,
+      "matched_problems_in_repo": 72,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 150
+    },
+    {
+      "name": "Wells Fargo",
+      "slug": "wells-fargo",
+      "api_questionCount": 22,
+      "api_unique_question_ids": 90,
+      "matched_problems_in_repo": 90,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 180
+    },
+    {
+      "name": "Zenefits",
+      "slug": "zenefits",
+      "api_questionCount": 21,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 51
+    },
+    {
+      "name": "BNY Mellon",
+      "slug": "bny-mellon",
+      "api_questionCount": 20,
+      "api_unique_question_ids": 88,
+      "matched_problems_in_repo": 88,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 160
+    },
+    {
+      "name": "Intel",
+      "slug": "intel",
+      "api_questionCount": 20,
+      "api_unique_question_ids": 70,
+      "matched_problems_in_repo": 70,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 145
+    },
+    {
+      "name": "Juspay",
+      "slug": "juspay",
+      "api_questionCount": 20,
+      "api_unique_question_ids": 108,
+      "matched_problems_in_repo": 108,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 216
+    },
+    {
+      "name": "MakeMyTrip",
+      "slug": "makemytrip",
+      "api_questionCount": 20,
+      "api_unique_question_ids": 87,
+      "matched_problems_in_repo": 87,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 198
+    },
+    {
+      "name": "Myntra",
+      "slug": "myntra",
+      "api_questionCount": 20,
+      "api_unique_question_ids": 95,
+      "matched_problems_in_repo": 95,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 203
+    },
+    {
+      "name": "Wayfair",
+      "slug": "wayfair",
+      "api_questionCount": 20,
+      "api_unique_question_ids": 56,
+      "matched_problems_in_repo": 55,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 94
+    },
+    {
+      "name": "Wipro",
+      "slug": "wipro",
+      "api_questionCount": 20,
+      "api_unique_question_ids": 96,
+      "matched_problems_in_repo": 96,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 192
+    },
+    {
+      "name": "Accolite",
+      "slug": "accolite",
+      "api_questionCount": 19,
+      "api_unique_question_ids": 68,
+      "matched_problems_in_repo": 68,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 149
+    },
+    {
+      "name": "Quora",
+      "slug": "quora",
+      "api_questionCount": 19,
+      "api_unique_question_ids": 26,
+      "matched_problems_in_repo": 26,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 35
+    },
+    {
+      "name": "Tinkoff",
+      "slug": "tinkoff",
+      "api_questionCount": 19,
+      "api_unique_question_ids": 57,
+      "matched_problems_in_repo": 57,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 117
+    },
+    {
+      "name": "Two Sigma",
+      "slug": "two-sigma",
+      "api_questionCount": 19,
+      "api_unique_question_ids": 55,
+      "matched_problems_in_repo": 54,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 90
+    },
+    {
+      "name": "Verkada",
+      "slug": "verkada",
+      "api_questionCount": 19,
+      "api_unique_question_ids": 32,
+      "matched_problems_in_repo": 31,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 70
+    },
+    {
+      "name": "HCL",
+      "slug": "hcl",
+      "api_questionCount": 18,
+      "api_unique_question_ids": 85,
+      "matched_problems_in_repo": 85,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 151
+    },
+    {
+      "name": "Okta",
+      "slug": "okta",
+      "api_questionCount": 18,
+      "api_unique_question_ids": 65,
+      "matched_problems_in_repo": 65,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 122
+    },
+    {
+      "name": "Akuna Capital",
+      "slug": "akuna-capital",
+      "api_questionCount": 17,
+      "api_unique_question_ids": 41,
+      "matched_problems_in_repo": 41,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 56
+    },
+    {
+      "name": "AMD",
+      "slug": "amd",
+      "api_questionCount": 17,
+      "api_unique_question_ids": 65,
+      "matched_problems_in_repo": 65,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 155
+    },
+    {
+      "name": "Geico",
+      "slug": "geico",
+      "api_questionCount": 17,
+      "api_unique_question_ids": 57,
+      "matched_problems_in_repo": 57,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 108
+    },
+    {
+      "name": "Huawei",
+      "slug": "huawei",
+      "api_questionCount": 17,
+      "api_unique_question_ids": 61,
+      "matched_problems_in_repo": 60,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 123
+    },
+    {
+      "name": "IXL",
+      "slug": "ixl",
+      "api_questionCount": 17,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 50
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "api_questionCount": 17,
+      "api_unique_question_ids": 69,
+      "matched_problems_in_repo": 69,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 102
+    },
+    {
+      "name": "Roku",
+      "slug": "roku",
+      "api_questionCount": 17,
+      "api_unique_question_ids": 77,
+      "matched_problems_in_repo": 77,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 158
+    },
+    {
+      "name": "Barclays",
+      "slug": "barclays",
+      "api_questionCount": 16,
+      "api_unique_question_ids": 74,
+      "matched_problems_in_repo": 74,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 128
+    },
+    {
+      "name": "BlackRock",
+      "slug": "blackrock",
+      "api_questionCount": 16,
+      "api_unique_question_ids": 75,
+      "matched_problems_in_repo": 75,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 150
+    },
+    {
+      "name": "Epic Systems",
+      "slug": "epic-systems",
+      "api_questionCount": 16,
+      "api_unique_question_ids": 48,
+      "matched_problems_in_repo": 48,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 99
+    },
+    {
+      "name": "Moloco",
+      "slug": "moloco",
+      "api_questionCount": 16,
+      "api_unique_question_ids": 45,
+      "matched_problems_in_repo": 44,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 77
+    },
+    {
+      "name": "BitGo",
+      "slug": "bitgo",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 39,
+      "matched_problems_in_repo": 37,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 91
+    },
+    {
+      "name": "Booking.com",
+      "slug": "bookingcom",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 76,
+      "matched_problems_in_repo": 76,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 133
+    },
+    {
+      "name": "Fractal Analytics",
+      "slug": "fractal-analytics",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 67
+    },
+    {
+      "name": "Grab",
+      "slug": "grab",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 54,
+      "matched_problems_in_repo": 53,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 119
+    },
+    {
+      "name": "Mitsogo",
+      "slug": "mitsogo",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 23,
+      "matched_problems_in_repo": 23,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 41
+    },
+    {
+      "name": "Pocket Gems",
+      "slug": "pocket-gems",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 27
+    },
+    {
+      "name": "Robinhood",
+      "slug": "robinhood",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 31,
+      "matched_problems_in_repo": 31,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 55
+    },
+    {
+      "name": "Sigmoid",
+      "slug": "sigmoid",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 59,
+      "matched_problems_in_repo": 59,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 149
+    },
+    {
+      "name": "SoFi",
+      "slug": "sofi",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 63,
+      "matched_problems_in_repo": 62,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 113
+    },
+    {
+      "name": "UiPath",
+      "slug": "uipath",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 60,
+      "matched_problems_in_repo": 59,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 125
+    },
+    {
+      "name": "Zopsmart",
+      "slug": "zopsmart",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 49,
+      "matched_problems_in_repo": 49,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 112
+    },
+    {
+      "name": "ZScaler",
+      "slug": "zscaler",
+      "api_questionCount": 15,
+      "api_unique_question_ids": 61,
+      "matched_problems_in_repo": 61,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 100
+    },
+    {
+      "name": "Datadog",
+      "slug": "datadog",
+      "api_questionCount": 14,
+      "api_unique_question_ids": 46,
+      "matched_problems_in_repo": 46,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 73
+    },
+    {
+      "name": "Dell",
+      "slug": "dell",
+      "api_questionCount": 14,
+      "api_unique_question_ids": 71,
+      "matched_problems_in_repo": 70,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 145
+    },
+    {
+      "name": "Hudson River Trading",
+      "slug": "hrt",
+      "api_questionCount": 14,
+      "api_unique_question_ids": 46,
+      "matched_problems_in_repo": 46,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 76
+    },
+    {
+      "name": "Jane Street",
+      "slug": "jane-street",
+      "api_questionCount": 14,
+      "api_unique_question_ids": 77,
+      "matched_problems_in_repo": 77,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 137
+    },
+    {
+      "name": "Nike",
+      "slug": "nike",
+      "api_questionCount": 14,
+      "api_unique_question_ids": 35,
+      "matched_problems_in_repo": 35,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 83
+    },
+    {
+      "name": "Nuro",
+      "slug": "nuro",
+      "api_questionCount": 14,
+      "api_unique_question_ids": 35,
+      "matched_problems_in_repo": 35,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 59
+    },
+    {
+      "name": "Spotify",
+      "slug": "spotify",
+      "api_questionCount": 14,
+      "api_unique_question_ids": 37,
+      "matched_problems_in_repo": 37,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 64
+    },
+    {
+      "name": "Akamai",
+      "slug": "akamai",
+      "api_questionCount": 13,
+      "api_unique_question_ids": 66,
+      "matched_problems_in_repo": 66,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 141
+    },
+    {
+      "name": "Aurora",
+      "slug": "aurora",
+      "api_questionCount": 13,
+      "api_unique_question_ids": 31,
+      "matched_problems_in_repo": 31,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 55
+    },
+    {
+      "name": "Dream11",
+      "slug": "dream11",
+      "api_questionCount": 13,
+      "api_unique_question_ids": 51,
+      "matched_problems_in_repo": 51,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 102
+    },
+    {
+      "name": "General Motors",
+      "slug": "general-motors",
+      "api_questionCount": 13,
+      "api_unique_question_ids": 36,
+      "matched_problems_in_repo": 35,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 59
+    },
+    {
+      "name": "Stripe",
+      "slug": "stripe",
+      "api_questionCount": 13,
+      "api_unique_question_ids": 53,
+      "matched_problems_in_repo": 53,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 86
+    },
+    {
+      "name": "VK",
+      "slug": "vk",
+      "api_questionCount": 13,
+      "api_unique_question_ids": 32,
+      "matched_problems_in_repo": 32,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 56
+    },
+    {
+      "name": "Whatnot",
+      "slug": "whatnot",
+      "api_questionCount": 13,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 46
+    },
+    {
+      "name": "BCG",
+      "slug": "bcg",
+      "api_questionCount": 12,
+      "api_unique_question_ids": 27,
+      "matched_problems_in_repo": 26,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 38
+    },
+    {
+      "name": "C3.ai",
+      "slug": "c3-ai",
+      "api_questionCount": 12,
+      "api_unique_question_ids": 39,
+      "matched_problems_in_repo": 39,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 84
+    },
+    {
+      "name": "Coinbase",
+      "slug": "coinbase",
+      "api_questionCount": 12,
+      "api_unique_question_ids": 47,
+      "matched_problems_in_repo": 47,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 77
+    },
+    {
+      "name": "DP world",
+      "slug": "dp-world",
+      "api_questionCount": 12,
+      "api_unique_question_ids": 54,
+      "matched_problems_in_repo": 52,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 91
+    },
+    {
+      "name": "Hubspot",
+      "slug": "hubspot",
+      "api_questionCount": 12,
+      "api_unique_question_ids": 28,
+      "matched_problems_in_repo": 27,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 48
+    },
+    {
+      "name": "Mastercard",
+      "slug": "mastercard",
+      "api_questionCount": 12,
+      "api_unique_question_ids": 54,
+      "matched_problems_in_repo": 54,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 117
+    },
+    {
+      "name": "Millennium",
+      "slug": "millennium",
+      "api_questionCount": 12,
+      "api_unique_question_ids": 42,
+      "matched_problems_in_repo": 42,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 69
+    },
+    {
+      "name": "Revolut",
+      "slug": "revolut",
+      "api_questionCount": 12,
+      "api_unique_question_ids": 23,
+      "matched_problems_in_repo": 23,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 41
+    },
+    {
+      "name": "Applied Intuition",
+      "slug": "applied-intuition",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 61
+    },
+    {
+      "name": "Arcesium",
+      "slug": "arcesium",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 67,
+      "matched_problems_in_repo": 67,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 127
+    },
+    {
+      "name": "Baidu",
+      "slug": "baidu",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "name": "Cloudflare",
+      "slug": "cloudflare",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 44
+    },
+    {
+      "name": "CrowdStrike",
+      "slug": "crowdstrike",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 51,
+      "matched_problems_in_repo": 51,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 102
+    },
+    {
+      "name": "Disney",
+      "slug": "disney",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 47,
+      "matched_problems_in_repo": 46,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 94
+    },
+    {
+      "name": "InMobi",
+      "slug": "inmobi",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 43,
+      "matched_problems_in_repo": 43,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 79
+    },
+    {
+      "name": "Ozon",
+      "slug": "ozon",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 33,
+      "matched_problems_in_repo": 32,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 62
+    },
+    {
+      "name": "Pornhub",
+      "slug": "pornhub",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 102,
+      "matched_problems_in_repo": 102,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 195
+    },
+    {
+      "name": "razorpay",
+      "slug": "razorpay",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 42,
+      "matched_problems_in_repo": 42,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 81
+    },
+    {
+      "name": "SIG",
+      "slug": "sig",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 37,
+      "matched_problems_in_repo": 37,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 61
+    },
+    {
+      "name": "Splunk",
+      "slug": "splunk",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 51,
+      "matched_problems_in_repo": 50,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 104
+    },
+    {
+      "name": "Square",
+      "slug": "square",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 23,
+      "matched_problems_in_repo": 23,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 32
+    },
+    {
+      "name": "Twilio",
+      "slug": "twilio",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 33,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 57
+    },
+    {
+      "name": "UKG",
+      "slug": "ukg",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 47,
+      "matched_problems_in_repo": 47,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 74
+    },
+    {
+      "name": "Verily",
+      "slug": "verily",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 27,
+      "matched_problems_in_repo": 26,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 38
+    },
+    {
+      "name": "Wissen Technology",
+      "slug": "wissen",
+      "api_questionCount": 11,
+      "api_unique_question_ids": 33,
+      "matched_problems_in_repo": 33,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 90
+    },
+    {
+      "name": "Affirm",
+      "slug": "affirm",
+      "api_questionCount": 10,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 49
+    },
+    {
+      "name": "Criteo",
+      "slug": "criteo",
+      "api_questionCount": 10,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 26
+    },
+    {
+      "name": "Flexport",
+      "slug": "flexport",
+      "api_questionCount": 10,
+      "api_unique_question_ids": 20,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 38
+    },
+    {
+      "name": "Karat",
+      "slug": "karat",
+      "api_questionCount": 10,
+      "api_unique_question_ids": 30,
+      "matched_problems_in_repo": 30,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 54
+    },
+    {
+      "name": "Microstrategy",
+      "slug": "microstrategy",
+      "api_questionCount": 10,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 51
+    },
+    {
+      "name": "Motive",
+      "slug": "motive",
+      "api_questionCount": 10,
+      "api_unique_question_ids": 39,
+      "matched_problems_in_repo": 39,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 87
+    },
+    {
+      "name": "NetApp",
+      "slug": "netapp",
+      "api_questionCount": 10,
+      "api_unique_question_ids": 63,
+      "matched_problems_in_repo": 62,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 131
+    },
+    {
+      "name": "WeRide",
+      "slug": "weride",
+      "api_questionCount": 10,
+      "api_unique_question_ids": 28,
+      "matched_problems_in_repo": 28,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 37
+    },
+    {
+      "name": "Avito",
+      "slug": "avito",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 28,
+      "matched_problems_in_repo": 27,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 54
+    },
+    {
+      "name": "Compass",
+      "slug": "compass",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "name": "Confluent",
+      "slug": "confluent",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 33,
+      "matched_problems_in_repo": 33,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 51
+    },
+    {
+      "name": "Coursera",
+      "slug": "coursera",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 22
+    },
+    {
+      "name": "FreshWorks",
+      "slug": "freshworks",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 44,
+      "matched_problems_in_repo": 43,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 100
+    },
+    {
+      "name": "Instacart",
+      "slug": "instacart",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 25,
+      "matched_problems_in_repo": 25,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 49
+    },
+    {
+      "name": "LTIMindtree",
+      "slug": "lti",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 50,
+      "matched_problems_in_repo": 48,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 90
+    },
+    {
+      "name": "Nokia",
+      "slug": "nokia",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 58,
+      "matched_problems_in_repo": 58,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 103
+    },
+    {
+      "name": "opentext",
+      "slug": "opentext",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 42,
+      "matched_problems_in_repo": 41,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 71
+    },
+    {
+      "name": "Rivian",
+      "slug": "rivian",
+      "api_questionCount": 9,
+      "api_unique_question_ids": 38,
+      "matched_problems_in_repo": 37,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 73
+    },
+    {
+      "name": "Axon",
+      "slug": "axon",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 35,
+      "matched_problems_in_repo": 35,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 62
+    },
+    {
+      "name": "Directi",
+      "slug": "directi",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "Info Edge",
+      "slug": "info-edge",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 53,
+      "matched_problems_in_repo": 53,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 119
+    },
+    {
+      "name": "KLA",
+      "slug": "kla",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 30,
+      "matched_problems_in_repo": 30,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 51
+    },
+    {
+      "name": "Nagarro",
+      "slug": "nagarro",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 49,
+      "matched_problems_in_repo": 48,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 99
+    },
+    {
+      "name": "Netskope",
+      "slug": "netskope",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 54
+    },
+    {
+      "name": "oyo",
+      "slug": "oyo",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 39,
+      "matched_problems_in_repo": 38,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 77
+    },
+    {
+      "name": "persistent systems",
+      "slug": "persistent-systems",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 26,
+      "matched_problems_in_repo": 26,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 53
+    },
+    {
+      "name": "Publicis Sapient",
+      "slug": "publicis-sapient",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 48,
+      "matched_problems_in_repo": 48,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 96
+    },
+    {
+      "name": "Pure Storage",
+      "slug": "pure-storage",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 37
+    },
+    {
+      "name": "Shopee",
+      "slug": "shopee",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 41,
+      "matched_problems_in_repo": 40,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 79
+    },
+    {
+      "name": "Warnermedia",
+      "slug": "warnermedia",
+      "api_questionCount": 8,
+      "api_unique_question_ids": 30,
+      "matched_problems_in_repo": 29,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 71
+    },
+    {
+      "name": "6sense",
+      "slug": "6sense",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 39
+    },
+    {
+      "name": "Airtel",
+      "slug": "airtel",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 73
+    },
+    {
+      "name": "Audible",
+      "slug": "audible",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 45
+    },
+    {
+      "name": "Box",
+      "slug": "box",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "Citigroup",
+      "slug": "citi",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 79
+    },
+    {
+      "name": "CleverTap",
+      "slug": "clevertap",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "Dunzo",
+      "slug": "dunzo",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "name": "Groww",
+      "slug": "groww",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 38,
+      "matched_problems_in_repo": 37,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 79
+    },
+    {
+      "name": "Indeed",
+      "slug": "indeed",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 36
+    },
+    {
+      "name": "Jio",
+      "slug": "jio",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 61
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "slug": "kotak-mahindra-bank",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 35,
+      "matched_problems_in_repo": 35,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 62
+    },
+    {
+      "name": "LG Electronics",
+      "slug": "lg-electronics",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 30,
+      "matched_problems_in_repo": 30,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 57
+    },
+    {
+      "name": "Lime",
+      "slug": "lime",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "Optiver",
+      "slug": "optiver",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 45,
+      "matched_problems_in_repo": 43,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 85
+    },
+    {
+      "name": "Rakuten",
+      "slug": "rakuten",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 43,
+      "matched_problems_in_repo": 43,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 100
+    },
+    {
+      "name": "spinny",
+      "slug": "spinny",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 36
+    },
+    {
+      "name": "Target",
+      "slug": "target",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 36,
+      "matched_problems_in_repo": 36,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 75
+    },
+    {
+      "name": "Trilogy",
+      "slug": "trilogy",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 27,
+      "matched_problems_in_repo": 27,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 48
+    },
+    {
+      "name": "Twitch",
+      "slug": "twitch",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 46
+    },
+    {
+      "name": "Udemy",
+      "slug": "udemy",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "name": "Urban Company",
+      "slug": "urban-company",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 30,
+      "matched_problems_in_repo": 30,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 45
+    },
+    {
+      "name": "Vimeo",
+      "slug": "vimeo",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 18,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 42
+    },
+    {
+      "name": "VMware",
+      "slug": "vmware",
+      "api_questionCount": 7,
+      "api_unique_question_ids": 31,
+      "matched_problems_in_repo": 31,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 70
+    },
+    {
+      "name": "AT&T",
+      "slug": "att",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 32,
+      "matched_problems_in_repo": 32,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 56
+    },
+    {
+      "name": "Cadence",
+      "slug": "cadence",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 85
+    },
+    {
+      "name": "Cashfree",
+      "slug": "cashfree",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 34
+    },
+    {
+      "name": "Comcast",
+      "slug": "comcast",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 67
+    },
+    {
+      "name": "Darwinbox",
+      "slug": "darwinbox",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 27,
+      "matched_problems_in_repo": 27,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 63
+    },
+    {
+      "name": "Faire",
+      "slug": "faire",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 23
+    },
+    {
+      "name": "Fidelity",
+      "slug": "fidelity",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 57,
+      "matched_problems_in_repo": 57,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 99
+    },
+    {
+      "name": "Hive",
+      "slug": "hive",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 25,
+      "matched_problems_in_repo": 25,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 46
+    },
+    {
+      "name": "HSBC",
+      "slug": "hsbc",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 38,
+      "matched_problems_in_repo": 38,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 77
+    },
+    {
+      "name": "IMC",
+      "slug": "imc",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 29,
+      "matched_problems_in_repo": 29,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 47
+    },
+    {
+      "name": "LiveRamp",
+      "slug": "liveramp",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 34
+    },
+    {
+      "name": "Lowe's",
+      "slug": "lowe",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "name": "Lucid",
+      "slug": "lucid",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 26,
+      "matched_problems_in_repo": 26,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 59
+    },
+    {
+      "name": "MAQ Software",
+      "slug": "maq-software",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 38,
+      "matched_problems_in_repo": 38,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 80
+    },
+    {
+      "name": "Mercari",
+      "slug": "mercari",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "micro1",
+      "slug": "micro1",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 22
+    },
+    {
+      "name": "Moveworks",
+      "slug": "moveworks",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 23
+    },
+    {
+      "name": "Optum",
+      "slug": "optum",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 41,
+      "matched_problems_in_repo": 41,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 80
+    },
+    {
+      "name": "PayPay",
+      "slug": "paypay",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 46,
+      "matched_problems_in_repo": 46,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 91
+    },
+    {
+      "name": "Point72",
+      "slug": "point72",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 26,
+      "matched_problems_in_repo": 26,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 47
+    },
+    {
+      "name": "Porter",
+      "slug": "porter",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 36
+    },
+    {
+      "name": "Ripple",
+      "slug": "ripple",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 43
+    },
+    {
+      "name": "Rokt",
+      "slug": "rokt",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 19
+    },
+    {
+      "name": "The Trade Desk",
+      "slug": "the-trade-desk",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 33,
+      "matched_problems_in_repo": 33,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 54
+    },
+    {
+      "name": "Upstart",
+      "slug": "upstart",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 48
+    },
+    {
+      "name": "Verizon",
+      "slug": "verizon",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 23,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 40
+    },
+    {
+      "name": "Virtu Financial",
+      "slug": "virtu",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 22
+    },
+    {
+      "name": "Virtusa",
+      "slug": "virtusa",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 51,
+      "matched_problems_in_repo": 51,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 111
+    },
+    {
+      "name": "Wise",
+      "slug": "wise",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 17,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 26
+    },
+    {
+      "name": "Workday",
+      "slug": "workday",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 48,
+      "matched_problems_in_repo": 48,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 90
+    },
+    {
+      "name": "Zoox",
+      "slug": "zoox",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "ZS Associates",
+      "slug": "zs-associates",
+      "api_questionCount": 6,
+      "api_unique_question_ids": 37,
+      "matched_problems_in_repo": 36,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 78
+    },
+    {
+      "name": "Alibaba",
+      "slug": "alibaba",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 31,
+      "matched_problems_in_repo": 31,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 61
+    },
+    {
+      "name": "Amdocs",
+      "slug": "amdocs",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 38,
+      "matched_problems_in_repo": 38,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 62
+    },
+    {
+      "name": "Aon",
+      "slug": "aon",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "athenahealth",
+      "slug": "athenahealth",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 42,
+      "matched_problems_in_repo": 42,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 82
+    },
+    {
+      "name": "Attentive",
+      "slug": "attentive",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "name": "Bolt",
+      "slug": "bolt",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "Careem",
+      "slug": "careem",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 42
+    },
+    {
+      "name": "Chewy",
+      "slug": "chewy",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 17,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 38
+    },
+    {
+      "name": "Commvault",
+      "slug": "commvault",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 37
+    },
+    {
+      "name": "Couchbase",
+      "slug": "couchbase",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 20,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 44
+    },
+    {
+      "name": "Delhivery",
+      "slug": "delhivery",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 66
+    },
+    {
+      "name": "Duolingo",
+      "slug": "duolingo",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 31
+    },
+    {
+      "name": "Garmin",
+      "slug": "garmin",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 25
+    },
+    {
+      "name": "Github",
+      "slug": "github",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 29
+    },
+    {
+      "name": "GoDaddy",
+      "slug": "godaddy",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 28,
+      "matched_problems_in_repo": 27,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 45
+    },
+    {
+      "name": "GSN Games",
+      "slug": "gsn-games",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "Guidewire",
+      "slug": "guidewire",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 34
+    },
+    {
+      "name": "Gusto",
+      "slug": "gusto",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "HP",
+      "slug": "hp",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 29
+    },
+    {
+      "name": "HTC",
+      "slug": "htc",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "Hulu",
+      "slug": "hulu",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 9
+    },
+    {
+      "name": "Nielsen",
+      "slug": "nielsen",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 85
+    },
+    {
+      "name": "Qualtrics",
+      "slug": "qualtrics",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 32,
+      "matched_problems_in_repo": 32,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 56
+    },
+    {
+      "name": "Quince",
+      "slug": "quince",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 27,
+      "matched_problems_in_repo": 27,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 60
+    },
+    {
+      "name": "Reddit",
+      "slug": "reddit",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 36
+    },
+    {
+      "name": "Remitly",
+      "slug": "remitly",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 18,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 36
+    },
+    {
+      "name": "Riot Games",
+      "slug": "riot-games",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 26
+    },
+    {
+      "name": "Shopify",
+      "slug": "shopify",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 33,
+      "matched_problems_in_repo": 33,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 54
+    },
+    {
+      "name": "Sony",
+      "slug": "sony",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 25,
+      "matched_problems_in_repo": 25,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 52
+    },
+    {
+      "name": "Squarespace",
+      "slug": "squarespace",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "name": "Teradata",
+      "slug": "teradata",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 28,
+      "matched_problems_in_repo": 28,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "name": "Toast",
+      "slug": "toast",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 20
+    },
+    {
+      "name": "Tripadvisor",
+      "slug": "tripadvisor",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "Wish",
+      "slug": "wish",
+      "api_questionCount": 5,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "name": "Acko",
+      "slug": "acko",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 20,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 28
+    },
+    {
+      "name": "Airbus SE",
+      "slug": "airbus",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "name": "Altimetrik",
+      "slug": "altimetrik",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 39,
+      "matched_problems_in_repo": 39,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 81
+    },
+    {
+      "name": "Anthropic",
+      "slug": "anthropic",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "Asana",
+      "slug": "asana",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 23
+    },
+    {
+      "name": "blinkit",
+      "slug": "blinkit",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 23,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 52
+    },
+    {
+      "name": "Chubb",
+      "slug": "chubb",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 43
+    },
+    {
+      "name": "Citrix",
+      "slug": "citrix",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 34
+    },
+    {
+      "name": "Cohesity",
+      "slug": "cohesity",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 50,
+      "matched_problems_in_repo": 49,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 94
+    },
+    {
+      "name": "CoinDCX",
+      "slug": "coindcx",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 20,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 32
+    },
+    {
+      "name": "Cyntexa",
+      "slug": "cyntexa",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 39
+    },
+    {
+      "name": "Deliveroo",
+      "slug": "deliveroo",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "DevRev",
+      "slug": "devrev",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 36
+    },
+    {
+      "name": "Dialpad",
+      "slug": "dialpad",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 29
+    },
+    {
+      "name": "EarnIn",
+      "slug": "earnin",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 28
+    },
+    {
+      "name": "FactSet",
+      "slug": "factset",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 58,
+      "matched_problems_in_repo": 58,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 103
+    },
+    {
+      "name": "Fortinet",
+      "slug": "fortinet",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 34
+    },
+    {
+      "name": "Gameskraft",
+      "slug": "gameskraft",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 36,
+      "matched_problems_in_repo": 36,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 69
+    },
+    {
+      "name": "Glean",
+      "slug": "glean",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "Harness",
+      "slug": "harness",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 26,
+      "matched_problems_in_repo": 26,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 50
+    },
+    {
+      "name": "Honeywell",
+      "slug": "honeywell",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 36
+    },
+    {
+      "name": "HPE",
+      "slug": "hpe",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 37,
+      "matched_problems_in_repo": 37,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 76
+    },
+    {
+      "name": "IDFC Bank",
+      "slug": "idfc-bank",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 29,
+      "matched_problems_in_repo": 29,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 59
+    },
+    {
+      "name": "Illumio",
+      "slug": "illumio",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 37
+    },
+    {
+      "name": "Innovaccer",
+      "slug": "innovaccer",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 25,
+      "matched_problems_in_repo": 25,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 52
+    },
+    {
+      "name": "KLA Tencor",
+      "slug": "kla-tencor",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 17,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 38
+    },
+    {
+      "name": "Liftoff",
+      "slug": "liftoff",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "Mindtickle",
+      "slug": "mindtickle",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 17,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 32
+    },
+    {
+      "name": "MindTree",
+      "slug": "mindtree",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 18,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 39
+    },
+    {
+      "name": "Nordstrom",
+      "slug": "nordstrom",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 22,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 55
+    },
+    {
+      "name": "Nykaa",
+      "slug": "nykaa",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 27,
+      "matched_problems_in_repo": 26,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 62
+    },
+    {
+      "name": "Oscar Health",
+      "slug": "oscar-health",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "Otter.ai",
+      "slug": "otterai",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 20,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 56
+    },
+    {
+      "name": "Patreon",
+      "slug": "patreon",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "Pony.ai",
+      "slug": "ponyai",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "Poshmark",
+      "slug": "poshmark",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 24
+    },
+    {
+      "name": "Pwc",
+      "slug": "pwc",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 34,
+      "matched_problems_in_repo": 34,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 61
+    },
+    {
+      "name": "Societe Generale",
+      "slug": "societe-generale",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 23,
+      "matched_problems_in_repo": 22,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 40
+    },
+    {
+      "name": "SpaceXAI",
+      "slug": "xai",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 30
+    },
+    {
+      "name": "Spotnana",
+      "slug": "spotnana",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "Texas Instruments",
+      "slug": "texas-instruments",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 49,
+      "matched_problems_in_repo": 49,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 100
+    },
+    {
+      "name": "thoughtspot",
+      "slug": "thoughtspot",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 43,
+      "matched_problems_in_repo": 43,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 79
+    },
+    {
+      "name": "TomTom",
+      "slug": "tomtom",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "name": "Trexquant",
+      "slug": "trexquant",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 39
+    },
+    {
+      "name": "TuSimple",
+      "slug": "tusimple",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "UBS",
+      "slug": "ubs",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 31,
+      "matched_problems_in_repo": 31,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 61
+    },
+    {
+      "name": "UnifyApps",
+      "slug": "unifyapps",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 29,
+      "matched_problems_in_repo": 28,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 55
+    },
+    {
+      "name": "UST",
+      "slug": "ust",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 51
+    },
+    {
+      "name": "Valve",
+      "slug": "valve",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "Works Applications",
+      "slug": "works-applications",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "ZIP",
+      "slug": "zip",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 20
+    },
+    {
+      "name": "ZipRecruiter",
+      "slug": "ziprecruiter",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 28
+    },
+    {
+      "name": "Zoom",
+      "slug": "zoom",
+      "api_questionCount": 4,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 46
+    },
+    {
+      "name": "Activision",
+      "slug": "activision",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 20,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 32
+    },
+    {
+      "name": "Apollo.io",
+      "slug": "apolloio",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "AppFolio",
+      "slug": "appfolio",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "AQR Capital Management",
+      "slug": "aqr-capital-management",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 37,
+      "matched_problems_in_repo": 37,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 70
+    },
+    {
+      "name": "Bank of America",
+      "slug": "bank-of-america",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 30,
+      "matched_problems_in_repo": 30,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 51
+    },
+    {
+      "name": "Boeing",
+      "slug": "boeing",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 31
+    },
+    {
+      "name": "Broadcom",
+      "slug": "broadcom",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "Canonical",
+      "slug": "canonical",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 40
+    },
+    {
+      "name": "carwale",
+      "slug": "carwale",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 29
+    },
+    {
+      "name": "Chime",
+      "slug": "chime",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 34
+    },
+    {
+      "name": "ciena",
+      "slug": "ciena",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 39
+    },
+    {
+      "name": "Clari",
+      "slug": "clari",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 25
+    },
+    {
+      "name": "Cloudera",
+      "slug": "cloudera",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 37
+    },
+    {
+      "name": "CME Group",
+      "slug": "cme-group",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 24
+    },
+    {
+      "name": "DeltaX",
+      "slug": "deltax",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 23,
+      "matched_problems_in_repo": 23,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 38
+    },
+    {
+      "name": "DRW",
+      "slug": "drw",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 18,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 24
+    },
+    {
+      "name": "fourkites",
+      "slug": "fourkites",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "Freecharge",
+      "slug": "freecharge",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 20,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 50
+    },
+    {
+      "name": "Gartner",
+      "slug": "gartner",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "GE Digital",
+      "slug": "ge-digital",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "GE Healthcare",
+      "slug": "ge-healthcare",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 48
+    },
+    {
+      "name": "HiLabs",
+      "slug": "hilabs",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 26,
+      "matched_problems_in_repo": 26,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 35
+    },
+    {
+      "name": "JTG",
+      "slug": "jtg",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 23,
+      "matched_problems_in_repo": 23,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 41
+    },
+    {
+      "name": "Kickdrum",
+      "slug": "kickdrum",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 18,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 39
+    },
+    {
+      "name": "KPMG",
+      "slug": "kpmg",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 18,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "NatWest",
+      "slug": "natwest",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 39
+    },
+    {
+      "name": "Navan",
+      "slug": "navan",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 25
+    },
+    {
+      "name": "Navi",
+      "slug": "navi",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "NCR",
+      "slug": "ncr",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "Nextdoor",
+      "slug": "nextdoor",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 31
+    },
+    {
+      "name": "Niantic",
+      "slug": "niantic",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 31
+    },
+    {
+      "name": "Odoo",
+      "slug": "odoo",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 23,
+      "matched_problems_in_repo": 23,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 53
+    },
+    {
+      "name": "park+",
+      "slug": "park",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 32
+    },
+    {
+      "name": "Philips",
+      "slug": "philips",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 18,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "Postmates",
+      "slug": "postmates",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "name": "Ramp",
+      "slug": "ramp-2",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "Redfin",
+      "slug": "redfin",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "Samsara",
+      "slug": "samsara",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "scaler",
+      "slug": "scaler",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 28
+    },
+    {
+      "name": "Sonatus",
+      "slug": "sonatus",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "SoundHound",
+      "slug": "soundhound",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "StackAdapt",
+      "slug": "stackadapt",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 17,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 41
+    },
+    {
+      "name": "Sumo Logic",
+      "slug": "sumologic",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 43
+    },
+    {
+      "name": "Tech Mahindra",
+      "slug": "tech-mahindra",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 28,
+      "matched_problems_in_repo": 28,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 58
+    },
+    {
+      "name": "Tencent",
+      "slug": "tencent",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "name": "ThoughtWorks",
+      "slug": "thoughtworks",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 18,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 36
+    },
+    {
+      "name": "ThousandEyes",
+      "slug": "thousandeyes",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "Tiger Analytics",
+      "slug": "tiger-analytics",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 42
+    },
+    {
+      "name": "Tinder",
+      "slug": "tinder",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "Toptal",
+      "slug": "toptal",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "Tower Research Capital",
+      "slug": "tower-research",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 17,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 35
+    },
+    {
+      "name": "USAA",
+      "slug": "usaa",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "WorldQuant",
+      "slug": "worldquant",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 18,
+      "matched_problems_in_repo": 18,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 27
+    },
+    {
+      "name": "Zalando",
+      "slug": "zalando",
+      "api_questionCount": 3,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 36
+    },
+    {
+      "name": "ADP",
+      "slug": "adp",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 25
+    },
+    {
+      "name": "Amadeus",
+      "slug": "amadeus",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 27,
+      "matched_problems_in_repo": 27,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 48
+    },
+    {
+      "name": "Analytics quotient",
+      "slug": "analytics-quotient",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "AppDynamics",
+      "slug": "appdynamics",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "Appian",
+      "slug": "appian",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "AppPerfect",
+      "slug": "appperfect",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 22
+    },
+    {
+      "name": "Argo AI",
+      "slug": "argo-ai",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "name": "Bending Spoons",
+      "slug": "bending-spoons",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "BlackBuck",
+      "slug": "blackbuck",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "BlackStone",
+      "slug": "blackstone",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 30
+    },
+    {
+      "name": "Blend",
+      "slug": "blend",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "name": "Blue Origin",
+      "slug": "blue-origin",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "name": "Bridgewater Associates",
+      "slug": "bridgewater-associates",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "BuyHatke",
+      "slug": "buyhatke",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 19
+    },
+    {
+      "name": "Canva",
+      "slug": "canva",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "CARS24",
+      "slug": "cars24",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "Cerner",
+      "slug": "cerner",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "name": "Chargebee",
+      "slug": "chargebee",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 17,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 29
+    },
+    {
+      "name": "Cockroach Labs",
+      "slug": "cockroach-labs",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "CRED",
+      "slug": "cred",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 20,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 38
+    },
+    {
+      "name": "Cruise",
+      "slug": "cruise-automation",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "Dataminr",
+      "slug": "dataminr",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "Envoy",
+      "slug": "envoy",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "Ericsson",
+      "slug": "ericsson",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 30
+    },
+    {
+      "name": "Exl",
+      "slug": "exl",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 27
+    },
+    {
+      "name": "EY",
+      "slug": "ey",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 28,
+      "matched_problems_in_repo": 28,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "name": "F5",
+      "slug": "f5-networks",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "name": "Fanatics",
+      "slug": "fanatics",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "Fiverr",
+      "slug": "fiverr",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 13
+    },
+    {
+      "name": "fivetran",
+      "slug": "fivetran",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "Flexera",
+      "slug": "flexera",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "FPT",
+      "slug": "fpt",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 31,
+      "matched_problems_in_repo": 31,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 46
+    },
+    {
+      "name": "Garena",
+      "slug": "garena",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "glovo",
+      "slug": "glovo",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 19
+    },
+    {
+      "name": "Gopuff",
+      "slug": "gopuff",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "GoTo",
+      "slug": "goto",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 25
+    },
+    {
+      "name": "Groupon",
+      "slug": "groupon",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 19
+    },
+    {
+      "name": "Grubhub",
+      "slug": "grubhub",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "Hotstar",
+      "slug": "hotstar",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 30
+    },
+    {
+      "name": "Houzz",
+      "slug": "houzz",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "Informatica",
+      "slug": "informatica",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 69
+    },
+    {
+      "name": "instabase",
+      "slug": "instabase",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 23
+    },
+    {
+      "name": "IVP",
+      "slug": "ivp",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "Jump Trading",
+      "slug": "jump-trading",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 31
+    },
+    {
+      "name": "Kakao",
+      "slug": "kakao",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "name": "Larsen & Toubro",
+      "slug": "larsen-toubro",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "LINE",
+      "slug": "line",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "name": "Livspace",
+      "slug": "livspace",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 12
+    },
+    {
+      "name": "LTK",
+      "slug": "ltk",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "name": "Luxoft",
+      "slug": "luxoft",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 27
+    },
+    {
+      "name": "Machine Zone",
+      "slug": "machine-zone",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Marqeta",
+      "slug": "marqeta",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "McDonalds",
+      "slug": "mcdonalds",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 19
+    },
+    {
+      "name": "McKinsey",
+      "slug": "mckinsey",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 36
+    },
+    {
+      "name": "Mixpanel",
+      "slug": "mixpanel",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "myKaarma",
+      "slug": "mykaarma",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "National Payments Corporation of India",
+      "slug": "national-payments-coorperation-india",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "Nebius",
+      "slug": "nebius",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 34
+    },
+    {
+      "name": "NetEase",
+      "slug": "netease",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Netsuite",
+      "slug": "netsuite",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "name": "NewsBreak",
+      "slug": "newsbreak",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "observe.ai",
+      "slug": "observeai",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 19,
+      "matched_problems_in_repo": 19,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 25
+    },
+    {
+      "name": "OLX",
+      "slug": "olx",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 28
+    },
+    {
+      "name": "OPPO",
+      "slug": "oppo",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "name": "Paycom",
+      "slug": "paycom",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 7
+    },
+    {
+      "name": "PayU",
+      "slug": "payu",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 29,
+      "matched_problems_in_repo": 29,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 71
+    },
+    {
+      "name": "peak6",
+      "slug": "peak6",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Peloton",
+      "slug": "peloton",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "name": "PubMatic",
+      "slug": "pubmatic",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 26
+    },
+    {
+      "name": "RBC",
+      "slug": "rbc",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 20,
+      "matched_problems_in_repo": 20,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 44
+    },
+    {
+      "name": "RocketLane",
+      "slug": "rocketlane",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 29
+    },
+    {
+      "name": "Sentry",
+      "slug": "sentry",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "name": "ShareChat",
+      "slug": "sharechat",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 27
+    },
+    {
+      "name": "Shift Technology",
+      "slug": "shift-technology",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "ShopBack",
+      "slug": "shopback",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "SingleStore",
+      "slug": "singlestore",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "Snapdeal",
+      "slug": "snapdeal",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 22
+    },
+    {
+      "name": "Softwire",
+      "slug": "softwire",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "Stackline",
+      "slug": "stackline",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "Starbucks",
+      "slug": "starbucks",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "Tanium",
+      "slug": "tanium",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "Tesco",
+      "slug": "tesco",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 29
+    },
+    {
+      "name": "Thomson Reuters",
+      "slug": "thomson-reuters",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "Tracxn",
+      "slug": "tracxn",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 19
+    },
+    {
+      "name": "Turvo",
+      "slug": "turvo",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "name": "Unity",
+      "slug": "unity",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "Viasat",
+      "slug": "viasat",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "Zemoso",
+      "slug": "zemoso",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "Zendesk",
+      "slug": "zendesk",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 20
+    },
+    {
+      "name": "Zluri",
+      "slug": "zluri",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "name": "Zulily",
+      "slug": "zulily",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "name": "Zynga",
+      "slug": "zynga",
+      "api_questionCount": 2,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 26
+    },
+    {
+      "name": "1Kosmos",
+      "slug": "1kosmos",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Accelya",
+      "slug": "accelya",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 32
+    },
+    {
+      "name": "Acorns",
+      "slug": "acorns",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Adyen",
+      "slug": "adyen",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Aetion",
+      "slug": "aetion",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "Affinity",
+      "slug": "affinity",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "Airwallex",
+      "slug": "airwallex",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "name": "AllinCall",
+      "slug": "allincall",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Alphonso",
+      "slug": "alphonso",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "Alten",
+      "slug": "alten",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "name": "American Airlines",
+      "slug": "american-airlines",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "Amplitude",
+      "slug": "amplitude",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Andela",
+      "slug": "andela",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Anyscale",
+      "slug": "anyscale",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "Ascend",
+      "slug": "ascend",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "ASUS",
+      "slug": "asus",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "Auriga",
+      "slug": "auriga",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Avalara",
+      "slug": "avalara",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 19
+    },
+    {
+      "name": "Axis Bank",
+      "slug": "axis-bank",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Bloomreach",
+      "slug": "bloomreach",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "BNP Paribas",
+      "slug": "bnp-paribas",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 20
+    },
+    {
+      "name": "BP",
+      "slug": "bp",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 26
+    },
+    {
+      "name": "Braze",
+      "slug": "braze",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Brillio",
+      "slug": "brillio",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "BrowserStack",
+      "slug": "browserstack",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "BT Group",
+      "slug": "bt-group",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "name": "Caterpillar",
+      "slug": "caterpillar",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "Circle",
+      "slug": "circle",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "Cleartrip",
+      "slug": "cleartrip",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "Clutter",
+      "slug": "clutter",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Code Studio",
+      "slug": "code-studio",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Coditas",
+      "slug": "coditas",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "name": "CoinSwitch",
+      "slug": "coinswitch-kuber",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "Coupa",
+      "slug": "coupa",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "CTC Global Sdn Bhd",
+      "slug": "ctc",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "CureFit",
+      "slug": "curefit",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 24
+    },
+    {
+      "name": "CVENT",
+      "slug": "cvent",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 54
+    },
+    {
+      "name": "DailyHunt",
+      "slug": "dailyhunt",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Dassault Sys\u00e8tmes",
+      "slug": "dassault-sysetmes",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "DataArt",
+      "slug": "dataart",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "name": "DeepMind",
+      "slug": "deepmind",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Devsinc",
+      "slug": "devsinc",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "name": "Discord",
+      "slug": "discord",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "DJI",
+      "slug": "dji",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Drawbridge",
+      "slug": "drawbridge",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Druva",
+      "slug": "druva",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "DTCC",
+      "slug": "dtcc",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "Edelweiss Group",
+      "slug": "edelweiss",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "name": "eLitmus",
+      "slug": "elitmus",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Epic Games",
+      "slug": "epic-games",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "epiFi",
+      "slug": "epifi",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "name": "Equinix",
+      "slug": "equinix",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "Etsy",
+      "slug": "etsy",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "Fallible",
+      "slug": "fallible",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "FAST",
+      "slug": "fast",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "Fastenal",
+      "slug": "fastenal",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "FICO",
+      "slug": "fico",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 30
+    },
+    {
+      "name": "Fidessa",
+      "slug": "fidessa",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Figma",
+      "slug": "figma",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "Flatiron Health",
+      "slug": "flatiron-health",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "Fleetx",
+      "slug": "fleetx",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "ForUsAll",
+      "slug": "forusall",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "fynd",
+      "slug": "fynd",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "G-Research",
+      "slug": "g-research",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "GainSight",
+      "slug": "gainsight",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "Galadrim",
+      "slug": "galadrim",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 27
+    },
+    {
+      "name": "General Electric",
+      "slug": "general-electric",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "GEP",
+      "slug": "gep",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "Gilt Groupe",
+      "slug": "gilt-groupe",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "GlassDoor",
+      "slug": "glassdoor",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "GlobalLogic",
+      "slug": "globallogic",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 28
+    },
+    {
+      "name": "GSA Capital",
+      "slug": "gsa-capital",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "HBO",
+      "slug": "hbo",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "Helix",
+      "slug": "helix",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Hexaware",
+      "slug": "hexaware",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 31
+    },
+    {
+      "name": "Highspot",
+      "slug": "highspot",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "Hopper",
+      "slug": "hopper",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "name": "IIT Bombay",
+      "slug": "iit-bombay",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "Impact Analytics",
+      "slug": "impact-analytics",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "name": "Impetus",
+      "slug": "impetus",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "Increff",
+      "slug": "increff",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "Intercom",
+      "slug": "intercom",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "JD.com",
+      "slug": "jd",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Jeavio",
+      "slug": "jeavio",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "Jingchi",
+      "slug": "jingchi",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Lendingkart Technologies",
+      "slug": "lendingkart",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Lenskart",
+      "slug": "lenskart",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 33
+    },
+    {
+      "name": "Liberty Mutual",
+      "slug": "liberty-mutual",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "MachineZone",
+      "slug": "machinezone",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Maersk",
+      "slug": "maersk",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "Mapbox",
+      "slug": "mapbox",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "McAfee",
+      "slug": "mcafee",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "Meituan",
+      "slug": "meituan",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "MishiPay",
+      "slug": "mishipay",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Mobileye",
+      "slug": "mobileye",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 29
+    },
+    {
+      "name": "Mobisy",
+      "slug": "mobisy",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "name": "Moengage",
+      "slug": "moengage",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 28
+    },
+    {
+      "name": "MoneyLion",
+      "slug": "moneylion",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "name": "Mphasis",
+      "slug": "mphasis",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "MSCI",
+      "slug": "msci",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 15
+    },
+    {
+      "name": "Murex",
+      "slug": "murex",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 20
+    },
+    {
+      "name": "National Instruments",
+      "slug": "national-instruments",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 22
+    },
+    {
+      "name": "Naver",
+      "slug": "naver",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "NerdWallet",
+      "slug": "nerdwallet",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Netcracker Technology",
+      "slug": "netcracker-technology",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "NextJump",
+      "slug": "nextjump",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "name": "Noon",
+      "slug": "noon",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 20
+    },
+    {
+      "name": "NTT Data",
+      "slug": "ntt-data",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "OKX",
+      "slug": "okx",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 31
+    },
+    {
+      "name": "OnlyFans",
+      "slug": "onlyfans",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "PayPal Honey",
+      "slug": "honey",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Pega",
+      "slug": "pega",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Pickrr",
+      "slug": "pickrr",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Plaid",
+      "slug": "plaid",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "PlaySimple",
+      "slug": "playsimple",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "name": "Polar",
+      "slug": "polar",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Postman",
+      "slug": "postman",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Poynt",
+      "slug": "poynt",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "Pure",
+      "slug": "pure",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "name": "Purplle",
+      "slug": "purplle",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "name": "Qualys",
+      "slug": "qualys",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "name": "Quantcast",
+      "slug": "quantcast",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "Quantiphi",
+      "slug": "quantiphi",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 26
+    },
+    {
+      "name": "Rackspace",
+      "slug": "rackspace",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "name": "Radius",
+      "slug": "radius",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "name": "Rally Health",
+      "slug": "rally-health",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "redbus",
+      "slug": "redbus",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Reliance Retails",
+      "slug": "reliance-retails",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "name": "RetailMeNot",
+      "slug": "retailmenot",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Rupeek",
+      "slug": "rupeek",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "SambaNova",
+      "slug": "sambanova",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Scale AI",
+      "slug": "scale-ai",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "name": "Schlumberger",
+      "slug": "schlumberger",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 13,
+      "matched_problems_in_repo": 13,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 31
+    },
+    {
+      "name": "Schneider Electric",
+      "slug": "schneider-electric",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "name": "Schrodinger",
+      "slug": "schrodinger",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "Shipsy",
+      "slug": "shipsy",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "ShopUp",
+      "slug": "shopup",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 20
+    },
+    {
+      "name": "SIXT",
+      "slug": "sixt",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 22
+    },
+    {
+      "name": "Slice",
+      "slug": "slice",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 39
+    },
+    {
+      "name": "smartnews",
+      "slug": "smartnews",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 24
+    },
+    {
+      "name": "Smartsheet",
+      "slug": "smartsheet",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 22
+    },
+    {
+      "name": "SOTI",
+      "slug": "soti",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 24
+    },
+    {
+      "name": "SpaceX",
+      "slug": "spacex",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "State Farm",
+      "slug": "state-farm",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Strava",
+      "slug": "strava",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Syfe",
+      "slug": "syfe",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "name": "Symantec",
+      "slug": "symantec",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "Synopsys",
+      "slug": "synopsys",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 25,
+      "matched_problems_in_repo": 25,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 61
+    },
+    {
+      "name": "T-mobile",
+      "slug": "t-mobile",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "TA Digital",
+      "slug": "ta-digital",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Tableau",
+      "slug": "tableau",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "name": "Tata Group",
+      "slug": "tata",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 39
+    },
+    {
+      "name": "Techolution",
+      "slug": "techolution",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 22
+    },
+    {
+      "name": "Tennr",
+      "slug": "tennr",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "Thumbtack",
+      "slug": "thumbtack",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "TIAA",
+      "slug": "tiaa",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "tokopedia",
+      "slug": "tokopedia",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "Toyota",
+      "slug": "toyota",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "name": "Traveloka",
+      "slug": "traveloka",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 27
+    },
+    {
+      "name": "Trend Micro",
+      "slug": "trend-micro",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "name": "TripActions",
+      "slug": "tripactions",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "TripleByte",
+      "slug": "triplebyte",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "Ubisoft",
+      "slug": "ubisoft",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "name": "Ultraleap",
+      "slug": "leap-motion",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "name": "Unbxd",
+      "slug": "unbxd",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "name": "Unstop",
+      "slug": "unstop",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "name": "Veeva Systems",
+      "slug": "veeva",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 51
+    },
+    {
+      "name": "Veritas",
+      "slug": "veritas",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "name": "Wayve",
+      "slug": "wayve",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "name": "Wealthfront",
+      "slug": "wealthfront",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "name": "Western Digital",
+      "slug": "western-digital",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "WEX",
+      "slug": "wex",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 24
+    },
+    {
+      "name": "Whatfix",
+      "slug": "whatfix",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 19
+    },
+    {
+      "name": "WinZO",
+      "slug": "winzo",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 25
+    },
+    {
+      "name": "Woven by Toyota",
+      "slug": "woven-by-toyota",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "name": "Xing",
+      "slug": "xing",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Yatra",
+      "slug": "yatra",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "name": "Yugabyte",
+      "slug": "yugabyte",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "name": "Zappos",
+      "slug": "zappos",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "name": "Zeta Suite",
+      "slug": "zeta-suite",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 23
+    },
+    {
+      "name": "Zillow",
+      "slug": "zillow",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 23
+    },
+    {
+      "name": "Zocdoc",
+      "slug": "zocdoc",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "name": "Zupee",
+      "slug": "zupee",
+      "api_questionCount": 1,
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 30
+    },
+    {
+      "name": "RemoteState",
+      "slug": "remote-state",
+      "api_questionCount": 0,
+      "api_unique_question_ids": 0,
+      "matched_problems_in_repo": 0,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 0
+    },
+    {
+      "name": "Bill.com",
+      "slug": "billcom",
+      "api_questionCount": 0,
+      "api_unique_question_ids": 0,
+      "matched_problems_in_repo": 0,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 0
+    }
+  ],
+  "errors": [
+    {
+      "status": "error",
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "error": "null companyTag"
+    },
+    {
+      "status": "error",
+      "name": "Temu",
+      "slug": "temu",
+      "error": "null companyTag"
+    }
+  ],
+  "completed_ok": 671,
+  "completed_error": 2,
+  "total_copied_files": 65434,
+  "total_matched_problems_sum": 38818
+}

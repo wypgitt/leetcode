@@ -1,0 +1,94 @@
+#
+# @lc app=leetcode id=2696 lang=python3
+#
+# [2696] Minimum String Length After Removing Substrings
+#
+# https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/
+#
+# algorithms
+# Easy (77.21%)
+# Likes:    1024
+# Dislikes: 29
+# Total Accepted:    256.6K
+# Total Submissions: 332.3K
+# Testcase Example:  "\"ABFCACDB\""
+#
+# You are given a string s consisting only of uppercase English letters.
+#
+# You can apply some operations to this string where, in one operation, you can
+# remove any occurrence of one of the substrings "AB" or "CD" from s.
+#
+# Return the minimum possible length of the resulting string that you can
+# obtain.
+#
+# Note that the string concatenates after removing the substring and could
+# produce new "AB" or "CD" substrings.
+#
+#
+#
+# Example 1:
+#
+# Input: s = "ABFCACDB"
+# Output: 2
+# Explanation: We can do the following operations:
+# - Remove the substring "ABFCACDB", so s = "FCACDB".
+# - Remove the substring "FCACDB", so s = "FCAB".
+# - Remove the substring "FCAB", so s = "FC".
+# So the resulting length of the string is 2.
+# It can be shown that it is the minimum length that we can obtain.
+#
+# Example 2:
+#
+# Input: s = "ACBBD"
+# Output: 5
+# Explanation: We cannot do any operations on the string so the length remains
+# the same.
+#
+#
+#
+# Constraints:
+#
+#
+# 1 <= s.length <= 100
+#
+#
+# s consists only of uppercase English letters.
+#
+
+# @lc code=start
+
+class Solution:
+    def minLength(self, s: str) -> int:
+        """
+        Interview explanation:
+        Repeatedly remove "AB" or "CD" substrings until none remain; return final length.
+
+        Algorithm:
+        - Stack simulation: push chars; pop when top+char forms AB or CD.
+
+        Complexity: O(n) time, O(n) space.
+        """
+        stack: list[str] = []
+        for c in s:
+            if stack and ((stack[-1] == "A" and c == "B") or (stack[-1] == "C" and c == "D")):
+                stack.pop()
+            else:
+                stack.append(c)
+        return len(stack)
+
+    def minLength_replace(self, s: str) -> int:
+        """
+        Interview explanation:
+        Alternate: keep replacing AB/CD until stable (slower but clear).
+
+        Algorithm:
+        - While 'AB' or 'CD' in s, replace with empty.
+
+        Complexity: O(n^2) time, O(n) space.
+        """
+        prev = None
+        while prev != s:
+            prev = s
+            s = s.replace("AB", "").replace("CD", "")
+        return len(s)
+# @lc code=end

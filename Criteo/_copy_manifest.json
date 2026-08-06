@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Criteo",
+  "slug": "criteo",
+  "api_questionCount": 10,
+  "api_unique_question_ids": 14,
+  "matched_problems_in_repo": 14,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 26,
+  "missing_ids": []
+}

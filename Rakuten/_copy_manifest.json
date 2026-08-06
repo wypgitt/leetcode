@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Rakuten",
+  "slug": "rakuten",
+  "api_questionCount": 7,
+  "api_unique_question_ids": 43,
+  "matched_problems_in_repo": 43,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 100,
+  "missing_ids": []
+}

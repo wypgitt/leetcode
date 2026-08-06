@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Gopuff",
+  "slug": "gopuff",
+  "api_questionCount": 2,
+  "api_unique_question_ids": 4,
+  "matched_problems_in_repo": 4,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 4,
+  "missing_ids": []
+}

@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Arista Networks",
+  "slug": "arista-networks",
+  "api_questionCount": 37,
+  "api_unique_question_ids": 138,
+  "matched_problems_in_repo": 137,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 269,
+  "missing_ids": [
+    "1539"
+  ]
+}

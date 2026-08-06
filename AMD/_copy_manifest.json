@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "AMD",
+  "slug": "amd",
+  "api_questionCount": 17,
+  "api_unique_question_ids": 65,
+  "matched_problems_in_repo": 65,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 155,
+  "missing_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Wipro",
+  "slug": "wipro",
+  "api_questionCount": 20,
+  "api_unique_question_ids": 96,
+  "matched_problems_in_repo": 96,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 192,
+  "missing_ids": []
+}

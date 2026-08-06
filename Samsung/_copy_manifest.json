@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Samsung",
+  "slug": "samsung",
+  "api_questionCount": 62,
+  "api_unique_question_ids": 183,
+  "matched_problems_in_repo": 182,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 320,
+  "missing_ids": [
+    "23"
+  ]
+}

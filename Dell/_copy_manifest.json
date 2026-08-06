@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Dell",
+  "slug": "dell",
+  "api_questionCount": 14,
+  "api_unique_question_ids": 71,
+  "matched_problems_in_repo": 70,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 145,
+  "missing_ids": [
+    "10006"
+  ]
+}

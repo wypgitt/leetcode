@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Info Edge",
+  "slug": "info-edge",
+  "api_questionCount": 8,
+  "api_unique_question_ids": 53,
+  "matched_problems_in_repo": 53,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 119,
+  "missing_ids": []
+}

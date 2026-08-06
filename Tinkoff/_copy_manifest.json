@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Tinkoff",
+  "slug": "tinkoff",
+  "api_questionCount": 19,
+  "api_unique_question_ids": 57,
+  "matched_problems_in_repo": 57,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 117,
+  "missing_ids": []
+}

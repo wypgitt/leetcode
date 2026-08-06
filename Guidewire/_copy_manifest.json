@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Guidewire",
+  "slug": "guidewire",
+  "api_questionCount": 5,
+  "api_unique_question_ids": 22,
+  "matched_problems_in_repo": 22,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 34,
+  "missing_ids": []
+}

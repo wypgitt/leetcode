@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Faire",
+  "slug": "faire",
+  "api_questionCount": 6,
+  "api_unique_question_ids": 15,
+  "matched_problems_in_repo": 14,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 23,
+  "missing_ids": [
+    "23"
+  ]
+}

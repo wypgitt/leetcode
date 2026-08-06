@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Directi",
+  "slug": "directi",
+  "api_questionCount": 8,
+  "api_unique_question_ids": 15,
+  "matched_problems_in_repo": 15,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 21,
+  "missing_ids": []
+}

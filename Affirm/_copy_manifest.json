@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Affirm",
+  "slug": "affirm",
+  "api_questionCount": 10,
+  "api_unique_question_ids": 34,
+  "matched_problems_in_repo": 34,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 49,
+  "missing_ids": []
+}

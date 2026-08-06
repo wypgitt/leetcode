@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "name": "Goldman Sachs",
+  "slug": "goldman-sachs",
+  "api_questionCount": 265,
+  "api_unique_question_ids": 528,
+  "matched_problems_in_repo": 526,
+  "missing_problems_not_in_repo": 2,
+  "copied_files": 868,
+  "missing_ids": [
+    "23",
+    "1539"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Cloudera",
+  "slug": "cloudera",
+  "api_questionCount": 3,
+  "api_unique_question_ids": 16,
+  "matched_problems_in_repo": 16,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 37,
+  "missing_ids": []
+}

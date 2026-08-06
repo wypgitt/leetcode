@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Sigmoid",
+  "slug": "sigmoid",
+  "api_questionCount": 15,
+  "api_unique_question_ids": 59,
+  "matched_problems_in_repo": 59,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 149,
+  "missing_ids": []
+}

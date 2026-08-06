@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "1Kosmos",
+  "slug": "1kosmos",
+  "api_questionCount": 1,
+  "api_unique_question_ids": 4,
+  "matched_problems_in_repo": 4,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 10,
+  "missing_ids": []
+}

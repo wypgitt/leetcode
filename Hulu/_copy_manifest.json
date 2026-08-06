@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Hulu",
+  "slug": "hulu",
+  "api_questionCount": 5,
+  "api_unique_question_ids": 7,
+  "matched_problems_in_repo": 6,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 9,
+  "missing_ids": [
+    "10002"
+  ]
+}

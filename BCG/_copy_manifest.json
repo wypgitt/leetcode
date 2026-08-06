@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "BCG",
+  "slug": "bcg",
+  "api_questionCount": 12,
+  "api_unique_question_ids": 27,
+  "matched_problems_in_repo": 26,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 38,
+  "missing_ids": [
+    "2878"
+  ]
+}

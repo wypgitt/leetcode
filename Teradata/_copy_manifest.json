@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Teradata",
+  "slug": "teradata",
+  "api_questionCount": 5,
+  "api_unique_question_ids": 28,
+  "matched_problems_in_repo": 28,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 40,
+  "missing_ids": []
+}

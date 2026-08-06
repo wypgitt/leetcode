@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "DeltaX",
+  "slug": "deltax",
+  "api_questionCount": 3,
+  "api_unique_question_ids": 23,
+  "matched_problems_in_repo": 23,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 38,
+  "missing_ids": []
+}

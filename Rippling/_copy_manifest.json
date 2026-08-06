@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Rippling",
+  "slug": "rippling",
+  "api_questionCount": 29,
+  "api_unique_question_ids": 81,
+  "matched_problems_in_repo": 80,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 113,
+  "missing_ids": [
+    "23"
+  ]
+}

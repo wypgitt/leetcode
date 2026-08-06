@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Barclays",
+  "slug": "barclays",
+  "api_questionCount": 16,
+  "api_unique_question_ids": 74,
+  "matched_problems_in_repo": 74,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 128,
+  "missing_ids": []
+}

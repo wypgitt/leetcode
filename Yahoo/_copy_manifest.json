@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Yahoo",
+  "slug": "yahoo",
+  "api_questionCount": 32,
+  "api_unique_question_ids": 79,
+  "matched_problems_in_repo": 79,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 160,
+  "missing_ids": []
+}

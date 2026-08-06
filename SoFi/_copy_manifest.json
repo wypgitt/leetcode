@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "SoFi",
+  "slug": "sofi",
+  "api_questionCount": 15,
+  "api_unique_question_ids": 63,
+  "matched_problems_in_repo": 62,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 113,
+  "missing_ids": [
+    "23"
+  ]
+}

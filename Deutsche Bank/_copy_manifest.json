@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Deutsche Bank",
+  "slug": "deutsche-bank",
+  "api_questionCount": 22,
+  "api_unique_question_ids": 78,
+  "matched_problems_in_repo": 78,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 144,
+  "missing_ids": []
+}

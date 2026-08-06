@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Pocket Gems",
+  "slug": "pocket-gems",
+  "api_questionCount": 15,
+  "api_unique_question_ids": 15,
+  "matched_problems_in_repo": 15,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 27,
+  "missing_ids": []
+}

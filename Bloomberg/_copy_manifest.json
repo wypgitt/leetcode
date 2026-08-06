@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "name": "Bloomberg",
+  "slug": "bloomberg",
+  "api_questionCount": 1209,
+  "api_unique_question_ids": 1856,
+  "matched_problems_in_repo": 1847,
+  "missing_problems_not_in_repo": 9,
+  "copied_files": 2551,
+  "missing_ids": [
+    "23",
+    "441",
+    "1539",
+    "2877",
+    "2888",
+    "2885",
+    "2887",
+    "2890",
+    "2880"
+  ]
+}

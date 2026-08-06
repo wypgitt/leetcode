@@ -1,0 +1,111 @@
+#
+# @lc app=leetcode id=2787 lang=python3
+#
+# [2787] Ways to Express an Integer as Sum of Powers
+#
+# https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
+#
+# algorithms
+# Medium (49.80%)
+# Likes:    851
+# Dislikes: 41
+# Total Accepted:    120.4K
+# Total Submissions: 241.9K
+# Testcase Example:  "10\n2"
+#
+# Given two positive integers n and x.
+#
+# Return the number of ways n can be expressed as the sum of the x^th power of
+# unique positive integers, in other words, the number of sets of unique
+# integers [n_1, n_2, ..., n_k] where n = n_1^x + n_2^x + ... + n_k^x.
+#
+# Since the result can be very large, return it modulo 10^9 + 7.
+#
+# For example, if n = 160 and x = 3, one way to express n is n = 2^3 + 3^3 +
+# 5^3.
+#
+#
+#
+# Example 1:
+#
+# Input: n = 10, x = 2
+# Output: 1
+# Explanation: We can express n as the following: n = 3^2 + 1^2 = 10.
+# It can be shown that it is the only way to express 10 as the sum of the 2^nd
+# power of unique integers.
+#
+# Example 2:
+#
+# Input: n = 4, x = 1
+# Output: 2
+# Explanation: We can express n in the following ways:
+# - n = 4^1 = 4.
+# - n = 3^1 + 1^1 = 4.
+#
+#
+#
+# Constraints:
+#
+#
+# 1 <= n <= 300
+#
+#
+# 1 <= x <= 5
+#
+
+# @lc code=start
+class Solution:
+    def numberOfWays(self, n: int, x: int) -> int:
+        """
+        Interview explanation:
+        Count ways to write n as sum of unique positive integers each raised to
+        power x. Order doesn't matter. Mod 1e9+7.
+
+        Algorithm:
+        - Classic 0-1 knapsack DP over bases i^x <= n.
+
+        Complexity: O(n * m) where m = # bases ~ n^(1/x); O(n) space with 1D DP.
+        """
+        mod = 10**9 + 7
+        bases = []
+        i = 1
+        while True:
+            p = i**x
+            if p > n:
+                break
+            bases.append(p)
+            i += 1
+        dp = [0] * (n + 1)
+        dp[0] = 1
+        for p in bases:
+            for j in range(n, p - 1, -1):
+                dp[j] = (dp[j] + dp[j - p]) % mod
+        return dp[n]
+
+    def numberOfWays_dp2d(self, n: int, x: int) -> int:
+        """
+        Interview explanation:
+        Alternate 2D knapsack formulation (include/exclude each base).
+
+        Algorithm:
+        - f[i][j] ways using first i powers to sum j.
+
+        Complexity: O(n * m) time/space.
+        """
+        mod = 10**9 + 7
+        bases = []
+        i = 1
+        while i**x <= n:
+            bases.append(i**x)
+            i += 1
+        m = len(bases)
+        f = [[0] * (n + 1) for _ in range(m + 1)]
+        f[0][0] = 1
+        for i in range(1, m + 1):
+            p = bases[i - 1]
+            for j in range(n + 1):
+                f[i][j] = f[i - 1][j]
+                if j >= p:
+                    f[i][j] = (f[i][j] + f[i - 1][j - p]) % mod
+        return f[m][n]
+# @lc code=end

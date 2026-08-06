@@ -1,0 +1,166 @@
+#
+# @lc app=leetcode id=348 lang=python3
+#
+# [348] Design Tic-Tac-Toe
+#
+# https://leetcode.com/problems/design-tic-tac-toe/description/
+#
+# algorithms
+# Medium (58.75%)
+# Likes:    2169
+# Dislikes: 120
+# Total Accepted:    319.8K
+# Total Submissions: 544.4K
+# Testcase Example:  "[\"TicTacToe\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\"]\n[[3],[0,0,1],[0,2,2],[2,2,1],[1,1,2],[2,0,1],[1,0,2],[2,1,1]]"
+#
+#
+# Assume the following rules are for the tic-tac-toe game on an n x n
+# board between two players:
+#
+# A move is guaranteed to be valid and is placed on an empty block.
+#
+# Once a winning condition is reached, no more moves are allowed.
+#
+# A player who succeeds in placing n of their marks in a horizontal,
+# vertical, or diagonal row wins the game.
+#
+# Implement the TicTacToe class:
+#
+# TicTacToe(int n) Initializes the object the size of the board n.
+#
+# int move(int row, int col, int player) Indicates that the player with id
+# player plays at the cell (row, col) of the board. The move is guaranteed
+# to be a valid move, and the two players alternate in making moves.
+# Return
+#
+# 0 if there is no winner after the move,
+#
+# 1 if player 1 is the winner after the move, or
+#
+# 2 if player 2 is the winner after the move.
+#
+# Example 1:
+#
+# Input
+# ["TicTacToe", "move", "move", "move", "move", "move", "move", "move"]
+# [[3], [0, 0, 1], [0, 2, 2], [2, 2, 1], [1, 1, 2], [2, 0, 1], [1, 0, 2],
+# [2, 1, 1]]
+# Output
+# [null, 0, 0, 0, 0, 0, 0, 1]
+#
+# Explanation
+# TicTacToe ticTacToe = new TicTacToe(3);
+# Assume that player 1 is "X" and player 2 is "O" in the board.
+# ticTacToe.move(0, 0, 1); // return 0 (no one wins)
+# |X| | |
+# | | | |    // Player 1 makes a move at (0, 0).
+# | | | |
+#
+# ticTacToe.move(0, 2, 2); // return 0 (no one wins)
+# |X| |O|
+# | | | |    // Player 2 makes a move at (0, 2).
+# | | | |
+#
+# ticTacToe.move(2, 2, 1); // return 0 (no one wins)
+# |X| |O|
+# | | | |    // Player 1 makes a move at (2, 2).
+# | | |X|
+#
+# ticTacToe.move(1, 1, 2); // return 0 (no one wins)
+# |X| |O|
+# | |O| |    // Player 2 makes a move at (1, 1).
+# | | |X|
+#
+# ticTacToe.move(2, 0, 1); // return 0 (no one wins)
+# |X| |O|
+# | |O| |    // Player 1 makes a move at (2, 0).
+# |X| |X|
+#
+# ticTacToe.move(1, 0, 2); // return 0 (no one wins)
+# |X| |O|
+# |O|O| |    // Player 2 makes a move at (1, 0).
+# |X| |X|
+#
+# ticTacToe.move(2, 1, 1); // return 1 (player 1 wins)
+# |X| |O|
+# |O|O| |    // Player 1 makes a move at (2, 1).
+# |X|X|X|
+#
+# Constraints:
+#
+# 2 <= n <= 100
+#
+# player is 1 or 2.
+#
+# 0 <= row, col < n
+#
+# (row, col) are unique for each different call to move.
+#
+# At most n^2 calls will be made to move.
+#
+# Follow-up: Could you do better than O(n^2) per move() operation?
+#
+# @lc code=start
+class TicTacToe:
+    """
+    Interview explanation:
+    O(1) move: track row/col sums and two diagonals per player (+1 / -1).
+    A player wins when any tracked line reaches ±n.
+
+    Algorithm:
+    - rows[n], cols[n], diag, anti = 0.
+    - move(row,col,player): add delta; if abs(rows[r]|cols[c]|diag|anti)==n win.
+
+    Complexity: O(1) per move, O(n) space.
+    """
+
+    def __init__(self, n: int):
+        """
+        Interview explanation:
+        Track per-row/col and both diagonal scores so a win is an O(1) check
+        without scanning the board.
+
+        Algorithm:
+        - rows/cols arrays of zeros; diag and anti scalars.
+
+        Complexity: O(n) space for an n×n board.
+        """
+        self.n = n
+        self.rows = [0] * n
+        self.cols = [0] * n
+        self.diag = 0
+        self.anti = 0
+
+    def move(self, row: int, col: int, player: int) -> int:
+        """
+        Interview explanation:
+        Apply +1/-1 to the moved row, col, and diagonals if applicable; win
+        when any reaches ±n.
+
+        Algorithm:
+        - delta = ±1; update rows[row], cols[col], diag/anti if on them.
+        - If any abs count == n return player else 0.
+
+        Complexity: O(1) time, O(1) space.
+        """
+        delta = 1 if player == 1 else -1
+        self.rows[row] += delta
+        self.cols[col] += delta
+        if row == col:
+            self.diag += delta
+        if row + col == self.n - 1:
+            self.anti += delta
+        if (
+            abs(self.rows[row]) == self.n
+            or abs(self.cols[col]) == self.n
+            or abs(self.diag) == self.n
+            or abs(self.anti) == self.n
+        ):
+            return player
+        return 0
+
+
+# Your TicTacToe object will be instantiated and called as such:
+# obj = TicTacToe(n)
+# param_1 = obj.move(row,col,player)
+# @lc code=end

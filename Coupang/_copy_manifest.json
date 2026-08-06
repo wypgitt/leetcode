@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Coupang",
+  "slug": "coupang",
+  "api_questionCount": 48,
+  "api_unique_question_ids": 116,
+  "matched_problems_in_repo": 115,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 217,
+  "missing_ids": [
+    "23"
+  ]
+}

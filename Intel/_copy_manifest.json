@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Intel",
+  "slug": "intel",
+  "api_questionCount": 20,
+  "api_unique_question_ids": 70,
+  "matched_problems_in_repo": 70,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 145,
+  "missing_ids": []
+}

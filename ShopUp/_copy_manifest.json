@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "ShopUp",
+  "slug": "shopup",
+  "api_questionCount": 1,
+  "api_unique_question_ids": 8,
+  "matched_problems_in_repo": 8,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 20,
+  "missing_ids": []
+}
