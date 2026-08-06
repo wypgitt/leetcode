@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Graph Theory",
+  "slug": "graph",
+  "folder": "Graph Theory",
+  "api_unique_question_ids": 187,
+  "matched_problems_in_repo": 187,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 235,
+  "missing_ids": []
+}

@@ -1,0 +1,2564 @@
+{
+  "destination": "/Users/yingpengwang/leetcode/data structure and algorithms",
+  "total_topics": 175,
+  "completed_ok": 175,
+  "completed_error": 0,
+  "total_copied_files": 16675,
+  "topics": [
+    {
+      "name": "0-1 BFS",
+      "slug": "0-1-bfs"
+    },
+    {
+      "name": "0-1 Knapsack",
+      "slug": "0-1-knapsack"
+    },
+    {
+      "name": "A* Search",
+      "slug": "a-search"
+    },
+    {
+      "name": "Aho\u2013Corasick Algorithm",
+      "slug": "aho-corasick-algorithm"
+    },
+    {
+      "name": "Algorithm X",
+      "slug": "algorithm-x"
+    },
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Articulation Point",
+      "slug": "articulation-point"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    },
+    {
+      "name": "Bellman\u2013Ford Algorithm",
+      "slug": "bellman-ford-algorithm"
+    },
+    {
+      "name": "Biconnected Component",
+      "slug": "biconnected-component"
+    },
+    {
+      "name": "Bidirectional Search",
+      "slug": "bidirectional-search"
+    },
+    {
+      "name": "Binary Indexed Tree",
+      "slug": "binary-indexed-tree"
+    },
+    {
+      "name": "Binary Lifting",
+      "slug": "binary-lifting"
+    },
+    {
+      "name": "Binary Search",
+      "slug": "binary-search"
+    },
+    {
+      "name": "Binary Search Tree",
+      "slug": "binary-search-tree"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    },
+    {
+      "name": "Bipartite Graph",
+      "slug": "bipartite-graph"
+    },
+    {
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation"
+    },
+    {
+      "name": "Bitmask",
+      "slug": "bitmask"
+    },
+    {
+      "name": "Bor\u016fvka's Algorithm",
+      "slug": "boruvkas-algorithm"
+    },
+    {
+      "name": "Boyer\u2013Moore Majority Vote Algorithm",
+      "slug": "boyer-moore-majority-vote-algorithm"
+    },
+    {
+      "name": "Boyer\u2013Moore String-Search Algorithm",
+      "slug": "boyer-moore-string-search-algorithm"
+    },
+    {
+      "name": "Bracket Sequences",
+      "slug": "bracket-sequences"
+    },
+    {
+      "name": "Brainteaser",
+      "slug": "brainteaser"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Bridge (Graph)",
+      "slug": "bridge-graph"
+    },
+    {
+      "name": "Brute-Force Search",
+      "slug": "brute-force-search"
+    },
+    {
+      "name": "Bubble Sort",
+      "slug": "bubble-sort"
+    },
+    {
+      "name": "Bucket Sort",
+      "slug": "bucket-sort"
+    },
+    {
+      "name": "B\u00e9zout's Lemma",
+      "slug": "bezouts-lemma"
+    },
+    {
+      "name": "Cartesian Tree",
+      "slug": "cartesian-tree"
+    },
+    {
+      "name": "Combinatorics",
+      "slug": "combinatorics"
+    },
+    {
+      "name": "Complete Knapsack",
+      "slug": "complete-knapsack"
+    },
+    {
+      "name": "Concurrency",
+      "slug": "concurrency"
+    },
+    {
+      "name": "Convex Hull",
+      "slug": "convex-hull"
+    },
+    {
+      "name": "Counting",
+      "slug": "counting"
+    },
+    {
+      "name": "Counting Sort",
+      "slug": "counting-sort"
+    },
+    {
+      "name": "Dancing Links",
+      "slug": "dancing-links"
+    },
+    {
+      "name": "Data Stream",
+      "slug": "data-stream"
+    },
+    {
+      "name": "Database",
+      "slug": "database"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    },
+    {
+      "name": "Dijkstra's Algorithm",
+      "slug": "dijkstra"
+    },
+    {
+      "name": "Dinic's Algorithm",
+      "slug": "dinics-algorithm"
+    },
+    {
+      "name": "Directed Acyclic Graph",
+      "slug": "directed-acyclic-graph"
+    },
+    {
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer"
+    },
+    {
+      "name": "Doubly-Linked List",
+      "slug": "doubly-linked-list"
+    },
+    {
+      "name": "DP on Trees",
+      "slug": "dp-on-trees"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Edmonds\u2013Karp Algorithm",
+      "slug": "edmonds-karp-algorithm"
+    },
+    {
+      "name": "Enumeration",
+      "slug": "enumeration"
+    },
+    {
+      "name": "Euclidean Algorithm",
+      "slug": "euclidean-algorithm"
+    },
+    {
+      "name": "Euler's Theorem",
+      "slug": "eulers-theorem"
+    },
+    {
+      "name": "Euler's Totient Function",
+      "slug": "eulers-totient-function"
+    },
+    {
+      "name": "Eulerian Circuit",
+      "slug": "eulerian-circuit"
+    },
+    {
+      "name": "Eulerian Graph",
+      "slug": "eulerian-graph"
+    },
+    {
+      "name": "Eulerian Path",
+      "slug": "eulerian-path"
+    },
+    {
+      "name": "Extended Euclidean Algorithm",
+      "slug": "extended-euclidean-algorithm"
+    },
+    {
+      "name": "Fermat's Little Theorem",
+      "slug": "fermats-little-theorem"
+    },
+    {
+      "name": "Flow Network",
+      "slug": "flow-network"
+    },
+    {
+      "name": "Floyd's Cycle Finding Algorithm",
+      "slug": "floyds-cycle-finding-algorithm"
+    },
+    {
+      "name": "Floyd\u2013Warshall Algorithm",
+      "slug": "floyd-warshall-algorithm"
+    },
+    {
+      "name": "Game Theory",
+      "slug": "game-theory"
+    },
+    {
+      "name": "Geometry",
+      "slug": "geometry"
+    },
+    {
+      "name": "Graph Coloring",
+      "slug": "graph-coloring"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    },
+    {
+      "name": "Greatest Common Divisor",
+      "slug": "greatest-common-divisor"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    },
+    {
+      "name": "Hamiltonian Path",
+      "slug": "hamiltonian-path"
+    },
+    {
+      "name": "Hash Function",
+      "slug": "hash-function"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Heuristic Search",
+      "slug": "heuristic-search"
+    },
+    {
+      "name": "Hungarian Algorithm",
+      "slug": "hungarian-algorithm"
+    },
+    {
+      "name": "Impartial Game",
+      "slug": "impartial-game"
+    },
+    {
+      "name": "Inclusion-Exclusion Principle",
+      "slug": "inclusion-exclusion-principle"
+    },
+    {
+      "name": "Interactive",
+      "slug": "interactive"
+    },
+    {
+      "name": "Iterator",
+      "slug": "iterator"
+    },
+    {
+      "name": "K Shortest Path",
+      "slug": "k-shortest-path"
+    },
+    {
+      "name": "K-D Tree",
+      "slug": "k-d-tree"
+    },
+    {
+      "name": "Knapsack Problem",
+      "slug": "knapsack-problem"
+    },
+    {
+      "name": "Knuth\u2013Morris\u2013Pratt Algorithm",
+      "slug": "knuth-morris-pratt-algorithm"
+    },
+    {
+      "name": "Kosaraju's Algorithm",
+      "slug": "kosarajus-algorithm"
+    },
+    {
+      "name": "Kruskal's Algorithm",
+      "slug": "kruskals-algorithm"
+    },
+    {
+      "name": "Least Common Multiple",
+      "slug": "least-common-multiple"
+    },
+    {
+      "name": "Lexicographically Minimal String Rotation",
+      "slug": "lexicographically-minimal-string-rotation"
+    },
+    {
+      "name": "Li Chao Tree",
+      "slug": "li-chao-tree"
+    },
+    {
+      "name": "Linear Algebra",
+      "slug": "linear-algebra"
+    },
+    {
+      "name": "Linked List",
+      "slug": "linked-list"
+    },
+    {
+      "name": "Longest Common Subsequence",
+      "slug": "longest-common-subsequence"
+    },
+    {
+      "name": "Longest Increasing Subsequence",
+      "slug": "longest-increasing-subsequence"
+    },
+    {
+      "name": "Lowest Common Ancestor",
+      "slug": "lowest-common-ancestor"
+    },
+    {
+      "name": "Lyndon Factorization",
+      "slug": "lyndon-factorization"
+    },
+    {
+      "name": "Manacher",
+      "slug": "manacher"
+    },
+    {
+      "name": "Matching (Graph)",
+      "slug": "matching-graph"
+    },
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "Matrix",
+      "slug": "matrix"
+    },
+    {
+      "name": "Maximum Flow",
+      "slug": "maximum-flow"
+    },
+    {
+      "name": "Maximum Matching",
+      "slug": "maximum-matching"
+    },
+    {
+      "name": "Meet in the Middle",
+      "slug": "meet-in-the-middle"
+    },
+    {
+      "name": "Memoization",
+      "slug": "memoization"
+    },
+    {
+      "name": "Merge Sort",
+      "slug": "merge-sort"
+    },
+    {
+      "name": "Minimax",
+      "slug": "minimax-algorithm"
+    },
+    {
+      "name": "Minimum Cut",
+      "slug": "minimum-cut"
+    },
+    {
+      "name": "Minimum Enclosing Circle",
+      "slug": "minimum-enclosing-circle"
+    },
+    {
+      "name": "Minimum Spanning Tree",
+      "slug": "minimum-spanning-tree"
+    },
+    {
+      "name": "Minimum-Cost Flow",
+      "slug": "minimum-cost-flow"
+    },
+    {
+      "name": "Mixed Knapsack",
+      "slug": "mixed-knapsack"
+    },
+    {
+      "name": "Monotonic Queue",
+      "slug": "monotonic-queue"
+    },
+    {
+      "name": "Monotonic Stack",
+      "slug": "monotonic-stack"
+    },
+    {
+      "name": "MPM Algorithm",
+      "slug": "mpm-algorithm"
+    },
+    {
+      "name": "Multiple Knapsack",
+      "slug": "multiple-knapsack"
+    },
+    {
+      "name": "Nearest Pair of Points",
+      "slug": "nearest-pair-of-points"
+    },
+    {
+      "name": "Newton's Method",
+      "slug": "newtons-method"
+    },
+    {
+      "name": "Nim Game",
+      "slug": "nim-game"
+    },
+    {
+      "name": "Number Theory",
+      "slug": "number-theory"
+    },
+    {
+      "name": "Ordered Set",
+      "slug": "ordered-set"
+    },
+    {
+      "name": "Palindromic Tree",
+      "slug": "palindromic-tree"
+    },
+    {
+      "name": "Perfect Matching",
+      "slug": "perfect-matching"
+    },
+    {
+      "name": "Persistent Data Structure",
+      "slug": "persistent-data-structure"
+    },
+    {
+      "name": "Pigeonhole Principle",
+      "slug": "pigeonhole-principle"
+    },
+    {
+      "name": "Planar Graph",
+      "slug": "planar-graph"
+    },
+    {
+      "name": "Polygons",
+      "slug": "polygons"
+    },
+    {
+      "name": "Prefix Sum",
+      "slug": "prefix-sum"
+    },
+    {
+      "name": "Prim's Algorithm",
+      "slug": "prims-algorithm"
+    },
+    {
+      "name": "Primality Test",
+      "slug": "primality-test"
+    },
+    {
+      "name": "Prime Factorization",
+      "slug": "prime-factorization"
+    },
+    {
+      "name": "Prime Number Sieve",
+      "slug": "prime-number-sieve"
+    },
+    {
+      "name": "Probability and Statistics",
+      "slug": "probability-and-statistics"
+    },
+    {
+      "name": "Push-Relabel Algorithm",
+      "slug": "push-relabel-algorithm"
+    },
+    {
+      "name": "Queue",
+      "slug": "queue"
+    },
+    {
+      "name": "Quickselect",
+      "slug": "quickselect"
+    },
+    {
+      "name": "Quicksort",
+      "slug": "quicksort"
+    },
+    {
+      "name": "Radix Sort",
+      "slug": "radix-sort"
+    },
+    {
+      "name": "Randomized",
+      "slug": "randomized"
+    },
+    {
+      "name": "Range Minimum/Maximum Query",
+      "slug": "range-minimum-maximum-query"
+    },
+    {
+      "name": "Recursion",
+      "slug": "recursion"
+    },
+    {
+      "name": "Rejection Sampling",
+      "slug": "rejection-sampling"
+    },
+    {
+      "name": "Reservoir Sampling",
+      "slug": "reservoir-sampling"
+    },
+    {
+      "name": "Rolling Hash",
+      "slug": "rolling-hash"
+    },
+    {
+      "name": "Segment Tree",
+      "slug": "segment-tree"
+    },
+    {
+      "name": "Semi-Eulerian Graph",
+      "slug": "semi-eulerian-graph"
+    },
+    {
+      "name": "Shell",
+      "slug": "shell"
+    },
+    {
+      "name": "Shortest Path",
+      "slug": "shortest-path"
+    },
+    {
+      "name": "Sieve Theory",
+      "slug": "sieve-theory"
+    },
+    {
+      "name": "Simulation",
+      "slug": "simulation"
+    },
+    {
+      "name": "Sliding Window",
+      "slug": "sliding-window"
+    },
+    {
+      "name": "Sort",
+      "slug": "sort"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Sparse Table",
+      "slug": "sparse-table"
+    },
+    {
+      "name": "Splay Tree",
+      "slug": "splay-tree"
+    },
+    {
+      "name": "Sprague\u2013Grundy Theorem",
+      "slug": "sprague-grundy-theorem"
+    },
+    {
+      "name": "Sqrt Decomposition",
+      "slug": "sqrt-decomposition"
+    },
+    {
+      "name": "Stack",
+      "slug": "stack"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "String Matching",
+      "slug": "string-matching"
+    },
+    {
+      "name": "Strongly Connected Component",
+      "slug": "strongly-connected-component"
+    },
+    {
+      "name": "Successive Shortest Path Algorithm",
+      "slug": "successive-shortest-path-algorithm"
+    },
+    {
+      "name": "Suffix Array",
+      "slug": "suffix-array"
+    },
+    {
+      "name": "Suffix Automaton",
+      "slug": "suffix-automaton"
+    },
+    {
+      "name": "Suffix Tree",
+      "slug": "suffix-tree"
+    },
+    {
+      "name": "Sweep Line",
+      "slug": "sweep-line"
+    },
+    {
+      "name": "Tarjan's SCC Algorithm",
+      "slug": "tarjans-scc-algorithm"
+    },
+    {
+      "name": "Ternary Search",
+      "slug": "ternary-search"
+    },
+    {
+      "name": "Timsort",
+      "slug": "timsort"
+    },
+    {
+      "name": "Topological Sort",
+      "slug": "topological-sort"
+    },
+    {
+      "name": "Tournament Sort",
+      "slug": "tournament-sort"
+    },
+    {
+      "name": "Treap",
+      "slug": "treap"
+    },
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Triangulation",
+      "slug": "triangulation"
+    },
+    {
+      "name": "Trie",
+      "slug": "trie"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "Union-Find",
+      "slug": "union-find"
+    },
+    {
+      "name": "Z Algorithm",
+      "slug": "z-algorithm"
+    },
+    {
+      "name": "Zero-Sum Game",
+      "slug": "zero-sum-game"
+    }
+  ],
+  "results": [
+    {
+      "status": "ok",
+      "name": "Array",
+      "slug": "array",
+      "folder": "Array",
+      "api_unique_question_ids": 2197,
+      "matched_problems_in_repo": 2195,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 2819
+    },
+    {
+      "status": "ok",
+      "name": "String",
+      "slug": "string",
+      "folder": "String",
+      "api_unique_question_ids": 880,
+      "matched_problems_in_repo": 879,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 1143
+    },
+    {
+      "status": "ok",
+      "name": "Hash Table",
+      "slug": "hash-table",
+      "folder": "Hash Table",
+      "api_unique_question_ids": 825,
+      "matched_problems_in_repo": 824,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 1031
+    },
+    {
+      "status": "ok",
+      "name": "Math",
+      "slug": "math",
+      "folder": "Math",
+      "api_unique_question_ids": 684,
+      "matched_problems_in_repo": 683,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 941
+    },
+    {
+      "status": "ok",
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming",
+      "folder": "Dynamic Programming",
+      "api_unique_question_ids": 666,
+      "matched_problems_in_repo": 664,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 892
+    },
+    {
+      "status": "ok",
+      "name": "Sorting",
+      "slug": "sorting",
+      "folder": "Sorting",
+      "api_unique_question_ids": 527,
+      "matched_problems_in_repo": 527,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 665
+    },
+    {
+      "status": "ok",
+      "name": "Greedy",
+      "slug": "greedy",
+      "folder": "Greedy",
+      "api_unique_question_ids": 470,
+      "matched_problems_in_repo": 470,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 572
+    },
+    {
+      "status": "ok",
+      "name": "Depth-First Search",
+      "slug": "depth-first-search",
+      "folder": "Depth-First Search",
+      "api_unique_question_ids": 344,
+      "matched_problems_in_repo": 344,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 485
+    },
+    {
+      "status": "ok",
+      "name": "Binary Search",
+      "slug": "binary-search",
+      "folder": "Binary Search",
+      "api_unique_question_ids": 343,
+      "matched_problems_in_repo": 340,
+      "missing_problems_not_in_repo": 3,
+      "copied_files": 436
+    },
+    {
+      "status": "ok",
+      "name": "Database",
+      "slug": "database",
+      "folder": "Database",
+      "api_unique_question_ids": 310,
+      "matched_problems_in_repo": 310,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 358
+    },
+    {
+      "status": "ok",
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation",
+      "folder": "Bit Manipulation",
+      "api_unique_question_ids": 288,
+      "matched_problems_in_repo": 288,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 372
+    },
+    {
+      "status": "ok",
+      "name": "Matrix",
+      "slug": "matrix",
+      "folder": "Matrix",
+      "api_unique_question_ids": 277,
+      "matched_problems_in_repo": 277,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 367
+    },
+    {
+      "status": "ok",
+      "name": "Tree",
+      "slug": "tree",
+      "folder": "Tree",
+      "api_unique_question_ids": 265,
+      "matched_problems_in_repo": 265,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 397
+    },
+    {
+      "status": "ok",
+      "name": "Prefix Sum",
+      "slug": "prefix-sum",
+      "folder": "Prefix Sum",
+      "api_unique_question_ids": 263,
+      "matched_problems_in_repo": 263,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 317
+    },
+    {
+      "status": "ok",
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search",
+      "folder": "Breadth-First Search",
+      "api_unique_question_ids": 259,
+      "matched_problems_in_repo": 259,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 352
+    },
+    {
+      "status": "ok",
+      "name": "Two Pointers",
+      "slug": "two-pointers",
+      "folder": "Two Pointers",
+      "api_unique_question_ids": 254,
+      "matched_problems_in_repo": 253,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 388
+    },
+    {
+      "status": "ok",
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue",
+      "folder": "Heap (Priority Queue)",
+      "api_unique_question_ids": 219,
+      "matched_problems_in_repo": 218,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 257
+    },
+    {
+      "status": "ok",
+      "name": "Simulation",
+      "slug": "simulation",
+      "folder": "Simulation",
+      "api_unique_question_ids": 211,
+      "matched_problems_in_repo": 211,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 247
+    },
+    {
+      "status": "ok",
+      "name": "Counting",
+      "slug": "counting",
+      "folder": "Counting",
+      "api_unique_question_ids": 207,
+      "matched_problems_in_repo": 207,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 237
+    },
+    {
+      "status": "ok",
+      "name": "Graph Theory",
+      "slug": "graph",
+      "folder": "Graph Theory",
+      "api_unique_question_ids": 187,
+      "matched_problems_in_repo": 187,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 235
+    },
+    {
+      "status": "ok",
+      "name": "Binary Tree",
+      "slug": "binary-tree",
+      "folder": "Binary Tree",
+      "api_unique_question_ids": 180,
+      "matched_problems_in_repo": 180,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 291
+    },
+    {
+      "status": "ok",
+      "name": "Stack",
+      "slug": "stack",
+      "folder": "Stack",
+      "api_unique_question_ids": 179,
+      "matched_problems_in_repo": 179,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 257
+    },
+    {
+      "status": "ok",
+      "name": "Sliding Window",
+      "slug": "sliding-window",
+      "folder": "Sliding Window",
+      "api_unique_question_ids": 169,
+      "matched_problems_in_repo": 169,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 196
+    },
+    {
+      "status": "ok",
+      "name": "Enumeration",
+      "slug": "enumeration",
+      "folder": "Enumeration",
+      "api_unique_question_ids": 153,
+      "matched_problems_in_repo": 153,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 180
+    },
+    {
+      "status": "ok",
+      "name": "Design",
+      "slug": "design",
+      "folder": "Design",
+      "api_unique_question_ids": 136,
+      "matched_problems_in_repo": 134,
+      "missing_problems_not_in_repo": 2,
+      "copied_files": 185
+    },
+    {
+      "status": "ok",
+      "name": "Backtracking",
+      "slug": "backtracking",
+      "folder": "Backtracking",
+      "api_unique_question_ids": 114,
+      "matched_problems_in_repo": 114,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 198
+    },
+    {
+      "status": "ok",
+      "name": "Number Theory",
+      "slug": "number-theory",
+      "folder": "Number Theory",
+      "api_unique_question_ids": 99,
+      "matched_problems_in_repo": 99,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 132
+    },
+    {
+      "status": "ok",
+      "name": "Union-Find",
+      "slug": "union-find",
+      "folder": "Union-Find",
+      "api_unique_question_ids": 99,
+      "matched_problems_in_repo": 98,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 137
+    },
+    {
+      "status": "ok",
+      "name": "Linked List",
+      "slug": "linked-list",
+      "folder": "Linked List",
+      "api_unique_question_ids": 82,
+      "matched_problems_in_repo": 81,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 144
+    },
+    {
+      "status": "ok",
+      "name": "Segment Tree",
+      "slug": "segment-tree",
+      "folder": "Segment Tree",
+      "api_unique_question_ids": 80,
+      "matched_problems_in_repo": 80,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 107
+    },
+    {
+      "status": "ok",
+      "name": "Ordered Set",
+      "slug": "ordered-set",
+      "folder": "Ordered Set",
+      "api_unique_question_ids": 79,
+      "matched_problems_in_repo": 79,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 103
+    },
+    {
+      "status": "ok",
+      "name": "Monotonic Stack",
+      "slug": "monotonic-stack",
+      "folder": "Monotonic Stack",
+      "api_unique_question_ids": 73,
+      "matched_problems_in_repo": 73,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 103
+    },
+    {
+      "status": "ok",
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer",
+      "folder": "Divide and Conquer",
+      "api_unique_question_ids": 67,
+      "matched_problems_in_repo": 66,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 117
+    },
+    {
+      "status": "ok",
+      "name": "Combinatorics",
+      "slug": "combinatorics",
+      "folder": "Combinatorics",
+      "api_unique_question_ids": 62,
+      "matched_problems_in_repo": 62,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 77
+    },
+    {
+      "status": "ok",
+      "name": "Trie",
+      "slug": "trie",
+      "folder": "Trie",
+      "api_unique_question_ids": 61,
+      "matched_problems_in_repo": 61,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 88
+    },
+    {
+      "status": "ok",
+      "name": "Queue",
+      "slug": "queue",
+      "folder": "Queue",
+      "api_unique_question_ids": 57,
+      "matched_problems_in_repo": 57,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 72
+    },
+    {
+      "status": "ok",
+      "name": "Bitmask",
+      "slug": "bitmask",
+      "folder": "Bitmask",
+      "api_unique_question_ids": 55,
+      "matched_problems_in_repo": 55,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 64
+    },
+    {
+      "status": "ok",
+      "name": "Recursion",
+      "slug": "recursion",
+      "folder": "Recursion",
+      "api_unique_question_ids": 51,
+      "matched_problems_in_repo": 51,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 87
+    },
+    {
+      "status": "ok",
+      "name": "Geometry",
+      "slug": "geometry",
+      "folder": "Geometry",
+      "api_unique_question_ids": 46,
+      "matched_problems_in_repo": 46,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 79
+    },
+    {
+      "status": "ok",
+      "name": "Binary Indexed Tree",
+      "slug": "binary-indexed-tree",
+      "folder": "Binary Indexed Tree",
+      "api_unique_question_ids": 44,
+      "matched_problems_in_repo": 44,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 56
+    },
+    {
+      "status": "ok",
+      "name": "Binary Search Tree",
+      "slug": "binary-search-tree",
+      "folder": "Binary Search Tree",
+      "api_unique_question_ids": 43,
+      "matched_problems_in_repo": 43,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 79
+    },
+    {
+      "status": "ok",
+      "name": "Hash Function",
+      "slug": "hash-function",
+      "folder": "Hash Function",
+      "api_unique_question_ids": 43,
+      "matched_problems_in_repo": 43,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 52
+    },
+    {
+      "status": "ok",
+      "name": "Memoization",
+      "slug": "memoization",
+      "folder": "Memoization",
+      "api_unique_question_ids": 43,
+      "matched_problems_in_repo": 43,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 64
+    },
+    {
+      "status": "ok",
+      "name": "Shortest Path",
+      "slug": "shortest-path",
+      "folder": "Shortest Path",
+      "api_unique_question_ids": 41,
+      "matched_problems_in_repo": 41,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 50
+    },
+    {
+      "status": "ok",
+      "name": "Topological Sort",
+      "slug": "topological-sort",
+      "folder": "Topological Sort",
+      "api_unique_question_ids": 40,
+      "matched_problems_in_repo": 40,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 55
+    },
+    {
+      "status": "ok",
+      "name": "String Matching",
+      "slug": "string-matching",
+      "folder": "String Matching",
+      "api_unique_question_ids": 37,
+      "matched_problems_in_repo": 37,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 40
+    },
+    {
+      "status": "ok",
+      "name": "Rolling Hash",
+      "slug": "rolling-hash",
+      "folder": "Rolling Hash",
+      "api_unique_question_ids": 33,
+      "matched_problems_in_repo": 33,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 42
+    },
+    {
+      "status": "ok",
+      "name": "DP on Trees",
+      "slug": "dp-on-trees",
+      "folder": "DP on Trees",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 31,
+      "matched_problems_in_repo": 31,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 34
+    },
+    {
+      "status": "ok",
+      "name": "Game Theory",
+      "slug": "game-theory",
+      "folder": "Game Theory",
+      "api_unique_question_ids": 30,
+      "matched_problems_in_repo": 30,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 36
+    },
+    {
+      "status": "ok",
+      "name": "Interactive",
+      "slug": "interactive",
+      "folder": "Interactive",
+      "api_unique_question_ids": 25,
+      "matched_problems_in_repo": 25,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 25
+    },
+    {
+      "status": "ok",
+      "name": "Monotonic Queue",
+      "slug": "monotonic-queue",
+      "folder": "Monotonic Queue",
+      "api_unique_question_ids": 25,
+      "matched_problems_in_repo": 25,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 34
+    },
+    {
+      "status": "ok",
+      "name": "Greatest Common Divisor",
+      "slug": "greatest-common-divisor",
+      "folder": "Greatest Common Divisor",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 25,
+      "matched_problems_in_repo": 25,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 34
+    },
+    {
+      "status": "ok",
+      "name": "Data Stream",
+      "slug": "data-stream",
+      "folder": "Data Stream",
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 27
+    },
+    {
+      "status": "ok",
+      "name": "Euclidean Algorithm",
+      "slug": "euclidean-algorithm",
+      "folder": "Euclidean Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 24,
+      "matched_problems_in_repo": 24,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 30
+    },
+    {
+      "status": "ok",
+      "name": "Brainteaser",
+      "slug": "brainteaser",
+      "folder": "Brainteaser",
+      "api_unique_question_ids": 21,
+      "matched_problems_in_repo": 21,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "status": "ok",
+      "name": "Directed Acyclic Graph",
+      "slug": "directed-acyclic-graph",
+      "folder": "Directed Acyclic Graph",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 17,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 23
+    },
+    {
+      "status": "ok",
+      "name": "Knapsack Problem",
+      "slug": "knapsack-problem",
+      "folder": "Knapsack Problem",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 17,
+      "matched_problems_in_repo": 17,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 23
+    },
+    {
+      "status": "ok",
+      "name": "Minimax",
+      "slug": "minimax-algorithm",
+      "folder": "Minimax",
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 19
+    },
+    {
+      "status": "ok",
+      "name": "Dijkstra's Algorithm",
+      "slug": "dijkstra",
+      "folder": "Dijkstra's Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 16,
+      "matched_problems_in_repo": 16,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "status": "ok",
+      "name": "Doubly-Linked List",
+      "slug": "doubly-linked-list",
+      "folder": "Doubly-Linked List",
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "status": "ok",
+      "name": "Merge Sort",
+      "slug": "merge-sort",
+      "folder": "Merge Sort",
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 20
+    },
+    {
+      "status": "ok",
+      "name": "Bracket Sequences",
+      "slug": "bracket-sequences",
+      "folder": "Bracket Sequences",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 15,
+      "matched_problems_in_repo": 15,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "status": "ok",
+      "name": "Prime Factorization",
+      "slug": "prime-factorization",
+      "folder": "Prime Factorization",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 14,
+      "matched_problems_in_repo": 14,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 23
+    },
+    {
+      "status": "ok",
+      "name": "Randomized",
+      "slug": "randomized",
+      "folder": "Randomized",
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 21
+    },
+    {
+      "status": "ok",
+      "name": "Binary Lifting",
+      "slug": "binary-lifting",
+      "folder": "Binary Lifting",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "status": "ok",
+      "name": "Longest Increasing Subsequence",
+      "slug": "longest-increasing-subsequence",
+      "folder": "Longest Increasing Subsequence",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "status": "ok",
+      "name": "Zero-Sum Game",
+      "slug": "zero-sum-game",
+      "folder": "Zero-Sum Game",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 12,
+      "matched_problems_in_repo": 12,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "status": "ok",
+      "name": "Counting Sort",
+      "slug": "counting-sort",
+      "folder": "Counting Sort",
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "status": "ok",
+      "name": "Lowest Common Ancestor",
+      "slug": "lowest-common-ancestor",
+      "folder": "Lowest Common Ancestor",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "status": "ok",
+      "name": "Sieve Theory",
+      "slug": "sieve-theory",
+      "folder": "Sieve Theory",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "status": "ok",
+      "name": "Z Algorithm",
+      "slug": "z-algorithm",
+      "folder": "Z Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 11,
+      "matched_problems_in_repo": 11,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 17
+    },
+    {
+      "status": "ok",
+      "name": "Bipartite Graph",
+      "slug": "bipartite-graph",
+      "folder": "Bipartite Graph",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "status": "ok",
+      "name": "Fermat's Little Theorem",
+      "slug": "fermats-little-theorem",
+      "folder": "Fermat's Little Theorem",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "status": "ok",
+      "name": "Knuth\u2013Morris\u2013Pratt Algorithm",
+      "slug": "knuth-morris-pratt-algorithm",
+      "folder": "Knuth\u2013Morris\u2013Pratt Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "status": "ok",
+      "name": "Primality Test",
+      "slug": "primality-test",
+      "folder": "Primality Test",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 10,
+      "matched_problems_in_repo": 10,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 16
+    },
+    {
+      "status": "ok",
+      "name": "Concurrency",
+      "slug": "concurrency",
+      "folder": "Concurrency",
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "status": "ok",
+      "name": "Iterator",
+      "slug": "iterator",
+      "folder": "Iterator",
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 18
+    },
+    {
+      "status": "ok",
+      "name": "Suffix Array",
+      "slug": "suffix-array",
+      "folder": "Suffix Array",
+      "api_unique_question_ids": 9,
+      "matched_problems_in_repo": 9,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "status": "ok",
+      "name": "Quickselect",
+      "slug": "quickselect",
+      "folder": "Quickselect",
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "status": "ok",
+      "name": "Sweep Line",
+      "slug": "sweep-line",
+      "folder": "Sweep Line",
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "status": "ok",
+      "name": "0-1 Knapsack",
+      "slug": "0-1-knapsack",
+      "folder": "0-1 Knapsack",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "status": "ok",
+      "name": "Polygons",
+      "slug": "polygons",
+      "folder": "Polygons",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 8,
+      "matched_problems_in_repo": 8,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 14
+    },
+    {
+      "status": "ok",
+      "name": "Probability and Statistics",
+      "slug": "probability-and-statistics",
+      "folder": "Probability and Statistics",
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "status": "ok",
+      "name": "Bidirectional Search",
+      "slug": "bidirectional-search",
+      "folder": "Bidirectional Search",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "status": "ok",
+      "name": "Flow Network",
+      "slug": "flow-network",
+      "folder": "Flow Network",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "status": "ok",
+      "name": "Least Common Multiple",
+      "slug": "least-common-multiple",
+      "folder": "Least Common Multiple",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "status": "ok",
+      "name": "Prime Number Sieve",
+      "slug": "prime-number-sieve",
+      "folder": "Prime Number Sieve",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "status": "ok",
+      "name": "Quicksort",
+      "slug": "quicksort",
+      "folder": "Quicksort",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 7,
+      "matched_problems_in_repo": 7,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 13
+    },
+    {
+      "status": "ok",
+      "name": "Bucket Sort",
+      "slug": "bucket-sort",
+      "folder": "Bucket Sort",
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "status": "ok",
+      "name": "Minimum Spanning Tree",
+      "slug": "minimum-spanning-tree",
+      "folder": "Minimum Spanning Tree",
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "status": "ok",
+      "name": "Boyer\u2013Moore String-Search Algorithm",
+      "slug": "boyer-moore-string-search-algorithm",
+      "folder": "Boyer\u2013Moore String-Search Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "status": "ok",
+      "name": "Floyd's Cycle Finding Algorithm",
+      "slug": "floyds-cycle-finding-algorithm",
+      "folder": "Floyd's Cycle Finding Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "status": "ok",
+      "name": "Longest Common Subsequence",
+      "slug": "longest-common-subsequence",
+      "folder": "Longest Common Subsequence",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 12
+    },
+    {
+      "status": "ok",
+      "name": "Matching (Graph)",
+      "slug": "matching-graph",
+      "folder": "Matching (Graph)",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "status": "ok",
+      "name": "Sqrt Decomposition",
+      "slug": "sqrt-decomposition",
+      "folder": "Sqrt Decomposition",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "status": "ok",
+      "name": "Treap",
+      "slug": "treap",
+      "folder": "Treap",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 6,
+      "matched_problems_in_repo": 6,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 9
+    },
+    {
+      "status": "ok",
+      "name": "A* Search",
+      "slug": "a-search",
+      "folder": "A* Search",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "status": "ok",
+      "name": "Cartesian Tree",
+      "slug": "cartesian-tree",
+      "folder": "Cartesian Tree",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "status": "ok",
+      "name": "Complete Knapsack",
+      "slug": "complete-knapsack",
+      "folder": "Complete Knapsack",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "status": "ok",
+      "name": "Graph Coloring",
+      "slug": "graph-coloring",
+      "folder": "Graph Coloring",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "status": "ok",
+      "name": "Heuristic Search",
+      "slug": "heuristic-search",
+      "folder": "Heuristic Search",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "status": "ok",
+      "name": "Impartial Game",
+      "slug": "impartial-game",
+      "folder": "Impartial Game",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "status": "ok",
+      "name": "Kosaraju's Algorithm",
+      "slug": "kosarajus-algorithm",
+      "folder": "Kosaraju's Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "status": "ok",
+      "name": "Pigeonhole Principle",
+      "slug": "pigeonhole-principle",
+      "folder": "Pigeonhole Principle",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 11
+    },
+    {
+      "status": "ok",
+      "name": "Successive Shortest Path Algorithm",
+      "slug": "successive-shortest-path-algorithm",
+      "folder": "Successive Shortest Path Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "status": "ok",
+      "name": "Tarjan's SCC Algorithm",
+      "slug": "tarjans-scc-algorithm",
+      "folder": "Tarjan's SCC Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 5,
+      "matched_problems_in_repo": 5,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 8
+    },
+    {
+      "status": "ok",
+      "name": "Meet in the Middle",
+      "slug": "meet-in-the-middle",
+      "folder": "Meet in the Middle",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "status": "ok",
+      "name": "Reservoir Sampling",
+      "slug": "reservoir-sampling",
+      "folder": "Reservoir Sampling",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "status": "ok",
+      "name": "Shell",
+      "slug": "shell",
+      "folder": "Shell",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 15
+    },
+    {
+      "status": "ok",
+      "name": "Aho\u2013Corasick Algorithm",
+      "slug": "aho-corasick-algorithm",
+      "folder": "Aho\u2013Corasick Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "status": "ok",
+      "name": "Boyer\u2013Moore Majority Vote Algorithm",
+      "slug": "boyer-moore-majority-vote-algorithm",
+      "folder": "Boyer\u2013Moore Majority Vote Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 10
+    },
+    {
+      "status": "ok",
+      "name": "Bubble Sort",
+      "slug": "bubble-sort",
+      "folder": "Bubble Sort",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "status": "ok",
+      "name": "Hungarian Algorithm",
+      "slug": "hungarian-algorithm",
+      "folder": "Hungarian Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "status": "ok",
+      "name": "Nim Game",
+      "slug": "nim-game",
+      "folder": "Nim Game",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "status": "ok",
+      "name": "Sprague\u2013Grundy Theorem",
+      "slug": "sprague-grundy-theorem",
+      "folder": "Sprague\u2013Grundy Theorem",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "status": "ok",
+      "name": "Suffix Automaton",
+      "slug": "suffix-automaton",
+      "folder": "Suffix Automaton",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "status": "ok",
+      "name": "Suffix Tree",
+      "slug": "suffix-tree",
+      "folder": "Suffix Tree",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 4,
+      "matched_problems_in_repo": 4,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 7
+    },
+    {
+      "status": "ok",
+      "name": "Eulerian Circuit",
+      "slug": "eulerian-circuit",
+      "folder": "Eulerian Circuit",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "status": "ok",
+      "name": "Radix Sort",
+      "slug": "radix-sort",
+      "folder": "Radix Sort",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "status": "ok",
+      "name": "Algorithm X",
+      "slug": "algorithm-x",
+      "folder": "Algorithm X",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "status": "ok",
+      "name": "Bor\u016fvka's Algorithm",
+      "slug": "boruvkas-algorithm",
+      "folder": "Bor\u016fvka's Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "status": "ok",
+      "name": "Dinic's Algorithm",
+      "slug": "dinics-algorithm",
+      "folder": "Dinic's Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "status": "ok",
+      "name": "Edmonds\u2013Karp Algorithm",
+      "slug": "edmonds-karp-algorithm",
+      "folder": "Edmonds\u2013Karp Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "status": "ok",
+      "name": "Eulerian Path",
+      "slug": "eulerian-path",
+      "folder": "Eulerian Path",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "status": "ok",
+      "name": "Inclusion-Exclusion Principle",
+      "slug": "inclusion-exclusion-principle",
+      "folder": "Inclusion-Exclusion Principle",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "status": "ok",
+      "name": "Kruskal's Algorithm",
+      "slug": "kruskals-algorithm",
+      "folder": "Kruskal's Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "status": "ok",
+      "name": "Linear Algebra",
+      "slug": "linear-algebra",
+      "folder": "Linear Algebra",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "status": "ok",
+      "name": "Manacher",
+      "slug": "manacher",
+      "folder": "Manacher",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "status": "ok",
+      "name": "Minimum-Cost Flow",
+      "slug": "minimum-cost-flow",
+      "folder": "Minimum-Cost Flow",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "status": "ok",
+      "name": "MPM Algorithm",
+      "slug": "mpm-algorithm",
+      "folder": "MPM Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "status": "ok",
+      "name": "Prim's Algorithm",
+      "slug": "prims-algorithm",
+      "folder": "Prim's Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 6
+    },
+    {
+      "status": "ok",
+      "name": "Push-Relabel Algorithm",
+      "slug": "push-relabel-algorithm",
+      "folder": "Push-Relabel Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 3,
+      "matched_problems_in_repo": 3,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 3
+    },
+    {
+      "status": "ok",
+      "name": "Rejection Sampling",
+      "slug": "rejection-sampling",
+      "folder": "Rejection Sampling",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "status": "ok",
+      "name": "Sort",
+      "slug": "sort",
+      "folder": "Sort",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Strongly Connected Component",
+      "slug": "strongly-connected-component",
+      "folder": "Strongly Connected Component",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "0-1 BFS",
+      "slug": "0-1-bfs",
+      "folder": "0-1 BFS",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Bellman\u2013Ford Algorithm",
+      "slug": "bellman-ford-algorithm",
+      "folder": "Bellman\u2013Ford Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Brute-Force Search",
+      "slug": "brute-force-search",
+      "folder": "Brute-Force Search",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "status": "ok",
+      "name": "B\u00e9zout's Lemma",
+      "slug": "bezouts-lemma",
+      "folder": "B\u00e9zout's Lemma",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Extended Euclidean Algorithm",
+      "slug": "extended-euclidean-algorithm",
+      "folder": "Extended Euclidean Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Floyd\u2013Warshall Algorithm",
+      "slug": "floyd-warshall-algorithm",
+      "folder": "Floyd\u2013Warshall Algorithm",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Hamiltonian Path",
+      "slug": "hamiltonian-path",
+      "folder": "Hamiltonian Path",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Maximum Flow",
+      "slug": "maximum-flow",
+      "folder": "Maximum Flow",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Maximum Matching",
+      "slug": "maximum-matching",
+      "folder": "Maximum Matching",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Mixed Knapsack",
+      "slug": "mixed-knapsack",
+      "folder": "Mixed Knapsack",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Multiple Knapsack",
+      "slug": "multiple-knapsack",
+      "folder": "Multiple Knapsack",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 5
+    },
+    {
+      "status": "ok",
+      "name": "Nearest Pair of Points",
+      "slug": "nearest-pair-of-points",
+      "folder": "Nearest Pair of Points",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Perfect Matching",
+      "slug": "perfect-matching",
+      "folder": "Perfect Matching",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Range Minimum/Maximum Query",
+      "slug": "range-minimum-maximum-query",
+      "folder": "Range Minimum-Maximum Query",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Semi-Eulerian Graph",
+      "slug": "semi-eulerian-graph",
+      "folder": "Semi-Eulerian Graph",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Ternary Search",
+      "slug": "ternary-search",
+      "folder": "Ternary Search",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 2,
+      "matched_problems_in_repo": 2,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 2
+    },
+    {
+      "status": "ok",
+      "name": "Biconnected Component",
+      "slug": "biconnected-component",
+      "folder": "Biconnected Component",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "status": "ok",
+      "name": "Articulation Point",
+      "slug": "articulation-point",
+      "folder": "Articulation Point",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Bridge (Graph)",
+      "slug": "bridge-graph",
+      "folder": "Bridge (Graph)",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "status": "ok",
+      "name": "Convex Hull",
+      "slug": "convex-hull",
+      "folder": "Convex Hull",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "status": "ok",
+      "name": "Dancing Links",
+      "slug": "dancing-links",
+      "folder": "Dancing Links",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "status": "ok",
+      "name": "Euler's Theorem",
+      "slug": "eulers-theorem",
+      "folder": "Euler's Theorem",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Euler's Totient Function",
+      "slug": "eulers-totient-function",
+      "folder": "Euler's Totient Function",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Eulerian Graph",
+      "slug": "eulerian-graph",
+      "folder": "Eulerian Graph",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "K Shortest Path",
+      "slug": "k-shortest-path",
+      "folder": "K Shortest Path",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "K-D Tree",
+      "slug": "k-d-tree",
+      "folder": "K-D Tree",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Lexicographically Minimal String Rotation",
+      "slug": "lexicographically-minimal-string-rotation",
+      "folder": "Lexicographically Minimal String Rotation",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Li Chao Tree",
+      "slug": "li-chao-tree",
+      "folder": "Li Chao Tree",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Lyndon Factorization",
+      "slug": "lyndon-factorization",
+      "folder": "Lyndon Factorization",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "status": "ok",
+      "name": "Minimum Cut",
+      "slug": "minimum-cut",
+      "folder": "Minimum Cut",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Minimum Enclosing Circle",
+      "slug": "minimum-enclosing-circle",
+      "folder": "Minimum Enclosing Circle",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Newton's Method",
+      "slug": "newtons-method",
+      "folder": "Newton's Method",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Palindromic Tree",
+      "slug": "palindromic-tree",
+      "folder": "Palindromic Tree",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Persistent Data Structure",
+      "slug": "persistent-data-structure",
+      "folder": "Persistent Data Structure",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Planar Graph",
+      "slug": "planar-graph",
+      "folder": "Planar Graph",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 4
+    },
+    {
+      "status": "ok",
+      "name": "Sparse Table",
+      "slug": "sparse-table",
+      "folder": "Sparse Table",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Splay Tree",
+      "slug": "splay-tree",
+      "folder": "Splay Tree",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Timsort",
+      "slug": "timsort",
+      "folder": "Timsort",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    },
+    {
+      "status": "ok",
+      "name": "Tournament Sort",
+      "slug": "tournament-sort",
+      "folder": "Tournament Sort",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 0,
+      "missing_problems_not_in_repo": 1,
+      "copied_files": 0
+    },
+    {
+      "status": "ok",
+      "name": "Triangulation",
+      "slug": "triangulation",
+      "folder": "Triangulation",
+      "source": "problemset_topicTags_scan",
+      "api_unique_question_ids": 1,
+      "matched_problems_in_repo": 1,
+      "missing_problems_not_in_repo": 0,
+      "copied_files": 1
+    }
+  ],
+  "errors": [],
+  "note": "Primary: topicTag.questions; fallback for niche tags: problemset topicTags scan. Originals untouched."
+}

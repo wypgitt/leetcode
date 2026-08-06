@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "name": "Algorithm X",
+  "slug": "algorithm-x",
+  "folder": "Algorithm X",
+  "source": "problemset_topicTags_scan",
+  "api_unique_question_ids": 3,
+  "matched_problems_in_repo": 3,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 6,
+  "missing_ids": []
+}

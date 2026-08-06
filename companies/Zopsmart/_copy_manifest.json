@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Zopsmart",
+  "slug": "zopsmart",
+  "api_questionCount": 15,
+  "api_unique_question_ids": 49,
+  "matched_problems_in_repo": 49,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 112,
+  "missing_ids": []
+}

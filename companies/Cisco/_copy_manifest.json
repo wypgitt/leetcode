@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "name": "Cisco",
+  "slug": "cisco",
+  "api_questionCount": 85,
+  "api_unique_question_ids": 228,
+  "matched_problems_in_repo": 226,
+  "missing_problems_not_in_repo": 2,
+  "copied_files": 430,
+  "missing_ids": [
+    "23",
+    "1539"
+  ]
+}

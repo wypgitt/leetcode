@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "EarnIn",
+  "slug": "earnin",
+  "api_questionCount": 4,
+  "api_unique_question_ids": 10,
+  "matched_problems_in_repo": 10,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 28,
+  "missing_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Monotonic Stack",
+  "slug": "monotonic-stack",
+  "folder": "Monotonic Stack",
+  "api_unique_question_ids": 73,
+  "matched_problems_in_repo": 73,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 103,
+  "missing_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "JPMorgan Chase",
+  "slug": "jpmorgan",
+  "api_questionCount": 96,
+  "api_unique_question_ids": 243,
+  "matched_problems_in_repo": 243,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 429,
+  "missing_ids": []
+}

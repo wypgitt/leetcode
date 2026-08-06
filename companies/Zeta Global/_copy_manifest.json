@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Zeta Global",
+  "slug": "zeta",
+  "api_questionCount": 29,
+  "api_unique_question_ids": 115,
+  "matched_problems_in_repo": 115,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 220,
+  "missing_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Capgemini",
+  "slug": "capgemini",
+  "api_questionCount": 36,
+  "api_unique_question_ids": 132,
+  "matched_problems_in_repo": 132,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 237,
+  "missing_ids": []
+}

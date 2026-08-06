@@ -1,0 +1,12 @@
+{
+  "category": "database",
+  "source": "problemset categorySlug=database",
+  "api_total": 323,
+  "unique_problem_ids": 323,
+  "matched_problems_in_repo": 323,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 374,
+  "missing_ids": [],
+  "topicTag_count": 310,
+  "note": "SQL/Database problems via LeetCode database category. Originals in pt-* untouched."
+}

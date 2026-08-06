@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Counting",
+  "slug": "counting",
+  "folder": "Counting",
+  "api_unique_question_ids": 207,
+  "matched_problems_in_repo": 207,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 237,
+  "missing_ids": []
+}

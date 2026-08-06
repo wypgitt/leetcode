@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "MAQ Software",
+  "slug": "maq-software",
+  "api_questionCount": 6,
+  "api_unique_question_ids": 38,
+  "matched_problems_in_repo": 38,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 80,
+  "missing_ids": []
+}

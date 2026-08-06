@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "name": "Boyer\u2013Moore String-Search Algorithm",
+  "slug": "boyer-moore-string-search-algorithm",
+  "folder": "Boyer\u2013Moore String-Search Algorithm",
+  "source": "problemset_topicTags_scan",
+  "api_unique_question_ids": 6,
+  "matched_problems_in_repo": 6,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 12,
+  "missing_ids": []
+}

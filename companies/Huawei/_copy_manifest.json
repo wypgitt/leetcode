@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Huawei",
+  "slug": "huawei",
+  "api_questionCount": 17,
+  "api_unique_question_ids": 61,
+  "matched_problems_in_repo": 60,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 123,
+  "missing_ids": [
+    "23"
+  ]
+}

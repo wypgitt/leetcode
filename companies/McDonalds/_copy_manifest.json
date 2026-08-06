@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "McDonalds",
+  "slug": "mcdonalds",
+  "api_questionCount": 2,
+  "api_unique_question_ids": 16,
+  "matched_problems_in_repo": 16,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 19,
+  "missing_ids": []
+}

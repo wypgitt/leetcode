@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Fractal Analytics",
+  "slug": "fractal-analytics",
+  "api_questionCount": 15,
+  "api_unique_question_ids": 34,
+  "matched_problems_in_repo": 34,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 67,
+  "missing_ids": []
+}

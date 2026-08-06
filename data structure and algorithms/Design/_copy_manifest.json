@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "name": "Design",
+  "slug": "design",
+  "folder": "Design",
+  "api_unique_question_ids": 136,
+  "matched_problems_in_repo": 134,
+  "missing_problems_not_in_repo": 2,
+  "copied_files": 185,
+  "missing_ids": [
+    "10008",
+    "10006"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Rolling Hash",
+  "slug": "rolling-hash",
+  "folder": "Rolling Hash",
+  "api_unique_question_ids": 33,
+  "matched_problems_in_repo": 33,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 42,
+  "missing_ids": []
+}

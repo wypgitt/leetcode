@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Bitmask",
+  "slug": "bitmask",
+  "folder": "Bitmask",
+  "api_unique_question_ids": 55,
+  "matched_problems_in_repo": 55,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 64,
+  "missing_ids": []
+}

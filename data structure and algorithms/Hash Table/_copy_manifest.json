@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Hash Table",
+  "slug": "hash-table",
+  "folder": "Hash Table",
+  "api_unique_question_ids": 825,
+  "matched_problems_in_repo": 824,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 1031,
+  "missing_ids": [
+    "10005"
+  ]
+}

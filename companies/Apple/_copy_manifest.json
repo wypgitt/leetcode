@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "name": "Apple",
+  "slug": "apple",
+  "api_questionCount": 301,
+  "api_unique_question_ids": 567,
+  "matched_problems_in_repo": 564,
+  "missing_problems_not_in_repo": 3,
+  "copied_files": 946,
+  "missing_ids": [
+    "23",
+    "1539",
+    "2878"
+  ]
+}

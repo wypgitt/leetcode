@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "name": "Newton's Method",
+  "slug": "newtons-method",
+  "folder": "Newton's Method",
+  "source": "problemset_topicTags_scan",
+  "api_unique_question_ids": 1,
+  "matched_problems_in_repo": 1,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 1,
+  "missing_ids": []
+}

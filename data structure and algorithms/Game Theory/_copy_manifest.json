@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Game Theory",
+  "slug": "game-theory",
+  "folder": "Game Theory",
+  "api_unique_question_ids": 30,
+  "matched_problems_in_repo": 30,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 36,
+  "missing_ids": []
+}

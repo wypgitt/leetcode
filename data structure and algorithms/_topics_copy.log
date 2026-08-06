@@ -1,0 +1,295 @@
+01:12:38 Scanning all problems for topic tags...
+01:12:38 Total problems: 4013
+01:12:41   scanned 1000/4013, tags=136
+01:12:44   scanned 2000/4013, tags=172
+01:12:46   scanned 3000/4013, tags=174
+01:12:49   scanned 4000/4013, tags=175
+01:12:49 Found 175 topic/algorithm tags
+01:12:49 Indexing pt-* files...
+01:12:49 Indexed 3989 problem IDs, 5239 files
+01:12:49 Already completed: 0
+01:12:50 [1/175] ERROR 0-1 BFS: null topicTag
+01:12:50 [2/175] ERROR 0-1 Knapsack: null topicTag
+01:12:51 [3/175] ERROR A* Search: null topicTag
+01:12:51 [4/175] ERROR Aho–Corasick Algorithm: null topicTag
+01:12:51 [5/175] ERROR Algorithm X: null topicTag
+01:12:54 [6/175] OK Array: ids=2197 matched=2195 files=2819 missing=2 ETA=2.2m
+01:12:54 [7/175] ERROR Articulation Point: null topicTag
+01:12:56 [8/175] OK Backtracking: ids=114 matched=114 files=198 missing=0 ETA=2.1m
+01:12:56 [9/175] ERROR Bellman–Ford Algorithm: null topicTag
+01:12:58 [10/175] OK Biconnected Component: ids=1 matched=1 files=4 missing=0 ETA=2.3m
+01:12:59 [11/175] ERROR Bidirectional Search: null topicTag
+01:13:00 [12/175] OK Binary Indexed Tree: ids=44 matched=44 files=56 missing=0 ETA=2.5m
+01:13:01 [13/175] ERROR Binary Lifting: null topicTag
+01:13:02 [14/175] OK Binary Search: ids=343 matched=340 files=436 missing=3 ETA=2.5m
+01:13:04 [15/175] OK Binary Search Tree: ids=43 matched=43 files=79 missing=0 ETA=2.6m
+01:13:05 [16/175] OK Binary Tree: ids=180 matched=180 files=291 missing=0 ETA=2.6m
+01:13:06 [17/175] ERROR Bipartite Graph: null topicTag
+01:13:07 [18/175] OK Bit Manipulation: ids=288 matched=288 files=372 missing=0 ETA=2.6m
+01:13:09 [19/175] OK Bitmask: ids=55 matched=55 files=64 missing=0 ETA=2.7m
+01:13:09 [20/175] ERROR Borůvka's Algorithm: null topicTag
+01:13:10 [21/175] ERROR Boyer–Moore Majority Vote Algorithm: null topicTag
+01:13:10 [22/175] ERROR Boyer–Moore String-Search Algorithm: null topicTag
+01:13:10 [23/175] ERROR Bracket Sequences: null topicTag
+01:13:12 [24/175] OK Brainteaser: ids=21 matched=21 files=21 missing=0 ETA=2.4m
+01:13:13 [25/175] OK Breadth-First Search: ids=259 matched=259 files=352 missing=0 ETA=2.3m
+01:13:13 [26/175] ERROR Bridge (Graph): null topicTag
+01:13:14 [27/175] ERROR Brute-Force Search: null topicTag
+01:13:14 [28/175] ERROR Bubble Sort: null topicTag
+01:13:15 [29/175] OK Bucket Sort: ids=6 matched=6 files=9 missing=0 ETA=2.1m
+01:13:15 [30/175] ERROR Bézout's Lemma: null topicTag
+01:13:16 [31/175] ERROR Cartesian Tree: null topicTag
+01:13:17 [32/175] OK Combinatorics: ids=62 matched=62 files=77 missing=0 ETA=2.0m
+01:13:17 [33/175] ERROR Complete Knapsack: null topicTag
+01:13:18 [34/175] OK Concurrency: ids=9 matched=9 files=9 missing=0 ETA=2.0m
+01:13:19 [35/175] ERROR Convex Hull: null topicTag
+01:13:20 [36/175] OK Counting: ids=207 matched=207 files=237 missing=0 ETA=2.0m
+01:13:22 [37/175] OK Counting Sort: ids=11 matched=11 files=11 missing=0 ETA=2.0m
+01:13:23 [38/175] ERROR Dancing Links: null topicTag
+01:13:24 [39/175] OK Data Stream: ids=24 matched=24 files=27 missing=0 ETA=2.0m
+01:13:25 [40/175] OK Database: ids=310 matched=310 files=358 missing=0 ETA=2.0m
+01:13:27 [41/175] OK Depth-First Search: ids=344 matched=344 files=485 missing=0 ETA=2.0m
+01:13:29 [42/175] OK Design: ids=136 matched=134 files=185 missing=2 ETA=2.1m
+01:13:29 [43/175] ERROR Dijkstra's Algorithm: null topicTag
+01:13:29 [44/175] ERROR Dinic's Algorithm: null topicTag
+01:13:30 [45/175] ERROR Directed Acyclic Graph: null topicTag
+01:13:31 [46/175] OK Divide and Conquer: ids=67 matched=66 files=117 missing=1 ETA=2.0m
+01:13:33 [47/175] OK Doubly-Linked List: ids=15 matched=15 files=18 missing=0 ETA=2.0m
+01:13:33 [48/175] ERROR DP on Trees: null topicTag
+01:13:35 [49/175] OK Dynamic Programming: ids=666 matched=664 files=892 missing=2 ETA=2.0m
+01:13:36 [50/175] ERROR Edmonds–Karp Algorithm: null topicTag
+01:13:37 [51/175] OK Enumeration: ids=153 matched=153 files=180 missing=0 ETA=1.9m
+01:13:37 [52/175] ERROR Euclidean Algorithm: null topicTag
+01:13:38 [53/175] ERROR Euler's Theorem: null topicTag
+01:13:38 [54/175] ERROR Euler's Totient Function: null topicTag
+01:13:39 [55/175] OK Eulerian Circuit: ids=3 matched=3 files=3 missing=0 ETA=1.8m
+01:13:39 [56/175] ERROR Eulerian Graph: null topicTag
+01:13:40 [57/175] ERROR Eulerian Path: null topicTag
+01:13:41 [58/175] ERROR Extended Euclidean Algorithm: null topicTag
+01:13:42 [59/175] ERROR Fermat's Little Theorem: null topicTag
+01:13:43 [60/175] ERROR Flow Network: null topicTag
+01:13:43 [61/175] ERROR Floyd's Cycle Finding Algorithm: null topicTag
+01:13:44 [62/175] ERROR Floyd–Warshall Algorithm: null topicTag
+01:13:45 [63/175] OK Game Theory: ids=30 matched=30 files=36 missing=0 ETA=1.7m
+01:13:47 [64/175] OK Geometry: ids=46 matched=46 files=79 missing=0 ETA=1.7m
+01:13:48 [65/175] ERROR Graph Coloring: null topicTag
+01:13:49 [66/175] OK Graph Theory: ids=187 matched=187 files=235 missing=0 ETA=1.6m
+01:13:49 [67/175] ERROR Greatest Common Divisor: null topicTag
+01:13:51 [68/175] OK Greedy: ids=470 matched=470 files=572 missing=0 ETA=1.6m
+01:13:52 [69/175] ERROR Hamiltonian Path: null topicTag
+01:13:54 [70/175] OK Hash Function: ids=43 matched=43 files=52 missing=0 ETA=1.6m
+01:13:56 [71/175] OK Hash Table: ids=825 matched=824 files=1031 missing=1 ETA=1.6m
+01:13:58 [72/175] OK Heap (Priority Queue): ids=219 matched=218 files=257 missing=1 ETA=1.6m
+01:13:58 [73/175] ERROR Heuristic Search: null topicTag
+01:13:59 [74/175] ERROR Hungarian Algorithm: null topicTag
+01:13:59 [75/175] ERROR Impartial Game: null topicTag
+01:14:00 [76/175] ERROR Inclusion-Exclusion Principle: null topicTag
+01:14:01 [77/175] OK Interactive: ids=25 matched=25 files=25 missing=0 ETA=1.5m
+01:14:02 [78/175] OK Iterator: ids=9 matched=9 files=18 missing=0 ETA=1.5m
+01:14:03 [79/175] ERROR K Shortest Path: null topicTag
+01:14:03 [80/175] ERROR K-D Tree: null topicTag
+01:14:03 [81/175] ERROR Knapsack Problem: null topicTag
+01:14:04 [82/175] ERROR Knuth–Morris–Pratt Algorithm: null topicTag
+01:14:04 [83/175] ERROR Kosaraju's Algorithm: null topicTag
+01:14:04 [84/175] ERROR Kruskal's Algorithm: null topicTag
+01:14:05 [85/175] ERROR Least Common Multiple: null topicTag
+01:14:05 [86/175] ERROR Lexicographically Minimal String Rotation: null topicTag
+01:14:06 [87/175] ERROR Li Chao Tree: null topicTag
+01:14:06 [88/175] ERROR Linear Algebra: null topicTag
+01:14:08 [89/175] OK Linked List: ids=82 matched=81 files=144 missing=1 ETA=1.3m
+01:14:08 [90/175] ERROR Longest Common Subsequence: null topicTag
+01:14:09 [91/175] ERROR Longest Increasing Subsequence: null topicTag
+01:14:09 [92/175] ERROR Lowest Common Ancestor: null topicTag
+01:14:09 [93/175] ERROR Lyndon Factorization: null topicTag
+01:14:10 [94/175] ERROR Manacher: null topicTag
+01:14:10 [95/175] ERROR Matching (Graph): null topicTag
+01:14:12 [96/175] OK Math: ids=684 matched=683 files=941 missing=1 ETA=1.1m
+01:14:13 [97/175] OK Matrix: ids=277 matched=277 files=367 missing=0 ETA=1.1m
+01:14:14 [98/175] ERROR Maximum Flow: null topicTag
+01:14:14 [99/175] ERROR Maximum Matching: null topicTag
+01:14:15 [100/175] OK Meet in the Middle: ids=4 matched=4 files=4 missing=0 ETA=1.1m
+01:14:16 [101/175] OK Memoization: ids=43 matched=43 files=64 missing=0 ETA=1.1m
+01:14:18 [102/175] OK Merge Sort: ids=15 matched=14 files=20 missing=1 ETA=1.1m
+01:14:19 [103/175] OK Minimax: ids=16 matched=16 files=19 missing=0 ETA=1.0m
+01:14:19 [104/175] ERROR Minimum Cut: null topicTag
+01:14:20 [105/175] ERROR Minimum Enclosing Circle: null topicTag
+01:14:21 [106/175] OK Minimum Spanning Tree: ids=6 matched=6 files=9 missing=0 ETA=1.0m
+01:14:22 [107/175] ERROR Minimum-Cost Flow: null topicTag
+01:14:22 [108/175] ERROR Mixed Knapsack: null topicTag
+01:14:23 [109/175] OK Monotonic Queue: ids=25 matched=25 files=34 missing=0 ETA=0.9m
+01:14:25 [110/175] OK Monotonic Stack: ids=73 matched=73 files=103 missing=0 ETA=0.9m
+01:14:25 [111/175] ERROR MPM Algorithm: null topicTag
+01:14:26 [112/175] ERROR Multiple Knapsack: null topicTag
+01:14:26 [113/175] ERROR Nearest Pair of Points: null topicTag
+01:14:26 [114/175] ERROR Newton's Method: null topicTag
+01:14:27 [115/175] ERROR Nim Game: null topicTag
+01:14:28 [116/175] OK Number Theory: ids=99 matched=99 files=132 missing=0 ETA=0.8m
+01:14:30 [117/175] OK Ordered Set: ids=79 matched=79 files=103 missing=0 ETA=0.8m
+01:14:30 [118/175] ERROR Palindromic Tree: null topicTag
+01:14:31 [119/175] ERROR Perfect Matching: null topicTag
+01:14:31 [120/175] ERROR Persistent Data Structure: null topicTag
+01:14:31 [121/175] ERROR Pigeonhole Principle: null topicTag
+01:14:32 [122/175] ERROR Planar Graph: null topicTag
+01:14:32 [123/175] ERROR Polygons: null topicTag
+01:14:33 [124/175] OK Prefix Sum: ids=263 matched=263 files=317 missing=0 ETA=0.7m
+01:14:34 [125/175] ERROR Prim's Algorithm: null topicTag
+01:14:34 [126/175] ERROR Primality Test: null topicTag
+01:14:34 [127/175] ERROR Prime Factorization: null topicTag
+01:14:35 [128/175] ERROR Prime Number Sieve: null topicTag
+01:14:36 [129/175] OK Probability and Statistics: ids=7 matched=7 files=10 missing=0 ETA=0.6m
+01:14:36 [130/175] ERROR Push-Relabel Algorithm: null topicTag
+01:14:38 [131/175] OK Queue: ids=57 matched=57 files=72 missing=0 ETA=0.6m
+01:14:40 [132/175] OK Quickselect: ids=8 matched=8 files=11 missing=0 ETA=0.6m
+01:14:40 [133/175] ERROR Quicksort: null topicTag
+01:14:42 [134/175] OK Radix Sort: ids=3 matched=3 files=6 missing=0 ETA=0.6m
+01:14:43 [135/175] OK Randomized: ids=12 matched=12 files=21 missing=0 ETA=0.6m
+01:14:44 [136/175] ERROR Range Minimum/Maximum Query: null topicTag
+01:14:45 [137/175] OK Recursion: ids=51 matched=51 files=87 missing=0 ETA=0.5m
+01:14:46 [138/175] OK Rejection Sampling: ids=2 matched=2 files=5 missing=0 ETA=0.5m
+01:14:47 [139/175] OK Reservoir Sampling: ids=4 matched=4 files=10 missing=0 ETA=0.5m
+01:14:48 [140/175] OK Rolling Hash: ids=33 matched=33 files=42 missing=0 ETA=0.5m
+01:14:50 [141/175] OK Segment Tree: ids=80 matched=80 files=107 missing=0 ETA=0.5m
+01:14:51 [142/175] ERROR Semi-Eulerian Graph: null topicTag
+01:14:53 [143/175] OK Shell: ids=4 matched=4 files=15 missing=0 ETA=0.5m
+01:14:55 [144/175] OK Shortest Path: ids=41 matched=41 files=50 missing=0 ETA=0.4m
+01:14:55 [145/175] ERROR Sieve Theory: null topicTag
+01:14:57 [146/175] OK Simulation: ids=211 matched=211 files=247 missing=0 ETA=0.4m
+01:14:58 [147/175] OK Sliding Window: ids=169 matched=169 files=196 missing=0 ETA=0.4m
+01:15:00 [148/175] OK Sort: ids=2 matched=2 files=2 missing=0 ETA=0.4m
+01:15:02 [149/175] OK Sorting: ids=527 matched=527 files=665 missing=0 ETA=0.4m
+01:15:03 [150/175] ERROR Sparse Table: null topicTag
+01:15:04 [151/175] ERROR Splay Tree: null topicTag
+01:15:04 [152/175] ERROR Sprague–Grundy Theorem: null topicTag
+01:15:05 [153/175] ERROR Sqrt Decomposition: null topicTag
+01:15:07 [154/175] OK Stack: ids=179 matched=179 files=257 missing=0 ETA=0.3m
+01:15:09 [155/175] OK String: ids=880 matched=879 files=1143 missing=1 ETA=0.3m
+01:15:10 [156/175] OK String Matching: ids=37 matched=37 files=40 missing=0 ETA=0.3m
+01:15:11 [157/175] OK Strongly Connected Component: ids=2 matched=2 files=2 missing=0 ETA=0.3m
+01:15:12 [158/175] ERROR Successive Shortest Path Algorithm: null topicTag
+01:15:13 [159/175] OK Suffix Array: ids=9 matched=9 files=12 missing=0 ETA=0.2m
+01:15:14 [160/175] ERROR Suffix Automaton: null topicTag
+01:15:14 [161/175] ERROR Suffix Tree: null topicTag
+01:15:15 [162/175] OK Sweep Line: ids=8 matched=8 files=14 missing=0 ETA=0.2m
+01:15:15 [163/175] ERROR Tarjan's SCC Algorithm: null topicTag
+01:15:16 [164/175] ERROR Ternary Search: null topicTag
+01:15:16 [165/175] ERROR Timsort: null topicTag
+01:15:18 [166/175] OK Topological Sort: ids=40 matched=40 files=55 missing=0 ETA=0.1m
+01:15:18 [167/175] ERROR Tournament Sort: null topicTag
+01:15:19 [168/175] ERROR Treap: null topicTag
+01:15:21 [169/175] OK Tree: ids=265 matched=265 files=397 missing=0 ETA=0.1m
+01:15:21 [170/175] ERROR Triangulation: null topicTag
+01:15:23 [171/175] OK Trie: ids=61 matched=61 files=88 missing=0 ETA=0.1m
+01:15:25 [172/175] OK Two Pointers: ids=254 matched=253 files=388 missing=1 ETA=0.0m
+01:15:27 [173/175] OK Union-Find: ids=99 matched=98 files=137 missing=1 ETA=0.0m
+01:15:27 [174/175] ERROR Z Algorithm: null topicTag
+01:15:28 [175/175] ERROR Zero-Sum Game: null topicTag
+01:15:28 DONE ok=74 errors=101 files=15941
+01:15:47 Recovering 101 failed topics via problemset scan...
+01:15:48 Total problems 4013
+01:15:50   scanned 1000/4013
+01:15:53   scanned 2000/4013
+01:15:56   scanned 3000/4013
+01:15:59   scanned 4000/4013
+01:15:59 Scan complete. tags=175
+01:15:59 RECOVERED 0-1 BFS: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED 0-1 Knapsack: ids=8 matched=8 files=11 missing=0
+01:16:00 RECOVERED A* Search: ids=5 matched=5 files=5 missing=0
+01:16:00 RECOVERED Aho–Corasick Algorithm: ids=4 matched=4 files=7 missing=0
+01:16:00 RECOVERED Algorithm X: ids=3 matched=3 files=6 missing=0
+01:16:00 RECOVERED Articulation Point: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Bellman–Ford Algorithm: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Bidirectional Search: ids=7 matched=7 files=13 missing=0
+01:16:00 RECOVERED Binary Lifting: ids=12 matched=12 files=18 missing=0
+01:16:00 RECOVERED Bipartite Graph: ids=10 matched=10 files=10 missing=0
+01:16:00 RECOVERED Borůvka's Algorithm: ids=3 matched=3 files=6 missing=0
+01:16:00 RECOVERED Boyer–Moore Majority Vote Algorithm: ids=4 matched=4 files=10 missing=0
+01:16:00 RECOVERED Boyer–Moore String-Search Algorithm: ids=6 matched=6 files=12 missing=0
+01:16:00 RECOVERED Bracket Sequences: ids=15 matched=15 files=21 missing=0
+01:16:00 RECOVERED Bridge (Graph): ids=1 matched=1 files=4 missing=0
+01:16:00 RECOVERED Brute-Force Search: ids=2 matched=2 files=5 missing=0
+01:16:00 RECOVERED Bubble Sort: ids=4 matched=4 files=7 missing=0
+01:16:00 RECOVERED Bézout's Lemma: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Cartesian Tree: ids=5 matched=5 files=5 missing=0
+01:16:00 RECOVERED Complete Knapsack: ids=5 matched=5 files=5 missing=0
+01:16:00 RECOVERED Convex Hull: ids=1 matched=1 files=4 missing=0
+01:16:00 RECOVERED Dancing Links: ids=1 matched=1 files=4 missing=0
+01:16:00 RECOVERED Dijkstra's Algorithm: ids=16 matched=16 files=16 missing=0
+01:16:00 RECOVERED Dinic's Algorithm: ids=3 matched=3 files=3 missing=0
+01:16:00 RECOVERED Directed Acyclic Graph: ids=17 matched=17 files=23 missing=0
+01:16:00 RECOVERED DP on Trees: ids=31 matched=31 files=34 missing=0
+01:16:00 RECOVERED Edmonds–Karp Algorithm: ids=3 matched=3 files=3 missing=0
+01:16:00 RECOVERED Euclidean Algorithm: ids=24 matched=24 files=30 missing=0
+01:16:00 RECOVERED Euler's Theorem: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Euler's Totient Function: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Eulerian Graph: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Eulerian Path: ids=3 matched=3 files=3 missing=0
+01:16:00 RECOVERED Extended Euclidean Algorithm: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Fermat's Little Theorem: ids=10 matched=10 files=10 missing=0
+01:16:00 RECOVERED Flow Network: ids=7 matched=7 files=7 missing=0
+01:16:00 RECOVERED Floyd's Cycle Finding Algorithm: ids=6 matched=6 files=12 missing=0
+01:16:00 RECOVERED Floyd–Warshall Algorithm: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Graph Coloring: ids=5 matched=5 files=5 missing=0
+01:16:00 RECOVERED Greatest Common Divisor: ids=25 matched=25 files=34 missing=0
+01:16:00 RECOVERED Hamiltonian Path: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Heuristic Search: ids=5 matched=5 files=5 missing=0
+01:16:00 RECOVERED Hungarian Algorithm: ids=4 matched=4 files=4 missing=0
+01:16:00 RECOVERED Impartial Game: ids=5 matched=5 files=8 missing=0
+01:16:00 RECOVERED Inclusion-Exclusion Principle: ids=3 matched=3 files=3 missing=0
+01:16:00 RECOVERED K Shortest Path: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED K-D Tree: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Knapsack Problem: ids=17 matched=17 files=23 missing=0
+01:16:00 RECOVERED Knuth–Morris–Pratt Algorithm: ids=10 matched=10 files=10 missing=0
+01:16:00 RECOVERED Kosaraju's Algorithm: ids=5 matched=5 files=8 missing=0
+01:16:00 RECOVERED Kruskal's Algorithm: ids=3 matched=3 files=6 missing=0
+01:16:00 RECOVERED Least Common Multiple: ids=7 matched=7 files=10 missing=0
+01:16:00 RECOVERED Lexicographically Minimal String Rotation: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Li Chao Tree: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Linear Algebra: ids=3 matched=3 files=6 missing=0
+01:16:00 RECOVERED Longest Common Subsequence: ids=6 matched=6 files=12 missing=0
+01:16:00 RECOVERED Longest Increasing Subsequence: ids=12 matched=12 files=18 missing=0
+01:16:00 RECOVERED Lowest Common Ancestor: ids=11 matched=11 files=17 missing=0
+01:16:00 RECOVERED Lyndon Factorization: ids=1 matched=1 files=4 missing=0
+01:16:00 RECOVERED Manacher: ids=3 matched=3 files=6 missing=0
+01:16:00 RECOVERED Matching (Graph): ids=6 matched=6 files=6 missing=0
+01:16:00 RECOVERED Maximum Flow: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Maximum Matching: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Minimum Cut: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Minimum Enclosing Circle: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Minimum-Cost Flow: ids=3 matched=3 files=3 missing=0
+01:16:00 RECOVERED Mixed Knapsack: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED MPM Algorithm: ids=3 matched=3 files=3 missing=0
+01:16:00 RECOVERED Multiple Knapsack: ids=2 matched=2 files=5 missing=0
+01:16:00 RECOVERED Nearest Pair of Points: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Newton's Method: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Nim Game: ids=4 matched=4 files=4 missing=0
+01:16:00 RECOVERED Palindromic Tree: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Perfect Matching: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Persistent Data Structure: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Pigeonhole Principle: ids=5 matched=5 files=11 missing=0
+01:16:00 RECOVERED Planar Graph: ids=1 matched=1 files=4 missing=0
+01:16:00 RECOVERED Polygons: ids=8 matched=8 files=14 missing=0
+01:16:00 RECOVERED Prim's Algorithm: ids=3 matched=3 files=6 missing=0
+01:16:00 RECOVERED Primality Test: ids=10 matched=10 files=16 missing=0
+01:16:00 RECOVERED Prime Factorization: ids=14 matched=14 files=23 missing=0
+01:16:00 RECOVERED Prime Number Sieve: ids=7 matched=7 files=10 missing=0
+01:16:00 RECOVERED Push-Relabel Algorithm: ids=3 matched=3 files=3 missing=0
+01:16:00 RECOVERED Quicksort: ids=7 matched=7 files=13 missing=0
+01:16:00 RECOVERED Range Minimum/Maximum Query: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Semi-Eulerian Graph: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Sieve Theory: ids=11 matched=11 files=14 missing=0
+01:16:00 RECOVERED Sparse Table: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Splay Tree: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Sprague–Grundy Theorem: ids=4 matched=4 files=7 missing=0
+01:16:00 RECOVERED Sqrt Decomposition: ids=6 matched=6 files=9 missing=0
+01:16:00 RECOVERED Successive Shortest Path Algorithm: ids=5 matched=5 files=5 missing=0
+01:16:00 RECOVERED Suffix Automaton: ids=4 matched=4 files=7 missing=0
+01:16:00 RECOVERED Suffix Tree: ids=4 matched=4 files=7 missing=0
+01:16:00 RECOVERED Tarjan's SCC Algorithm: ids=5 matched=5 files=8 missing=0
+01:16:00 RECOVERED Ternary Search: ids=2 matched=2 files=2 missing=0
+01:16:00 RECOVERED Timsort: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Tournament Sort: ids=1 matched=0 files=0 missing=1
+01:16:00 RECOVERED Treap: ids=6 matched=6 files=9 missing=0
+01:16:00 RECOVERED Triangulation: ids=1 matched=1 files=1 missing=0
+01:16:00 RECOVERED Z Algorithm: ids=11 matched=11 files=17 missing=0
+01:16:00 RECOVERED Zero-Sum Game: ids=12 matched=12 files=12 missing=0
+01:16:00 DONE RECOVERY recovered=101 still_empty=0 ok=175 files=16675

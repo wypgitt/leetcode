@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "name": "Knuth\u2013Morris\u2013Pratt Algorithm",
+  "slug": "knuth-morris-pratt-algorithm",
+  "folder": "Knuth\u2013Morris\u2013Pratt Algorithm",
+  "source": "problemset_topicTags_scan",
+  "api_unique_question_ids": 10,
+  "matched_problems_in_repo": 10,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 10,
+  "missing_ids": []
+}

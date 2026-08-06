@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "name": "Stack",
+  "slug": "stack",
+  "folder": "Stack",
+  "api_unique_question_ids": 179,
+  "matched_problems_in_repo": 179,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 257,
+  "missing_ids": []
+}

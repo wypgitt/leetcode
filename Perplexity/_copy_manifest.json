@@ -1,9 +1,0 @@
-{
-  "status": "error",
-  "name": "Perplexity",
-  "slug": "perplexity",
-  "listed_questionCount": 1,
-  "error": "LeetCode companyTag(slug) returned null; could not fetch problem IDs",
-  "matched_problems_in_repo": 0,
-  "copied_files": 0
-}

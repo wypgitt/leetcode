@@ -1,0 +1,22 @@
+{
+  "category": "concurrency",
+  "source": "problemset categorySlug=concurrency",
+  "api_total": 9,
+  "unique_problem_ids": 9,
+  "matched_problems_in_repo": 9,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 9,
+  "missing_ids": [],
+  "problem_ids": [
+    "1114",
+    "1115",
+    "1116",
+    "1117",
+    "1188",
+    "1195",
+    "1226",
+    "1242",
+    "1279"
+  ],
+  "note": "Concurrency problems via LeetCode API. Originals in pt-* untouched."
+}

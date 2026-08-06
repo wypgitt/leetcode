@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "name": "Brute-Force Search",
+  "slug": "brute-force-search",
+  "folder": "Brute-Force Search",
+  "source": "problemset_topicTags_scan",
+  "api_unique_question_ids": 2,
+  "matched_problems_in_repo": 2,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 5,
+  "missing_ids": []
+}

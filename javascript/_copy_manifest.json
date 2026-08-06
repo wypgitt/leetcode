@@ -1,0 +1,18 @@
+{
+  "category": "javascript",
+  "source": "problemset categorySlug=javascript",
+  "api_total": 67,
+  "unique_problem_ids": 67,
+  "matched_problems_in_repo": 61,
+  "missing_problems_not_in_repo": 6,
+  "copied_files": 61,
+  "missing_ids": [
+    "2803",
+    "2804",
+    "2805",
+    "2821",
+    "2822",
+    "2823"
+  ],
+  "note": "JavaScript 30-day / JS category problems only. Originals in pt-* untouched."
+}

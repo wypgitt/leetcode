@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "name": "Nutanix",
+  "slug": "nutanix",
+  "api_questionCount": 64,
+  "api_unique_question_ids": 164,
+  "matched_problems_in_repo": 163,
+  "missing_problems_not_in_repo": 1,
+  "copied_files": 319,
+  "missing_ids": [
+    "23"
+  ]
+}

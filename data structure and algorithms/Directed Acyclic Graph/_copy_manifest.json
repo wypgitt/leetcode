@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "name": "Directed Acyclic Graph",
+  "slug": "directed-acyclic-graph",
+  "folder": "Directed Acyclic Graph",
+  "source": "problemset_topicTags_scan",
+  "api_unique_question_ids": 17,
+  "matched_problems_in_repo": 17,
+  "missing_problems_not_in_repo": 0,
+  "copied_files": 23,
+  "missing_ids": []
+}
